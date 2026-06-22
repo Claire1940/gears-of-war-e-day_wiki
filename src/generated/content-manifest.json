@@ -1,1 +1,698 @@
-{}
+{
+  "de": {
+    "editions": [
+      {
+        "slug": "gears-of-war-e-day-collector-s-edition",
+        "file": "gears-of-war-e-day-collector's-edition"
+      },
+      {
+        "slug": "gears-of-war-e-day-lancer-replica",
+        "file": "gears-of-war-e-day-lancer-replica"
+      },
+      {
+        "slug": "gears-of-war-e-day-physical-release",
+        "file": "gears-of-war-e-day-physical-release"
+      },
+      {
+        "slug": "gears-of-war-e-day-premium-edition",
+        "file": "gears-of-war-e-day-premium-edition"
+      },
+      {
+        "slug": "gears-of-war-e-day-preorder",
+        "file": "gears-of-war-e-day-preorder"
+      },
+      {
+        "slug": "gears-of-war-e-day-price",
+        "file": "gears-of-war-e-day-price"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "gears-of-war-e-day-co-op",
+        "file": "gears-of-war-e-day-co-op"
+      },
+      {
+        "slug": "gears-of-war-e-day-gameplay",
+        "file": "gears-of-war-e-day-gameplay"
+      },
+      {
+        "slug": "gears-of-war-e-day-horde",
+        "file": "gears-of-war-e-day-horde"
+      },
+      {
+        "slug": "gears-of-war-e-day-multiplayer",
+        "file": "gears-of-war-e-day-multiplayer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gears-of-war-e-day-everything-we-know",
+        "file": "gears-of-war-e-day-everything-we-know"
+      },
+      {
+        "slug": "gears-of-war-e-day-games-in-order",
+        "file": "gears-of-war-e-day-games-in-order"
+      },
+      {
+        "slug": "gears-of-war-e-day-guide",
+        "file": "gears-of-war-e-day-guide"
+      },
+      {
+        "slug": "gears-of-war-e-day-vs-judgement",
+        "file": "gears-of-war-e-day-vs-judgement"
+      },
+      {
+        "slug": "gears-of-war-e-day-vs-reloaded",
+        "file": "gears-of-war-e-day-vs-reloaded"
+      },
+      {
+        "slug": "gears-of-war-e-day-what-is-it-about",
+        "file": "gears-of-war-e-day-what-is-it-about"
+      },
+      {
+        "slug": "gears-of-war-e-day-worth-it",
+        "file": "gears-of-war-e-day-worth-it"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "gears-of-war-e-day-game-pass",
+        "file": "gears-of-war-e-day-game-pass"
+      },
+      {
+        "slug": "gears-of-war-e-day-geforce-now",
+        "file": "gears-of-war-e-day-geforce-now"
+      },
+      {
+        "slug": "gears-of-war-e-day-pc",
+        "file": "gears-of-war-e-day-pc"
+      },
+      {
+        "slug": "gears-of-war-e-day-platforms",
+        "file": "gears-of-war-e-day-platforms"
+      },
+      {
+        "slug": "gears-of-war-e-day-playstation",
+        "file": "gears-of-war-e-day-playstation"
+      },
+      {
+        "slug": "gears-of-war-e-day-ps4",
+        "file": "gears-of-war-e-day-ps4"
+      },
+      {
+        "slug": "gears-of-war-e-day-ps5",
+        "file": "gears-of-war-e-day-ps5"
+      },
+      {
+        "slug": "gears-of-war-e-day-steam",
+        "file": "gears-of-war-e-day-steam"
+      },
+      {
+        "slug": "gears-of-war-e-day-xbox-one",
+        "file": "gears-of-war-e-day-xbox-one"
+      },
+      {
+        "slug": "gears-of-war-e-day-xbox",
+        "file": "gears-of-war-e-day-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "gears-of-war-e-day-beta-release-date",
+        "file": "gears-of-war-e-day-beta-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-expected-release-date",
+        "file": "gears-of-war-e-day-expected-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-out-yet",
+        "file": "gears-of-war-e-day-out-yet"
+      },
+      {
+        "slug": "gears-of-war-e-day-release-date",
+        "file": "gears-of-war-e-day-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-release-year",
+        "file": "gears-of-war-e-day-release-year"
+      }
+    ],
+    "story": [
+      {
+        "slug": "gears-of-war-e-day-characters",
+        "file": "gears-of-war-e-day-characters"
+      },
+      {
+        "slug": "gears-of-war-e-day-kalona",
+        "file": "gears-of-war-e-day-kalona"
+      },
+      {
+        "slug": "gears-of-war-e-day-main-villain",
+        "file": "gears-of-war-e-day-main-villain"
+      },
+      {
+        "slug": "gears-of-war-e-day-marcus-fenix",
+        "file": "gears-of-war-e-day-marcus-fenix"
+      },
+      {
+        "slug": "gears-of-war-e-day-prequel",
+        "file": "gears-of-war-e-day-prequel"
+      },
+      {
+        "slug": "gears-of-war-e-day-story",
+        "file": "gears-of-war-e-day-story"
+      },
+      {
+        "slug": "gears-of-war-e-day-synopsis",
+        "file": "gears-of-war-e-day-synopsis"
+      },
+      {
+        "slug": "gears-of-war-e-day-timeline",
+        "file": "gears-of-war-e-day-timeline"
+      }
+    ]
+  },
+  "en": {
+    "editions": [
+      {
+        "slug": "gears-of-war-e-day-collector-s-edition",
+        "file": "gears-of-war-e-day-collector's-edition"
+      },
+      {
+        "slug": "gears-of-war-e-day-lancer-replica",
+        "file": "gears-of-war-e-day-lancer-replica"
+      },
+      {
+        "slug": "gears-of-war-e-day-physical-release",
+        "file": "gears-of-war-e-day-physical-release"
+      },
+      {
+        "slug": "gears-of-war-e-day-premium-edition",
+        "file": "gears-of-war-e-day-premium-edition"
+      },
+      {
+        "slug": "gears-of-war-e-day-preorder",
+        "file": "gears-of-war-e-day-preorder"
+      },
+      {
+        "slug": "gears-of-war-e-day-price",
+        "file": "gears-of-war-e-day-price"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "gears-of-war-e-day-co-op",
+        "file": "gears-of-war-e-day-co-op"
+      },
+      {
+        "slug": "gears-of-war-e-day-gameplay",
+        "file": "gears-of-war-e-day-gameplay"
+      },
+      {
+        "slug": "gears-of-war-e-day-horde",
+        "file": "gears-of-war-e-day-horde"
+      },
+      {
+        "slug": "gears-of-war-e-day-multiplayer",
+        "file": "gears-of-war-e-day-multiplayer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gears-of-war-e-day-everything-we-know",
+        "file": "gears-of-war-e-day-everything-we-know"
+      },
+      {
+        "slug": "gears-of-war-e-day-games-in-order",
+        "file": "gears-of-war-e-day-games-in-order"
+      },
+      {
+        "slug": "gears-of-war-e-day-guide",
+        "file": "gears-of-war-e-day-guide"
+      },
+      {
+        "slug": "gears-of-war-e-day-vs-judgement",
+        "file": "gears-of-war-e-day-vs-judgement"
+      },
+      {
+        "slug": "gears-of-war-e-day-vs-reloaded",
+        "file": "gears-of-war-e-day-vs-reloaded"
+      },
+      {
+        "slug": "gears-of-war-e-day-what-is-it-about",
+        "file": "gears-of-war-e-day-what-is-it-about"
+      },
+      {
+        "slug": "gears-of-war-e-day-worth-it",
+        "file": "gears-of-war-e-day-worth-it"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "gears-of-war-e-day-game-pass",
+        "file": "gears-of-war-e-day-game-pass"
+      },
+      {
+        "slug": "gears-of-war-e-day-geforce-now",
+        "file": "gears-of-war-e-day-geforce-now"
+      },
+      {
+        "slug": "gears-of-war-e-day-pc",
+        "file": "gears-of-war-e-day-pc"
+      },
+      {
+        "slug": "gears-of-war-e-day-platforms",
+        "file": "gears-of-war-e-day-platforms"
+      },
+      {
+        "slug": "gears-of-war-e-day-playstation",
+        "file": "gears-of-war-e-day-playstation"
+      },
+      {
+        "slug": "gears-of-war-e-day-ps4",
+        "file": "gears-of-war-e-day-ps4"
+      },
+      {
+        "slug": "gears-of-war-e-day-ps5",
+        "file": "gears-of-war-e-day-ps5"
+      },
+      {
+        "slug": "gears-of-war-e-day-steam",
+        "file": "gears-of-war-e-day-steam"
+      },
+      {
+        "slug": "gears-of-war-e-day-xbox-one",
+        "file": "gears-of-war-e-day-xbox-one"
+      },
+      {
+        "slug": "gears-of-war-e-day-xbox",
+        "file": "gears-of-war-e-day-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "gears-of-war-e-day-beta-release-date",
+        "file": "gears-of-war-e-day-beta-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-expected-release-date",
+        "file": "gears-of-war-e-day-expected-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-out-yet",
+        "file": "gears-of-war-e-day-out-yet"
+      },
+      {
+        "slug": "gears-of-war-e-day-release-date",
+        "file": "gears-of-war-e-day-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-release-year",
+        "file": "gears-of-war-e-day-release-year"
+      }
+    ],
+    "story": [
+      {
+        "slug": "gears-of-war-e-day-characters",
+        "file": "gears-of-war-e-day-characters"
+      },
+      {
+        "slug": "gears-of-war-e-day-kalona",
+        "file": "gears-of-war-e-day-kalona"
+      },
+      {
+        "slug": "gears-of-war-e-day-main-villain",
+        "file": "gears-of-war-e-day-main-villain"
+      },
+      {
+        "slug": "gears-of-war-e-day-marcus-fenix",
+        "file": "gears-of-war-e-day-marcus-fenix"
+      },
+      {
+        "slug": "gears-of-war-e-day-prequel",
+        "file": "gears-of-war-e-day-prequel"
+      },
+      {
+        "slug": "gears-of-war-e-day-story",
+        "file": "gears-of-war-e-day-story"
+      },
+      {
+        "slug": "gears-of-war-e-day-synopsis",
+        "file": "gears-of-war-e-day-synopsis"
+      },
+      {
+        "slug": "gears-of-war-e-day-timeline",
+        "file": "gears-of-war-e-day-timeline"
+      }
+    ]
+  },
+  "es": {
+    "editions": [
+      {
+        "slug": "gears-of-war-e-day-collector-s-edition",
+        "file": "gears-of-war-e-day-collector's-edition"
+      },
+      {
+        "slug": "gears-of-war-e-day-lancer-replica",
+        "file": "gears-of-war-e-day-lancer-replica"
+      },
+      {
+        "slug": "gears-of-war-e-day-physical-release",
+        "file": "gears-of-war-e-day-physical-release"
+      },
+      {
+        "slug": "gears-of-war-e-day-premium-edition",
+        "file": "gears-of-war-e-day-premium-edition"
+      },
+      {
+        "slug": "gears-of-war-e-day-preorder",
+        "file": "gears-of-war-e-day-preorder"
+      },
+      {
+        "slug": "gears-of-war-e-day-price",
+        "file": "gears-of-war-e-day-price"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "gears-of-war-e-day-co-op",
+        "file": "gears-of-war-e-day-co-op"
+      },
+      {
+        "slug": "gears-of-war-e-day-gameplay",
+        "file": "gears-of-war-e-day-gameplay"
+      },
+      {
+        "slug": "gears-of-war-e-day-horde",
+        "file": "gears-of-war-e-day-horde"
+      },
+      {
+        "slug": "gears-of-war-e-day-multiplayer",
+        "file": "gears-of-war-e-day-multiplayer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gears-of-war-e-day-everything-we-know",
+        "file": "gears-of-war-e-day-everything-we-know"
+      },
+      {
+        "slug": "gears-of-war-e-day-games-in-order",
+        "file": "gears-of-war-e-day-games-in-order"
+      },
+      {
+        "slug": "gears-of-war-e-day-guide",
+        "file": "gears-of-war-e-day-guide"
+      },
+      {
+        "slug": "gears-of-war-e-day-vs-judgement",
+        "file": "gears-of-war-e-day-vs-judgement"
+      },
+      {
+        "slug": "gears-of-war-e-day-vs-reloaded",
+        "file": "gears-of-war-e-day-vs-reloaded"
+      },
+      {
+        "slug": "gears-of-war-e-day-what-is-it-about",
+        "file": "gears-of-war-e-day-what-is-it-about"
+      },
+      {
+        "slug": "gears-of-war-e-day-worth-it",
+        "file": "gears-of-war-e-day-worth-it"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "gears-of-war-e-day-game-pass",
+        "file": "gears-of-war-e-day-game-pass"
+      },
+      {
+        "slug": "gears-of-war-e-day-geforce-now",
+        "file": "gears-of-war-e-day-geforce-now"
+      },
+      {
+        "slug": "gears-of-war-e-day-pc",
+        "file": "gears-of-war-e-day-pc"
+      },
+      {
+        "slug": "gears-of-war-e-day-platforms",
+        "file": "gears-of-war-e-day-platforms"
+      },
+      {
+        "slug": "gears-of-war-e-day-playstation",
+        "file": "gears-of-war-e-day-playstation"
+      },
+      {
+        "slug": "gears-of-war-e-day-ps4",
+        "file": "gears-of-war-e-day-ps4"
+      },
+      {
+        "slug": "gears-of-war-e-day-ps5",
+        "file": "gears-of-war-e-day-ps5"
+      },
+      {
+        "slug": "gears-of-war-e-day-steam",
+        "file": "gears-of-war-e-day-steam"
+      },
+      {
+        "slug": "gears-of-war-e-day-xbox-one",
+        "file": "gears-of-war-e-day-xbox-one"
+      },
+      {
+        "slug": "gears-of-war-e-day-xbox",
+        "file": "gears-of-war-e-day-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "gears-of-war-e-day-beta-release-date",
+        "file": "gears-of-war-e-day-beta-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-expected-release-date",
+        "file": "gears-of-war-e-day-expected-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-out-yet",
+        "file": "gears-of-war-e-day-out-yet"
+      },
+      {
+        "slug": "gears-of-war-e-day-release-date",
+        "file": "gears-of-war-e-day-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-release-year",
+        "file": "gears-of-war-e-day-release-year"
+      }
+    ],
+    "story": [
+      {
+        "slug": "gears-of-war-e-day-characters",
+        "file": "gears-of-war-e-day-characters"
+      },
+      {
+        "slug": "gears-of-war-e-day-kalona",
+        "file": "gears-of-war-e-day-kalona"
+      },
+      {
+        "slug": "gears-of-war-e-day-main-villain",
+        "file": "gears-of-war-e-day-main-villain"
+      },
+      {
+        "slug": "gears-of-war-e-day-marcus-fenix",
+        "file": "gears-of-war-e-day-marcus-fenix"
+      },
+      {
+        "slug": "gears-of-war-e-day-prequel",
+        "file": "gears-of-war-e-day-prequel"
+      },
+      {
+        "slug": "gears-of-war-e-day-story",
+        "file": "gears-of-war-e-day-story"
+      },
+      {
+        "slug": "gears-of-war-e-day-synopsis",
+        "file": "gears-of-war-e-day-synopsis"
+      },
+      {
+        "slug": "gears-of-war-e-day-timeline",
+        "file": "gears-of-war-e-day-timeline"
+      }
+    ]
+  },
+  "pt": {
+    "editions": [
+      {
+        "slug": "gears-of-war-e-day-collector-s-edition",
+        "file": "gears-of-war-e-day-collector's-edition"
+      },
+      {
+        "slug": "gears-of-war-e-day-lancer-replica",
+        "file": "gears-of-war-e-day-lancer-replica"
+      },
+      {
+        "slug": "gears-of-war-e-day-physical-release",
+        "file": "gears-of-war-e-day-physical-release"
+      },
+      {
+        "slug": "gears-of-war-e-day-premium-edition",
+        "file": "gears-of-war-e-day-premium-edition"
+      },
+      {
+        "slug": "gears-of-war-e-day-preorder",
+        "file": "gears-of-war-e-day-preorder"
+      },
+      {
+        "slug": "gears-of-war-e-day-price",
+        "file": "gears-of-war-e-day-price"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "gears-of-war-e-day-co-op",
+        "file": "gears-of-war-e-day-co-op"
+      },
+      {
+        "slug": "gears-of-war-e-day-gameplay",
+        "file": "gears-of-war-e-day-gameplay"
+      },
+      {
+        "slug": "gears-of-war-e-day-horde",
+        "file": "gears-of-war-e-day-horde"
+      },
+      {
+        "slug": "gears-of-war-e-day-multiplayer",
+        "file": "gears-of-war-e-day-multiplayer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gears-of-war-e-day-everything-we-know",
+        "file": "gears-of-war-e-day-everything-we-know"
+      },
+      {
+        "slug": "gears-of-war-e-day-games-in-order",
+        "file": "gears-of-war-e-day-games-in-order"
+      },
+      {
+        "slug": "gears-of-war-e-day-guide",
+        "file": "gears-of-war-e-day-guide"
+      },
+      {
+        "slug": "gears-of-war-e-day-vs-judgement",
+        "file": "gears-of-war-e-day-vs-judgement"
+      },
+      {
+        "slug": "gears-of-war-e-day-vs-reloaded",
+        "file": "gears-of-war-e-day-vs-reloaded"
+      },
+      {
+        "slug": "gears-of-war-e-day-what-is-it-about",
+        "file": "gears-of-war-e-day-what-is-it-about"
+      },
+      {
+        "slug": "gears-of-war-e-day-worth-it",
+        "file": "gears-of-war-e-day-worth-it"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "gears-of-war-e-day-game-pass",
+        "file": "gears-of-war-e-day-game-pass"
+      },
+      {
+        "slug": "gears-of-war-e-day-geforce-now",
+        "file": "gears-of-war-e-day-geforce-now"
+      },
+      {
+        "slug": "gears-of-war-e-day-pc",
+        "file": "gears-of-war-e-day-pc"
+      },
+      {
+        "slug": "gears-of-war-e-day-platforms",
+        "file": "gears-of-war-e-day-platforms"
+      },
+      {
+        "slug": "gears-of-war-e-day-playstation",
+        "file": "gears-of-war-e-day-playstation"
+      },
+      {
+        "slug": "gears-of-war-e-day-ps4",
+        "file": "gears-of-war-e-day-ps4"
+      },
+      {
+        "slug": "gears-of-war-e-day-ps5",
+        "file": "gears-of-war-e-day-ps5"
+      },
+      {
+        "slug": "gears-of-war-e-day-steam",
+        "file": "gears-of-war-e-day-steam"
+      },
+      {
+        "slug": "gears-of-war-e-day-xbox-one",
+        "file": "gears-of-war-e-day-xbox-one"
+      },
+      {
+        "slug": "gears-of-war-e-day-xbox",
+        "file": "gears-of-war-e-day-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "gears-of-war-e-day-beta-release-date",
+        "file": "gears-of-war-e-day-beta-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-expected-release-date",
+        "file": "gears-of-war-e-day-expected-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-out-yet",
+        "file": "gears-of-war-e-day-out-yet"
+      },
+      {
+        "slug": "gears-of-war-e-day-release-date",
+        "file": "gears-of-war-e-day-release-date"
+      },
+      {
+        "slug": "gears-of-war-e-day-release-year",
+        "file": "gears-of-war-e-day-release-year"
+      }
+    ],
+    "story": [
+      {
+        "slug": "gears-of-war-e-day-characters",
+        "file": "gears-of-war-e-day-characters"
+      },
+      {
+        "slug": "gears-of-war-e-day-kalona",
+        "file": "gears-of-war-e-day-kalona"
+      },
+      {
+        "slug": "gears-of-war-e-day-main-villain",
+        "file": "gears-of-war-e-day-main-villain"
+      },
+      {
+        "slug": "gears-of-war-e-day-marcus-fenix",
+        "file": "gears-of-war-e-day-marcus-fenix"
+      },
+      {
+        "slug": "gears-of-war-e-day-prequel",
+        "file": "gears-of-war-e-day-prequel"
+      },
+      {
+        "slug": "gears-of-war-e-day-story",
+        "file": "gears-of-war-e-day-story"
+      },
+      {
+        "slug": "gears-of-war-e-day-synopsis",
+        "file": "gears-of-war-e-day-synopsis"
+      },
+      {
+        "slug": "gears-of-war-e-day-timeline",
+        "file": "gears-of-war-e-day-timeline"
+      }
+    ]
+  }
+}

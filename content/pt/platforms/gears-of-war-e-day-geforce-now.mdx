@@ -1,0 +1,192 @@
+import { Laptop, Settings, Shield, Swords, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Configuração em Nuvem do Gears of War E-Day no GeForce Now",
+  description: "Aprenda a transmitir Gears of War: E-Day no NVIDIA GeForce NOW. Verifique a compatibilidade com a nuvem, especificações do sistema, integração com o Game Pass e etapas de configuração.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111827/ef1b24?text=Gears+E-Day+GeForce+Now+Guide",
+  date: "2026-06-22",
+  author: "Equipe do Wiki de Gears of War: E-Day"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Plataforma Principal**: Jogue *Gears of War: E-Day* em dispositivos em nuvem usando o Steam ou a Xbox PC Store via NVIDIA GeForce NOW.
+- **Integração com o Game Pass**: Assinantes ativos do Xbox Game Pass Ultimate podem transmitir o jogo no dia do lançamento.
+- **Data de Lançamento**: Marque no seu calendário o lançamento global oficial em **6 de outubro de 2026**.
+- **Meta de Desempenho**: Membros do plano Ultimate do GFN podem transmitir em resolução de até 4K e 120 FPS.
+- **Requisito Chave**: Uma conexão de internet banda larga estável com pelo menos 25-50 Mbps de velocidade de download é altamente recomendada.
+</Callout>
+
+<Section icon={Laptop} title="Gears of War E-Day Streaming em Nuvem no GeForce Now">
+
+O anúncio de *Gears of War: E-Day* abalou a comunidade de jogos, prometendo um retorno às raízes sombrias e cheias de terror da franquia. Para jogadores de PC e console sem hardware de ponta, jogar via streaming em nuvem do **gears of war e-day geforce now** oferece uma alternativa excepcional ao hardware nativo. Graças à parceria de longo prazo da Microsoft com a NVIDIA, os títulos primários da Xbox Game Studios estão programados para chegar ao GeForce NOW no mesmo dia de seus lançamentos globais. 
+
+Isso significa que em **6 de outubro de 2026**, os jogadores poderão vivenciar as origens brutais de Marcus Fenix e Dominic Santiago sem se preocupar com atualizações caras de placas de vídeo ou instalações massivas de armazenamento local. Quer você possua o jogo no Steam ou o acesse por meio de sua assinatura do Xbox Game Pass, a nuvem permite que você entre direto nas ruas em ruínas de Kalona.
+
+<Callout type="info" title="Suporte ao Xbox Game Pass">
+A integração da Microsoft com o NVIDIA GeForce NOW permite que os usuários sincronizem suas contas do Xbox. Se você tiver uma assinatura ativa do Game Pass Ultimate ou do PC Game Pass, poderá transmitir a edição padrão do jogo sem precisar comprar uma cópia separada no Steam.
+</Callout>
+
+### Visão Geral do Ecossistema de Jogos em Nuvem
+
+Para entender como o streaming em nuvem lida com um título de alta fidelidade na Unreal Engine 5, ajuda dar uma olhada nas plataformas e lojas suportadas. A tabela abaixo descreve como o ecossistema de nuvem lida com o lançamento do jogo.
+
+| Loja | Suporte ao GFN | Elegível para o Game Pass | Sincronização de Salvamento em Nuvem |
+| :--- | :--- | :--- | :--- |
+| **Steam** | Sim | Não | Nuvem Steam |
+| **Xbox PC Store** | Sim | Sim | Nuvem Xbox Live |
+| **Microsoft Store** | Sim | Sim | Nuvem Xbox Live |
+
+</Section>
+
+<Section icon={Settings} title="Requisitos de Sistema e Comparação de Planos do GFN">
+
+*Gears of War: E-Day* é uma potência visual, construído do zero na Unreal Engine 5. Ele utiliza tecnologias avançadas de renderização como Lumen, Nanite e Ray Tracing para entregar uma destruição ambiental sem precedentes e modelos de personagens realistas. Enquanto as instalações locais de PC exigem um hardware robusto e um expressivo **armazenamento SSD de 130 GB**, o GeForce NOW contorna essas limitações de hardware executando o jogo em máquinas da NVIDIA de nível empresarial.
+
+Para ajudar você a decidir qual plano de assinatura do GFN atende às suas necessidades, comparamos os requisitos oficiais de sistema para PC local com os planos de nuvem da NVIDIA.
+
+| Plano de Assinatura do GFN | Meta de Resolução | Meta de Taxa de Quadros | Hardware Local Equivalente |
+| :--- | :--- | :--- | :--- |
+| **Plano Gratuito** | 1080p | 60 FPS (Básico) | GTX 1060 / RTX 2060 |
+| **Plano Priority** | 1080p | 60 FPS (RTX Ativo) | RTX 3060 Ti / RTX 5060 |
+| **Plano Ultimate** | Até 4K | Até 120 FPS | RTX 4080 / RTX 5080 |
+
+<Callout type="success" title="Recomendação de Desempenho">
+Para a melhor experiência durante partidas multijogador intensas no Cerco de Horda ou PvP Versus, o Plano Ultimate é altamente recomendado. Ele oferece a menor latência de entrada e suporta o NVIDIA Reflex, que é crucial para acertar recargas ativas perfeitas e executar transições de cobertura suaves.
+</Callout>
+
+### Especificações de PC vs. Hardware do GFN
+
+Se você for executar o jogo localmente, deve atender a limites estritos de hardware. Ao utilizar o GeForce NOW, seu dispositivo local só precisa lidar com a decodificação de vídeo, transferindo o trabalho pesado para servidores remotos.
+
+| Categoria de Espec. | Espec. Mínima de PC Local | Espec. Recomendada de PC Local | Espec. do GFN Ultimate |
+| :--- | :--- | :--- | :--- |
+| **SO** | Windows 10 de 64 bits | Windows 11 de 64 bits | SO Windows de nível de servidor |
+| **Processador** | AMD Ryzen 5 2600X / Intel i7-6850K | AMD Ryzen 5 5600 / Intel i5-11600K | Equivalente a AMD Threadripper |
+| **Memória** | 12 GB RAM | 16 GB RAM | Até 24 GB GDDR6 VRAM |
+| **Placa de Vídeo** | RTX 2060 / RX 6600 | RTX 3060 Ti / RTX 5060 | Equivalente a RTX 4080 / RTX 5080 |
+| **Armazenamento** | Requer SSD de 130 GB | Requer SSD de 130 GB | Gerenciado em Nuvem (Carregamento instantâneo) |
+
+</Section>
+
+<Section icon={Target} title="Guia de Configuração Passo a Passo do GFN">
+
+Configurar seu ambiente de streaming em nuvem é simples. Como o jogo suporta o **Xbox Play Anywhere**, comprar a versão digital na Xbox Store concede a você acesso tanto no console quanto no PC, o que sincroniza perfeitamente com sua conta do GFN.
+
+Siga estas etapas para preparar sua conta para o lançamento em **6 de outubro de 2026**.
+
+<Steps>
+  <Step num="1" title="Crie ou Faça Login na Sua Conta NVIDIA">
+    Visite o site oficial do NVIDIA GeForce NOW e crie uma conta. Escolha o seu plano de assinatura preferido (Gratuito, Priority ou Ultimate) dependendo do seu orçamento e fidelidade visual desejada.
+  </Step>
+  <Step num="2" title="Vincule Suas Contas de Lojas Digitais">
+    Abra o aplicativo GeForce NOW no seu dispositivo ou navegador. Vá em **Configurações > Conexões** e vincule sua conta Steam ou conta Xbox/Microsoft. Isso permite que o GFN escaneie sua biblioteca e verifique a propriedade do jogo ou sua assinatura ativa do Game Pass.
+  </Step>
+  <Step num="3" title="Sincronize Sua Biblioteca e Inicie">
+    Procure por *Gears of War: E-Day* na barra de pesquisa do GFN. Selecione a loja onde você possui o jogo (Steam ou Xbox). Clique em **Jogar** para iniciar o contêiner em nuvem e iniciar diretamente no jogo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Isenção de Pré-carregamento">
+Um dos maiores benefícios dos jogos em nuvem é que você não precisa baixar o enorme arquivo de jogo de 130 GB. A NVIDIA cuida de todas as atualizações e instalações do jogo por conta própria, garantindo que você possa jogar instantaneamente, mesmo durante os lançamentos de patches no primeiro dia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Editions, Prices, and Cloud Access">
+
+Antes de transmitir, você deve garantir que possui o direito digital válido ao jogo. *Gears of War: E-Day* oferece várias edições físicas e digitais, cada uma concedendo níveis variados de acesso antecipado e bônus cosméticos. As edições digitais Padrão e Premium são totalmente compatíveis com o streaming em nuvem.
+
+Verifique os detalhes de cada edição para determinar qual caminho é melhor para sua configuração em nuvem.
+
+| Edição | Formato | Preço (Xbox Store) | Jogável na Nuvem GFN | Acesso Antecipado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Edição Padrão** | Digital / Físico | \$69.99+ | Sim (Apenas Digital) | Beta Aberto (6 de agosto de 2026) |
+| **Edição Premium** | Digital | \$99.99+ | Sim | 5 Dias de Antecipação (1 de outubro de 2026) |
+| **Upgrade Premium** | Adicional Digital | \$30.00 | Sim (Requer Jogo Base/GP) | 5 Dias de Antecipação (1 de outubro de 2026) |
+| **Edição de Colecionador**| Pacote Físico | Depende do varejista | Sim (via código digital incluso) | 5 Dias de Antecipação (1 de outubro de 2026) |
+
+<Callout type="warning" title="Aviso sobre Edições Físicas">
+As cópias em disco físico da Edição Padrão não são compatíveis com o GeForce NOW, pois o GFN exige a verificação de propriedade digital por meio do Steam ou da Xbox PC Store. Se você comprar a Edição de Colecionador física, certifique-se de resgatar o código do voucher digital na sua conta Xbox antes de tentar transmitir.
+</Callout>
+
+### Benefícios da Pré-venda para Jogadores em Nuvem
+
+Ao fazer a pré-venda de qualquer edição do jogo, os jogadores em nuvem podem desbloquear itens digitais exclusivos que são sincronizados automaticamente com seus salvamentos na nuvem.
+
+<Checklist
+  id="preorder-rewards"
+  title="Lista de Recompensas de Pré-venda:"
+  items={[
+    "Acesso automático ao Beta Aberto a partir de 6 de agosto de 2026",
+    "Visual de Personagem Lendário Dom de Resgate (Exfil Dom) para modos multijogador",
+    "Conjunto de Visuais de Armas Lendárias de Resgate (Exfil) para equipamentos padrão",
+    "Acesso no primeiro dia via Game Pass Ultimate (apenas Edição Padrão)",
+    "Até 5 dias de acesso antecipado ao lançamento a partir de 1 de outubro de 2026 (Edição Premium / Upgrade)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Combate, Movimentação e Otimização da Latência na Nuvem">
+
+*Gears of War: E-Day* apresenta mecânicas de movimento modernizadas juntamente com sua clássica jogabilidade de tiro em cobertura em terceira pessoa. Os jogadores agora podem saltar por vãos, utilizar rotas de flanqueamento vertical em telhados e executar transições de cobertura suaves. Como o jogo depende muito de tiroteios rápidos com armas como a **escopeta Gnasher**, o **rifle de precisão Longshot** e o novo **lançador de explosivos Gut Puncher**, minimizar a latência da rede é crucial para os jogadores em nuvem.
+
+Para garantir que suas sessões na nuvem pareçam tão responsivas quanto a jogabilidade local, recomendamos otimizar seu ambiente de rede local.
+
+<CardGrid cols={3}>
+  <Card title="Use uma Conexão Cabeada">
+    Sempre que possível, connect seu dispositivo de streaming diretamente ao roteador usando um **cabo Ethernet**. Isso reduz drasticamente a perda de pacotes e a oscilação (jitter) em comparação com conexões sem fio.
+  </Card>
+  <Card title="Configure o Wi-Fi de 5 GHz">
+    Se a conexão Ethernet não for uma opção, certifique-se de estar conectado a uma **banda de Wi-Fi de 5 GHz** em vez de uma banda de 2,4 GHz. Mantenha seu dispositivo em uma linha de visão desobstruída do roteador para evitar a degradação do sinal.
+  </Card>
+  <Card title="Ative o GFN Reflex">
+    Se você for um membro Ultimate transmitindo em um dispositivo compatível com NVIDIA, ative o **NVIDIA Reflex** nas configurações do GFN. Isso reduz os tempos de renderização de quadros e minimiza o atraso entre os comandos do seu controle e a ação na tela.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tempo de Recarga Ativa">
+A icônica mecânica de recarga ativa retorna em *E-Day*. Se você notar uma leve latência de rede, tente ajustar as dicas de áudio do jogo. Muitos jogadores de alto nível dependem do som de clique mecânico distinto da barra de recarga em vez de dicas visuais para acertar recargas ativas perfeitas em configurações de nuvem.
+</Callout>
+
+### Matriz de Desempenho do GFN para Mecânicas de Jogabilidade
+
+Diferentes modos de jogo exigem diferentes níveis de responsividade. Use esta matriz para otimizar suas configurações de transmissão do GFN dependendo do modo que estiver jogando.
+
+| Modo de Jogo | Número de Jogadores | Sensibilidade à Latência | Configurações Recomendadas do GFN |
+| :--- | :--- | :--- | :--- |
+| **Campanha Co-Op** | Até 4 Online | Média | Resolução 4K, 60 FPS, Gráficos Máximos |
+| **Cerco de Horda PvE** | 12 Jogadores | Alta | Resolução 1440p, 120 FPS, Reflex Ativado |
+| **Versus PvP** | Competitivo 4v4 | Crítica | Resolução 1080p, 120+ FPS, Modo de Baixa Latência |
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso jogar Gears of War: E-Day no GeForce NOW no dia do lançamento?",
+    answer: "Sim. Graças à parceria entre a Microsoft e a NVIDIA, espera-se que Gears of War: E-Day esteja disponível no GeForce NOW na sua data de lançamento global oficial, 6 de outubro de 2026."
+  },
+  {
+    question: "Preciso comprar o jogo duas vezes para jogar no PC e no GeForce NOW?",
+    answer: "Não. O GeForce NOW transmite jogos que você já possui. Se você comprar o jogo digitalmente no Steam ou na Xbox PC Store, ou se tiver uma assinatura ativa do Xbox Game Pass Ultimate, poderá acessá-lo no GFN sem custo adicional."
+  },
+  {
+    question: "Meu progresso na campanha será salvo ao transmitir gears of war e-day geforce now?",
+    answer: "Sim. O GeForce NOW suporta salvamento completo em nuvem. Seu progresso no Steam será sincronizado via Nuvem Steam, e seu progresso no aplicativo Xbox será sincronizado via Nuvem Xbox Live, permitindo que você alterne perfeitamente entre o streaming em nuvem e a jogabilidade local nativa."
+  },
+  {
+    question: "A versão em nuvem suporta cooperativo local em tela dividida?",
+    answer: "Não. Embora a versão de console do Gears of War: E-Day suporte cooperativo local em tela dividida para dois jogadores, o GeForce NOW executa a versão de PC do jogo, que é limitada ao jogo local de um jogador. No entanto, você ainda pode jogar com até quatro jogadores online via cooperativo em nuvem."
+  }
+]} />
+
+</Section>

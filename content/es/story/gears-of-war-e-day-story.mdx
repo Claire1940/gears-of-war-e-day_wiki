@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Historia de Gears of War: E-Day: Cronología y Guía de la Campaña",
+  description: "Explora la cronología de la historia, los personajes y los detalles de la campaña de Gears of War: E-Day. Descubre la caída de tres días de Kalona y el origen del Escuadrón Bravo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=Campaign+Story+Timeline",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Gears of War: E-Day"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Historia de Gears of War: E-Day**: Esta precuela se ambienta catorce años antes del juego original, centrándose en los brutales primeros tres días de la invasión Locust.
+- **Dúo icónico**: Los jugadores son testigos del origen de Marcus Fenix y Dominic Santiago como jóvenes veteranos de las Guerras del Péndulo que lidian con un profundo dolor personal.
+- **Escenario**: Toda la campaña se desarrolla en la ciudad de Kalona, siguiendo su rápido colapso desde una pacífica celebración de armisticio hasta convertirse en una zona de guerra.
+- **Escuadrón Bravo**: La narrativa introduce a un escuadrón de cuatro miembros, aportando nuevas perspectivas al campo de batalla junto a los legendarios Gears.
+- **Jugabilidad de la campaña**: Experimenta la historia en solitario, en pantalla dividida local para dos jugadores o con hasta cuatro jugadores en cooperativo en línea.
+</Callout>
+
+<Section icon={Map} title="Desentrañando la historia de Gears of War: E-Day">
+
+La **historia de Gears of War: E-Day** marca un cambio narrativo masivo para la franquicia, llevando la perspectiva de vuelta al inicio del conflicto entre humanos y Locust. Desarrollada por The Coalition, esta precuela prescinde de los enormes bloqueos militares y el armamento avanzado de entregas posteriores para contar una historia de supervivencia íntima y terrorífica. Ambientada catorce años antes de los acontecimientos del primer Gears of War, la campaña se desarrolla a lo largo de tres caóticos días en la ciudad metropolitana de Kalona.
+
+En lugar de presentar la invasión a través de una serie de informes militares distantes y de alto nivel, la narrativa se centra por completo en el horror a ras de suelo del primer contacto. La población de Sera ha disfrutado de un breve periodo de paz tras el fin de las Guerras del Péndulo. Cuando el suelo se abre, no hay protocolos, ni estrategias de defensa establecidas, ni nombres para las criaturas que emergen de las profundidades. La campaña está estructurada para capturar el pánico, la confusión y las desesperadas medidas defensivas de una civilización sorprendida por completo.
+
+| Fase de la campaña | Cronología narrativa | Enfoque principal de la historia | Nivel de amenaza clave |
+| :--- | :--- | :--- | :--- |
+| **Día uno** | Emergencia inmediata | Pánico inicial, confusión y primer contacto en Kalona | Crítico / Extremo |
+| **Día dos** | Movilización militar | Reagrupación de defensores, establecimiento de zonas seguras y misiones de rescate | Alto / Estructurado |
+| **Día tres** | La caída de Kalona | Concienciación de la catástrofe global y esfuerzos desesperados de evacuación | Supervivencia absoluta |
+
+<Callout type="warning" title="Advertencia narrativa">
+La campaña está diseñada como una experiencia de terror psicológico. Los Locust no son tratados como carne de cañón estándar; en su lugar, los primeros encuentros enfatizan el tamaño aterrador, la fuerza y la naturaleza extraña de la amenaza subterránea.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="El elenco principal del Escuadrón Bravo">
+
+En el corazón de la **historia de Gears of War: E-Day** se encuentra el peso emocional que cargan sus protagonistas. Marcus Fenix y Dominic Santiago regresan como jóvenes veteranos, pero no son los soldados endurecidos y cínicos de la trilogía original. Son supervivientes heridos de las Guerras del Péndulo, y ambos cargan con el trauma reciente de perder a Carlos Santiago, el hermano mayor de Dom y el amigo más cercano de Marcus. Este dolor compartido crea una dinámica compleja y algo distante entre ambos al inicio de la invasión, que evoluciona gradualmente hacia la hermandad inquebrantable que los fans conocen.
+
+Para ampliar el alcance táctico y emocional de la campaña, la historia introduce al Escuadrón Bravo. Este escuadrón de cuatro miembros ofrece una mirada diversa a cómo reaccionan diferentes sectores de la sociedad de Sera ante el repentino fin de su mundo. A Marcus y Dom se les unen Mags Carter, una pragmática ex-Gear que trabaja en la refinería de Imulsión de Kalona, y Lucas Reyes, un joven cadete de comunicaciones que nunca ha experimentado el combate real.
+
+<CardGrid cols={2}>
+  <Card title="Marcus Fenix">
+    - **Rol**: Joven veterano caído en desgracia que busca su lugar en un nuevo tipo de guerra.
+    - **Conflicto clave**: Reconciliar su deber militar con el dolor puro por la pérdida de Carlos.
+    - **Enfoque de estilo de juego**: Asalto en primera línea y uso intensivo de coberturas.
+  </Card>
+  <Card title="Dominic Santiago">
+    - **Rol**: Soldado motivado que busca un propósito en medio de una tragedia personal.
+    - **Conflicto clave**: Sobrellevar la pérdida de su hermano mientras protege al resto de su familia.
+    - **Enfoque de estilo de juego**: Reposicionamiento rápido y apoyo a corta distancia.
+  </Card>
+  <Card title="Mags Carter">
+    - **Rol**: Trabajadora práctica de la refinería con historial de servicio militar.
+    - **Conflicto clave**: Utilizar sus conocimientos industriales para sobrevivir a una infraestructura en colapso.
+    - **Enfoque de estilo de juego**: Fortificación defensiva y conciencia del entorno.
+  </Card>
+  <Card title="Lucas Reyes">
+    - **Rol**: Cadete de comunicaciones que experimenta su primer despliegue de combate real.
+    - **Conflicto clave**: Superar el pánico para mantener al escuadrón conectado con la red militar más amplia.
+    - **Enfoque de estilo de juego**: Escaneo táctico y apoyo a larga distancia.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Selección en cooperativo">
+En el cooperativo en línea, los cuatro miembros del Escuadrón Bravo son completamente jugables. Cada personaje ofrece líneas de diálogo únicas que cambian según quiénes estén emparejados durante los momentos clave de la narrativa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La caída de Kalona: escenario y cronología">
+
+La elección de Kalona como escenario principal para la **historia de Gears of War: E-Day** permite una estructura de campaña muy detallada y localizada. A diferencia de juegos anteriores que presentaban misiones por todo el mundo en múltiples países, E-Day se centra en el microcolapso de una sola ciudad viva. Kalona es una metrópolis en expansión con distritos arquitectónicos distintos, que van desde zonas residenciales de alta gama hasta sectores industriales pesados.
+
+A medida que se desarrolla la narrativa de tres días, los jugadores verán cómo estos entornos antes impecables se deterioran física y estructuralmente. La aparición de la Horda Locust no es solo una invasión militar; es un desastre geológico. Enormes socavones hunden manzanas enteras de la ciudad, mientras que las mecánicas de microdestrucción desgastan los pilares de hormigón y acero en los que los jugadores confían para cubrirse.
+
+| Distrito de Kalona | Estilo ambiental | Bucle de juego principal | Peligro táctico |
+| :--- | :--- | :--- | :--- |
+| **Zona de la refinería** | Industrial, caminos estrechos | Evitar peligros, flanqueo a corta distancia | Fugas de Imulsión, tuberías explosivas |
+| **Estadio deportivo** | Abierto y simétrico | Líneas de visión de largo alcance, coordinación de escuadrón | Falta de cobertura permanente |
+| **Área residencial** | Varios niveles, pasillos estrechos | Movimiento vertical, despeje de habitaciones | Rutas de flanqueo desde arriba |
+| **Puerto y aeródromo** | Asfalto abierto, maquinaria pesada | Combate asistido por vehículos, defensas de posición | Francotiradores y fuego de mortero entrante |
+
+<Callout type="info" title="Narrativa ambiental">
+The Coalition utiliza Unreal Engine 5 para mostrar la destrucción en tiempo real. La cobertura es altamente destructible, lo que significa que los jugadores deben cambiar constantemente a nuevas posiciones defensivas a medida que el fuego de los Locust destroza el entorno.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de campaña y dinámica cooperativa">
+
+La jugabilidad de Gears of War: E-Day moderniza las mecánicas clásicas de disparos a cubierto al tiempo que mantiene la sensación pesada y táctil de los juegos originales. El movimiento se ha reconstruido por completo para adaptarse a la verticalidad de la arquitectura en ruinas de Kalona. Por primera vez en la serie, los jugadores pueden saltar activamente a través de brechas, escalar rutas verticales para establecer ángulos de flanqueo y deslizarse suavemente por las esquinas directamente hacia coberturas bajas.
+
+El juego cooperativo sigue siendo un pilar fundamental de la experiencia. La campaña está totalmente optimizada para múltiples estilos de juego, lo que garantiza que la tensión táctica se mantenga intacta tanto si juegas solo como con amigos. El juego admite pantalla dividida para dos jugadores en consolas, lo que permite el clásico cooperativo de sofá, mientras que las sesiones en línea admiten hasta cuatro jugadores.
+
+<Steps>
+  <Step num="1" title="Elige tu configuración de campaña">
+    Decide entre jugar en solitario, en pantalla dividida local (hasta 2 jugadores) o cooperativo en línea (hasta 4 jugadores) a través de la [página oficial de la tienda de Xbox Series X|S](https://www.xbox.com/en-US/games/gears-of-war-eday).
+  </Step>
+  <Step num="2" title="Selecciona tu personaje del Escuadrón Bravo">
+    Elige entre los cuatro miembros del Escuadrón Bravo. En el modo cooperativo, los jugadores pueden combinar personajes, aportando cada uno diálogos tácticos y perspectivas únicas al desastre en desarrollo.
+  </Step>
+  <Step num="3" title="Domina las transiciones de cobertura">
+    Utiliza el sistema de movimiento modernizado. Practica deslizarte al correr, saltar sobre barreras bajas y usar rutas de escalada vertical para escapar de los agresivos flanqueos de los Locust.
+  </Step>
+  <Step num="4" title="Coordínate para cerrar los agujeros de emergencia">
+    Trabajen juntos para sellar los puntos de emergencia de los Locust. Un jugador puede atraer el fuego mientras otro utiliza explosivos o armamento pesado para derrumbar la entrada del túnel.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo para cooperativo">
+Cuando juegues con un escuadrón completo de cuatro jugadores en línea, divídanse en dos parejas. Hagan que una pareja mantenga la posición elevada mediante el movimiento vertical mientras la otra avanza en la línea del frente con armas de corto alcance como la Gnasher.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preparación y especificaciones de la campaña">
+
+Antes de sumergirse en la **historia de Gears of War: E-Day** el día del lanzamiento, los jugadores deben asegurarse de que sus sistemas estén completamente preparados. El lanzamiento del juego está programado para el 6 de octubre de 2026, con un periodo de beta abierta del 6 al 10 de agosto de 2026. Reservar cualquier edición otorga acceso anticipado inmediato a la beta, junto con cosméticos exclusivos de lanzamiento como el aspecto de personaje legendario Dom Exfiltrado (Exfil Dom).
+
+Para los jugadores de PC, el juego ya se puede añadir a la lista de deseos y precomprar en [Steam](https://store.steampowered.com/app/3010850/Gears_of_War_EDay/). Debido a que el juego utiliza características de vanguardia de Unreal Engine 5, incluyendo trazado de rayos y microdestrucción de alta fidelidad, se requiere estrictamente almacenamiento en unidad de estado sólido (SSD).
+
+| Especificación de hardware | Requisitos mínimos de PC | Requisitos recomendados de PC |
+| :--- | :--- | :--- |
+| **Sistema operativo** | Windows 10 de 64 bits (v22H2) | Windows 11 de 64 bits (v25H2) |
+| **Procesador (CPU)** | Intel i5-10400 / AMD Ryzen 5 2600X | Intel i5-11600K / AMD Ryzen 5 5600 |
+| **Memoria (RAM)** | 12 GB de RAM | 16 GB de RAM |
+| **Gráficos (GPU)** | RTX 2060 / RX 6600 / Arc A580 | RTX 3060 Ti / RX 6700 XT / Arc B580 |
+| **Versión de DirectX** | Versión 12 | Versión 12 |
+| **Espacio de almacenamiento** | 130 GB de espacio disponible (Se requiere SSD) | 130 GB de espacio disponible (Se requiere SSD) |
+
+<Checklist
+  id="campaign-launch-checklist"
+  title="Lista de preparación para el lanzamiento de E-Day:"
+  items={[
+    "Reserva en Xbox o Steam para asegurar el aspecto de personaje Dom Exfiltrado (Exfil Dom).",
+    "Verifica que el hardware de tu PC cumpla con el requisito de almacenamiento SSD de 130 GB.",
+    "Marca en tu calendario el inicio de la beta abierta el 6 de agosto de 2026.",
+    "Coordínate con hasta tres amigos para asegurar tu escuadrón cooperativo de cuatro jugadores."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes sobre la historia de Gears of War: E-Day">
+
+<FAQ items={[
+  {
+    question: "¿Dónde encaja la historia de Gears of War: E-Day en la cronología de la franquicia?",
+    answer: "La historia es una precuela ambientada catorce años antes del Gears of War original. Se desarrolla durante los primeros tres días de la emergencia Locust en Sera, sirviendo como la historia de origen definitiva del conflicto."
+  },
+  {
+    question: "¿Se puede jugar toda la campaña en cooperativo?",
+    answer: "Sí. Toda la campaña admite el juego en solitario, cooperativo en pantalla dividida local para dos jugadores en consolas y juego cooperativo en línea de hasta cuatro jugadores."
+  },
+  {
+    question: "¿Quiénes son los personajes jugables de la campaña?",
+    answer: "Los jugadores pueden controlar a los miembros del Escuadrón Bravo, que incluye a Marcus Fenix, Dominic Santiago, Mags Carter y Lucas Reyes."
+  },
+  {
+    question: "¿Presenta la campaña el clásico Lancer con motosierra?",
+    answer: "La campaña presenta el origen del Lancer con motosierra. Dado que E-Day se desarrolla al inicio de la guerra, los jugadores serán testigos de cómo se improvisó el arma en el campo de batalla para contrarrestar la amenaza Locust."
+  }
+]} />
+
+</Section>

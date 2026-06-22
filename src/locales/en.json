@@ -10,7 +10,14 @@
       "twitterDescription": "Explore Gears of War E-Day release date, beta access, campaign co-op, Horde Siege, Versus PvP, weapons, enemies, maps and beginner guide tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "editions": "Editions",
+    "guide": "Guide",
+    "story": "Story",
+    "gameplay": "Gameplay"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -348,7 +355,11 @@
           "title": "After the Pendulum Wars",
           "timeframe": "Shortly after peace is declared on Sera",
           "description": "Marcus Fenix and Dominic Santiago return from the Pendulum Wars as young veterans. Both are carrying the loss of Carlos Santiago, Dom's older brother and Marcus's best friend, which gives their relationship a distant and wounded starting point.",
-          "characters": ["Marcus Fenix", "Dominic Santiago", "Carlos Santiago"],
+          "characters": [
+            "Marcus Fenix",
+            "Dominic Santiago",
+            "Carlos Santiago"
+          ],
           "role": "Sets the emotional foundation before the Locust invasion begins."
         },
         {
@@ -356,7 +367,10 @@
           "title": "The Ground Opens in Kalona",
           "timeframe": "Emergence Day begins",
           "description": "Marcus and Dom are in Kalona for an armistice memorial when the ground opens and the Locust emerge from below. The first encounters are built around confusion, fear, and first contact with creatures the people of Sera do not yet have names for.",
-          "characters": ["Marcus Fenix", "Dominic Santiago"],
+          "characters": [
+            "Marcus Fenix",
+            "Dominic Santiago"
+          ],
           "role": "Introduces the horror of the Locust as an unknown force attacking a city in real time."
         },
         {
@@ -364,7 +378,12 @@
           "title": "Four Gears Run Toward the Fight",
           "timeframe": "Early E-Day chaos",
           "description": "Bravo Squad forms when Marcus, Dom, Mags Carter, and Lucas Reyes face the first outbreak together. Mags is a former Gear working at Kalona's Imulsion Refinery, while Lucas is a young cadet and communications officer who never saw the front lines.",
-          "characters": ["Marcus Fenix", "Dominic Santiago", "Mags Carter", "Lucas Reyes"],
+          "characters": [
+            "Marcus Fenix",
+            "Dominic Santiago",
+            "Mags Carter",
+            "Lucas Reyes"
+          ],
           "role": "Builds the playable squad around shared instinct, loyalty, and survival under pressure."
         },
         {
@@ -372,7 +391,10 @@
           "title": "Regrouping and Military Response",
           "timeframe": "The city tries to organize",
           "description": "The campaign moves from shock into regrouping as Bravo Squad connects with military forces and begins taking on missions across Kalona. The city includes districts such as a sports stadium, industrial waterfront, airfield, refinery zones, and dense residential areas.",
-          "characters": ["Bravo Squad", "Kalona defenders"],
+          "characters": [
+            "Bravo Squad",
+            "Kalona defenders"
+          ],
           "role": "Turns the invasion from isolated panic into a coordinated battle for the city."
         },
         {
@@ -380,7 +402,11 @@
           "title": "Kalona Falls Into Desperation",
           "timeframe": "The scale becomes impossible to ignore",
           "description": "By the third day, the invasion is clearly not an isolated attack. The Locust threat escalates from Feral Wretches into Drones and organized enemy forces, while Bravo Squad sees that Emergence Day is a world-changing catastrophe.",
-          "characters": ["Bravo Squad", "Locust Horde", "Tai Kaliso"],
+          "characters": [
+            "Bravo Squad",
+            "Locust Horde",
+            "Tai Kaliso"
+          ],
           "role": "Shows the shift from monster invasion to full-scale war."
         },
         {
@@ -388,7 +414,12 @@
           "title": "Solo, Split-Screen, and Online Co-Op",
           "timeframe": "Playable campaign structure",
           "description": "The Gears of War: E-Day campaign can be played solo, in two-player split-screen on console, or in up to four-player online co-op. The four Bravo Squad characters are playable from the start.",
-          "characters": ["Marcus Fenix", "Dominic Santiago", "Mags Carter", "Lucas Reyes"],
+          "characters": [
+            "Marcus Fenix",
+            "Dominic Santiago",
+            "Mags Carter",
+            "Lucas Reyes"
+          ],
           "role": "Lets players experience the origin story alone or as a squad."
         }
       ]
@@ -412,7 +443,12 @@
             "Fight alongside multiple squads",
             "Take down world bosses"
           ],
-          "classes": ["Assault", "Marksman", "Medic", "Breacher"],
+          "classes": [
+            "Assault",
+            "Marksman",
+            "Medic",
+            "Breacher"
+          ],
           "rewards": [
             "Earn rewards by surviving",
             "Unlock customization",
@@ -486,7 +522,12 @@
             "Test Horde Siege and Versus systems",
             "Prepare for the October 6, 2026 launch"
           ],
-          "classes": ["Assault", "Marksman", "Medic", "Breacher"],
+          "classes": [
+            "Assault",
+            "Marksman",
+            "Medic",
+            "Breacher"
+          ],
           "rewards": [
             "Pre-order bonuses include the Exfil Dom Character Skin and Exfil Weapon Skin Set at launch"
           ]
@@ -587,53 +628,149 @@
         {
           "title": "Minimum PC Requirements",
           "rows": [
-            { "label": "Operating System", "value": "Windows 10 64-bit 22H 19045.7291" },
-            { "label": "Processor", "value": "AMD Ryzen 5 2600X / Intel i7-6850K / Intel i5-10400" },
-            { "label": "Memory", "value": "12 GB RAM" },
-            { "label": "Graphics", "value": "NVIDIA GeForce RTX 5050 / RTX 2060 / AMD Radeon RX 6600 / RX 9060 / Intel Arc A580" },
-            { "label": "DirectX", "value": "Version 12" },
-            { "label": "Network", "value": "Broadband Internet connection" },
-            { "label": "Storage", "value": "130 GB available space" },
-            { "label": "Storage Type", "value": "SSD required" },
-            { "label": "Sound Card", "value": "Windows compatible audio device" },
-            { "label": "System Type", "value": "64-bit processor and operating system required" }
+            {
+              "label": "Operating System",
+              "value": "Windows 10 64-bit 22H 19045.7291"
+            },
+            {
+              "label": "Processor",
+              "value": "AMD Ryzen 5 2600X / Intel i7-6850K / Intel i5-10400"
+            },
+            {
+              "label": "Memory",
+              "value": "12 GB RAM"
+            },
+            {
+              "label": "Graphics",
+              "value": "NVIDIA GeForce RTX 5050 / RTX 2060 / AMD Radeon RX 6600 / RX 9060 / Intel Arc A580"
+            },
+            {
+              "label": "DirectX",
+              "value": "Version 12"
+            },
+            {
+              "label": "Network",
+              "value": "Broadband Internet connection"
+            },
+            {
+              "label": "Storage",
+              "value": "130 GB available space"
+            },
+            {
+              "label": "Storage Type",
+              "value": "SSD required"
+            },
+            {
+              "label": "Sound Card",
+              "value": "Windows compatible audio device"
+            },
+            {
+              "label": "System Type",
+              "value": "64-bit processor and operating system required"
+            }
           ]
         },
         {
           "title": "Recommended PC Requirements",
           "rows": [
-            { "label": "Operating System", "value": "Windows 11 64-bit 25H2 or newer" },
-            { "label": "Processor", "value": "AMD Ryzen 5 5600 / Intel i5-11600K" },
-            { "label": "Memory", "value": "16 GB RAM" },
-            { "label": "Graphics", "value": "NVIDIA GeForce RTX 5060 / RTX 3060 Ti / AMD Radeon RX 6700 XT / RX 9060 XT / Intel Arc B580" },
-            { "label": "DirectX", "value": "Version 12" },
-            { "label": "Network", "value": "Broadband Internet connection" },
-            { "label": "Storage", "value": "130 GB available space" },
-            { "label": "Storage Type", "value": "SSD required" },
-            { "label": "Sound Card", "value": "Windows compatible audio device" },
-            { "label": "System Type", "value": "64-bit processor and operating system required" }
+            {
+              "label": "Operating System",
+              "value": "Windows 11 64-bit 25H2 or newer"
+            },
+            {
+              "label": "Processor",
+              "value": "AMD Ryzen 5 5600 / Intel i5-11600K"
+            },
+            {
+              "label": "Memory",
+              "value": "16 GB RAM"
+            },
+            {
+              "label": "Graphics",
+              "value": "NVIDIA GeForce RTX 5060 / RTX 3060 Ti / AMD Radeon RX 6700 XT / RX 9060 XT / Intel Arc B580"
+            },
+            {
+              "label": "DirectX",
+              "value": "Version 12"
+            },
+            {
+              "label": "Network",
+              "value": "Broadband Internet connection"
+            },
+            {
+              "label": "Storage",
+              "value": "130 GB available space"
+            },
+            {
+              "label": "Storage Type",
+              "value": "SSD required"
+            },
+            {
+              "label": "Sound Card",
+              "value": "Windows compatible audio device"
+            },
+            {
+              "label": "System Type",
+              "value": "64-bit processor and operating system required"
+            }
           ]
         },
         {
           "title": "PC and Storefront Availability",
           "rows": [
-            { "label": "Steam", "value": "Available to wishlist and pre-purchase on Steam" },
-            { "label": "Xbox on PC", "value": "Available on Windows 10/11 PC" },
-            { "label": "Xbox Play Anywhere", "value": "Buy once and play on Xbox console and PC" },
-            { "label": "Game Pass", "value": "Playable day one with Game Pass" },
-            { "label": "Xbox Live Account", "value": "Steam listing requires a third-party Xbox Live account" }
+            {
+              "label": "Steam",
+              "value": "Available to wishlist and pre-purchase on Steam"
+            },
+            {
+              "label": "Xbox on PC",
+              "value": "Available on Windows 10/11 PC"
+            },
+            {
+              "label": "Xbox Play Anywhere",
+              "value": "Buy once and play on Xbox console and PC"
+            },
+            {
+              "label": "Game Pass",
+              "value": "Playable day one with Game Pass"
+            },
+            {
+              "label": "Xbox Live Account",
+              "value": "Steam listing requires a third-party Xbox Live account"
+            }
           ]
         },
         {
           "title": "Xbox Series X|S Performance Features",
           "rows": [
-            { "label": "Console Optimization", "value": "Optimized for Xbox Series X|S" },
-            { "label": "Resolution and Frame Rate", "value": "Built for 4K resolution and up to 60 FPS across Campaign and Multiplayer" },
-            { "label": "Display Features", "value": "4K Ultra HD, HDR10, and Variable Refresh Rate" },
-            { "label": "Rendering Features", "value": "Ray Tracing" },
-            { "label": "Audio Features", "value": "Spatial Sound, Dolby Atmos, and DTS:X" },
-            { "label": "Input Features", "value": "Console keyboard and mouse support, PC game pad support" },
-            { "label": "Multiplayer Capability", "value": "Online multiplayer supports up to 12 players" }
+            {
+              "label": "Console Optimization",
+              "value": "Optimized for Xbox Series X|S"
+            },
+            {
+              "label": "Resolution and Frame Rate",
+              "value": "Built for 4K resolution and up to 60 FPS across Campaign and Multiplayer"
+            },
+            {
+              "label": "Display Features",
+              "value": "4K Ultra HD, HDR10, and Variable Refresh Rate"
+            },
+            {
+              "label": "Rendering Features",
+              "value": "Ray Tracing"
+            },
+            {
+              "label": "Audio Features",
+              "value": "Spatial Sound, Dolby Atmos, and DTS:X"
+            },
+            {
+              "label": "Input Features",
+              "value": "Console keyboard and mouse support, PC game pad support"
+            },
+            {
+              "label": "Multiplayer Capability",
+              "value": "Online multiplayer supports up to 12 players"
+            }
           ]
         }
       ]
@@ -694,125 +831,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Gears of War E-Day Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced combat, co-op, and Horde Siege strategies for Gears of War: E-Day.",
-      "metaTitle": "Gears of War E-Day Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Gears of War E-Day guides covering beginner tips, campaign co-op, Horde Siege, Versus, weapons, and expert tactics for surviving Emergence Day.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering campaign mechanics, cover combat, co-op, and multiplayer systems for Gears of War: E-Day. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand cover combat, movement, and co-op systems in Gears of War: E-Day",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive Emergence Day and master the campaign",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for Horde Siege, Versus, and squad play"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "campaign": {
-      "title": "Gears of War E-Day Campaign",
-      "description": "Master the campaign with Marcus Fenix, Dom, and Bravo Squad across Kalona, including story timeline, co-op setup, and combat strategies.",
-      "metaTitle": "Gears of War E-Day Campaign - Story, Co-Op & Combat",
-      "metaDescription": "Complete Gears of War E-Day campaign guides covering the Emergence Day story, Bravo Squad, Kalona, split-screen and online co-op, and cover combat strategies.",
-      "categoryLabel": "CAMPAIGN & STORY",
-      "whatIs": "What is the Campaign?",
-      "whatIsDescription": "Guides to the Gears of War: E-Day campaign, including the Emergence Day origin story, Bravo Squad characters, the three-day Kalona structure, and solo or co-op play.",
-      "why": "Why play the campaign?",
-      "whySteps": {
-        "step1Title": "Experience the Origin Story",
-        "step1Description": "See where the Locust War begins through Marcus Fenix and Bravo Squad",
-        "step2Title": "Play Solo or Co-Op",
-        "step2Description": "Choose solo, two-player split-screen, or up to four-player online co-op",
-        "step3Title": "Master Cover Combat",
-        "step3Description": "Learn the modernized movement and cover flow that defines Gears of War: E-Day"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Campaign Guides"
-    },
-    "weapons": {
-      "title": "Gears of War E-Day Weapons",
-      "description": "Detailed weapon guides covering the Gnasher, Longshot, Gut Puncher, Incinerator, Chainsaw Lancer origin, movement, and combat mechanics.",
-      "metaTitle": "Gears of War E-Day Weapons - Guns, Movement & Combat",
-      "metaDescription": "Complete weapon and combat database for Gears of War E-Day including the Gnasher, Longshot, Gut Puncher, Incinerator, Chainsaw Lancer origin, and traversal mechanics.",
-      "categoryLabel": "WEAPONS & COMBAT",
-      "whatIs": "What are Weapons?",
-      "whatIsDescription": "Comprehensive guides for returning weapons, new close-quarters tools, movement, traversal, E-Holes, and destruction systems in Gears of War: E-Day.",
-      "why": "Why check weapon guides?",
-      "whySteps": {
-        "step1Title": "Learn Weapon Roles",
-        "step1Description": "Understand range, damage, and best use for each weapon in Gears of War: E-Day",
-        "step2Title": "Master Movement",
-        "step2Description": "Use slide, jump, and vertical flanks to control engagements",
-        "step3Title": "Read Encounters",
-        "step3Description": "React to E-Holes, sinkholes, and micro-destruction across Kalona"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Weapon Guides"
-    },
-    "multiplayer": {
-      "title": "Gears of War E-Day Multiplayer",
-      "description": "Explore Horde Siege, Versus PvP, Ranked, and Social playlists, including 12-player PvE, 4v4 maps, classes, and rewards.",
-      "metaTitle": "Gears of War E-Day Multiplayer - Horde Siege & Versus",
-      "metaDescription": "Complete Gears of War E-Day multiplayer guides covering Horde Siege 12-player PvE, 4v4 Versus PvP, Ranked and Social playlists, classes, maps, and rewards.",
-      "categoryLabel": "MULTIPLAYER MODES",
-      "whatIs": "What is Multiplayer?",
-      "whatIsDescription": "Guides to Gears of War: E-Day multiplayer, including Horde Siege PvE, Versus PvP, Ranked, and Social playlists, plus the Assault, Marksman, Medic, and Breacher classes.",
-      "why": "Why play multiplayer?",
-      "whySteps": {
-        "step1Title": "Join Horde Siege",
-        "step1Description": "Defend Kalona with three squads in 12-player PvE",
-        "step2Title": "Compete in Versus",
-        "step2Description": "Play refined 4v4 PvP across new Kalona maps",
-        "step3Title": "Climb Ranked",
-        "step3Description": "Progress through skill-focused competitive playlists"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Multiplayer Guides"
-    },
     "release": {
       "title": "Gears of War E-Day Release",
-      "description": "Track the release date, platforms, editions, Open Beta, Game Pass, and pre-order bonuses for Gears of War: E-Day.",
-      "metaTitle": "Gears of War E-Day Release - Date, Platforms & Beta",
-      "metaDescription": "Complete Gears of War E-Day release guides covering the October 6, 2026 launch, Xbox, PC, Steam, Game Pass, editions, and Open Beta access.",
-      "categoryLabel": "RELEASE & EDITIONS",
-      "whatIs": "What is Release?",
-      "whatIsDescription": "Guides to the Gears of War: E-Day launch, including the October 6, 2026 release date, supported platforms, editions, pre-order bonuses, and Open Beta access rules.",
+      "description": "Track the Gears of War E-Day release date, Open Beta, Game Pass, pre-order bonuses, and launch details across Xbox, PC, and Steam.",
+      "metaTitle": "Gears of War E-Day Release - Date, Open Beta & Game Pass",
+      "metaDescription": "Complete Gears of War E-Day release guides covering the October 6, 2026 launch, Open Beta dates, Game Pass day-one access, and pre-order bonuses.",
+      "categoryLabel": "RELEASE & LAUNCH",
+      "whatIs": "What is the Gears of War E-Day release?",
+      "whatIsDescription": "Everything about the Gears of War E-Day launch, including the confirmed October 6, 2026 release date, the August Open Beta, Game Pass day-one access, and pre-order rewards.",
       "why": "Why track the release?",
       "whySteps": {
         "step1Title": "Lock the Launch Date",
-        "step1Description": "Know when Gears of War: E-Day arrives on Xbox, PC, and Steam",
-        "step2Title": "Pick an Edition",
-        "step2Description": "Compare Standard, Premium, Upgrade, and Collector's content",
-        "step3Title": "Get Beta Access",
-        "step3Description": "Use pre-order, digital, or retailer code paths for the Open Beta"
+        "step1Description": "Know exactly when Gears of War E-Day arrives on Xbox Series X|S, PC, and Steam",
+        "step2Title": "Get Open Beta Access",
+        "step2Description": "Learn the pre-order and Game Pass paths into the August Open Beta",
+        "step3Title": "Claim Pre-Order Bonuses",
+        "step3Description": "Secure day-one cosmetic and content rewards before launch"
       },
       "featured": "Featured & Essential",
       "all": "All Release Guides"
     },
-    "support": {
-      "title": "Gears of War E-Day Support",
-      "description": "Technical support, PC requirements, platform compatibility, performance, and troubleshooting for Gears of War: E-Day.",
-      "metaTitle": "Gears of War E-Day Support - PC Specs & Fixes",
-      "metaDescription": "Get technical support for Gears of War E-Day including PC requirements, Steam setup, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering PC requirements, Steam setup, performance optimization, and common issues for Gears of War: E-Day across Xbox, PC, and Game Pass.",
-      "why": "Why check support?",
+    "platforms": {
+      "title": "Gears of War E-Day Platforms",
+      "description": "Find out where to play Gears of War E-Day, including Xbox Series X|S, PC, Steam, Game Pass, cloud, and PlayStation availability.",
+      "metaTitle": "Gears of War E-Day Platforms - Xbox, PC, Steam & Game Pass",
+      "metaDescription": "Complete Gears of War E-Day platform guides covering Xbox Series X|S, Windows PC, Steam, Game Pass day-one, cloud streaming, and PlayStation support.",
+      "categoryLabel": "PLATFORMS & ACCESS",
+      "whatIs": "What platforms is Gears of War E-Day on?",
+      "whatIsDescription": "Guides to every platform that runs Gears of War E-Day, including Xbox Series X|S, Windows PC, Steam, Game Pass, and cloud streaming, plus the answer on PlayStation availability.",
+      "why": "Why check the platforms?",
       "whySteps": {
-        "step1Title": "Check PC Specs",
-        "step1Description": "Confirm your PC meets the Gears of War: E-Day requirements",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Xbox, PC, Steam, Game Pass, and cloud play"
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare Xbox Series X|S, PC, and Steam for the best Gears of War E-Day experience",
+        "step2Title": "Use Game Pass",
+        "step2Description": "Play on day one through Xbox Game Pass without buying the full game",
+        "step3Title": "Cross-Play & Cloud",
+        "step3Description": "Understand Xbox Play Anywhere, cross-save, and GeForce Now cloud streaming"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Platform Guides"
+    },
+    "editions": {
+      "title": "Gears of War E-Day Editions",
+      "description": "Compare every Gears of War E-Day edition, including Standard, Premium, Collector’s, Upgrade packs, pre-order bonuses, and pricing.",
+      "metaTitle": "Gears of War E-Day Editions - Standard, Premium & Collector’s",
+      "metaDescription": "Complete Gears of War E-Day editions guide comparing Standard, Premium, Collector’s Edition, the Lancer replica, upgrade packs, pre-order bonuses, and prices.",
+      "categoryLabel": "EDITIONS & PRE-ORDER",
+      "whatIs": "What are the Gears of War E-Day editions?",
+      "whatIsDescription": "A full breakdown of every Gears of War E-Day edition, including Standard, Premium, the Collector’s Edition with Lancer replica, digital upgrade packs, and pre-order rewards.",
+      "why": "Why compare editions?",
+      "whySteps": {
+        "step1Title": "Choose the Right Edition",
+        "step1Description": "Match Standard, Premium, or Collector’s to how you want to play Gears of War E-Day",
+        "step2Title": "Maximize Pre-Order Value",
+        "step2Description": "See which editions include Open Beta access and day-one bonuses",
+        "step3Title": "Know the Price",
+        "step3Description": "Compare physical and digital pricing across Xbox, PC, and Steam"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Edition Guides"
+    },
+    "guide": {
+      "title": "Gears of War E-Day Guide",
+      "description": "Beginner-friendly Gears of War E-Day guides covering everything we know, where the game fits in the series, and whether it is worth playing.",
+      "metaTitle": "Gears of War E-Day Guide - Everything We Know & Beginner Tips",
+      "metaDescription": "Complete Gears of War E-Day guide hub covering everything we know, the full games in order, comparisons with Judgement and Reloaded, and beginner entry points.",
+      "categoryLabel": "GUIDES & OVERVIEW",
+      "whatIs": "What is the Gears of War E-Day guide?",
+      "whatIsDescription": "The central Gears of War E-Day knowledge base, covering everything we know so far, the series timeline, how E-Day compares to Judgement and Reloaded, and whether it is worth your time.",
+      "why": "Why read the guide?",
+      "whySteps": {
+        "step1Title": "Get the Full Picture",
+        "step1Description": "Catch up on everything we know about Gears of War E-Day in one place",
+        "step2Title": "Place It in the Series",
+        "step2Description": "Understand where E-Day sits in the Gears of War timeline and games order",
+        "step3Title": "Decide if It Is for You",
+        "step3Description": "Compare E-Day with Judgement and Reloaded before you buy"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "story": {
+      "title": "Gears of War E-Day Story",
+      "description": "Dive into the Gears of War E-Day story, including the Emergence Day origin, Marcus Fenix, Bravo Squad, the city of Kalona, and the main villain.",
+      "metaTitle": "Gears of War E-Day Story - Emergence Day, Marcus & Kalona",
+      "metaDescription": "Complete Gears of War E-Day story guides covering the Emergence Day origin, Marcus Fenix, Dom, Bravo Squad, the city of Kalona, the timeline, and the main villain.",
+      "categoryLabel": "STORY & CHARACTERS",
+      "whatIs": "What is the Gears of War E-Day story?",
+      "whatIsDescription": "Guides to the Gears of War E-Day campaign story, including the Emergence Day origin, Marcus Fenix and Bravo Squad, the three-day fall of Kalona, the timeline, and the main villain.",
+      "why": "Why follow the story?",
+      "whySteps": {
+        "step1Title": "Witness Emergence Day",
+        "step1Description": "Experience the origin event that starts the Locust War in Gears of War E-Day",
+        "step2Title": "Meet Bravo Squad",
+        "step2Description": "Learn Marcus Fenix, Dom Santiago, and the new squad members",
+        "step3Title": "Explore Kalona",
+        "step3Description": "Follow the three-day collapse of the city across the campaign timeline"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Story Guides"
+    },
+    "gameplay": {
+      "title": "Gears of War E-Day Gameplay",
+      "description": "Master Gears of War E-Day gameplay, including campaign co-op, 12-player Horde Siege PvE, Versus PvP, and core combat mechanics.",
+      "metaTitle": "Gears of War E-Day Gameplay - Co-op, Horde Siege & Versus",
+      "metaDescription": "Complete Gears of War E-Day gameplay guides covering campaign co-op, 12-player Horde Siege PvE, Versus PvP, classes, maps, and core cover combat mechanics.",
+      "categoryLabel": "GAMEPLAY & MODES",
+      "whatIs": "What is Gears of War E-Day gameplay?",
+      "whatIsDescription": "Guides to every Gears of War E-Day mode, including solo and co-op campaign, 12-player Horde Siege PvE, Versus PvP, plus the slide, jump, and cover movement mechanics.",
+      "why": "Why study the gameplay?",
+      "whySteps": {
+        "step1Title": "Play Co-op Campaign",
+        "step1Description": "Team up solo, split-screen, or with up to four players online in Gears of War E-Day",
+        "step2Title": "Survive Horde Siege",
+        "step2Description": "Hold the line with three squads in 12-player PvE across Assault, Marksman, Medic, and Breacher",
+        "step3Title": "Compete in Versus",
+        "step3Description": "Master 4v4 PvP with refined movement, maps, and Ranked playlists"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gameplay Guides"
     }
   }
 }

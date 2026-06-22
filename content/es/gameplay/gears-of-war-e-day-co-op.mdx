@@ -1,0 +1,184 @@
+import { Swords, Shield, Map, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cooperativo de Gears of War E-Day: Guía de la Campaña y Asedio de la Horda",
+  description: "Explora los modos cooperativos de la campaña de Gears of War: E-Day, el modo PvE Asedio de la Horda para 12 jugadores, clases, juego cruzado y opciones de pantalla dividida para Xbox y PC.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=Co-op+Campaign+and+Horde+Siege",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Gears of War E-Day"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Modos cooperativos principales**: Juega la campaña en solitario, en pantalla dividida para 2 jugadores en consola, o con hasta 4 jugadores en línea.
+- **Expansión Asedio de la Horda**: Forma equipo en un enorme modo PvE de 12 jugadores con cuatro clases distintas.
+- **Movimiento modernizado**: Aprovecha los deslizamientos, saltos y flanqueos verticales para coordinar ataques.
+- **Accesibilidad de plataformas**: Juega desde el primer día en Game Pass con soporte completo para juego cruzado y Play Anywhere.
+</Callout>
+
+<Section icon={Swords} title="Campaña cooperativa y mecánicas de escuadrón de Gears of War E-Day">
+
+El anuncio de Gears of War: E-Day trae de vuelta la acción cruda y táctica de los disparos a cobertura, y dominar los sistemas **cooperativos de gears of war e-day** es esencial para la supervivencia. Reconstruida desde cero en Unreal Engine 5, la campaña lleva a los jugadores de regreso a las consecuencias inmediatas de las Guerras del Péndulo. Los jóvenes veteranos Marcus Fenix y Dominic Santiago deben navegar por los primeros tres días de la invasión Locust en la ciudad de Kalona, devastada por la guerra. El juego cooperativo está integrado directamente en la estructura narrativa, lo que permite a grupos de jugadores experimentar juntos el horror del Día de la Emergencia.
+
+Aunque Marcus y Dom constituyen el núcleo emocional de la historia, el cooperativo de la campaña en línea amplía el elenco jugable para dar cabida a hasta cuatro jugadores. Los escuadrones cooperativos controlarán a miembros del Escuadrón Bravo, cada uno aportando perspectivas únicas y roles tácticos a las líneas del frente. La campaña es compatible con la pantalla dividida local para jugadores de consola, junto con un emparejamiento en línea fluido y creación de salas en Xbox Series X|S y PC.
+
+| Modo | Cantidad de jugadores | Plataformas | Tipo de pantalla |
+| :--- | :--- | :--- | :--- |
+| En solitario | 1 jugador | Xbox Series X/S, PC | Pantalla única |
+| Pantalla dividida | 2 jugadores | Solo Xbox Series X/S | Local horizontal/vertical |
+| Cooperativo en línea | Hasta 4 jugadores | Xbox Series X/S, PC | Juego en red |
+
+La campaña está estructurada como una tensa historia de supervivencia urbana. Los escuadrones cooperativos deben trabajar al unísono para navegar por entornos en ruinas, asegurar refinerías de Imulsión y defender sectores civiles. La comunicación se ve muy recompensada, ya que la IA enemiga modernizada está diseñada para flanquear a los jugadores aislados y explotar las brechas en las líneas defensivas.
+
+<Callout type="warning" title="Requisitos de suscripción para multijugador">
+El cooperativo de la campaña en línea y las funciones multijugador en las consolas Xbox requieren una suscripción activa a Game Pass que admita el multijugador en línea. El cooperativo local en pantalla dividida no requiere una suscripción en línea activa.
+</Callout>
+
+Para dar cabida a un escuadrón de cuatro jugadores sin interrumpir la historia personal de Marcus y Dom, la campaña introduce a Mags Carter y Lucas Reyes como miembros del escuadrón completamente jugables en las sesiones cooperativas.
+
+<CardGrid cols={4}>
+  <Card title="Marcus Fenix">
+    - **Joven veterano**
+    - Líder de primera línea
+    - Especializado en combate a media distancia
+  </Card>
+  <Card title="Dominic Santiago">
+    - **Compañero leal**
+    - Combatiente de alta movilidad
+    - Experto en flanqueo a corta distancia
+  </Card>
+  <Card title="Mags Carter">
+    - **Trabajadora de refinería**
+    - Exsoldado Gear
+    - Proporciona apoyo con armas pesadas
+  </Card>
+  <Card title="Lucas Reyes">
+    - **Cadete de comunicaciones**
+    - Especialista en tecnología
+    - Ofrece reconocimiento táctico del campo de batalla
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Asedio de la Horda: Reimaginando el cooperativo PvE para 12 jugadores">
+
+Para los jugadores que buscan un desafío cooperativo masivo más allá de la historia principal, Gears of War: E-Day presenta **Asedio de la Horda**. Este modo es una evolución significativa de la clásica jugabilidad de defensa por oleadas de la franquicia, expandiendo el campo de batalla PvE para admitir hasta 12 jugadores simultáneamente. En lugar de defender un único punto de estrangulamiento, los jugadores se dividen en tres escuadrones distintos de cuatro integrantes para defender manzanas enteras de la ciudad de Kalona de los asaltos coordinados de los Locust.
+
+El éxito en Asedio de la Horda depende de la sinergia de clases, la gestión de recursos y el posicionamiento del escuadrón. El modo cuenta con cuatro clases distintas, cada una diseñada para hacer frente a amenazas específicas en el campo de batalla. Los equipos deben equilibrar su composición para asegurarse de tener suficiente potencia ofensiva, utilidad defensiva y capacidades de curación para sobrevivir a las oleadas crecientes.
+
+| Clase | Rol principal | Arma clave | Enfoque de habilidad |
+| :--- | :--- | :--- | :--- |
+| Asalto | Daño en primera línea | Gnasher / Lancer | Presión al enemigo y combate a corta distancia |
+| Tirador | Apoyo a larga distancia | Precisión con Longshot | Mantener líneas de visión y flanqueo vertical |
+| Médico | Supervivencia del escuadrón | Subfusil | Curación, reanimación y mejoras defensivas |
+| Demoledor | Limpiador de fortificaciones | Gut Puncher / Explosivos | Cerrar agujeros de emergencia y destruir coberturas enemigas |
+
+Los mapas de Asedio de la Horda son mucho más grandes que las arenas multijugador tradicionales de Gears. Representan zonas urbanas devastadas por la guerra, con edificios de varios pisos, muelles industriales y complejos deportivos. La escala de estos mapas requiere que los escuadrones se dividan para asegurar objetivos secundarios, como depósitos de miunición o puntos de entrega de fabricadores, antes de reagruparse para enfrentarse a jefes mundiales masivos que aparecen a intervalos clave.
+
+<Callout type="tip" title="La sinergia de escuadrón es clave">
+En Asedio de la Horda, asegúrate de asignar al menos un Demoledor y un Médico a cada zona activa. Los Demoledores son esenciales para cerrar rápidamente los agujeros de emergencia que surjan, mientras que los Médicos mantienen en pie a los jugadores de Asalto en la primera línea durante los intensos encuentros a corta distancia.
+</Callout>
+
+Para comprender en qué se diferencia Asedio de la Horda de los modos de supervivencia tradicionales, los jugadores pueden comparar los cambios estructurales introducidos en esta entrega.
+
+| Característica | Modo Horda clásico | Asedio de la Horda PvE |
+| :--- | :--- | :--- |
+| Total de jugadores | 5 jugadores | 12 jugadores |
+| Distribución del escuadrón | Un solo equipo de 5 jugadores | Tres escuadrones de 4 jugadores |
+| Escala del mapa | Arenas simétricas medianas | Distritos urbanos de Kalona a gran escala |
+| Objetivos | Supervivencia a oleadas y defensa | Objetivos dinámicos por toda la ciudad y jefes mundiales |
+| Sistema de clases | Roles de combate básicos | Clases tácticas especializadas con habilidades activas |
+
+</Section>
+
+<Section icon={Map} title="Desplazamiento táctico y estrategias de combate en equipo">
+
+El combate en Gears of War: E-Day se basa en una versión modernizada del clásico rompecabezas de disparos a cobertura. En el juego cooperativo, el entorno se convierte en una herramienta dinámica. La introducción del desplazamiento vertical, transiciones de cobertura más fluidas y la microdestrucción cambian la forma en que los compañeros cooperativos deben coordinar sus movimientos.
+
+Los jugadores ahora pueden deslizarse desde un sprint, trepar por rutas verticales y saltar brechas para establecer posiciones de flanqueo en terreno elevado. Mientras un jugador mantiene la primera línea detrás de una cobertura baja con una Gnasher, un compañero cooperativo puede subir a un balcón cercano con un Longshot para eliminar a las unidades de supresión enemigas.
+
+<Steps>
+  <Step num="1" title="Establecer supresión y atraer la atención">
+    Un jugador utiliza una cobertura pesada para atraer la atención de los drones Locust, usando el Lancer para mantener a los enemigos inmovilizados detrás de sus propias barreras.
+  </Step>
+  <Step num="2" title="Ejecutar flanqueo vertical">
+    Los compañeros cooperativos utilizan las mecánicas modernizadas de salto y escalada para subir escaleras exteriores o saltar a través de tejados en ruinas para asegurar líneas de visión elevadas.
+  </Step>
+  <Step num="3" title="Aislar y eliminar objetivos de alto valor">
+    Los jugadores que flanquean utilizan armas de precisión como el Longshot o herramientas explosivas como el Gut Puncher para eludir la cobertura enemiga y eliminar objetivos de alta amenaza.
+  </Step>
+  <Step num="4" title="Asegurar y cerrar agujeros de emergencia">
+    Una vez que el área está limpia de amenazas inmediatas, el escuadrón avanza junto para sellar los agujeros de emergencia activos con granadas bien colocadas antes de que puedan surgir refuerzos.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mecánicas de microdestrucción">
+Ten en cuenta que las coberturas ya no son permanentes. Las mecánicas de microdestrucción permiten que el fuego enemigo desgaste las barreras de piedra, hormigón y madera. Los compañeros cooperativos deben comunicarse y reposicionarse constantemente a medida que sus posiciones defensivas se degradan durante los tiroteos prolongados.
+</Callout>
+
+Los peligros ambientales también juegan un papel importante en el combate cooperativo. La aparición de sumideros puede tragarse vehículos enteros y alterar el diseño del mapa en tiempo real. Los escuadrones deben mantener una alta movilidad, evitando estrategias de defensa estáticas en favor de transiciones fluidas de cobertura a cobertura.
+
+</Section>
+
+<Section icon={Trophy} title="Progresión cooperativa y recompensas de lanzamiento">
+
+Jugar a Gears of War: E-Day de forma cooperativa contribuye directamente a la progresión general de tu perfil, desbloqueando recompensas de personalización, diseños de armas y modelos de personajes para usar en todos los modos multijugador. Los jugadores que participen en la beta abierta a partir del 6 de agosto de 2026 también obtendrán artículos exclusivos de lanzamiento.
+
+Reservar cualquier edición del juego otorga acceso inmediato a los fines de semana de beta anticipada y desbloquea cosméticos cooperativos que se pueden equipar desde el primer día.
+
+| Edición | Precio | Acceso anticipado | Bonificaciones cooperativas clave |
+| :--- | :--- | :--- | :--- |
+| Estándar | $69.99 | Ninguno | Diseño legendario Dom de extracción, conjunto de diseños de armas de extracción |
+| Premium | $99.99 | 5 días antes | Paquete de armas del Escuadrón Bravo, 5 paquetes de temporada, 1000 de Hierro |
+| Mejora | $30.00 | 5 días antes | Requiere el juego base o una suscripción a Game Pass Ultimate |
+
+Para los jugadores que planean su configuración cooperativa para el día del lanzamiento, utilizar la Microsoft Store o Game Pass ofrece ventajas únicas.
+
+<Callout type="success" title="Beneficios de Xbox Play Anywhere">
+Comprar una copia digital de Gears of War: E-Day a través de la Microsoft Store es compatible con Xbox Play Anywhere. Esto te permite jugar tanto en tu consola Xbox Series X|S como en tu PC con Windows 10/11 con una sola compra, manteniendo el progreso cooperativo compartido, los logros y los archivos de guardado en ambas plataformas.
+</Callout>
+
+Para asegurarte de que tu escuadrón esté completamente preparado para el lanzamiento del 6 de octubre de 2026, completa estos pasos esenciales de preparación.
+
+<Checklist
+  id="coop-launch-checklist"
+  title="Lista de verificación para el lanzamiento del escuadrón:"
+  items={[
+    "Reserva para asegurar el diseño de personaje legendario Dom de extracción y el conjunto de diseños de armas de extracción.",
+    "Verifica que todos los miembros del escuadrón tengan suscripciones activas a Game Pass Ultimate o PC Game Pass para el juego en línea.",
+    "Asegúrate de que tu PC cumpla con el requisito de almacenamiento SSD de 130 GB para velocidades de carga óptimas.",
+    "Coordina las preferencias de clase para el modo Asedio de la Horda de 12 jugadores para asegurar composiciones de escuadrón equilibradas."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "¿El cooperativo de Gears of War E-Day admite juego cruzado entre Xbox and PC?",
+    answer: "Sí, el juego es totalmente compatible con el multijugador multiplataforma y el juego cooperativo. Los jugadores de Xbox Series X|S pueden formar equipo sin problemas con los jugadores de PC en Steam y la Microsoft Store tanto para el cooperativo de la campaña como para el modo Asedio de la Horda."
+  },
+  {
+    question: "¿Puedo jugar la campaña cooperativa en pantalla dividida local?",
+    answer: "Sí, el cooperativo local en pantalla dividida es compatible para hasta dos jugadores en las consolas Xbox Series X|S. Sin embargo, la pantalla dividida no es compatible con la versión para PC del juego."
+  },
+  {
+    question: "¿Cuántos jugadores pueden unirse a una sala de Asedio de la Horda?",
+    answer: "Asedio de la Horda admite hasta 12 jugadores en línea, organizados en tres escuadrones de cuatro. Los jugadores pueden hacer cola como un grupo completo de 12 jugadores, en escuadrones más pequeños o utilizar el emparejamiento público para completar los espacios vacíos."
+  },
+  {
+    question: "¿Necesito un código de beta independiente para jugar la beta cooperativa?",
+    answer: "Si realizaste la reserva digital a través de la tienda de Xbox o Steam, tu cuenta se registrará automáticamente para el acceso anticipado a la beta a partir del 6 de agosto de 2026 y no se requerirá ningún código. Las reservas físicas recibirán un código de un solo uso de su distribuidor."
+  }
+]} />
+
+</Section>

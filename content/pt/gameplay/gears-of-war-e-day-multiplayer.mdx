@@ -1,0 +1,216 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Multijogador de Gears of War E-Day: Guia de Modos e Configuração de Classes",
+  description: "Domine o multijogador de Gears of War E-Day com o nosso guia sobre Cerco à Horda PvE, Versus PvP 4v4, classes de personagens, mecânicas de movimentação e recompensas do beta.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=Multiplayer+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Gears of War E-Day"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal**: A experiência **multijogador de gears of war e-day** introduz um modo PvE massivo de 12 jogadores ao lado do clássico PvP competitivo.
+- **Cerco à Horda**: Sobrevivência a ondas PvE evoluída com três esquadrões de 4 jogadores trabalhando juntos em mapas urbanos de grande escala.
+- **Versus PvP**: Partidas táticas 4v4 refinadas com movimentação modernizada, flanqueamento vertical e jogabilidade clássica de armas.
+- **Beta Aberto**: O acesso antecipado começa em 6 de agosto de 2026 para jogadores que fizerem a pré-venda de qualquer edição digital ou física.
+- **Movimentação Principal**: Transições de cobertura mais suaves, deslizamentos, saltos e microdestruição redefinem como as batalhas se desenrolam.
+</Callout>
+
+<Section icon={Swords} title="Visão Geral do Multijogador de Gears of War E-Day">
+
+Quando se trata do **multijogador de gears of war e-day**, os jogadores podem esperar uma evolução massiva tanto dos modos cooperativos quanto dos competitivos. Desenvolvido do zero na Unreal Engine 5, o pacote multijogador equilibra a identidade sombria e com tom de terror da trilogia original com sistemas de jogabilidade modernizados. A Coalition expandiu o número de jogadores no modo cooperativo, mantendo o foco dinâmico e simétrico dos formatos competitivos de jogos de tiro em arena.
+
+O ecossistema multijogador é dividido em dois pilares principais: **Cerco à Horda** (PvE) and **Versus PvP**. Ambos os modos utilizam a mesma base mecânica principal, permitindo que os jogadores aproveitem sua memória muscular em relação ao recuo das armas, velocidade de movimento e interação com coberturas. O jogo é otimizado para rodar a até 60 FPS nos modos multijogador em telas compatíveis, garantindo que as transições rápidas de cobertura e o *wall-bouncing* permaneçam fluidos.
+
+<CardGrid cols={3}>
+  <Card title="Cerco à Horda (PvE)">
+    - **Jogo Cooperativo de 12 Jogadores**
+    - Três esquadrões de 4 jogadores
+    - Mecânicas de defesa baseadas em classes
+    - Encontros com chefes mundiais
+  </Card>
+  <Card title="Versus PvP (Competitivo)">
+    - **Confrontos 4v4 Refinados**
+    - Design de mapa simétrico
+    - Listas de reprodução Ranqueadas e Sociais
+    - Multijogador multiplataforma
+  </Card>
+  <Card title="Mecânicas Principais do Sandbox">
+    - **Movimentação Modernizada**
+    - Microdestruição de coberturas
+    - Controle tático de surgimento de armas
+    - Ciclo de combate com recarga ativa
+  </Card>
+</CardGrid>
+
+| Recurso | Cerco à Horda PvE | Versus PvP |
+| :--- | :--- | :--- |
+| **Número de Jogadores** | 12 Jogadores (3 Esquadrões de 4) | 8 Jogadores (4v4) |
+| **Objetivo Principal** | Defender Kalona e sobreviver às ondas | Eliminar a equipe inimiga / capturar zonas |
+| **Sistema de Classes** | Assalto, Atirador, Médico, Invasor | Equipamentos uniformes com armas coletadas no mapa |
+| **Estilo do Mapa** | Zonas urbanas grandes e multi-distritais | Mapas de arena simétricos baseados em rotas |
+| **Fluxo da Partida** | Progressão cooperativa e lutas contra chefes | Combate competitivo baseado em rodadas |
+
+<Callout type="success" title="Suporte para Cross-Play e Progressão">
+A compra digital do jogo na Microsoft Store oferece suporte ao Xbox Play Anywhere, permitindo que você acesse seu perfil multijogador, desbloqueios e matchmaking no Xbox Series X|S e no PC com Windows 10/11 com uma única licença.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cerco à Horda: Mecânicas PvE para 12 Jogadores">
+
+O Cerco à Horda é a evolução do modo de sobrevivência a ondas que é marca registrada da franquia. Em vez da configuração tradicional de 5 jogadores, o Cerco à Horda encarrega **12 jogadores** de defender a cidade de Kalona, devastada pela guerra. A base de jogadores é dividida em três esquadrões distintos de 4 integrantes, que podem optar por permanecer juntos para defender um único ponto de estrangulamento ou se separar para proteger múltiplos perímetros defensivos pelo mapa.
+
+Este modo enfatiza a sinergia de classes e o gerenciamento de recursos. Os jogadores devem escolher entre quatro classes confirmadas, cada uma apresentando habilidades passivas, equipamentos e habilidades supremas exclusivas que podem mudar o rumo de um ataque Locust massivo.
+
+### Classes Confirmadas do Cerco à Horda
+
+| Classe | Arma Principal | Função | Utilidade Única |
+| :--- | :--- | :--- | :--- |
+| **Assalto** | Lancer com Motosserra | Causador de dano na linha de frente | Maior capacidade de munição, bônus de explosivos |
+| **Atirador** | Longshot | Precisão de longo alcance | Tiros críticos de alto dano, varreduras que penetram paredes |
+| **Médico** | Lancer / Pistola Snub | Cura e sobrevivência do esquadrão | Sinalizadores de cura em área de efeito, reanimações rápidas |
+| **Invasor** | Gnasher / Gut Puncher | Fortificação em combates de curta distância | Escudos de armadura pesada, reparo de barricadas defensivas |
+
+### Estrutura de Ondas e Chefes Mundiais
+
+Ao contrário dos modos Horda clássicos, onde os inimigos surgem de pontos estáticos, o Cerco à Horda apresenta eventos de emergência dinâmicos. **Buracos de Emergência (E-Holes)** podem se abrir em qualquer lugar do mapa, forçando os esquadrões a se reposicionarem ou selarem rapidamente os buracos com explosivos pesados antes de serem dominados. Em ondas de marcos específicos, chefes mundiais massivos surgem, exigindo que todos os três esquadrões coordenem seus disparos e utilizem rotas de flanqueamento vertical para mirar nos pontos fracos.
+
+<Checklist
+  id="horde-siege-prep"
+  title="Lista de Sobrevivência do Cerco à Horda:"
+  items={[
+    "Designe pelo menos um Médico por esquadrão de 4 jogadores para garantir cobertura de cura constante.",
+    "Priorize selar os Buracos de Emergência imediatamente usando o Gut Puncher ou Granadas de Fragmentação.",
+    "Utilize posições elevadas para os Atiradores alertarem sobre as rotas de flanqueamento dos Locusts.",
+    "Coordene as habilidades supremas durante as ondas de Chefes Mundiais para maximizar as janelas de dano.",
+    "Mantenha a atenção na microdestruição, pois a cobertura se desgasta sob fogo inimigo pesado."
+  ]}
+/>
+
+<Callout type="tip" title="Estratégia de Posicionamento do Esquadrão">
+Durante as ondas iniciais, divida sua equipe de 12 jogadores em dois grupos de seis para proteger as zonas de refinaria ricas em recursos. Nas ondas finais, consolide todos os jogadores em um único ponto de estrangulamento altamente defensável, como o estádio de esportes de Kalona.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Versus PvP: Jogo Competitivo 4v4">
+
+Para os jogadores competitivos, a experiência **multijogador de gears of war e-day** gira em torno de combates Versus 4v4 refinados. Mapas simétricos, tempos previsíveis de surgimento de armas e comunicação alinhada formam a base do jogo competitivo de E-Day. A Coalition focou fortemente na criação de designs de rotas equilibradas que recompensam o controle de mapa, o posicionamento e a habilidade mecânica em detrimento de encontros aleatórios.
+
+O jogo competitivo apresenta tanto o Modo Ranqueado quanto Listas de Reprodução Sociais. O Modo Ranqueado foi projetado para competições altamente estruturadas e com emparelhamento por nível de habilidade, com penalidades severas para quem abandona as partidas, enquanto as Listas de Reprodução Sociais oferecem um ambiente mais descontraído para praticar mecânicas de movimento e layouts de mapas.
+
+| Modo / Lista de Reprodução | Formato de Jogadores | Estilo de Matchmaking | Foco Principal |
+| :--- | :--- | :--- | :--- |
+| **Versus Ranqueado** | 4v4 | Baseado em Habilidade (SBMM) | Classificação competitiva, regras rígidas, recompensas sazonais |
+| **Versus Social** | 4v4 | Prioridade de Conexão | Jogo casual, prática de mapas, partidas de aquecimento |
+| **Eventos Especiais** | Variado (ex: 2v2 / Contra Todos) | Específico da Lista | Modos de jogo rotativos, modificadores de armas exclusivos |
+
+### Movimentação Modernizada e Combate
+
+A movimentação é o diferencial de habilidade decisivo no Gears of War competitivo, e E-Day introduz várias modernizações que expandem as opções táticas sem sacrificar o peso e o impacto do clássico ciclo de combate de cobertura em cobertura.
+
+<Steps>
+  <Step num="1" title="Domine a mecânica de Deslizar">
+    Inicie um deslizamento a partir de uma corrida completa para alcançar rapidamente coberturas baixas ou deslizar por esquinas fechadas para pegar os oponentes de surpresa.
+  </Step>
+  <Step num="2" title="Utilize o Salto e Flanqueamentos Verticais">
+    Pela primeira vez, use mecânicas dedicadas de salto para atravessar vãos entre telhados, varandas e passarelas quebradas para atacar de cima.
+  </Step>
+  <Step num="3" title="Execute Transições de Cobertura Suaves">
+    Flua perfeitamente entre diferentes alturas e formatos de cobertura, minimizando o tempo em que seu personagem fica exposto a linhas de visão abertas.
+  </Step>
+  <Step num="4" title="Adapte-se à Microdestruição">
+    Monitore a integridade da sua cobertura. Barreiras de madeira e concreto fino se desgastarão sob fogo contínuo de Gnasher ou Lancer, expondo sua área de acerto (hitbox).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Perigo da Microdestruição">
+Não confie em coberturas leves por longos períodos durante partidas Versus. O fogo contínuo da Lancer de um oponente pode destruir completamente caixotes de madeira e divisórias finas, deixando você totalmente exposto em rotas abertas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Armas e Personalização de Combate">
+
+O sandbox de combate de Gears of War: E-Day combina armamentos icônicos e favoritos dos fãs com ferramentas recém-introduzidas, projetadas para confrontos brutais de curta distância. Como E-Day é uma história de origem ambientada 14 anos antes do jogo original, os jogadores testemunharão o nascimento no campo de batalha de armas assinaturas como a Lancer com Motosserra, que foi improvisada por desespero durante as primeiras horas da invasão Locust.
+
+Compreender o alcance ideal, o tempo de recarga e a função de combate de cada arma é essencial para garantir o controle do mapa nos ambientes PvE e PvP.
+
+| Arma | Categoria | Função em Combate | Alcance Ideal |
+| :--- | :--- | :--- | :--- |
+| **Gnasher** | Escopeta | Combate de curta distância, confrontos com wall-bounce | À queima-roupa a Curto |
+| **Lancer (Retro/Clássica)**| Fuzil de Assalto | Supressão de médio alcance, corpo a corpo com motosserra | Médio |
+| **Longshot** | Fuzil de Precisão | Eliminações de precisão, retenção de linhas de visão | Longo |
+| **Gut Puncher** | Lançador de Explosivos | Dano de dispersão perfurante de armadura, desalojamento de cobertura | Médio |
+| **Incinerador** | Escopeta de Imulsão | Negação de área, rajadas de alto dano a curta distância | Curto |
+
+### Recarga Ativa e Surgimento de Armas
+
+A clássica mecânica de Recarga Ativa retorna, recompensando recargas perfeitamente cronometradas com ciclos de arma mais rápidos e reforços temporários de desempenho. Em partidas Versus, armas pesadas e poderosas como a Longshot e o Gut Puncher não surgem nos equipamentos iniciais dos jogadores; em vez disso, elas surgem em locais neutros do mapa em intervalos definidos, forçando ambas as equipes a lutar pelo controle das armas.
+
+<Callout type="info" title="A Origem da Lancer com Motosserra">
+A campanha e o multijogador apresentam as primeiras versões improvisadas da Lancer com Motosserra. Esses modelos iniciais trazem uma estética mais rústica e adaptada ao campo de batalha, refletindo o desespero do Esquadrão Bravo durante os três dias iniciais da invasão de Kalona.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Acesso ao Beta Aberto e Requisitos de Sistema">
+
+Para garantir a estabilidade da rede e o equilíbrio antes do lançamento oficial em **6 de outubro de 2026**, a Coalition realizará um Beta Aberto multijogador de **6 a 10 de agosto de 2026**. Participar do beta permite aos jogadores testar a infraestrutura de matchmaking, fornecer feedback sobre o equilíbrio das classes e ganhar recompensas cosméticas exclusivas que serão transferidas para a versão de lançamento do jogo.
+
+### Como Garantir Acesso ao Beta Aberto
+
+- **Pré-vendas Digitais**: A compra digital de qualquer edição na Xbox Store ou Steam concede direito automático ao Beta Aberto. Não é necessário inserir código.
+- **Pré-vendas Físicas**: Os jogadores que comprarem a edição física na pré-venda em revendedores participantes receberão um código de acesso de uso único para o beta por e-mail ou recibo impresso.
+- **Assinantes do Game Pass**: Assinantes do Game Pass Ultimate e PC Game Pass recebem acesso no primeiro dia ao jogo completo no lançamento, mas o acesso antecipado ao beta permanece vinculado às regras de pré-venda.
+
+### Requisitos de Sistema para PC
+
+| Requisito | Especificações Mínimas | Especificações Recomendadas |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 de 64 bits (v22H2 / 19045.7291) | Windows 11 de 64 bits (v25H2 ou mais recente) |
+| **Processador** | AMD Ryzen 5 2600X / Intel i7-6850K | AMD Ryzen 5 5600 / Intel i5-11600K |
+| **Memória** | 12 GB de RAM | 16 GB de RAM |
+| **Placa de Vídeo** | RTX 5050 / RTX 2060 / RX 6600 / Intel Arc A580 | RTX 5060 / RTX 3060 Ti / RX 6700 XT / Arc B580 |
+| **Armazenamento** | 130 GB de espaço disponível (Requer SSD) | 130 GB de espaço disponível (Requer SSD) |
+
+<Callout type="success" title="Recompensas Cosméticas do Beta">
+Todos os jogadores que participarem do Beta Aberto desbloquearão a **Skin Lendária de Personagem Dom de Exfiltração** e o **Conjunto de Skin Lendária de Arma de Exfiltração** para usar tanto no Cerco à Horda quanto no Versus PvP no lançamento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes sobre o Multijogador de Gears of War E-Day">
+
+<FAQ items={[
+  {
+    question: "O multijogador de Gears of War: E-Day suporta tela dividida?",
+    answer: "Sim, a versão para console de Gears of War: E-Day suporta jogo cooperativo em tela dividida para 2 jogadores nos modos Campanha e Cerco à Horda. Os recursos de multijogador online exigem uma assinatura compatível."
+  },
+  {
+    question: "Quantos jogadores podem jogar o Cerco à Horda juntos?",
+    answer: "O Cerco à Horda suporta até 12 jogadores online, organizados em três esquadrões distintos de 4 jogadores que trabalham juntos em mapas de grande escala na cidade de Kalona."
+  },
+  {
+    question: "Existe um sistema de classes no Versus PvP competitivo?",
+    answer: "Não, o Versus PvP competitivo apresenta equipamentos uniformes e depende de armas coletadas no mapa neutro para manter o equilíbrio e a justiça. O sistema de classes é exclusivo do modo PvE Cerco à Horda."
+  },
+  {
+    question: "Preciso de um código separado para acessar o Beta Aberto se fiz a pré-venda digital?",
+    answer: "Não, as pré-vendas digitais na Xbox Store ou no Steam recebem entrada automática no Beta Aberto a partir de 6 de agosto de 2026, sem a necessidade de resgate manual de código."
+  }
+]} />
+
+<Callout type="tip" title="Fique Conectado com a Comunidade">
+Junte-se ao [Discord Oficial de Gears of War](https://discord.com/invite/gearsofwar) ou siga a [Conta Oficial de Gears of War no X](https://x.com/GearsofWar) para receber atualizações em tempo real sobre o status do servidor, notas de atualização e mudanças no equilíbrio do multijogador durante os períodos de beta e lançamento.
+</Callout>
+
+</Section>

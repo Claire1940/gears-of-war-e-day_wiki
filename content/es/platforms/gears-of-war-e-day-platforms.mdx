@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Plataformas de Gears of War E-Day: Guía de configuración y compatibilidad",
+  description: "Explora todas las plataformas confirmadas para Gears of War E-Day, incluyendo Xbox Series X|S, PC, Steam, acceso desde el primer día en Game Pass y requisitos del sistema.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=E-Day+Platforms+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Gears of War E-Day"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Las plataformas de Gears of War E-Day** incluyen Xbox Series X|S, Windows 10/11 PC y Steam.
+- **Se confirma el acceso desde el primer día en Game Pass** para los niveles de suscripción Ultimate y PC el 6 de octubre de 2026.
+- **Xbox Play Anywhere** es totalmente compatible, lo que permite la compra cruzada y el guardado cruzado entre Xbox y Windows Store.
+- **Unreal Engine 5** impulsa el apartado visual, apuntando a una resolución 4K y 60 FPS en hardware compatible.
+- **Se requiere estrictamente un SSD** para los jugadores de PC, con un espacio de almacenamiento mínimo de 130 GB.
+</Callout>
+
+<Section icon={Map} title="Plataformas de Gears of War E-Day y detalles de lanzamiento">
+
+El próximo capítulo de la franquicia Gears of War lleva a los jugadores de vuelta al comienzo de la invasión Locust. Como una precuela ambientada catorce años antes del juego original, esta entrega está desarrollada desde cero para hardware moderno. Comprender las **plataformas de Gears of War E-Day** disponibles es esencial para los jugadores que planean su configuración para el primer día.
+
+The Coalition y Xbox Game Studios han optimizado el juego para aprovechar la potencia de las consolas de la generación actual y el hardware de PC moderno. El juego se lanzará el 6 de octubre de 2026, con total paridad de funciones en todas las tiendas compatibles.
+
+| Plataforma | Tienda | Play Anywhere | Game Pass |
+| --- | --- | --- | --- |
+| Xbox Series X | Microsoft Store | Sí | Sí (Día uno) |
+| Xbox Series S | Microsoft Store | Sí | Sí (Día uno) |
+| Windows PC | Microsoft Store | Sí | Sí (Día uno) |
+| Windows PC | Tienda de Steam | No | No |
+| Juego en la nube | Xbox Cloud Gaming | N/A | Sí (Solo Ultimate) |
+
+<Callout type="info" title="Nota sobre las tiendas">
+Aunque la versión de Steam no es compatible con la compra cruzada de Xbox Play Anywhere, cuenta con juego cruzado completo y requiere una cuenta gratuita de Xbox Live de terceros para acceder a las funciones multijugador.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparación de características: Xbox Series X|S frente a PC">
+
+Elegir dónde jugar depende de tu ecosistema de hardware preferido. La versión para consola ofrece una experiencia plug-and-play altamente optimizada, mientras que la versión para PC proporciona una amplia personalización gráfica y soporte para pantallas ultraanchas. Ambos ecosistemas se benefician de las capacidades avanzadas de renderizado de Unreal Engine 5.
+
+<CardGrid cols={3}>
+  <Card title="Xbox Series X">
+    - **Objetivo de 4K nativo**
+    - Jugabilidad de hasta 60 FPS
+    - Soporte para trazado de rayos
+    - Quick Resume habilitado
+  </Card>
+  <Card title="Xbox Series S">
+    - **Objetivo de 1440p**
+    - Jugabilidad de hasta 60 FPS
+    - Carga rápida mediante SSD
+    - Configuración digital compacta
+  </Card>
+  <Card title="Windows PC / Steam">
+    - **Tasas de fotogramas ilimitadas**
+    - Soporte para monitores ultraanchos
+    - Asignación de teclas personalizada
+    - Ajustes gráficos avanzados
+  </Card>
+</CardGrid>
+
+La versión para consola está altamente optimizada para ofrecer un rendimiento estable durante intensas sesiones multijugador, como el modo Asedio de la Horda para 12 jugadores o las partidas competitivas de Enfrentamiento 4v4.
+
+| Característica | Xbox Series X | Xbox Series S | Windows PC / Steam |
+| --- | --- | --- | --- |
+| Resolución objetivo | 4K Ultra HD | 1440p | Hasta 8K nativo |
+| Tasa de fotogramas objetivo | Hasta 60 FPS | Hasta 60 FPS | Ilimitada |
+| Soporte HDR | HDR10 / Dolby Vision | HDR10 | HDR10 / Personalizado |
+| Formatos de audio | Dolby Atmos, DTS:X | Dolby Atmos, DTS:X | Sonido espacial, Dolby |
+| Trazado de rayos | Sí | Sí (Software) | Sí (Hardware) |
+| Soporte de entrada | Mando, teclado y ratón | Mando, teclado y ratón | Mando, teclado y ratón |
+
+<Callout type="success" title="Objetivo de rendimiento">
+The Coalition ha confirmado que tanto el modo Campaña como el Multijugador apuntan a un rendimiento de hasta 60 FPS en Xbox Series X|S, lo que garantiza una respuesta de entrada fluida durante las transiciones de cobertura de alta acción y las maniobras de deslizamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Requisitos del sistema para PC y objetivos de hardware">
+
+Para experimentar el crudo horror militar de ciencia ficción del Día de la Emergencia en PC, tu sistema debe cumplir con ciertos requisitos de hardware básicos. El juego utiliza microdestrucción avanzada e iluminación en tiempo real que exigen arquitecturas de procesador y gráficos modernas.
+
+| Componente de hardware | Especificación mínima | Especificación recomendada |
+| --- | --- | --- |
+| Sistema operativo | Windows 10 de 64 bits (v22H2) | Windows 11 de 64 bits (v25H2) |
+| Procesador (AMD) | AMD Ryzen 5 2600X | AMD Ryzen 5 5600 |
+| Procesador (Intel) | Intel Core i7-6850K / i5-10400 | Intel Core i5-11600K |
+| Memoria (RAM) | 12 GB de RAM | 16 GB de RAM |
+| Tarjeta gráfica (NVIDIA) | RTX 5050 / RTX 2060 | RTX 5060 / RTX 3060 Ti |
+| Tarjeta gráfica (AMD) | RX 6600 / RX 9060 | RX 6700 XT / RX 9060 XT |
+| Tarjeta gráfica (Intel) | Intel Arc A580 | Intel Arc B580 |
+| Versión de DirectX | Versión 12 | Versión 12 |
+| Almacenamiento requerido | 130 GB de espacio disponible | 130 GB de espacio disponible |
+| Tipo de almacenamiento | Se requiere SSD | Se requiere SSD |
+
+<Callout type="warning" title="Advertencia: SSD obligatorio">
+Se requiere estrictamente una unidad de estado sólido (SSD) de alta velocidad para ejecutar el juego. Las unidades de disco duro mecánicas (HDD) no son compatibles debido a las demandas de transmisión de recursos de Unreal Engine 5.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Juego cruzado, guardado cruzado y el ecosistema de Game Pass">
+
+La integración de las **plataformas de Gears of War E-Day** depende en gran medida del ecosistema de Xbox. Los jugadores pueden realizar la transición sin problemas entre la consola y el PC sin perder el progreso de la campaña ni los desbloqueos multijugador.
+
+<Steps>
+  <Step num="1" title="Activa Xbox Play Anywhere">
+    Compra la versión digital del juego a través de la Microsoft Store en Xbox o PC. Esto otorga acceso en ambas plataformas sin coste adicional.
+  </Step>
+  <Step num="2" title="Sincroniza los guardados en la nube">
+    El progreso de tu campaña, los niveles de clase de Asedio de la Horda (Asalto, Tirador, Médico, Infractor) y las clasificaciones JvJ de Enfrentamiento se sincronizan automáticamente a través de tu perfil de Xbox Live.
+  </Step>
+  <Step num="3" title="Habilita el juego cruzado">
+    Conéctate con amigos en Xbox Series X|S, Steam y Windows Store. El juego cruzado está habilitado de forma predeterminada para todos los modos cooperativos y competitivos.
+  </Step>
+  <Step num="4" title="Utiliza Game Pass Ultimate">
+    Los suscriptores pueden descargar el juego completo en consola y PC, o transmitirlo a través de Xbox Cloud Gaming en dispositivos móviles, tabletas y televisores inteligentes compatibles.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Regla de suscripción multijugador">
+El multijugador en línea en las consolas Xbox requiere una suscripción activa a Xbox Game Pass Core o Ultimate. Los jugadores de PC no requieren una suscripción de pago para acceder al multijugador en línea en Steam o la Microsoft Store.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ediciones de lanzamiento, precios y bonificaciones de reserva">
+
+Reservar cualquier edición del juego asegura el acceso anticipado a la próxima beta abierta, programada del 6 al 10 de agosto de 2026. Las ediciones Premium también ofrecen cinco días de acceso anticipado a la campaña completa y a los modos multijugador a partir del 1 de octubre de 2026.
+
+| Edición | Precio | Formato | Contenido clave incluido |
+| --- | --- | --- | --- |
+| Edición Estándar | $69.99 | Digital / Físico | Juego base, paquete de bonificación de reserva |
+| Edición Premium | $99.99 | Digital | Juego base, 5 días de acceso anticipado, 1,000 de Hierro, paquetes de personalización |
+| Mejora Premium | $30.00 | Complemento digital | 5 días de acceso anticipado, 1,000 de Hierro, paquetes de personalización (requiere juego base o Game Pass) |
+| Edición de coleccionista | Específico del distribuidor | Físico | Juego base, contenido Premium, estatua de 15 pulgadas, réplica de placas de identificación de la CGO, SteelBook |
+
+<Checklist
+  id="pre-order-checklist"
+  title="Lista de recompensas de reserva:"
+  items={[
+    "Diseño de personaje legendario Dom Exfil (incluido con todas las reservas)",
+    "Conjunto de diseños de armas legendarias Exfil (incluido con todas las reservas)",
+    "Acceso anticipado a la beta abierta a partir del 6 de agosto de 2026",
+    "Paquete de armas exclusivas del Escuadrón Bravo (solo Premium y Coleccionista)",
+    "Cinco paquetes de personalización de temporada (solo Premium y Coleccionista)"
+  ]}
+/>
+
+<Callout type="success" title="Ruta de mejora de Game Pass">
+Los miembros de Game Pass pueden comprar la mejora de la Edición Premium de $30.00 para desbloquear el periodo de acceso anticipado de 5 días y todos los cosméticos digitales premium sin tener que comprar el paquete completo de $99.99.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las plataformas confirmadas para Gears of War E-Day?",
+    answer: "El juego está confirmado oficialmente para Xbox Series X, Xbox Series S y Windows 10/11 PC. Estará disponible en PC tanto a través de la Microsoft Store como de Steam."
+  },
+  {
+    question: "¿Llegará Gears of War E-Day a Xbox One, PlayStation 5 o Nintendo Switch?",
+    answer: "No. El juego está desarrollado exclusivamente para hardware de la generación actual utilizando Unreal Engine 5. No se lanzará en Xbox One, PlayStation 5 ni Nintendo Switch."
+  },
+  {
+    question: "¿Cómo funciona el sistema de progresión cruzada entre las diferentes plataformas?",
+    answer: "La progresión cruzada es compatible a través de tu cuenta de Xbox Live. Si juegas en Xbox Series X|S y Windows PC (a través de la Microsoft Store o Steam), tus partidas guardadas de la campaña, los desbloqueos multijugador y la progresión de nivel se transferirán automáticamente."
+  },
+  {
+    question: "¿Puedo jugar la campaña en cooperativo de pantalla dividida en PC?",
+    answer: "El cooperativo local de campaña en pantalla dividida está confirmado exclusivamente para las versiones de consola Xbox Series X|S. Los jugadores de PC pueden jugar la campaña juntos a través del modo cooperativo en línea, que admite hasta cuatro jugadores."
+  }
+]} />
+
+<Callout type="info" title="Soporte de la comunidad">
+Para obtener actualizaciones en tiempo real, emparejamiento y soporte técnico en todas las plataformas, únete al Discord oficial de Gears of War o sigue a los desarrolladores en X (anteriormente Twitter).
+</Callout>
+
+</Section>

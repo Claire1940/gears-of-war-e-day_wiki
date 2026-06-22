@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Gameplay: Deckung, Waffen & Koop-Leitfaden",
+  description: "Meistere das Gameplay von Gears of War E-Day mit unserem tiefen Einblick in Deckungsmechaniken, modernisierte Fortbewegung, bestätigte Waffen und den Horde-Belagerung-PvE-Modus für 12 Spieler.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/ef1b24?text=Gameplay+Mechanics+Guide",
+  date: "2026-06-22",
+  author: "Gears of War E-Day Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Das Gameplay von Gears of War E-Day** verbindet klassische Grundlagen des Third-Person-Deckungsshooters mit modernisierter Fortbewegung, einschließlich Springen und Rutschen.
+- **Kampagnen-Koop** unterstützt Solospiel, geteilten Bildschirm für zwei Spieler auf der Konsole und Online-Squads mit bis zu vier Spielern rund um das Bravo-Squad.
+- **Horde-Belagerung-PvE** ist ein weiterentwickelter Wellen-Überlebensmodus für 12 Spieler, bestehend aus drei Vier-Spieler-Squads, die Kalona verteidigen.
+- **Versus-PvP** kehrt zu seinen Wurzeln zurück mit taktischen, kompetitiven 4v4-Matches auf symmetrischen Stadtkarten.
+- **Waffenmechaniken** bieten die Rückkehr der Gnasher-Schrotflinte neben neuen Werkzeugen wie der mit Imulsion betriebenen Incinerator-Schrotflinte.
+</Callout>
+
+<Section icon={Map} title="Übersicht über das Gameplay von Gears of War E-Day">
+
+Der Kern des **Gameplays von Gears of War E-Day** basiert auf einer düsteren, schonungslosen Rückkehr zu den Survival-Horror-Wurzeln der Reihe. Das in der Unreal Engine 5 von Grund auf neu entwickelte Spiel konzentriert sich auf die brutale, klaustrophobische Realität des Emergence Day in der Stadt Kalona. Anstatt eine unaufhaltsame Militärmaschine zu steuern, erleben die Spieler die ersten, chaotischen drei Tage der Locust-Invasion durch die Augen eines jüngeren, verwundbareren Marcus Fenix und Dominic Santiago.
+
+Die taktische Deckungsshooter-Formel bleibt das Fundament des Kampfes, wurde jedoch durch moderne Umgebungsphysik und fortschrittliche Squad-Dynamik erweitert. Spieler müssen die Umgebung defensiv nutzen, da die Locust-Horde so konzipiert ist, dass sie sich in Nahkämpfen furchterregend aggressiv, klug und physisch imposant anfühlt.
+
+<CardGrid cols={3}>
+  <Card title="Taktischer Deckungskampf">
+    - **Dynamische Zerstörung** zerbröselt Stein- und Metalldeckungen.
+    - Tiefliegende Deckungsoptionen bieten eine organischere Positionierung.
+    - Blindfeuer-Mechaniken wurden für Hochdrucksituationen verfeinert.
+  </Card>
+  <Card title="Modernisierte Fortbewegung">
+    - **Sprint-Rutschen** ermöglichen eine schnelle Neupositionierung unter Hindernissen.
+    - Dachsprünge eröffnen vertikale Flankierungsmöglichkeiten.
+    - Geschmeidige Eckenübergänge halten den Kampf flüssig und schnell.
+  </Card>
+  <Card title="Squad-Integration">
+    - **Online-Koop für vier Spieler** ermöglicht es Squads, die Kampagne gemeinsam anzugehen.
+    - Der Konsolen-Splitscreen unterstützt das klassische lokale Spiel für zwei Spieler.
+    - Charakterspezifische Rollen heben einzigartige Stärken auf dem Schlachtfeld hervor.
+  </Card>
+</CardGrid>
+
+Der Kampagnenverlauf ist um die Verteidigung von Kalona über drei eskalierende Tage hinweg strukturiert. Während die Stadt zerfällt, müssen sich die Spieler an das veränderliche Terrain anpassen, mit plötzlichen Auftauchlöchern (E-Holes) umgehen und Flanken koordinieren, um zu überleben.
+
+<Callout type="tip" title="Hinweis zur Koop-Kompatibilität">
+Obwohl die Kampagne komplett solo genossen werden kann, ermöglicht das Spielen mit einem koordinierten Squad die Nutzung vertikaler Flanken und Kreuzfeuer, was für die Bewältigung von Locust-Begegnungen auf hohem Schwierigkeitsgrad unerlässlich ist.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Neu interpretierte Kampfmechaniken und Fortbewegung">
+
+Modernisierte Fortbewegungsmechaniken definieren neu, wie Spieler mit dem Schlachtfeld interagieren. Zum ersten Mal in der Reihe können Charaktere über Lücken springen, Dächer navigieren und die Vertikalität nutzen, um schwer befestigte Locust-Stellungen zu umgehen. Diese Veränderung verwandelt flache, horizontale Kampfarenen in vielschichtige taktische Rätsel.
+
+Mikrozerstörung spielt eine enorme Rolle bei der Nutzung von Deckung. Standardmäßige Betonbarrieren und Holzkonstruktionen nutzen sich unter anhaltendem Beschuss ab, was die Spieler dazu zwingt, ständig zwischen Verteidigungspunkten zu wechseln. Darüber hinaus können großflächige Umweltgefahren wie Erdlöcher das Layout einer Karte mitten im Kampf verändern, indem sie Fahrzeuge verschlucken und neue Engpässe schaffen.
+
+| Fortbewegungsmechanik | Steuerungseingabe / Aktion | Taktische Anwendung | Umweltinteraktion |
+| :--- | :--- | :--- | :--- |
+| **Sprint-Rutschen** | Aus dem Sprint rutschen | Offenen Wegen entkommen, unter niedrigen Rohren hindurchrutschen, schnell Deckung erreichen | Vermeidet Sichtlinien von Scharfschützen |
+| **Vertikaler Sprung** | Über Lücken springen | Zugang zu Dächern, Balkonen und erhöhten Flankierungsrouten | Umgeht Engpässe auf Bodenebene |
+| **Deckungsübergang** | Flüssiger Übergang von Wand zu Deckung | Nahtlos um Ecken wechseln, ohne die eigene Hitbox freizugeben | Passt sich an zerfallende Deckung an |
+| **E-Hole-Schließung** | Granatenplatzierung | Locust-Verstärkungen stoppen, indem aktive Auftauchpunkte versiegelt werden | Erfordert präzise Sprengstoffwürfe |
+
+Die Kampfschleife belohnt Spieler, die das Schlachtfeld lesen. Hinter einer einzigen Deckung stehen zu bleiben, ist ein sicherer Weg, um von aggressiven Kriechern (Wretches) flankiert oder von schwerer Artillerie vertrieben zu werden.
+
+<Callout type="warning" title="Warnung vor Deckungszerfall">
+Verlasse dich nicht auf Holz- oder leichte Metallstrukturen für dauerhafte Sicherheit. Anhaltendes schweres Feuer oder explosive Einschläge werden temporäre Deckungen schnell vernichten und dich den feindlichen Scharfschützen völlig schutzlos ausliefern.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Bestätigte Waffen und Kampfrollen">
+
+Das Arsenal in Gears of War: E-Day bietet eine Mischung aus beliebten Klassikern und rohen Prototyp-Waffen, die speziell für die plötzliche Bedrohung durch die Locust entwickelt wurden. Da diese Geschichte 14 Jahre vor dem Originalspiel spielt, ist das ikonische Kettensägen-Lancer zu Beginn keine Standardwaffe. Stattdessen erleben die Spieler seinen auf dem Schlachtfeld geborenen Ursprung als verzweifelte, improvisierte Lösung gegen die Locust-Panzerung.
+
+Neue Waffen wie der Gut Puncher und der Incinerator führen frische taktische Optionen für das Crowd-Management und das Knacken schwer gepanzerter Ziele ein.
+
+| Waffenname | Waffenkategorie | Optimale Kampfreichweite | Primäre Kampfrolle | Einzigartige Waffeneigenschaft |
+| :--- | :--- | :--- | :--- | :--- |
+| **Gnasher** | Wiederkehrende Schrotflinte | Nahbereich | Personenschaden mit hohem Schaden, Crowd Control | König der Deckungskämpfe im Nahbereich |
+| **Longshot** | Präzisionsgewehr | Fernbereich | Sichtlinien halten, weit entfernte Scharfschützen ausschalten | Belohnt Geduld und Kopfschusspräzision |
+| **Gut Puncher** | Neuer Granatwerfer | Mittlere Reichweite | Rüstungsdurchdringender Explosivschaden, Vertreiben aus der Deckung | Spielergesteuerte Fernzündung |
+| **Incinerator** | Neue Schrotflinte | Nahbereich | Mit Imulsion betriebene Gebietsverweigerung, Brandschaden | Hohe Streuung, schmilzt aggressiv anstürmende Feinde |
+| **Kettensägen-Lancer** | Waffenursprung | Nahkampf / Mittlere Reichweite | Hybrides Sturmgewehr und brutaler Nahkampf-Finisher | Auf dem Schlachtfeld gebauter Prototyp für Nahkampfdominanz |
+
+Die Wahl der richtigen Ausrüstung hängt stark von der Zusammensetzung deines Teams und der jeweiligen Umgebung ab. In engen, industriellen Korridoren wie Kalonas Imulsionsraffinerie glänzen Kurzstrecken-Kraftpakete wie der Incinerator und die Gnasher. In offenen Bezirken wie dem Sportstadion oder dem Flugplatz sind Präzisionsgewehre Pflicht.
+
+<Callout type="success" title="Tipp zur Waffensynergie">
+Lass mindestens ein Squad-Mitglied einen Gut Puncher tragen, um die Rüstung größerer Locust-Varianten zu entfernen, sodass Teamkollegen mit Standardgewehren oder Schrotflinten sie schnell ausschalten können.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Horde-Belagerung: PvE-Wellen-Überleben für 12 Spieler">
+
+Horde-Belagerung ist die Weiterentwicklung des kooperativen Multiplayers von Gears. Horde-Belagerung erweitert den klassischen PvE-Überlebensmodus zu einem größeren, stadtweiten Konflikt und koordiniert drei separate Vier-Spieler-Squads (insgesamt 12 Spieler), um wichtige Bezirke von Kalona vor massiven Locust-Wellen und Weltbossen zu verteidigen.
+
+Der Erfolg erfordert, dass die Spieler komplementäre Klassen wählen, Ressourcen teilen und die Verteidigung an mehreren Fronten koordinieren.
+
+<Steps>
+  <Step num="1" title="Wähle deine Klasse und Ausrüstung">
+    Wähle aus vier verschiedenen Klassen: Sturm, Scharfschütze, Sanitäter oder Brecher. Jede Klasse verfügt über einzigartige passive Fähigkeiten und eine spezialisierte Startausrüstung, die auf bestimmte Kampfrollen zugeschnitten ist.
+  </Step>
+  <Step num="2" title="Errichte Verteidigungslinien">
+    Arbeite mit deinem Squad zusammen, um Engpässe zu befestigen, Barrieren zu platzieren und Verteidigungsgeschütze um kritische Strukturen wie die Raffinerie oder den Flugplatz herum aufzustellen.
+  </Step>
+  <Step num="3" title="Verteidigen und squadübergreifend koordinieren">
+    Wenn die Locust-Wellen eskalieren, kommuniziere mit den anderen beiden Squads, um wankende Linien zu verstärken, Munition zu teilen und das Feuer auf herannahende Weltbosse zu konzentrieren.
+  </Step>
+  <Step num="4" title="Sichere dir den Sieg und passe an">
+    Überlebe die letzten Belagerungswellen, um Charakterfortschritte zu erzielen, saisonale kosmetische Belohnungen freizuschalten und Premium-Anpassungspakete zu erhalten.
+  </Step>
+</Steps>
+
+Das Klassensystem sorgt dafür, dass jeder Spieler eine klare Verantwortung auf dem Schlachtfeld hat. Ein ausgewogenes Squad hat eine weitaus höhere Überlebenschance in den späten Wellen des Spiels.
+
+| Klassenname | Startrolle | Kernspezialisierung | Wichtigstes Verteidigungswerkzeug |
+| :--- | :--- | :--- | :--- |
+| **Sturm** | Frontlinienkampf | Mittelschwerer Schaden, Gewehrkompetenz | Große Munitionsreserven |
+| **Scharfschütze** | Fernkampfunterstützung | Präzises Scharfschießen, Markieren von Zielen mit hoher Priorität | Rüstungsdurchdringende Munition |
+| **Sanitäter** | Squad-Überleben | Heilung, schnelle Wiederbelebungen, defensive Buffs | Tragbare medizinische Stim-Booster |
+| **Brecher** | Nahkampfspezialist | Schrotflintenschaden, Befestigung von Barrieren, schwere Rüstung | Werkzeuge zur schnellen Barrierenreparatur |
+
+<Callout type="warning" title="Horde-Belagerung-Kommunikation">
+Isoliere dein Vier-Spieler-Squad nicht vom Rest des 12-Spieler-Teams. Wenn ein Sektor der Karte fällt, werden die Locust die verbleibenden Verteidigungsstellungen schnell flankieren und überrennen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Versus-PvP und Vorbereitung auf den Launch">
+
+Für kompetitive Spieler bringt Versus-PvP die engen, fähigkeitsbasierten 4v4-Matches zurück, die den frühen Gears-Multiplayer geprägt haben. Die Karten sind in den kriegszerrütteten Ruinen von Kalona angesiedelt und bieten symmetrische Designs, die Kartenkontrolle, Power-Waffen-Spawns und die Beherrschung des modernisierten Bewegungssystems betonen.
+
+Es werden sowohl Ranglisten- als auch Social-Playlists verfügbar sein, sodass sowohl für hochkompetitive Teams als auch für Gelegenheitsspieler Platz ist.
+
+<Checklist
+  id="eday-launch-goals"
+  title="Checkliste zur Vorbereitung auf den Launch:"
+  items={[
+    "Bestelle eine beliebige Edition vor, um dir ab dem 6. August 2026 vorzeitigen Zugang zur Open Beta zu sichern.",
+    "Sichere dir die Launch-Boni „Legendärer Charakter-Skin Exfil-Dom“ und „Exfil-Waffenskin-Set“.",
+    "Überprüfe, ob dein PC die Systemanforderungen von 130 GB SSD-Speicher und DirectX 12 erfüllt.",
+    "Koordiniere dich mit deinen Koop-Partnern, um eure Startklassen für die Horde-Belagerung festzulegen.",
+    "Übe am ersten Tag das Rutschen von Deckung zu Deckung, um deine Überlebensrate zu maximieren."
+  ]}
+/>
+
+Um sich auf den offiziellen Launch am 6. Oktober 2026 vorzubereiten, können Spieler an den Open-Beta-Wochenenden teilnehmen. Dieses Pre-Release-Fenster ist die perfekte Gelegenheit, die Waffenbalance zu testen, die Layouts der neuen Kalona-Karten kennenzulernen und das Timing von Deckungsübergängen zu meistern.
+
+<Callout type="info" title="Offizielle Stores">
+Du kannst das Spiel im [Offiziellen Xbox Store](https://www.xbox.com/en-US/games/gears-of-war-eday) vorbestellen oder es direkt auf [Steam](https://store.steampowered.com/app/3010850/Gears_of_War_EDay/) auf deine Wunschliste setzen, um sicherzustellen, dass du für die Beta- und Launch-Phasen bereit bist.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie beeinflusst die modernisierte Fortbewegung das Gameplay von Gears of War E-Day?",
+    answer: "Die modernisierte Fortbewegung führt Vertikalität ein, die es Spielern ermöglicht, über Lücken zu springen und auf Dächer zu klettern. Sie bietet außerdem geschmeidigere Sprint-Rutschen und Eckenübergänge, was den deckungsbasierten Kampf schneller und dynamischer macht, ohne das klassische Gewicht der Gears-Fortbewegung zu verlieren."
+  },
+  {
+    question: "Kann ich den Kampagnen-Koop im geteilten Bildschirm spielen?",
+    answer: "Ja, Konsolenspieler können die Kampagne im geteilten Bildschirm für zwei Spieler im Koop-Modus spielen. Der Online-Kampagnen-Koop unterstützt bis zu vier Spieler, sodass ein ganzes Squad die Geschichte des Bravo-Squads zusammen erleben kann."
+  },
+  {
+    question: "Was ist Horde-Belagerung und wie viele Spieler werden unterstützt?",
+    answer: "Horde-Belagerung ist ein weiterentwickelter PvE-Wellen-Überlebensmodus, der bis zu 12 Spieler unterstützt. Die Spieler sind in drei Vierer-Squads aufgeteilt und arbeiten zusammen, um verschiedene Sektoren von Kalona gegen massive Locust-Truppen und Weltbosse zu verteidigen."
+  },
+  {
+    question: "Benötige ich einen Beta-Code, um Zugang zur Open Beta von Gears of War: E-Day zu erhalten?",
+    answer: "Wenn du das Spiel digital vorbestellst, ist dein Konto automatisch für den vorzeitigen Beta-Zugang ab dem 6. August 2026 berechtigt, sodass kein Code erforderlich ist. Wenn du eine physische Edition vorbestellst, erhältst du von deinem teilnehmenden Händler einen einmalig verwendbaren Beta-Code."
+  }
+]} />
+
+</Section>

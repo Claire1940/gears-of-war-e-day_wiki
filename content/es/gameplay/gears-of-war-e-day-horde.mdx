@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Horda: Guía de Asedio de 12 Jugadores y Clases",
+  description: "Domina el modo horda de Gears of War: E-Day. Explora las mecánicas de Asedio de la Horda, estrategias cooperativas de 12 jugadores, clases confirmadas y tácticas de mapa para Kalona.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=Horde+Siege+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Gears of War: E-Day"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Evolución de la Horda**: El modo **horda de gears of war e-day** se llama oficialmente Asedio de la Horda (Horde Siege), expandiendo el cooperativo PvE a un campo de batalla masivo de 12 jugadores.
+- **Estructura de Escuadrones**: Los jugadores se organizan en tres escuadrones distintos de 4 jugadores que trabajan al unísono para defender la ciudad de Kalona, devastada por la guerra.
+- **Cuatro Clases**: Elige entre cuatro roles especializados: Asalto, Tirador, Médico y Brechador, cada uno con armas y utilidad táctica únicas.
+- **Fechas Clave**: Pon a prueba tus habilidades durante la Beta Abierta que comienza el 6 de agosto de 2026, antes del lanzamiento global el 6 de octubre de 2026.
+</Callout>
+
+<Section icon={Shield} title="Evolución de la horda de gears of war e-day: Presentamos Asedio de la Horda">
+
+El clásico modo de supervivencia por oleadas que definió a los shooters cooperativos está experimentando su transformación más radical hasta la fecha. En [Gears of War: E-Day](https://www.xbox.com/en-US/games/gears-of-war-eday), la experiencia cooperativa PvE se eleva a una escala sin precedentes con Asedio de la Horda. En lugar del tradicional escuadrón de 5 jugadores que defiende un único punto de estrangulamiento, Asedio de la Horda introduce una operación defensiva masiva de 12 jugadores. 
+
+Ambientado en la desmoronada ciudad de Kalona durante los primeros tres días de la emergencia Locust, los jugadores deben coordinarse en entornos urbanos más grandes y altamente destructibles. La Horda Locust ya no solo emerge de agujeros localizados; están organizando asaltos militares a gran escala para reclamar la superficie.
+
+<Callout type="info" title="Cambio Táctico">
+Asedio de la Horda cambia la jugabilidad de una defensa de búnker estática a un control de zonas dinámico. Con 12 jugadores en el campo, el campeo estático es severamente castigado por peligros ambientales dinámicos como sumideros y microdestrucción.
+</Callout>
+
+### Asedio de la Horda vs. Horda Clásica
+
+Para entender cómo ha cambiado el meta cooperativo, compara las mecánicas principales del nuevo modo Asedio de la Horda con las iteraciones anteriores de Horda:
+
+| Característica | Horda Clásica (Gears 1-5) | Asedio de la Horda (E-Day) |
+|---|---|---|
+| **Máx. Jugadores** | 5 Jugadores | 12 Jugadores (Tres escuadrones de 4 jugadores) |
+| **Escala del Mapa** | Arenas simétricas de tamaño mediano | Distritos urbanos a gran escala en Kalona |
+| **Amenaza Locust** | Oleadas lineales de dificultad creeping | Asedios multidireccionales y Jefes de Mundo |
+| **Estilo Defensivo** | Fortificaciones fijas y fabricadores | Cobertura móvil, adaptación a la microdestrucción |
+| **Sinergia de Roles** | Ventajas basadas en clases o personajes | Combinaciones tácticas entre escuadrones |
+
+Este formato expandido requiere una comprensión profunda de la distribución de escuadrones, las sinergias de clases y cómo utilizar la verticalidad del diseño urbano de Kalona para sobrevivir al embate.
+
+</Section>
+
+<Section icon={Swords} title="Arquetipos de Clase y Equipamiento en Asedio de la Horda">
+
+El éxito en Asedio de la Horda depende de la sinergia entre las cuatro clases de personajes confirmadas. Cada clase está diseñada para manejar distancias de combate y responsabilidades tácticas específicas. Los jugadores deben distribuir estos roles de manera equitativa entre los tres escuadrones de 4 jugadores para garantizar que ninguna zona defensiva quede vulnerable.
+
+<CardGrid cols={2}>
+  <Card title="Clase de Asalto">
+    - **Rol de Combate**: Ofensiva en primera línea y control de masas a corta distancia.
+    - **Armas Distintivas**: Escopeta Gnasher e Incinerador alimentado por Imulsión.
+    - **Función Principal**: Limpiar enjambres de Desgraciados Salvajes y obligar a los Drones Locust agresivos a salir de su cobertura.
+  </Card>
+  <Card title="Clase de Tirador">
+    - **Rol de Combate**: Precisión a larga distancia y eliminación de objetivos de alto valor.
+    - **Armas Distintivas**: Rifle de francotirador Longshot.
+    - **Función Principal**: Asegurar posiciones elevadas en tejados y balconies para eliminar objetivos pesados y cubrir a los escuadrones de primera línea.
+  </Card>
+  <Card title="Clase de Médico">
+    - **Rol de Combate**: Supervivencia del escuadrón, curación y resurrección en combate.
+    - **Armas Distintivas**: Rifle de asalto Lancer y utilidad de soporte.
+    - **Función Principal**: Desplegar campos de curación, revivir a aliados caídos a distancia y mantener activo al escuadrón durante momentos de gran presión.
+  </Card>
+  <Card title="Clase de Brechador">
+    - **Rol de Combate**: Artillería pesada, defensa estructural y cierre de Agujeros de Emergencia (E-Holes).
+    - **Armas Distintivas**: Lanzador de explosivos Gut Puncher.
+    - **Función Principal**: Desplegar barreras pesadas, retrasar el avance enemigo y sellar Agujeros de Emergencia antes de que los escuadrones se vean superados.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Sinergia de Clases">
+Una composición ideal de escuadrón de 4 jugadores consiste en uno de cada clase. Sin embargo, al coordinarse en una sala completa de 12 jugadores, se recomienda encarecidamente tener al menos dos Tiradores en terrenos elevados y tres Brechadores distribuidos en puntos de estrangulamiento clave.
+</Callout>
+
+### Equipamientos de Clase y Utilidad Estratégica
+
+| Clase | Arma Principal | Arma Secundaria | Utilidad Táctica |
+|---|---|---|---|
+| **Asalto** | Incinerador | Gnasher | Granada de humo / Aturdimiento a corta distancia |
+| **Tirador** | Longshot | Pistola Snub | Mira de avistamiento / Marcado de objetivos |
+| **Médico** | Lancer | Pistola Snub | Gas de estímulo / Curación en área de efecto |
+| **Brechador** | Gut Puncher | Gnasher | Granada de fragmentación / Kit de reparación de fortificaciones |
+
+</Section>
+
+<Section icon={Map} title="Dinámica del Mapa de Kalona y Peligros Ambientales">
+
+Asedio de la Horda se desarrolla en la extensa ciudad de Kalona, dividida en múltiples distritos. Dado que los mapas son significativamente más grandes que las arenas multijugador tradicionales de Gears, los escuadrones deben aprender a navegar y defender zonas distintas, que van desde sectores de refinerías industriales hasta densas áreas residenciales.
+
+El entorno en sí es una amenaza constante. La reconstrucción de Sera en Unreal Engine 5 introduce la microdestrucción, lo que significa que la cobertura ya no es permanente. El fuego pesado de los Locust desgastará lentamente las paredes de concreto, las barreras de madera y los pilares de metal, obligando a los escuadrones a reubicarse constantemente.
+
+<Callout type="warning" title="Peligro Ambiental">
+Presta atención a los sumideros. Los movimientos subterráneos importantes de los Locust pueden hacer que calles enteras o vehículos colapsen, matando instantáneamente a cualquier jugador atrapado en la zona y alterando permanentemente el diseño del mapa.
+</Callout>
+
+### Zonas Defensivas Confirmadas de Kalona
+
+Para defender la ciudad de manera efectiva, los escuadrones deben dividir las responsabilidades según las características de cada zona:
+
+| Tipo de Zona | Características del Diseño | Amenaza Principal | Configuración de Clase Recomendada |
+|---|---|---|---|
+| **Distritos de Refinería** | Verticalidad industrial, pasarelas estrechas | Emboscadas a corta distancia, enjambres de Desgraciados | Enfoque en Asalto y Brechador |
+| **Calles Residenciales** | Líneas de visión largas, casas destructibles | Fuego de francotirador, Drones flanqueando | Enfoque en Tirador y Médico |
+| **Estadio de Deportes** | Terreno amplio y abierto, puntos de estrangulamiento centrales | Jefes de Mundo, artillería pesada | Distribución equilibrada (Todas las clases) |
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Sobrevivir a una Oleada de Asedio">
+
+Sobrevivir a las brutales oleadas del modo **horda de gears of war e-day** requiere una comunicación estructurada y una ejecución precisa. Cuando comienza una oleada de asedio, los escuadrones deben ejecutar inmediatamente sus protocolos defensivos.
+
+<Steps>
+  <Step num="1" title="Asegurar el Terreno Elevado">
+    Antes de que comience la oleada, los Tiradores deben utilizar las mecánicas modernizadas de salto y escalada para asegurar balcones, tejados y andamios elevados. Esto proporciona líneas de visión claras para detectar los Agujeros de Emergencia entrantes.
+  </Step>
+  <Step num="2" title="Establecer Puntos de Estrangulamiento">
+    Los Brechadores deben desplegar barreras defensivas en intersecciones de calles clave y callejones estrechos. Posiciona a los jugadores de Asalto justo detrás de estas barreras para castigar a cualquier Locust que intente trepar.
+  </Step>
+  <Step num="3" title="Coordinar el Cierre de Agujeros de Emergencia (E-Holes)">
+    Cuando el suelo se abra y aparezca un Agujero de Emergencia, el Brechador más cercano debe disparar inmediatamente un proyectil de Gut Puncher o lanzar una granada de fragmentación bien colocada en la abertura para sellarla, evitando refuerzos enemigos infinitos.
+  </Step>
+  <Step num="4" title="Agruparse para los Jefes de Mundo">
+    Durante las oleadas de jefes, los tres escuadrones deben converger en el objetivo de alto valor. Usa el Gas de estímulo del Médico para sobrevivir a los ataques pesados de área de efecto mientras toda la sala de 12 jugadores concentra su fuego en los puntos débiles del jefe.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Condición de Victoria">
+Sellar los Agujeros de Emergencia rápidamente es la forma más efectiva de acortar los tiempos de las oleadas y conservar munición valiosa. Nunca dejes que un Agujero de Emergencia permanezca abierto durante más de 15 segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Acceso a la Beta, Progresión y Recompensas de Reserva">
+
+Los jugadores pueden tener su primera experiencia práctica con Asedio de la Horda durante la próxima Beta Abierta. La progresión obtenida durante la beta y las pruebas de juego ayudará a los jugadores a refinar sus estrategias antes del lanzamiento global el 6 de octubre de 2026 en Xbox Series X|S, Windows PC y Steam.
+
+<Checklist
+  id="horde-prep-checklist"
+  title="Lista de Verificación de Preparación para Asedio de la Horda:"
+  items={[
+    "Reserva cualquier edición para asegurar el acceso anticipado a la Beta Abierta el 6 de agosto de 2026",
+    "Coordínate con hasta 11 amigos para formar una comunidad dedicada de Horda de 12 jugadores",
+    "Familiarízate con los requisitos del sistema para garantizar un rendimiento estable a 60 FPS",
+    "Reclama el diseño Exfil Dom de reserva para destacar en el campo de batalla en el lanzamiento"
+  ]}
+/>
+
+<Callout type="info" title="Game Pass desde el Primer Día">
+Gears of War: E-Day estará disponible en Xbox Game Pass y PC Game Pass desde el primer día. Los miembros de Game Pass Ultimate podrán acceder al juego completo, incluidos todos los modos multijugador, a partir del 6 de octubre de 2026.
+</Callout>
+
+### Ediciones de Reserva y Bonificaciones Multijugador
+
+For players looking to maximize their launch day experience, several editions offer exclusive cosmetic rewards and early access privileges:
+
+| Edición | Precio | Acceso Anticipado | Personalización Exclusiva de Horda |
+|---|---|---|---|
+| **Edición Estándar** | $69.99 | Estándar (6 de oct.) | Diseño Exfil Dom, Conjunto de diseños de armas Exfil |
+| **Edición Premium** | $99.99 | 5 días antes (1 de oct.) | Armas distintivas del Escuadrón Bravo, 5 paquetes de temporada, 1,000 de Hierro |
+| **Mejora Premium** | $30.00 | 5 días antes (1 de oct.) | Requiere juego base/Game Pass; incluye todos los cosméticos Premium |
+| **Edición de Coleccionista** | Según distribuidor | 5 días antes (1 de oct.) | Estatua física de 15 pulgadas, SteelBook, más todos los artículos digitales Premium |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿En qué se diferencia el modo horda de gears of war e-day de los juegos anteriores?",
+    answer: "El modo horda de gears of war e-day, oficialmente llamado Asedio de la Horda (Horde Siege), aumenta el número de jugadores de 5 a 12. Organiza a los jugadores en tres escuadrones de 4 integrantes e introduce mapas urbanos más grandes, coberturas destructibles y Jefes de Mundo masivos."
+  },
+  {
+    question: "¿Necesito una suscripción activa para jugar a Asedio de la Horda en línea?",
+    answer: "Sí, jugar a Asedio de la Horda en línea requiere una suscripción activa que admita el multijugador en línea en consolas, como Xbox Game Pass Ultimate o una membresía equivalente de la plataforma."
+  },
+  {
+    question: "¿Hay soporte para pantalla dividida en Asedio de la Horda?",
+    answer: "Aunque la campaña admite el modo cooperativo local en pantalla dividida para 2 jugadores en consola, Asedio de la Horda está diseñado principalmente como una experiencia multijugador en línea que admite hasta 12 jugadores en Xbox Series X|S y PC."
+  },
+  {
+    question: "¿Puedo jugar a la Beta Abierta sin reservar el juego?",
+    answer: "Reservar cualquier edición digital o física otorga acceso anticipado a la Beta Abierta el 6 de agosto de 2026. Las reglas de acceso general para los fines de semana de beta posteriores se anunciarán más cerca del periodo de pruebas."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Horde: Leitfaden für 12-Spieler-Belagerung & Klassen",
+  description: "Meistere den Horde-Modus von Gears of War E-Day. Erkunde die Mechaniken der Horde-Belagerung, 12-Spieler-Koop-Strategien, bestätigte Klassen und Kartentaktiken für Kalona.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=Horde+Siege+Guide",
+  date: "2026-06-22",
+  author: "gears of war e-day Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Horde-Evolution**: Der **gears of war e-day horde**-Modus heißt offiziell Horde-Belagerung (Horde Siege) und erweitert das PvE-Koop auf ein riesiges Schlachtfeld für 12 Spieler.
+- **Squad-Struktur**: Die Spieler sind in drei verschiedenen 4-Spieler-Squads organisiert, die gemeinsam die vom Krieg gezeichnete Stadt Kalona verteidigen.
+- **Vier Klassen**: Wähle aus vier spezialisierten Rollen: Sturm, Präzisionsschütze, Sanitäter und Brecher, jede mit einzigartigen Waffen und taktischem Nutzen.
+- **Wichtige Termine**: Teste deine Fähigkeiten in der Open Beta ab dem 6. August 2026, noch vor dem weltweiten Launch am 6. Oktober 2026.
+</Callout>
+
+<Section icon={Shield} title="Evolution der Gears of War E-Day Horde: Einführung der Horde-Belagerung">
+
+Der klassische Wellen-Überlebensmodus, der kooperative Shooter definierte, steht vor seiner bisher radikalsten Transformation. In [Gears of War: E-Day](https://www.xbox.com/en-US/games/gears-of-war-eday) wird das kooperative PvE-Erlebnis mit der Horde-Belagerung auf ein beispielloses Niveau gehoben. Anstelle des traditionellen 5-Spieler-Squads, das einen einzelnen Engpass verteidigt, führt die Horde-Belagerung eine gewaltige Verteidigungsoperation für 12 Spieler ein. 
+
+Inmitten der zerfallenden Stadt Kalona während der ersten drei Tage des Auftauchens der Locust müssen sich die Spieler in größeren, stark zerstörbaren städtischen Umgebungen koordinieren. Die Locust-Horde kriecht nicht mehr nur aus vereinzelten Löchern hervor; sie startet umfassende militärische Angriffe, um die Oberfläche zurückzuerobern.
+
+<Callout type="info" title="Taktischer Wandel">
+Die Horde-Belagerung verlagert das Gameplay von der statischen Bunkerverteidigung zur dynamischen Zonenkontrolle. Mit 12 Spielern auf dem Feld wird statisches Campen durch dynamische Umweltgefahren wie Erdlöcher und Mikro-Zerstörung hart bestraft.
+</Callout>
+
+### Horde-Belagerung vs. Klassische Horde
+
+Um zu verstehen, wie sich die kooperative Meta verändert hat, vergleiche die Kernmechaniken des neuen Horde-Belagerungsmodus mit früheren Iterationen von Horde:
+
+| Feature | Klassische Horde (Gears 1-5) | Horde-Belagerung (E-Day) |
+|---|---|---|
+| **Max. Spieler** | 5 Spieler | 12 Spieler (Drei 4-Spieler-Squads) |
+| **Kartengröße** | Symmetrische, mittelgroße Arenen | Großflächige Stadtbezirke in Kalona |
+| **Locust-Bedrohung** | Lineare Wellen mit steigendem Schwierigkeitsgrad | Multidirektionale Belagerungen und Weltbosse |
+| **Verteidigungsstil** | Feste Befestigungen und Fabrikatoren | Mobile Deckung, Anpassung an Mikro-Zerstörung |
+| **Rollensynergie** | Klassen- oder charakterbasierte Perks | Squad-übergreifende taktische Kombinationen |
+
+Dieses erweiterte Format erfordert ein tiefes Verständnis der Squad-Verteilung, der Klassensynergien und der Nutzung der Vertikalität von Kalonas Stadtlayout, um den Ansturm zu überleben.
+
+</Section>
+
+<Section icon={Swords} title="Klassen-Archetypen und Loadouts der Horde-Belagerung">
+
+Der Erfolg in der Horde-Belagerung hängt von der Synergie zwischen den vier bestätigten Charakterklassen ab. Jede Klasse ist für bestimmte Kampfdistanzen und taktische Aufgaben ausgelegt. Die Spieler müssen diese Rollen gleichmäßig auf die drei 4-Spieler-Squads verteilen, um sicherzustellen, dass keine Verteidigungszone ungeschützt bleibt.
+
+<CardGrid cols={2}>
+  <Card title="Sturm-Klasse">
+    - **Kampfrolle**: Frontlinien-Offensive und Nahkampf-Massenkontrolle.
+    - **Signaturwaffen**: Gnasher-Schrotflinte und der Imulsions-betriebene Incinerator.
+    - **Kernfunktion**: Schwärme von wilden Wretches eliminieren und aggressive Locust-Drohnen aus der Deckung treiben.
+  </Card>
+  <Card title="Präzisionsschützen-Klasse">
+    - **Kampfrolle**: Weitreichende Präzision und Eliminierung von Zielen mit hoher Priorität.
+    - **Signaturwaffen**: Longshot-Scharfschützengewehr.
+    - **Kernfunktion**: Erhöhte Positionen auf Dächern und Balkonen sichern, um schwere Ziele auszuschalten und Frontlinien-Squads Deckung zu geben.
+  </Card>
+  <Card title="Sanitäter-Klasse">
+    - **Kampfrolle**: Überleben des Squads, Heilung und Wiederbelebung im Kampf.
+    - **Signaturwaffen**: Lancer-Sturmgewehr und Unterstützungs-Utility.
+    - **Kernfunktion**: Heilungsfelder platzieren, am Boden liegende Verbündete aus der Ferne wiederbeleben und die Einsatzfähigkeit des Squads unter starkem Druck aufrechterhalten.
+  </Card>
+  <Card title="Brecher-Klasse">
+    - **Kampfrolle**: Schwere Artillerie, strukturelle Verteidigung und Schließen von E-Löchern.
+    - **Signaturwaffen**: Gut Puncher Sprengstoffwerfer.
+    - **Kernfunktion**: Schwere Barrieren errichten, feindliche Vorstöße verzögern und Emergence-Löcher versiegeln, bevor die Squads überrannt werden.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tipp zur Klassensynergie">
+Eine ideale Zusammensetzung für ein 4-Spieler-Squad besteht aus jeweils einer Klasse. Wenn man sich jedoch in einer vollen 12-Spieler-Lobby koordiniert, wird dringend empfohlen, mindestens zwei Präzisionsschützen auf erhöhten Positionen und drei Brecher an wichtigen Engpässen zu verteilen.
+</Callout>
+
+### Klassen-Loadouts und taktischer Nutzen
+
+| Klasse | Primärwaffe | Sekundärwaffe | Taktischer Nutzen |
+|---|---|---|---|
+| **Sturm** | Incinerator | Gnasher | Rauchgranate / Nahkampf-Betäubung |
+| **Präzisionsschütze** | Longshot | Snub-Pistole | Spektiv / Zielmarkierung |
+| **Sanitäter** | Lancer | Snub-Pistole | Stim-Gas / Flächenheilung |
+| **Brecher** | Gut Puncher | Gnasher | Splittergranate / Befestigungs-Reparaturset |
+
+</Section>
+
+<Section icon={Map} title="Kalona-Kartendynamik und Umweltgefahren">
+
+Die Horde-Belagerung findet in der weitläufigen, aus mehreren Bezirken bestehenden Stadt Kalona statt. Da die Karten deutlich größer sind als die traditionellen Gears-Multiplayer-Arenen, müssen die Squads lernen, sich in verschiedenen Zonen zurechtzufinden und diese zu verteidigen – von industriellen Raffineriebereichen bis hin zu dichten Wohngebieten.
+
+Die Umgebung selbst ist eine ständige Bedrohung. Die Rekonstruktion von Sera in der Unreal Engine 5 führt Mikro-Zerstörung ein, was bedeutet, dass Deckung nicht mehr dauerhaft ist. Schweres Locust-Feuer wird nach und nach Betonwände, Holzbarrieren und Metallsäulen wegschlagen, was die Squads zwingt, ständig ihre Position zu wechseln.
+
+<Callout type="warning" title="Umweltgefahr">
+Halte Ausschau nach Erdlöchern. Größere unterirdische Bewegungen der Locust können dazu erfüllen, dass ganze Straßen oder Fahrzeuge einbrechen, was alle Spieler in dieser Zone sofort tötet und das Layout der Karte dauerhaft verändert.
+</Callout>
+
+### Bestätigte Verteidigungszonen in Kalona
+
+Um die Stadt effektiv zu verteidigen, sollten die Squads die Zuständigkeiten basierend auf den Eigenschaften der Zonen aufteilen:
+
+| Zonentyp | Layout-Merkmale | Hauptbedrohung | Empfohlenes Klassen-Setup |
+|---|---|---|---|
+| **Raffineriebezirke** | Industrielle Vertikalität, enge Laufstege | Hinterhalte auf kurze Distanz, Wretch-Schwärme | Fokus auf Sturm und Brecher |
+| **Wohnstraßen** | Lange Sichtlinien, zerstörbare Häuser | Scharfschützenfeuer, flankierende Drohnen | Fokus auf Präzisionsschütze und Sanitäter |
+| **Sportstadion** | Weitläufiges, offenes Gelände, zentrale Engpässe | Weltbosse, schwere Artillerie | Ausgewogene Verteilung (Alle Klassen) |
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zum Überleben einer Belagerungswelle">
+
+Das Überleben der brutalen Wellen des **gears of war e-day horde**-Modus erfordert strukturierte Kommunikation und präzise Ausführung. Wenn eine Belagerungswelle beginnt, müssen die Squads sofort ihre Verteidigungsprotokolle aktivieren.
+
+<Steps>
+  <Step num="1" title="Sichere die erhöhten Positionen">
+    Vor Beginn der Welle müssen Präzisionsschützen die modernisierten Sprung- und Klettermechaniken nutzen, um Balkone, Dächer und erhöhte Gerüste zu sichern. Dies bietet freie Sichtlinien, um auftauchende Emergence-Löcher zu erspähen.
+  </Step>
+  <Step num="2" title="Errichte Engpässe">
+    Brecher müssen Verteidigungsbarrieren an wichtigen Straßenkreuzungen und in engen Gassen errichten. Positioniere Sturm-Spieler direkt hinter diesen Barrieren, um alle Locust zu bestrafen, die versuchen, darüberzuklettern.
+  </Step>
+  <Step num="3" title="Koordiniere das Schließen von E-Löchern">
+    Wenn sich der Boden öffnet und ein E-Loch erscheint, muss der nächste Brecher sofort eine Gut-Puncher-Granate abfeuern oder eine gut platzierte Splittergranate in die Öffnung werfen, um sie zu versiegeln und unendliche feindliche Verstärkungen zu verhindern.
+  </Step>
+  <Step num="4" title="Formierung für Weltbosse">
+    Während der Boss-Wellen müssen alle drei Squads am Ziel mit hoher Priorität zusammenkommen. Nutze das Stim-Gas des Sanitäters, um schwere Flächenangriffe zu überleben, während die gesamte 12-Spieler-Lobby das Feuer auf die Schwachstellen des Bosses konzentriert.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Siegbedingung">
+Das schnelle Versiegeln von E-Löchern ist der effektivste Weg, um die Wellenzeiten zu verkürzen und wertvolle Munition zu sparen. Lass ein E-Loch niemals länger als 15 Sekunden offen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beta-Zugang, Fortschritt und Vorbesteller-Belohnungen">
+
+Spieler können ihre ersten praktischen Erfahrungen mit der Horde-Belagerung während der bevorstehenden Open Beta sammeln. Der während der Beta und der Spieltests erzielte Fortschritt wird den Spielern helfen, ihre Strategien vor dem weltweiten Launch am 6. Oktober 2026 auf Xbox Series X|S, Windows PC und Steam zu verfeinern.
+
+<Checklist
+  id="horde-prep-checklist"
+  title="Vorbereitungs-Checkliste für die Horde-Belagerung:"
+  items={[
+    "Bestelle eine beliebige Edition vor, um dir am 6. August 2026 vorzeitigen Zugang zur Open Beta zu sichern",
+    "Koordiniere dich mit bis zu 11 Freunden, um eine eigene 12-Spieler-Horde-Community zu gründen",
+    "Mache dich mit den Systemanforderungen vertraut, um eine stabile Performance von 60 FPS zu gewährleisten",
+    "Fordere den Vorbesteller-Skin 'Exfil Dom' an, um zum Launch auf dem Schlachtfeld aufzufallen"
+  ]}
+/>
+
+<Callout type="info" title="Game Pass ab Tag eins">
+Gears of War: E-Day wird ab dem ersten Tag im Xbox Game Pass und PC Game Pass verfügbar sein. Ultimate-Mitglieder des Game Pass können ab dem 6. Oktober 2026 auf das vollständige Spiel zugreifen, einschließlich aller Multiplayer-Modi.
+</Callout>
+
+### Vorbesteller-Editionen und Multiplayer-Boni
+
+Für Spieler, die ihr Spielerlebnis am Launch-Tag maximieren möchten, bieten verschiedene Editionen exklusive kosmetische Belohnungen und vorzeitige Zugangsrechte:
+
+| Edition | Preis | Vorzeitiger Zugang | Exklusive Horde-Anpassungen |
+|---|---|---|---|
+| **Standard Edition** | $69.99 | Standard (6. Okt.) | Exfil Dom-Skin, Exfil-Waffenskin-Set |
+| **Premium Edition** | $99.99 | 5 Tage früher (1. Okt.) | Bravo-Squad-Signaturwaffen, 5 Saison-Packs, 1.000 Eisen |
+| **Premium-Upgrade** | $30.00 | 5 Tage früher (1. Okt.) | Erfordert Basisspiel/Game Pass; enthält alle Premium-Kosmetika |
+| **Collector's Edition** | Händlerabhängig | 5 Tage früher (1. Okt.) | Physische 15-Zoll-Statue, SteelBook sowie alle digitalen Premium-Inhalte |
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie unterscheidet sich der Horde-Modus von Gears of War E-Day von früheren Spielen?",
+    answer: "Der Horde-Modus von Gears of War E-Day, offiziell Horde-Belagerung genannt, erhöht die Spielerzahl von 5 auf 12. Er organisiert die Spieler in drei 4-Spieler-Squads und führt größere städtische Karten, zerstörbare Deckung und riesige Weltbosse ein."
+  },
+  {
+    question: "Benötige ich ein aktives Abonnement, um die Horde-Belagerung online zu spielen?",
+    answer: "Ja, um die Horde-Belagerung online zu spielen, ist ein aktives Abonnement erforderlich, das den Online-Konsolen-Multiplayer unterstützt, wie z. B. Xbox Game Pass Ultimate oder eine entsprechende Plattform-Mitgliedschaft."
+  },
+  {
+    question: "Gibt es einen geteilten Bildschirm (Split-Screen) für die Horde-Belagerung?",
+    answer: "Während die Kampagne den lokalen 2-Spieler-Split-Screen-Koop auf der Konsole unterstützt, ist die Horde-Belagerung in erster Linie als Online-Multiplayer-Erfahrung konzipiert, die bis zu 12 Spieler auf Xbox Series X|S und PC unterstützt."
+  },
+  {
+    question: "Kann ich die Open Beta spielen, ohne das Spiel vorzubestellen?",
+    answer: "Die Vorbestellung einer digitalen oder physischen Edition gewährt am 6. August 2026 vorzeitigen Zugang zur Open Beta. Die allgemeinen Zugangsregeln für die folgenden Beta-Wochenenden werden kurz vor dem Testfenster bekannt gegeben."
+  }
+]} />
+
+</Section>

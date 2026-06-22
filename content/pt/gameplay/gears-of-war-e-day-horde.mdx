@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Horda de Gears of War E-Day: Guia do Cerco de 12 Jogadores e Classes",
+  description: "Domine o modo Horda de Gears of War E-Day. Explore as mecânicas do Cerco da Horda, estratégias cooperativas para 12 jogadores, classes confirmadas e táticas de mapa para Kalona.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=Horde+Siege+Guide",
+  date: "2026-06-22",
+  author: "Equipe do Wiki de Gears of War E-Day"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Evolução da Horda**: O modo **horda de gears of war e-day** é oficialmente chamado de Cerco da Horda (Horde Siege), expandindo o cooperativo PvE para um campo de batalha massivo de 12 jogadores.
+- **Estrutura do Esquadrão**: Os jogadores são organizados em três esquadrões distintos de 4 jogadores, trabalhando em uníssono para defender a cidade de Kalona, devastada pela guerra.
+- **Quatro Classes**: Escolha entre quatro funções especializadas: Assalto, Atirador de Elite, Médico e Demolidor, cada uma com armas exclusivas e utilidade tática.
+- **Datas Importantes**: Teste suas habilidades durante o Beta Aberto a partir de 6 de agosto de 2026, antes do lançamento global em 6 de outubro de 2026.
+</Callout>
+
+<Section icon={Shield} title="Evolução da Horda de Gears of War E-Day: Apresentando o Cerco da Horda">
+
+O clássico modo de sobrevivência em ondas que definiu os jogos de tiro cooperativos está passando por sua transformação mais radical até agora. Em [Gears of War: E-Day](https://www.xbox.com/en-US/games/gears-of-war-eday), a experiência cooperativa PvE é elevada a uma escala sem precedentes com o Cerco da Horda. Em vez do tradicional esquadrão de 5 jogadores defendendo um único ponto de estrangulamento, o Cerco da Horda introduz uma operação defensiva massiva de 12 jogadores. 
+
+Situado na cidade em ruínas de Kalona durante os três primeiros dias da emergência Locust, os jogadores devem se coordenar em ambientes urbanos maiores e altamente destrutivos. A Horda Locust não está mais apenas rastejando para fora de buracos localizados; eles estão organizando assaltos militares em grande escala para recuperar a superfície.
+
+<Callout type="info" title="Mudança Tática">
+O Cerco da Horda muda a jogabilidade de uma defesa de bunker estática para um controle de zona dinâmico. Com 12 jogadores no campo, o acampamento estático é severamente punido por perigos ambientais dinâmicos, como crateras e microdestruição.
+</Callout>
+
+### Cerco da Horda vs. Horda Clássica
+
+Para entender como o meta cooperativo mudou, compare as mecânicas principais do novo modo Cerco da Horda com as iterações anteriores da Horda:
+
+| Recurso | Horda Clássica (Gears 1-5) | Cerco da Horda (E-Day) |
+|---|---|---|
+| **Máximo de Jogadores** | 5 Jogadores | 12 Jogadores (Três Esquadrões de 4 Jogadores) |
+| **Escala do Mapa** | Arenas simétricas de tamanho médio | Distritos urbanos de grande escala em Kalona |
+| **Ameaça Locust** | Ondas lineares de dificuldade crescente | Cercos multidirecionais e Chefes Mundiais |
+| **Estilo Defensivo** | Fortificações fixas e fabricadores | Cobertura móvel, adaptação à microdestruição |
+| **Sinergia de Funções** | Vantagens baseadas em classes ou personagens | Combinações táticas entre esquadrões |
+
+Este formato expandido exige uma compreensão profunda da distribuição de esquadrões, sinergias de classes e como utilizar la verticalidade do layout urbano de Kalona para sobreviver ao ataque massivo.
+
+</Section>
+
+<Section icon={Swords} title="Arquétipos de Classe e Equipamentos do Cerco da Horda">
+
+O sucesso no Cerco da Horda depende da sinergia entre as quatro classes de personagens confirmadas. Cada classe é projetada para lidar com distâncias de combate e responsabilidades táticas específicas. Os jogadores devem distribuir essas funções uniformemente entre os três esquadrões de 4 jogadores para garantir que nenhuma zona defensiva fique vulnerável.
+
+<CardGrid cols={2}>
+  <Card title="Classe de Assalto">
+    - **Função de Combate**: Ofensiva de linha de frente e controle de grupo em combates de curta distância.
+    - **Armas Assinatura**: Escopeta Gnasher e o Incinerador movido a Imulsão.
+    - **Função Principal**: Limpar hordas de Wretches Ferais e forçar Drones Locust agressivos a saírem de suas coberturas.
+  </Card>
+  <Card title="Classe de Atirador de Elite">
+    - **Função de Combate**: Precisão a longa distância e eliminação de alvos de alto valor.
+    - **Armas Assinatura**: Rifle de Precisão Longshot.
+    - **Função Principal**: Assegurar posições elevadas em telhados e varandas para eliminar alvos pesados e cobrir os esquadrões da linha de frente.
+  </Card>
+  <Card title="Classe de Médico">
+    - **Função de Combate**: Sobrevivência do esquadrão, cura e ressurreição em combate.
+    - **Armas Assinatura**: Rifle de Assalto Lancer e utilitários de suporte.
+    - **Função Principal**: Implantar campos de cura, reanimar aliados caídos à distância e manter o esquadrão ativo sob forte pressão.
+  </Card>
+  <Card title="Classe de Demolidor">
+    - **Função de Combate**: Artilharia pesada, defesa estrutural e fechamento de Buracos de Emergência (E-Holes).
+    - **Armas Assinatura**: Lançador de explosivos Gut Puncher.
+    - **Função Principal**: Implantar barreiras pesadas, atrasar avanços inimigos e selar Buracos de Emergência antes que os esquadrões sejam dominados.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Sinergia de Classes">
+Uma composição ideal de esquadrão de 4 jogadores consiste em um de cada classe. No entanto, ao coordenar um lobby completo de 12 jogadores, é altamente recomendável ter pelo menos dois Atiradores de Elite em posições elevadas e três Demolidores distribuídos em pontos de estrangulamento importantes.
+</Callout>
+
+### Equipamentos de Classe e Utilidade Tática
+
+| Classe | Arma Primária | Arma Secundária | Utilidade Tática |
+|---|---|---|---|
+| **Assalto** | Incinerador | Gnasher | Granada de Fumaça / Atordoamento de curta distância |
+| **Atirador de Elite** | Longshot | Pistola Snub | Luneta de Observação / Marcação de alvos |
+| **Médico** | Lancer | Pistola Snub | Gás Estimulante / Cura em área de efeito |
+| **Demolidor** | Gut Puncher | Gnasher | Granada de Fragmentação / Kit de reparo de fortificação |
+
+</Section>
+
+<Section icon={Map} title="Dinâmica do Mapa de Kalona e Perigos Ambientais">
+
+O Cerco da Horda ocorre na vasta cidade de Kalona, dividida em vários distritos. Como os mapas são significativamente maiores do que as arenas multiplayer tradicionais de Gears, os esquadrões devem aprender a navegar e defender zonas distintas, que variam de setores de refinaria industrial a áreas residenciais densas.
+
+O próprio ambiente é uma ameaça constante. A reconstrução de Sera na Unreal Engine 5 introduz a microdestruição, o que significa que a cobertura não é mais permanente. O fogo pesado dos Locust destruirá lentamente paredes de concreto, barreiras de madeira e pilares de metal, forçando os esquadrões a se realocarem constantemente.
+
+<Callout type="warning" title="Perigo Ambiental">
+Fique atento às crateras. Grandes movimentos subterrâneos dos Locust podem fazer com que ruas inteiras ou veículos desmoronem, matando instantaneamente qualquer jogador pego na zona e alterando permanentemente o layout do mapa.
+</Callout>
+
+### Zonas Defensivas Confirmadas de Kalona
+
+Para defender a cidade efetivamente, os esquadrões devem dividir as responsabilidades com base nas características de cada zona:
+
+| Tipo de Zona | Características do Layout | Ameaça Principal | Configuração de Classe Recomendada |
+|---|---|---|---|
+| **Distritos da Refinaria** | Verticalidade industrial, passarelas estreitas | Emboscadas de curto alcance, hordas de Wretches | Foco em Assalto e Demolidor |
+| **Ruas Residenciais** | Longas linhas de visão, casas destrutíveis | Fogo de precisão, Drones flanqueadores | Foco em Atirador de Elite e Médico |
+| **Estádio de Esportes** | Terreno aberto amplo, pontos de estrangulamento centrais | Chefes Mundiais, artilharia pesada | Distribuição equilibrada (Todas as classes) |
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para Sobreviver a uma Onda de Cerco">
+
+Sobreviver às ondas brutais do modo **horda de gears of war e-day** exige comunicação estruturada e execução precisa. Quando uma onda de cerco começa, os esquadrões devem executar imediatamente seus protocolos defensivos.
+
+<Steps>
+  <Step num="1" title="Garanta a Posição Elevada">
+    Antes do início da onda, os Atiradores de Elite devem usar as mecânicas modernizadas de salto e escalada para garantir varandas, telhados e andaimes elevados. Isso fornece linhas de visão claras para detectar a chegada de Buracos de Emergência.
+  </Step>
+  <Step num="2" title="Estabeleça Pontos de Estrangulamento">
+    Os Demolidores devem implantar barreiras defensivas em cruzamentos importantes e becos estreitos. Posicione os jogadores de Assalto logo atrás dessas barreiras para punir qualquer Locust que tente passar por cima.
+  </Step>
+  <Step num="3" title="Coordene o Fechamento de Buracos de Emergência">
+    Quando o chão se abrir e um Buraco de Emergência aparecer, o Demolidor mais próximo deve disparar imediatamente um projétil de Gut Puncher ou lançar uma Granada de Fragmentação bem posicionada na abertura para selá-la, evitando reforços inimigos infinitos.
+  </Step>
+  <Step num="4" title="Agrupe-se para os Chefes Mundiais">
+    Durante as ondas de chefes, todos os três esquadrões devem convergir no alvo de alto valor. Use o Gás Estimulante do Médico para sobreviver a ataques pesados em área de efeito enquanto todo o lobby de 12 jogadores foca o fogo nos pontos fracos do chefe.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Condição de Vitória">
+Selar os Buracos de Emergência rapidamente é a maneira mais eficaz de encurtar o tempo das ondas e conservar munição preciosa. Nunca deixe um Buraco de Emergência aberto por mais de 15 segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Acesso ao Beta, Progressão e Recompensas de Pré-Venda">
+
+Os jogadores podem ter sua primeira experiência prática com o Cerco da Horda durante o próximo Beta Aberto. A progressão obtida durante o beta e os testes de jogo ajudará os jogadores a refinar suas estratégias antes do lançamento global em 6 de outubro de 2026 no Xbox Series X|S, Windows PC e Steam.
+
+<Checklist
+  id="horde-prep-checklist"
+  title="Lista de Preparação para o Cerco da Horda:"
+  items={[
+    "Faça a pré-venda de qualquer edição para garantir acesso antecipado ao Beta Aberto em 6 de agosto de 2026",
+    "Coordene com até 11 amigos para formar uma comunidade dedicada à Horda de 12 jogadores",
+    "Familiarize-se com os requisitos do sistema para garantir um desempenho estável a 60 FPS",
+    "Resgate a skin Exfil Dom de pré-venda para se destacar no campo de batalha no lançamento"
+  ]}
+/>
+
+<Callout type="info" title="Game Pass no Primeiro Dia">
+Gears of War: E-Day estará disponível no Xbox Game Pass e PC Game Pass no primeiro dia. Membros do Game Pass Ultimate poderão acessar o jogo completo, incluindo todos os modos multiplayer, a partir de 6 de outubro de 2026.
+</Callout>
+
+### Edições de Pré-Venda e Bônus Multiplayer
+
+Para os jogadores que desejam maximizar sua experiência no dia do lançamento, várias edições oferecem recompensas cosméticas exclusivas e privilégios de acesso antecipado:
+
+| Edição | Preço | Acesso Antecipado | Personalização Exclusiva da Horda |
+|---|---|---|---|
+| **Edição Padrão** | $69.99 | Padrão (6 de out) | Skin Exfil Dom, Conjunto de Skins de Arma Exfil |
+| **Edição Premium** | $99.99 | 5 Dias de Antecedência (1 de out) | Armas Assinatura do Esquadrão Bravo, 5 Pacotes Temporais, 1.000 de Ferro |
+| **Upgrade Premium** | $30.00 | 5 Dias de Antecedência (1 de out) | Requer o Jogo Base/Game Pass; inclui todos os cosméticos Premium |
+| **Edição de Colecionador** | Baseado no varejista | 5 Dias de Antecedência (1 de out) | Estátua física de 15 polegadas, SteelBook, além de todos os itens digitais Premium |
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como o modo horda de gears of war e-day difere dos jogos anteriores?",
+    answer: "O modo horda de gears of war e-day, oficialmente chamado de Cerco da Horda, aumenta o número de jogadores de 5 para 12. Ele organiza os jogadores em três esquadrões de 4 jogadores e introduz mapas urbanos maiores, cobertura destrutível e Chefes Mundiais massivos."
+  },
+  {
+    question: "Preciso de uma assinatura ativa para jogar o Cerco da Horda online?",
+    answer: "Sim, jogar o Cerco da Horda online requer uma assinatura ativa que suporte multiplayer online no console, como o Xbox Game Pass Ultimate ou uma assinatura equivalente da plataforma."
+  },
+  {
+    question: "Existe suporte para tela dividida no Cerco da Horda?",
+    answer: "Embora a campanha suporte cooperativo local em tela dividida para 2 jogadores no console, o Cerco da Horda é projetado principalmente como uma experiência multiplayer online que suporta até 12 jogadores no Xbox Series X|S e PC."
+  },
+  {
+    question: "Posso jogar o Beta Aberto sem fazer a pré-venda do jogo?",
+    answer: "A pré-venda de qualquer edição digital ou física concede acesso antecipado ao Beta Aberto em 6 de agosto de 2026. As regras de acesso geral para os fins de semana subsequentes do beta serão anunciadas mais perto do período de testes."
+  }
+]} />
+
+</Section>

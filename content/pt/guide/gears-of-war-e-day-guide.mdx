@@ -1,0 +1,198 @@
+import { Shield, Gamepad, Users, Swords, Trophy, Sliders, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Gears of War: E-Day: Táticas de Sobrevivência e Multijogador",
+  description: "Prepare-se para o Dia da Emergência com o nosso guia de Gears of War: E-Day. Saiba mais sobre o cooperativo da campanha, Cerco de Horda, Versus PvP, armas e requisitos para PC.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=E-Day+Survival+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Gears of War: E-Day"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **guia de Gears of War: E-Day** ajuda você a se preparar para o lançamento global em 6 de outubro de 2026.
+- O **acesso ao Beta Aberto** começa em 6 de agosto de 2026 para todas as pré-vendas elegíveis.
+- O **cooperativo da campanha** suporta até quatro jogadores online ou tela dividida para dois jogadores no console.
+- O **modo Cerco de Horda** expande a sobrevivência PvE para doze jogadores divididos em três esquadrões.
+</Callout>
+
+<Section icon={Shield} title="Data de Lançamento, Plataformas e Detalhes do Game Pass">
+
+Gears of War: E-Day marca um retorno massivo às raízes sombrias da franquia. Desenvolvido pela The Coalition e publicado pela Xbox Game Studios, este prelúdio foi construído do zero na Unreal Engine 5. Ele leva os jogadores de volta quatorze anos antes do jogo original para testemunhar o caos brutal do Dia da Emergência.
+
+O jogo está programado para um lançamento global em 6 de outubro de 2026. Ele visa o hardware moderno para entregar visuais de alta fidelidade, física avançada e mecânicas de combate reformuladas.
+
+| Plataforma | Loja | Play Anywhere | Acesso ao Game Pass |
+| :--- | :--- | :--- | :--- |
+| **Xbox Series X|S** | Microsoft Store | Sim | Dia Um (Ultimate) |
+| **PC Windows 10/11** | Microsoft Store / Steam | Sim (apenas Microsoft Store) | Dia Um (PC / Ultimate) |
+| **Jogo em Nuvem** | Xbox Cloud Gaming | N/A | Dia Um (Ultimate) |
+
+O lançamento para PC é totalmente suportado no Steam, permitindo que os jogadores adicionem o jogo à lista de desejos e façam a pré-compra diretamente. No entanto, os usuários do Steam precisarão vincular uma conta do Xbox Live para acessar os recursos multijogador.
+
+<Callout type="tip" title="Benefício do Xbox Play Anywhere">
+A compra da versão digital do jogo pela Microsoft Store garante acesso tanto no Xbox Series X|S quanto no Windows PC sem custo adicional, com progressão de salvamento cruzado (cross-save).
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad} title="Edições de Pré-venda e Regras de Acesso ao Beta">
+
+Garantir sua cópia antecipadamente desbloqueia itens cosméticos exclusivos e oportunidades de acesso antecipado. A The Coalition estruturou as categorias de pré-venda para atender a jogadores padrão, colecionadores digitais e entusiastas de estátuas físicas.
+
+| Edição | Preço | Data de Acesso ao Jogo | Conteúdo Principal Incluso |
+| :--- | :--- | :--- | :--- |
+| **Edição Padrão** | $69,99 | 6 de outubro de 2026 | Jogo base, Cosméticos de pré-venda, Acesso antecipado ao Beta |
+| **Edição Premium** | $99,99 | 1 de outubro de 2026 | 5 dias de acesso antecipado, Passe de Temporada, 1000 de Ferro, Pacotes de Armas |
+| **Upgrade Premium** | $30,00 | 1 de outubro de 2026 | Upgrade para assinantes do Game Pass/proprietários da Edição Padrão, inclui conteúdo Premium |
+| **Edição de Colecionador** | Depende do varejista | 1 de outubro de 2026 | Estátua de Marcus/Dom de 15 polegadas, Placas de identificação da CGO de metal, SteelBook, DLC Premium |
+
+O pacote cosmético de pré-venda inclui a **Skin Lendária de Personagem Dom de Exfiltração** e o **Conjunto de Skin Lendária de Arma de Exfiltração**. Esses itens estarão disponíveis no jogo a partir de 1 de outubro de 2026 para jogadores com acesso antecipado.
+
+<Callout type="warning" title="Verificação do Código do Beta">
+As pré-vendas digitais no Xbox e no Steam recebem direito automático ao Beta Aberto em 6 de agosto de 2026. Se você comprar uma edição física, certifique-se de que o varejista forneça um código de beta de uso único no seu recibo ou por e-mail.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="História da Campanha, Linha do Tempo e Configuração do Cooperativo">
+
+A narrativa de Gears of War: E-Day é uma história de sobrevivência pessoal, em vez de uma campanha militar de grande escala. Ela se passa inteiramente na cidade de Kalona ao longo de um período claustrofóbico de três dias. Os jogadores controlam versões mais jovens e cansadas da guerra de Marcus Fenix e Dominic Santiago enquanto navegam pelas consequências imediatas da emergência dos Locusts.
+
+O núcleo emocional da história centra-se na recente perda de Carlos Santiago, irmão mais velho de Dom e melhor amigo de Marcus. Essa tragédia molda o início do relacionamento deles, tornando a cooperação uma questão de sobrevivência, e não de uma irmandade já estabelecida.
+
+| Personagem | Função no Esquadrão Bravo | Histórico |
+| :--- | :--- | :--- |
+| **Marcus Fenix** | Soldado de Linha de Frente | Veterano das Guerras do Pêndulo carregando profundas cicatrizes emocionais |
+| **Dominic Santiago** | Combatente de Suporte | Em busca de um propósito após a perda de seu irmão Carlos |
+| **Mags Carter** | Especialista Pesado | Ex-Gear trabalhando na Refinaria de Imulsão de Kalona |
+| **Lucas Reyes** | Oficial de Comunicação | Cadete jovem que nunca vivenciou o combate na linha de frente |
+
+A campanha pode ser jogada solo ou com amigos. Os jogadores de console podem desfrutar do clássico cooperativo em tela dividida para dois jogadores, enquanto o jogo online suporta até quatro jogadores. Os jogadores podem selecionar qualquer um dos quatro membros do Esquadrão Bravo durante as sessões de cooperativo online.
+
+<Callout type="info" title="Estrutura da Campanha">
+A campanha não apresenta segmentos de mundo aberto. É uma história linear altamente focada, projetada para enfatizar o horror e a confusão dos três primeiros dias da invasão.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guia de Gears of War E-Day: Combate e Movimentação para Iniciantes">
+
+Este **guia de Gears of War: E-Day** destaca como o clássico quebra-cabeça de combate foi modernizado. A jogabilidade principal ainda depende muito de buscar cobertura, mas a movimentação foi reconstruída para oferecer uma liberdade tática sem precedentes.
+
+Pela primeira vez na série, os jogadores podem pular vãos, escalar rotas verticais e executar transições de cobertura fluidas. Isso muda a forma como você aborda manobras de flanqueamento e defesa em posições elevadas.
+
+<Steps>
+  <Step num="1" title="Domine o Deslize e as Transições de Cobertura">
+    Pratique deslizar de uma corrida para uma cobertura baixa ou alta. A cobertura é destrutível, então você deve fazer a transição constante para novas paredes à medida que o fogo inimigo desgasta sua proteção.
+  </Step>
+  <Step num="2" title="Utilize Flancos Verticais">
+    Procure por varandas, telhados e saídas de incêndio. Use a nova mecânica de pulo para alcançar posições elevadas, permitindo que você dispare com precisão contra as forças Locust usando o rifle Longshot.
+  </Step>
+  <Step num="3" title="Feche os Buracos de Emergência Imediatamente">
+    Quando o chão se abrir, reaja rápido. Os Buracos de Emergência (E-Holes) podem rapidamente sobrecarregar seu esquadrão com Miseráveis e Drones. Lance uma granada de fragmentação bem mirada ou dispare um projétil explosivo na abertura para selá-la.
+  </Step>
+  <Step num="4" title="Gerencie o Alcance de Suas Armas">
+    Equipe um arsenal equilibrado. Mantenha a Gnasher por perto para atacantes agressivos e use as novas escopetas Gut Puncher ou Incinerator para controlar corredores estreitos e pontos de estrangulamento.
+  </Step>
+</Steps>
+
+O arsenal apresenta uma mistura de clássicos que retornam e protótipos de armas projetados durante os primeiros dias da guerra.
+
+| Arma | Categoria | Função de Combate | Melhor Uso Tático |
+| :--- | :--- | :--- | :--- |
+| **Gnasher** | Escopeta | Poder a curta distância | Controlar cantos estreitos e punir atacantes agressivos |
+| **Longshot** | Rifle de Precisão | Distância de precisão | Manter linhas de visão elevadas e eliminar alvos de alto valor |
+| **Gut Puncher** | Lançador Explosivo | Utilidade perfuradora de armadura | Posicionar explosões atrasadas atrás da cobertura inimiga |
+| **Incinerator** | Escopeta de Imulsão | Negação de área | Limpar grupos de Miseráveis Ferais rapidamente |
+| **Lancer com Motosserra** | Rifle de Assalto | Híbrido corpo a corpo/médio alcance | Protótipo de arma usado para defesa brutal em combates de curta distância |
+
+<Callout type="success" title="Consciência de Microdestruição">
+Sempre monitore a integridade de sua cobertura. Armas pesadas e fogo contínuo destruirão barreiras de concreto e madeira, forçando você a se mover ou correr o risco de ficar exposto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Classes do Cerco de Horda PvE e Táticas de Mapa do Versus PvP">
+
+O multijogador em Gears of War: E-Day é dividido em duas experiências principais: o modo expandido Cerco de Horda PvE para 12 jogadores e o modo altamente competitivo Versus PvP 4v4. Ambos os modos aproveitam as mecânicas atualizadas de movimentação e destruição do jogo.
+
+O Cerco de Horda é uma batalha cooperativa massiva onde três esquadrões distintos de 4 jogadores defendem Kalona contra ondas crescentes da Horda Locust. Para ter sucesso, os jogadores devem selecionar classes complementares e coordenar suas defesas.
+
+| Classe | Arquétipo de Combate | Habilidade Única | Armamento Preferido |
+| :--- | :--- | :--- | :--- |
+| **Assalto** | Combatente de Linha de Frente | Aumento de dano em acertos consecutivos | Gnasher, Lancer |
+| **Atirador** | Suporte de Longo Alcance | Acertos críticos revelam inimigos adjacentes | Longshot, Pistola |
+| **Médico** | Suporte de Esquadrão | Reanimação rápida e campo de regeneração de vida | Lancer, Submetralhadora |
+| **Invasor** | Especialista em Curta Distância | Reforço de escudo ao deslizar para cobertura | Gut Puncher, Incinerator |
+
+O Versus PvP retorna a uma estrutura 4v4 mais compacta e tática. Os layouts simétricos dos mapas são situados em distritos de Kalona devastados pela guerra, como o estádio de esportes, a orla industrial e as zonas de refinaria. Vencer partidas exige controle de mapa, tempo de surgimento de armas e domínio das mecânicas modernizadas de deslize.
+
+<CardGrid cols={2}>
+  <Card title="Listas de Jogos Ranqueadas">
+    - **Competição estruturada** para esquadrões coordenados
+    - Organização de partidas focada em habilidade e progressão de ranque visível
+    - Mapas simétricos com surgimento de armas fixos
+  </Card>
+  <Card title="Listas de Jogos Sociais">
+    - **Organização de partidas casual** com modos de jogo rotativos
+    - Ideal para testar novas combinações de movimentação e armas
+    - Ambiente descontraído para jogar solo ou em grupo
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Coordenação no Cerco de Horda">
+Sempre garanta que sua equipe de 12 jogadores tenha uma mistura equilibrada de Médicos e Invasores. Os Invasores podem conter pontos de estrangulamento criados por crateras, enquanto os Médicos mantêm a linha defensiva segura.
+</Callout>
+
+</Section>
+
+<Section icon={Sliders} title="Requisitos de Sistema para PC e Desempenho no Console">
+
+A Unreal Engine 5 introduz recursos de renderização de ponta em Sera. Para experimentar o jogo no seu melhor, os jogadores de PC precisarão de hardware moderno, particularmente um drive de estado sólido (SSD) rápido para lidar com o carregamento de texturas e elementos (asset streaming) sem engasgos.
+
+| Especificação do Sistema | Requisitos Mínimos | Requisitos Recomendados |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 de 64 bits (v22H2) | Windows 11 de 64 bits (v25H2 ou mais recente) |
+| **CPU** | AMD Ryzen 5 2600X / Intel i5-10400 | AMD Ryzen 5 5600 / Intel i5-11600K |
+| **RAM** | 12 GB | 16 GB |
+| **GPU** | RTX 2060 / RX 6600 / Arc A580 | RTX 3060 Ti / RX 6700 XT / Arc B580 |
+| **DirectX** | Versão 12 | Versão 12 |
+| **Armazenamento** | 130 GB de espaço disponível (SSD obrigatório) | 130 GB de espaço disponível (SSD obrigatório) |
+
+Os jogadores do Xbox Series X|S se beneficiam de otimizações direcionadas. O jogo roda em uma resolução meta de 4K a até 60 quadros por segundo em ambos os modos Campanha e Multijogador em telas compatíveis. Os recursos avançados de console incluem Ray Tracing, HDR10, Taxa de Atualização Variável (VRR) e áudio espacial Dolby Atmos.
+
+<Callout type="warning" title="Armazenamento SSD Obrigatório">
+Discos rígidos mecânicos (HDDs) não são suportados. Instalar o jogo em um HDD resultará em sérios problemas de carregamento tardio de texturas (pop-in), atrasos no carregamento e dessincronização de áudio.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A campanha suporta cooperativo em tela dividida no PC?",
+    answer: "Não, o cooperativo em tela dividida é exclusivo das versões para console Xbox Series X|S. Os jogadores de PC podem jogar o cooperativo online com até quatro jogadores."
+  },
+  {
+    question: "É necessário ter o Game Pass para jogar o Beta Aberto?",
+    answer: "Não, mas a pré-venda de qualquer edição do jogo concederá acesso antecipado ao Beta Aberto em 6 de agosto de 2026. Assinantes ativos do Game Pass Ultimate ou do PC Game Pass também ganham acesso aos períodos de beta."
+  },
+  {
+    question: "Como o modo Cerco de Horda para 12 jogadores difere da Horda clássica?",
+    answer: "O Cerco de Horda apresenta mapas maiores, três esquadrões distintos de 4 jogadores trabalhando juntos, habilidades supremas específicas de classe e chefes mundiais dinâmicos que podem alterar o terreno do mapa em tempo real."
+  },
+  {
+    question: "Onde posso encontrar um guia confiável de Gears of War: E-Day para jogo competitivo?",
+    answer: "Nossa equipe da wiki atualiza as estratégias regularmente. Para o jogo competitivo, concentre-se em dominar os sistemas modernizados de deslize e transição de cobertura, já que o flanqueamento vertical agora é uma mecânica central."
+  }
+]} />
+
+</Section>

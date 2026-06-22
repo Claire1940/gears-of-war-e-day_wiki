@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Lançamento",
+    "platforms": "Plataformas",
+    "editions": "Edições",
+    "guide": "Guia",
+    "story": "História",
+    "gameplay": "Jogabilidade"
+  }
+}

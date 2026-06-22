@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jugabilidad de Gears of War E-Day: Guía de Cobertura, Armas y Cooperativo",
+  description: "Domina la jugabilidad de Gears of War E-Day con nuestro análisis profundo de las mecánicas de cobertura, movimiento modernizado, armas confirmadas y el modo PvE Asedio de la Horda de 12 jugadores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/ef1b24?text=Gameplay+Mechanics+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de gears of war e-day"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La jugabilidad de Gears of War E-Day** combina los fundamentos clásicos de los shooters de cobertura en tercera persona con un movimiento modernizado, que incluye saltar y deslizarse.
+- **El cooperativo de la campaña** es compatible con el juego en solitario, pantalla dividida para dos jugadores en consola y escuadrones en línea de hasta cuatro jugadores con el Escuadrón Bravo.
+- **Asedio de la Horda PvE** es un modo evolucionado de supervivencia por oleadas para 12 jugadores que consta de tres escuadrones de cuatro jugadores que defienden Kalona.
+- **Versus PvP** regresa a sus raíces con enfrentamientos competitivos tácticos de 4v4 en mapas urbanos simétricos.
+- **Las mecánicas de las armas** presentan el regreso de la Gnasher junto con nuevas herramientas como la escopeta Incineradora alimentada por Imulsión.
+</Callout>
+
+<Section icon={Map} title="Resumen de la jugabilidad de Gears of War E-Day">
+
+El núcleo de la **jugabilidad de Gears of War E-Day** se basa en un regreso oscuro y crudo a las raíces de terror de supervivencia de la franquicia. Reconstruido desde cero en Unreal Engine 5, el juego se centra en la realidad brutal y claustrofóbica del Día de la Emergencia en la ciudad de Kalona. En lugar de controlar una máquina militar imparable, los jugadores experimentan los tres caóticos días iniciales de la invasión Locust a través de los ojos de unos más jóvenes y vulnerables Marcus Fenix y Dominic Santiago.
+
+La fórmula táctica de shooter de cobertura sigue siendo la base del combate, pero se ha mejorado con físicas ambientales modernas y dinámicas de escuadrón avanzadas. Los jugadores deben utilizar el entorno a la defensiva, ya que la Horda Locust está diseñada para sentirse terriblemente agresiva, inteligente y físicamente imponente en los enfrentamientos a corta distancia.
+
+<CardGrid cols={3}>
+  <Card title="Combate Táctico a Cubierto">
+    - **La destrucción dinámica** desgasta las defensas de piedra y metal.
+    - Las opciones de cobertura a ras de suelo ofrecen un posicionamiento más orgánico.
+    - Las mecánicas de fuego a ciegas se han refinado para situaciones de alta presión.
+  </Card>
+  <Card title="Movimiento Modernizado">
+    - **Los deslizamientos al esprintar** permiten un reposicionamiento rápido bajo obstáculos.
+    - Los saltos en los tejados abren oportunidades de flanqueo vertical.
+    - Las transiciones suaves en las esquinas mantienen el combate fluido y rápido.
+  </Card>
+  <Card title="Integración de Escuadrón">
+    - **El cooperativo en línea para cuatro jugadores** permite a los escuadrones abordar la campaña juntos.
+    - La pantalla dividida en consola admite el clásico juego local para dos jugadores.
+    - Los roles específicos de cada personaje destacan fortalezas únicas en el campo de batalla.
+  </Card>
+</CardGrid>
+
+El progreso de la campaña se estructura en torno a la defensa de Kalona a lo largo de tres días de escalada del conflicto. A medida que la ciudad se derrumba, los jugadores deben adaptarse al terreno cambiante, lidiar con los repentinos Agujeros de Emergencia (E-Holes) y coordinar flanqueos para sobrevivir.
+
+<Callout type="tip" title="Nota de Compatibilidad del Cooperativo">
+Aunque la campaña se puede disfrutar completamente en solitario, jugar con un escuadrón coordinado te permite aprovechar los flanqueos verticales y los fuegos cruzados, que son esenciales para gestionar los encuentros con Locust en dificultades elevadas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Movimiento Reimaginadas">
+
+Las mecánicas de movimiento modernizadas definen cómo interactúan los jugadores con el campo de batalla. Por primera vez en la serie, los personajes pueden saltar a través de brechas, navegar por los tejados y utilizar la verticalidad para sortear las posiciones Locust fuertemente fortificadas. Este cambio transforma las arenas de combate planas y horizontales en rompecabezas tácticos de múltiples niveles.
+
+La microdestrucción juega un papel fundamental en cómo se utiliza la cobertura. Las barreras de hormigón estándar y las estructuras de madera se degradan bajo el fuego sostenido, lo que obliga a los jugadores a cambiar constantemente entre puntos defensivos. Además, los peligros ambientales a gran escala, como los sumideros, pueden alterar el diseño de un mapa en pleno combate, tragándose vehículos y creando nuevos puntos de estrangulamiento.
+
+| Mecánica de Movimiento | Entrada de Control / Acción | Aplicación Táctica | Interacción Ambiental |
+| :--- | :--- | :--- | :--- |
+| **Deslizamiento al Esprintar** | Deslizarse desde el esprint | Escapar de carriles abiertos, deslizarse bajo tuberías bajas, llegar a cubierto rápidamente | Evita las líneas de visión de los francotiradores |
+| **Salto Vertical** | Saltar a través de brechas | Acceder a tejados, balcones y rutas de flanqueo elevadas | Evita los puntos de estrangulamiento a nivel del suelo |
+| **Transición de Cobertura** | Transición fluida de pared a cobertura | Cambiar de posición sin problemas en las esquinas sin exponer tu área de impacto | Se adapta a la cobertura que se degrada |
+| **Cierre de Agujeros de Emergencia** | Colocación de granadas | Detener los refuerzos Locust sellando los puntos de emergencia activos | Requiere lanzamientos de explosivos precisos |
+
+El bucle de combate recompensa a los jugadores que saben leer el campo de batalla. Quedarse quieto detrás de una sola cobertura es una forma garantizada de ser flanqueado por los agresivos Desgraciados o verse obligado a salir por la artillería pesada.
+
+<Callout type="warning" title="Alerta de Degradación de Cobertura">
+No confíes en estructuras de madera o metálicas ligeras para una seguridad permanente. El fuego pesado sostenido o los impactos de explosivos destruirán rápidamente la cobertura temporal, dejándote completamente expuesto a los tiradores enemigos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Armas Confirmadas y Roles de Combate">
+
+El arsenal de Gears of War: E-Day presenta una mezcla de clásicos favoritos de los fans y armamento prototipo rudimentario construido específicamente para hacer frente a la repentina amenaza Locust. Debido a que esta historia tiene lugar 14 años antes del juego original, el icónico Lancer con motosierra no es un arma estándar al inicio; en su lugar, los jugadores son testigos de su origen nacido en el campo de batalla como una solución desesperada e improvisada contra la armadura Locust.
+
+Nuevas armas como el Gut Puncher y la Incineradora introducen nuevas opciones tácticas para controlar multitudes y penetrar objetivos fuertemente blindados.
+
+| Nombre del Arma | Categoría del Arma | Rango de Combate Óptimo | Rol de Combate Principal | Rasgo Único del Arma |
+| :--- | :--- | :--- | :--- | :--- |
+| **Gnasher** | Escopeta que Regresa | Corto Alcance | Defensa personal de alto daño, control de multitudes | La reina de los combates a cubierto a corta distancia |
+| **Longshot** | Fusil de Precisión | Largo Alcance | Mantener líneas de visión, eliminar tiradores lejanos | Recompensa la paciencia y la precisión en los tiros a la cabeza |
+| **Gut Puncher** | Nuevo Lanzagranadas | Medio Alcance | Daño explosivo perforador de armadura, desalojo de coberturas | Detonación remota controlada por el jugador |
+| **Incineradora** | Nueva Escopeta | Corto Alcance | Denegación de área alimentada por Imulsión, daño por quemadura | Alta dispersión, derrite a los enemigos agresivos que cargan |
+| **Lancer con Motosierra** | Origen del Arma | Cuerpo a Cuerpo / Medio Alcance | Fusil de asalto híbrido y ejecución brutal cuerpo a cuerpo | Prototipo construido en el campo de batalla para dominar en cuerpo a cuerpo |
+
+Elegir el equipamiento adecuado depende en gran medida de la composición de tu equipo y del entorno específico. En pasillos industriales estrechos como la Refinería de Imulsión de Kalona, destacan las potencias de corto alcance como la Incineradora y la Gnasher. En distritos abiertos como el estadio deportivo o el aeródromo, los fusiles de precisión son obligatorios.
+
+<Callout type="success" title="Consejo de Sinergia de Armas">
+Haz que al menos un miembro del escuadrón lleve un Gut Puncher para quitar la armadura de las variantes Locust más grandes, permitiendo que los compañeros con fusiles estándar o escopetas los eliminen rápidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Asedio de la Horda: Supervivencia por Oleadas PvE para 12 Jugadores">
+
+Asedio de la Horda es la evolución del multijugador cooperativo de Gears. Al expandir el clásico modo de supervivencia PvE a un conflicto más grande a nivel de toda la ciudad, Asedio de la Horda coordina tres escuadrones independientes de cuatro jugadores (12 jugadores en total) para defender distritos clave de Kalona contra oleadas masivas de Locust y jefes mundiales.
+
+El éxito requiere que los jugadores seleccionen clases complementarias, compartan recursos y coordinen las defensas en múltiples frentes.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Clase y Equipamiento">
+    Elige entre cuatro clases distintas: Asalto, Tirador, Médico o Rompedor. Cada clase posee habilidades pasivas únicas y equipo inicial especializado adaptado a roles de combate específicos.
+  </Step>
+  <Step num="2" title="Establece Perímetros Defensivos">
+    Trabaja con tu escuadrón para fortificar puntos de estrangulamiento, colocar barreras y configurar torretas defensivas alrededor de estructuras críticas como la refinería o el aeródromo.
+  </Step>
+  <Step num="3" title="Defiende y Coordínate entre Escuadrones">
+    A medida que las oleadas Locust aumentan, comunícate con los otros dos escuadrones para reforzar las líneas debilitadas, compartir munición y concentrar el fuego en los jefes mundiales que se aproximan.
+  </Step>
+  <Step num="4" title="Reclama la Victoria y Personaliza">
+    Sobrevive a las oleadas finales del asedio para obtener progresión de personaje, desbloquear recompensas cosméticas de temporada y asegurar paquetes de personalización premium.
+  </Step>
+</Steps>
+
+El sistema de clases garantiza que cada jugador tenga una responsabilidad clara en el campo de batalla. Un escuadrón equilibrado tiene muchas más probabilidades de sobrevivir a las oleadas avanzadas de la partida.
+
+| Nombre de la Clase | Rol Inicial | Especialidad Principal | Herramienta Defensiva Clave |
+| :--- | :--- | :--- | :--- |
+| **Asalto** | Combate en Primera Línea | Daño a medio alcance, dominio del fusil | Reservas de munición de alta capacidad |
+| **Tirador** | Soporte a Largo Alcance | Francotirador de precisión, avistamiento de objetivos de alto valor | Balas perforantes de armadura |
+| **Médico** | Supervivencia del Escuadrón | Curación, reanimaciones rápidas, mejoras defensivas | Estimulantes médicos portátiles |
+| **Rompedor** | Especialista a Corto Alcance | Daño de escopeta, fortificación de barreras, armadura pesada | Herramientas de reparación rápida de barreras |
+
+<Callout type="warning" title="Comunicación en el Asedio de la Horda">
+No aísles a tu escuadrón de cuatro jugadores del resto del equipo de 12 jugadores. Si un sector del mapa cae, los Locust flanquearán y abrumarán rápidamente las posiciones defensivas restantes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Versus PvP y Preparación Previa al Lanzamiento">
+
+Para los jugadores competitivos, Versus PvP trae de vuelta las partidas cerradas de 4v4 centradas en la habilidad que definieron el multijugador inicial de Gears. Los mapas están ambientados en las ruinas devastadas por la guerra de Kalona, con diseños simétricos que enfatizan el control del mapa, la aparición de armas potentes y el dominio del sistema de movimiento modernizado.
+
+Estarán disponibles tanto las listas de reproducción Clasificatorias como las Sociales, lo que garantiza un espacio tanto para equipos altamente competitivos como para jugadores casuales.
+
+<Checklist
+  id="eday-launch-goals"
+  title="Lista de Verificación de Preparación Previa al Lanzamiento:"
+  items={[
+    "Reserva cualquier edición para asegurar el acceso anticipado a la Beta Abierta que comienza el 6 de agosto de 2026.",
+    "Reclama los bonos de lanzamiento del aspecto de personaje legendario Dom Exfiltración y el conjunto de aspectos de armas Exfiltración.",
+    "Verifica que tu PC cumpla con los requisitos del sistema de 130 GB de almacenamiento SSD y DirectX 12.",
+    "Coordínate con tus compañeros de cooperativo para decidir vuestras clases iniciales de Asedio de la Horda.",
+    "Practica las mecánicas de deslizamiento de cobertura a cobertura desde el primer día para maximizar tu tasa de supervivencia."
+  ]}
+/>
+
+Para prepararse para el lanzamiento oficial el 6 de octubre de 2026, los jugadores pueden participar en los fines de semana de Beta Abierta. Esta ventana previa al lanzamiento es la oportunidad perfecta para probar el equilibrio de las armas, aprender los diseños de los nuevos mapas de Kalona y dominar los tiempos de las transiciones de cobertura.
+
+<Callout type="info" title="Tiendas Oficiales">
+Puedes reservar el juego en la [Tienda Oficial de Xbox](https://www.xbox.com/en-US/games/gears-of-war-eday) o añadirlo directamente a tu lista de deseos en [Steam](https://store.steampowered.com/app/3010850/Gears_of_War_EDay/) para asegurarte de estar listo para las ventanas de beta y de lanzamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo afecta el movimiento modernizado a la jugabilidad de Gears of War E-Day?",
+    answer: "El movimiento modernizado introduce la verticalidad, permitiendo a los jugadores saltar a través de brechas y subir a los tejados. También presenta deslizamientos al esprintar y transiciones de esquinas más suaves, lo que hace que el combate basado en coberturas sea más rápido y dinámico sin perder el peso clásico del movimiento de Gears."
+  },
+  {
+    question: "¿Puedo jugar el cooperativo de la campaña en pantalla dividida?",
+    answer: "Sí, los jugadores de consola pueden jugar la campaña en cooperativo de pantalla dividida para dos jugadores. El cooperativo de la campaña en línea admite hasta cuatro jugadores, lo que permite que un escuadrón completo experimente la historia del Escuadrón Bravo juntos."
+  },
+  {
+    question: "¿Qué es Asedio de la Horda y a cuántos jugadores admite?",
+    answer: "Asedio de la Horda es un modo evolucionado de supervivencia por oleadas PvE que admite hasta 12 jugadores. Los jugadores se dividen en tres escuadrones de cuatro, trabajando juntos para defender diferentes sectores de Kalona contra fuerzas masivas de Locust y jefes mundiales."
+  },
+  {
+    question: "¿Necesito un código de beta para acceder a la Beta Abierta de Gears of War: E-Day?",
+    answer: "Si reservas el juego digitalmente, tu cuenta tendrá derecho automáticamente al acceso anticipado a la beta a partir del 6 de agosto de 2026, por lo que no se requiere ningún código. Si reservas una edición física, recibirás un código de beta de un solo uso por parte del distribuidor participante."
+  }
+]} />
+
+</Section>

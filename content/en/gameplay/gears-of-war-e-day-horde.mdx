@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Horde: 12-Player Siege Guide & Classes",
+  description: "Master the gears of war e-day horde mode. Explore Horde Siege mechanics, 12-player co-op strategies, confirmed classes, and map tactics for Kalona.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=Horde+Siege+Guide",
+  date: "2026-06-22",
+  author: "gears of war e-day Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Horde Evolution**: The **gears of war e-day horde** mode is officially called Horde Siege, expanding PvE co-op to a massive 12-player battlefield.
+- **Squad Structure**: Players are organized into three distinct 4-player squads working in unison to defend the war-torn city of Kalona.
+- **Four Classes**: Choose from four specialized roles: Assault, Marksman, Medic, and Breacher, each with unique weapons and tactical utility.
+- **Key Dates**: Test your skills during the Open Beta starting August 6, 2026, ahead of the global launch on October 6, 2026.
+</Callout>
+
+<Section icon={Shield} title="Evolution of the gears of war e-day horde: Introducing Horde Siege">
+
+The classic wave-survival mode that defined cooperative shooters is undergoing its most radical transformation yet. In [Gears of War: E-Day](https://www.xbox.com/en-US/games/gears-of-war-eday), the cooperative PvE experience is elevated to an unprecedented scale with Horde Siege. Instead of the traditional 5-player squad holding a single choke point, Horde Siege introduces a massive 12-player defensive operation. 
+
+Set within the crumbling city of Kalona during the first three days of the Locust emergence, players must coordinate across larger, highly destructive urban environments. The Locust Horde is no longer just crawling out of localized holes; they are staging full-scale military assaults to reclaim the surface.
+
+<Callout type="info" title="Tactical Shift">
+Horde Siege shifts the gameplay from static bunker defense to dynamic zone control. With 12 players on the field, static camping is heavily punished by dynamic environmental hazards like sinkholes and micro-destruction.
+</Callout>
+
+### Horde Siege vs. Classic Horde
+
+To understand how the cooperative meta has shifted, compare the core mechanics of the new Horde Siege mode with previous iterations of Horde:
+
+| Feature | Classic Horde (Gears 1-5) | Horde Siege (E-Day) |
+|---|---|---|
+| **Max Players** | 5 Players | 12 Players (Three 4-Player Squads) |
+| **Map Scale** | Symmetrical, medium-sized arenas | Large-scale city districts in Kalona |
+| **Locust Threat** | Linear waves of increasing difficulty | Multi-directional sieges and World Bosses |
+| **Defensive Style** | Fixed fortifications and fabricators | Mobile cover, micro-destruction adaptation |
+| **Role Synergy** | Class-based or character-based perks | Cross-squad tactical combinations |
+
+This expanded format requires a deep understanding of squad distribution, class synergies, and how to utilize the verticality of Kalona's urban layout to survive the onslaught.
+
+</Section>
+
+<Section icon={Swords} title="Horde Siege Class Archetypes and Loadouts">
+
+Success in Horde Siege relies on the synergy between the four confirmed character classes. Each class is designed to handle specific combat distances and tactical responsibilities. Players must distribute these roles evenly across the three 4-player squads to ensure no defensive zone is left vulnerable.
+
+<CardGrid cols={2}>
+  <Card title="Assault Class">
+    - **Combat Role**: Frontline offense and close-quarters crowd control.
+    - **Signature Weapons**: Gnasher Shotgun and the Imulsion-fueled Incinerator.
+    - **Core Function**: Clear out swarms of Feral Wretches and push aggressive Locust Drones out of cover.
+  </Card>
+  <Card title="Marksman Class">
+    - **Combat Role**: Long-range precision and high-value target elimination.
+    - **Signature Weapons**: Longshot Sniper Rifle.
+    - **Core Function**: Secure elevated positions on rooftops and balconies to pick off heavy targets and cover frontline squads.
+  </Card>
+  <Card title="Medic Class">
+    - **Combat Role**: Squad survival, healing, and combat resurrection.
+    - **Signature Weapons**: Lancer Assault Rifle and support utility.
+    - **Core Function**: Deploy healing fields, revive downed allies from a distance, and maintain squad uptime during heavy pressure.
+  </Card>
+  <Card title="Breacher Class">
+    - **Combat Role**: Heavy ordnance, structural defense, and E-Hole closure.
+    - **Signature Weapons**: Gut Puncher explosive launcher.
+    - **Core Function**: Deploy heavy barriers, delay enemy advances, and seal Emergence Holes before squads are overrun.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Class Synergy Tip">
+An ideal 4-player squad composition consists of one of each class. However, when coordinating as a full 12-player lobby, having at least two Marksmen on high ground and three Breachers distributed across key choke points is highly recommended.
+</Callout>
+
+### Class Loadouts and Strategic Utility
+
+| Class | Primary Weapon | Secondary Weapon | Tactical Utility |
+|---|---|---|---|
+| **Assault** | Incinerator | Gnasher | Smoke Grenade / Close-quarters stun |
+| **Marksman** | Longshot | Snub Pistol | Spotting Scope / Target marking |
+| **Medic** | Lancer | Snub Pistol | Stim Gas / Area-of-effect healing |
+| **Breacher** | Gut Puncher | Gnasher | Frag Grenade / Fortification repair kit |
+
+</Section>
+
+<Section icon={Map} title="Kalona Map Dynamics and Environmental Hazards">
+
+Horde Siege takes place in the expansive, multi-district city of Kalona. Because the maps are significantly larger than traditional Gears multiplayer arenas, squads must learn to navigate and defend distinct zones, ranging from industrial refinery sectors to dense residential areas.
+
+The environment itself is a constant threat. The Unreal Engine 5 reconstruction of Sera introduces micro-destruction, meaning cover is no longer permanent. Heavy Locust fire will slowly chip away at concrete walls, wooden barriers, and metal pillars, forcing squads to constantly relocate.
+
+<Callout type="warning" title="Environmental Danger">
+Keep an eye out for sinkholes. Major Locust underground movements can cause entire streets or vehicles to collapse, instantly killing any players caught in the zone and permanently altering the map's layout.
+</Callout>
+
+### Confirmed Kalona Defensive Zones
+
+To defend the city effectively, squads should divide responsibilities based on zone characteristics:
+
+| Zone Type | Layout Features | Primary Threat | Recommended Class Setup |
+|---|---|---|---|
+| **Refinery Districts** | Industrial verticality, tight catwalks | Close-range ambushes, Wretch swarms | Assault and Breacher heavy |
+| **Residential Streets** | Long sightlines, destructible houses | Sniper fire, flanking Drones | Marksman and Medic heavy |
+| **Sports Stadium** | Wide open ground, central choke points | World Bosses, heavy artillery | Balanced distribution (All classes) |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Surviving a Siege Wave">
+
+Surviving the brutal waves of the **gears of war e-day horde** mode requires structured communication and precise execution. When a siege wave begins, squads must immediately execute their defensive protocols.
+
+<Steps>
+  <Step num="1" title="Secure the High Ground">
+    Before the wave starts, Marksmen must use the modernized jumping and climbing mechanics to secure balconies, rooftops, and elevated scaffolding. This provides clear sightlines to spot incoming Emergence Holes.
+  </Step>
+  <Step num="2" title="Establish Choke Points">
+    Breachers must deploy defensive barriers at key street intersections and narrow alleyways. Position Assault players just behind these barriers to punish any Locust that attempt to climb over.
+  </Step>
+  <Step num="3" title="Coordinate E-Hole Closure">
+    When the ground opens and an E-Hole appears, the nearest Breacher must immediately fire a Gut Puncher round or toss a well-placed Frag Grenade into the opening to seal it, preventing endless enemy reinforcements.
+  </Step>
+  <Step num="4" title="Regroup for World Bosses">
+    During boss waves, all three squads must converge on the high-value target. Use the Medic's Stim Gas to survive heavy area-of-effect attacks while the entire 12-player lobby focuses fire on the boss's weak points.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Victory Condition">
+Sealing E-Holes quickly is the single most effective way to shorten wave times and conserve precious ammunition. Never let an E-Hole remain open for more than 15 seconds.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beta Access, Progression, and Pre-Order Rewards">
+
+Players can get their first hands-on experience with Horde Siege during the upcoming Open Beta. Progression earned during the beta and playtests will help players refine their strategies ahead of the October 6, 2026 global launch on Xbox Series X|S, Windows PC, and Steam.
+
+<Checklist
+  id="horde-prep-checklist"
+  title="Horde Siege Preparation Checklist:"
+  items={[
+    "Pre-order any edition to secure Open Beta early access on August 6, 2026",
+    "Coordinate with up to 11 friends to form a dedicated 12-player Horde community",
+    "Familiarize yourself with the system requirements to ensure stable 60 FPS performance",
+    "Claim the pre-order Exfil Dom skin to stand out on the battlefield at launch"
+  ]}
+/>
+
+<Callout type="info" title="Game Pass Day One">
+Gears of War: E-Day will be available on Xbox Game Pass and PC Game Pass on day one. Game Pass Ultimate members can access the full game, including all multiplayer modes, starting October 6, 2026.
+</Callout>
+
+### Pre-Order Editions and Multiplayer Bonuses
+
+For players looking to maximize their launch day experience, several editions offer exclusive cosmetic rewards and early access privileges:
+
+| Edition | Price | Early Access | Exclusive Horde Customization |
+|---|---|---|---|
+| **Standard Edition** | $69.99 | Standard (Oct 6) | Exfil Dom Skin, Exfil Weapon Skin Set |
+| **Premium Edition** | $99.99 | 5 Days Early (Oct 1) | Bravo Squad Signature Weapons, 5 Seasonal Packs, 1,000 Iron |
+| **Premium Upgrade** | $30.00 | 5 Days Early (Oct 1) | Requires Base Game/Game Pass; includes all Premium cosmetics |
+| **Collector's Edition** | Retailer-based | 5 Days Early (Oct 1) | Physical 15-inch Statue, SteelBook, plus all Premium digital items |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does the gears of war e-day horde mode differ from previous games?",
+    answer: "The gears of war e-day horde mode, officially named Horde Siege, increases the player count from 5 to 12. It organizes players into three 4-player squads and introduces larger urban maps, destructible cover, and massive World Bosses."
+  },
+  {
+    question: "Do I need an active subscription to play Horde Siege online?",
+    answer: "Yes, playing Horde Siege online requires an active subscription that supports online console multiplayer, such as Xbox Game Pass Ultimate or an equivalent platform membership."
+  },
+  {
+    question: "Is there split-screen support for Horde Siege?",
+    answer: "While the campaign supports 2-player local split-screen co-op on console, Horde Siege is designed primarily as an online multiplayer experience supporting up to 12 players across Xbox Series X|S and PC."
+  },
+  {
+    question: "Can I play the Open Beta without pre-ordering the game?",
+    answer: "Pre-ordering any digital or physical edition grants early access to the Open Beta on August 6, 2026. General access rules for subsequent beta weekends will be announced closer to the playtest window."
+  }
+]} />
+
+</Section>

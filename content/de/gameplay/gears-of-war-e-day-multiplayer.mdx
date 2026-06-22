@@ -1,0 +1,216 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Multiplayer: Modi & Klassen-Guide",
+  description: "Meistere den Gears of War E-Day Multiplayer mit unserem Guide zu Horde-Belagerung PvE, 4v4 Versus PvP, Charakterklassen, Bewegungsmechaniken und Beta-Belohnungen.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=Multiplayer+Guide",
+  date: "2026-06-22",
+  author: "Gears of War E-Day Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptfokus**: Das **Gears of War E-Day Multiplayer**-Erlebnis führt einen massiven PvE-Modus für 12 Spieler sowie das klassische kompetitive PvP ein.
+- **Horde-Belagerung**: Ein weiterentwickelter PvE-Wellen-Überlebensmodus, bei dem drei 4-Spieler-Squads auf weitläufigen Stadtkarten zusammenarbeiten.
+- **Versus PvP**: Optimierte taktische 4v4-Matches mit modernisierter Fortbewegung, vertikalen Flanken und klassischem Waffenspiel.
+- **Offene Beta**: Der Vorabzugang beginnt am 6. August 2026 für Spieler, die eine digitale oder physische Edition vorbestellen.
+- **Wichtige Fortbewegung**: Geschmeidigere Deckungsübergänge, Rutschen, Springen und Mikro-Zerstörung definieren den Ablauf der Kämpfe neu.
+</Callout>
+
+<Section icon={Swords} title="Gears of War E-Day Multiplayer-Übersicht">
+
+Wenn es um den **Gears of War E-Day Multiplayer** geht, können sich Spieler auf eine gewaltige Weiterentwicklung sowohl der kooperativen als auch der kompetitiven Modi freuen. Die von Grund auf in Unreal Engine 5 entwickelte Multiplayer-Suite verbindet die düstere Horror-Atmosphäre der Original-Trilogie mit modernisierten Gameplay-Systemen. The Coalition hat die Spielerzahl für das kooperative Spiel erhöht, während der Fokus auf engen, symmetrischen kompetitiven Arena-Shooter-Formaten beibehalten wurde.
+
+Das Multiplayer-Ökosystem ist in zwei Hauptsäulen unterteilt: **Horde-Belagerung** (PvE) und **Versus PvP**. Beide Modi nutzen dieselbe mechanische Sandbox-Basis, sodass Spieler ihre Gewohnheiten bezüglich Rückstoß, Bewegungsgeschwindigkeit und Deckungsinteraktion übertragen können. Das Spiel ist für bis zu 60 FPS in den Multiplayer-Modi auf kompatiblen Bildschirmen optimiert, um flüssige Deckungsübergänge und schnelles Wall-Bouncing zu gewährleisten.
+
+<CardGrid cols={3}>
+  <Card title="Horde-Belagerung (PvE)">
+    - **Kooperatives Spiel für 12 Spieler**
+    - Drei 4-Spieler-Squads
+    - Klassenbasierte Verteidigungsmechaniken
+    - Weltboss-Begegnungen
+  </Card>
+  <Card title="Versus PvP (Kompetitiv)">
+    - **Optimierte 4v4-Begegnungen**
+    - Symmetrisches Kartendesign
+    - Ranglisten- und Social-Playlists
+    - Plattformübergreifender Multiplayer
+  </Card>
+  <Card title="Kern-Sandbox-Mechaniken">
+    - **Modernisierte Fortbewegung**
+    - Mikro-Zerstörung von Deckungen
+    - Taktische Kontrolle von Waffenspawns
+    - Aktives Nachladen im Kampfkreislauf
+  </Card>
+</CardGrid>
+
+| Feature | Horde-Belagerung PvE | Versus PvP |
+| :--- | :--- | :--- |
+| **Spieleranzahl** | 12 Spieler (3 Squads à 4 Spieler) | 8 Spieler (4v4) |
+| **Hauptziel** | Kalona verteidigen & Wellen überleben | Gegnerisches Team eliminieren / Zonen einnehmen |
+| **Klassensystem** | Sturm, Präzisionsschütze, Sanitäter, Brecher | Einheitliche Loadouts mit Karten-Pickups |
+| **Kartenstil** | Große Stadtgebiete mit mehreren Bezirken | Symmetrische, Lane-basierte Arena-Karten |
+| **Spielablauf** | Kooperativer Fortschritt & Bosskämpfe | Rundenbasierter kompetitiver Kampf |
+
+<Callout type="success" title="Cross-Play- & Fortschrittsunterstützung">
+Der digitale Kauf des Spiels im Microsoft Store unterstützt Xbox Play Anywhere. So kannst du mit einer einzigen Lizenz auf dein Multiplayer-Profil, deine Freischaltungen und das Matchmaking sowohl auf Xbox Series X|S als auch auf Windows 10/11 PCs zugreifen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Horde-Belagerung: PvE-Mechaniken für 12 Spieler">
+
+Horde-Belagerung ist die Weiterentwicklung des für die Reihe typischen Wellen-Überlebensmodus. Anstelle des traditionellen Setups für 5 Spieler müssen bei der Horde-Belagerung **12 Spieler** die vom Krieg zerrüttete Stadt Kalona verteidigen. Die Spieler werden in drei verschiedene 4-Spieler-Squads aufgeteilt, die sich zusammenschließen können, um einen einzelnen Engpass zu halten, oder sich aufteilen können, um mehrere Verteidigungslinien auf der Karte zu sichern.
+
+Dieser Modus legt großen Wert auf Klassensynergie und Ressourcenmanagement. Die Spieler müssen aus vier bestätigten Klassen wählen, die jeweils über einzigartige passive Fähigkeiten, Loadouts und ultimative Fertigkeiten verfügen, die das Blatt bei einem massiven Angriff der Locust wenden können.
+
+### Bestätigte Klassen der Horde-Belagerung
+
+| Klasse | Primärwaffe | Rolle | Einzigartiger Nutzen |
+| :--- | :--- | :--- | :--- |
+| **Sturm** | Kettensägen-Lancer | Frontlinien-Schadensverursacher | Erhöhte Munitionskapazität, Sprengstoff-Buffs |
+| **Präzisionsschütze** | Longshot | Präzision auf große Distanz | Kritische Treffer mit hohem Schaden, wanddurchdringende Scans |
+| **Sanitäter** | Lancer / Snub-Pistole | Squad-Heilung & Überleben | Heilungsbaken mit Flächenwirkung, schnelle Wiederbelebungen |
+| **Brecher** | Gnasher / Gut Puncher | Nahkampf-Befestigung | Schwere Rüstungsschilde, Reparatur von Verteidigungsbarrikaden |
+
+### Wellenstruktur und Weltbosse
+
+Im Gegensatz zu klassischen Horde-Modi, bei denen Gegner an statischen Punkten spawnen, bietet die Horde-Belagerung dynamische Emergenz-Events. **E-Holes** (Notlöcher) können sich überall auf der Karte öffnen und zwingen die Squads, sich neu zu positionieren oder die Löcher schnell mit hochexplosiven Sprengkörpern zu versiegeln, bevor sie überrannt werden. Bei Meilenstein-Wellen tauchen gewaltige Weltbosse auf, die von allen drei Squads verlangen, ihr Feuer zu koordinieren und vertikale Flankenwege zu nutzen, um Schwachstellen anzugreifen.
+
+<Checklist
+  id="horde-siege-prep"
+  title="Überlebens-Checkliste für die Horde-Belagerung:"
+  items={[
+    "Teile mindestens einen Sanitäter pro 4-Spieler-Squad ein, um eine ständige Heilungsabdeckung zu gewährleisten.",
+    "Priorisiere das sofortige Versiegeln von E-Holes mit dem Gut Puncher oder Splittergranaten.",
+    "Nutze erhöhte Positionen für Präzisionsschützen, um herannahende Flankierungsrouten der Locust durchzugeben.",
+    "Koordiniere ultimative Fähigkeiten während der Weltboss-Wellen, um die Schadensfenster zu maximieren.",
+    "Behalte die Mikro-Zerstörung im Auge, da Deckungen unter schwerem feindlichen Feuer nachgeben."
+  ]}
+/>
+
+<Callout type="tip" title="Strategie zur Squad-Positionierung">
+Teile dein 12-Spieler-Team in den frühen Wellen in zwei Sechsergruppen auf, um ressourcenreiche Raffineriezonen zu sichern. Bündele in späteren Wellen alle Spieler an einem einzigen, leicht zu verteidigenden Engpass wie dem Kalona-Sportstadion.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Versus PvP: Kompetitives 4v4-Spiel">
+
+Für kompetitive Spieler dreht sich das **Gears of War E-Day Multiplayer**-Erlebnis um optimierte 4v4-Versus-Kämpfe. Symmetrische Karten, vorhersagbare Waffenspawn-Timer und enge Kommunikation bilden das Fundament des kompetitiven Spiels von E-Day. The Coalition hat sich stark auf ausgewogene Lane-Designs konzentriert, die Kartenkontrolle, Positionierung und mechanisches Können statt zufälliger Begegnungen belohnen.
+
+Das kompetitive Spiel bietet sowohl **Ranglistenspiele** als auch **Social-Playlists**. Ranglistenspiele sind für stark strukturierte Wettkämpfe mit spielstärkebasiertem Matchmaking und strengen Strafen für das Verlassen von Spielen konzipiert, während Social-Playlists eine entspanntere Umgebung bieten, um Bewegungsmechaniken und Kartenlayouts zu üben.
+
+| Modus / Playlist | Spielerformat | Matchmaking-Stil | Hauptfokus |
+| :--- | :--- | :--- | :--- |
+| **Rangliste Versus** | 4v4 | Skill-basiert (SBMM) | Kompetitive Rangliste, strenge Regeln, saisonale Belohnungen |
+| **Social Versus** | 4v4 | Verbindungspriorisiert | Lässiges Spielen, Kartenpraxis, Aufwärmmatches |
+| **Spezial-Events** | Variiert (z. B. 2v2 / FFA) | Playlist-spezifisch | Rotierende Spielmodi, einzigartige Waffenmodifikatoren |
+
+### Modernisierte Fortbewegung und Kampfsteuerung
+
+Die Bewegung ist der entscheidende Skill-Unterschied im kompetitiven Gears of War, und E-Day führt mehrere Modernisierungen ein, die die taktischen Optionen erweitern, ohne das Gewicht und die Wucht des klassischen Deckung-zu-Deckung-Kampfkreislaufs zu opfern.
+
+<Steps>
+  <Step num="1" title="Meistere die Rutsch-Mechanik">
+    Starte eine Rutschbewegung aus dem vollen Sprint, um schnell tiefer gelegene Deckung zu erreichen oder um enge Ecken zu rutschen, um Gegner zu überraschen.
+  </Step>
+  <Step num="2" title="Nutze Sprünge und vertikale Flanken">
+    Nutze zum ersten Mal spezielle Sprungmechaniken, um Lücken zwischen Dächern, Balkonen und zerstörten Gehwegen zu überwinden und von oben anzugreifen.
+  </Step>
+  <Step num="3" title="Führe geschmeidige Deckungsübergänge aus">
+    Wechsle nahtlos zwischen verschiedenen Deckungshöhen und -formen, um die Zeit zu minimieren, in der dein Charakter offenen Sichtlinien ausgesetzt ist.
+  </Step>
+  <Step num="4" title="Passe dich der Mikro-Zerstörung an">
+    Überwache den Zustand deiner Deckung. Holzbarrieren und dünner Beton bröckeln unter anhaltendem Gnasher- oder Lancer-Feuer weg und legen deine Hitbox frei.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gefahr durch Mikro-Zerstörung">
+Verlasse dich in Versus-Matches nicht über längere Zeit auf leichte Deckung. Anhaltendes Feuer aus dem Lancer eines Gegners kann Holzkisten und dünne Trennwände vollständig zerstören, sodass du in offenen Lanes völlig schutzlos dastehst.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Waffen und Kampfanpassung">
+
+Die Kampf-Sandbox von Gears of War: E-Day mischt ikonische, bei Fans beliebte Waffen mit neu eingeführten Werkzeugen, die für brutale Nahkämpfe entwickelt wurden. Da E-Day eine Prequel-Geschichte ist, die 14 Jahre vor dem Originalspiel spielt, werden die Spieler die Geburtsstunde legendärer Waffen auf dem Schlachtfeld miterleben – wie des Kettensägen-Lancers, der in den ersten Stunden der Locust-Invasion aus reiner Verzweiflung improvisiert wurde.
+
+Das Verständnis der optimalen Reichweite, des Timings beim Nachladen und der Kampfrolle jeder Waffe ist entscheidend, um die Kartenkontrolle sowohl in PvE- als auch in PvP-Umgebungen zu sichern.
+
+| Waffe | Kategorie | Kampfrolle | Optimale Reichweite |
+| :--- | :--- | :--- | :--- |
+| **Gnasher** | Schrotflinte | Nahkampf, Wall-Bounce-Kämpfe | Unmittelbare Nähe bis kurz |
+| **Lancer (Retro/Klassisch)** | Sturmgewehr | Unterdrückung auf mittlere Distanz, Kettensägen-Nahkampf | Mittel |
+| **Longshot** | Scharfschützengewehr | Präzisions-Abschüsse, Halten von Sichtlinien | Lang |
+| **Gut Puncher** | Sprengstoffwerfer | Rüstungsdurchdringender Flächenschaden, Aufscheuchen aus Deckungen | Mittel |
+| **Incinerator** | Imulsions-Schrotflinte | Bereichsverweigerung, hoher Schaden auf kurze Distanz | Kurz |
+
+### Aktives Nachladen und Waffenspawns
+
+Die klassische Mechanik des aktiven Nachladens kehrt zurück und belohnt perfekt getimte Nachladevorgänge mit schnellerem Waffenwechsel und temporären Leistungsboosts. In Versus-Matches spawnen mächtige Spezialwaffen wie das Longshot und der Gut Puncher nicht in den Loadouts der Spieler. Stattdessen spawnen sie in festgelegten Intervallen an neutralen Orten auf der Karte, was beide Teams dazu zwingt, um die Waffenkontrolle zu kämpfen.
+
+<Callout type="info" title="Der Ursprung des Kettensägen-Lancers">
+Die Kampagne und der Multiplayer zeigen die frühen, improvisierten Versionen des Kettensägen-Lancers. Diese frühen Modelle weisen eine robustere, auf dem Schlachtfeld improvisierte Ästhetik auf, was die Verzweiflung des Bravo-Squads während der ersten drei Tage der Kalona-Invasion widerspiegelt.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Zugang zur offenen Beta und Systemanforderungen">
+
+Um die Netzwerkstabilität und Spielbalance vor dem offiziellen Start am **6. Oktober 2026** zu gewährleisten, veranstaltet The Coalition eine offene Multiplayer-Beta vom **6. August bis zum 10. August 2026**. Die Teilnahme an der Beta ermöglicht es den Spielern, die Matchmaking-Infrastruktur zu testen, Feedback zur Klassenbalance zu geben und exklusive kosmetische Belohnungen zu verdienen, die in die Vollversion des Spiels übernommen werden.
+
+### So sicherst du dir Zugang zur offenen Beta
+
+- **Digitale Vorbestellungen**: Der digitale Kauf einer beliebigen Edition im Xbox Store oder auf Steam berechtigt automatisch zur Teilnahme an der offenen Beta. Es ist keine Codeeingabe erforderlich.
+- **Physische Vorbestellungen**: Spieler, die eine physische Edition bei teilnehmenden Händlern vorbestellen, erhalten einen einmalig verwendbaren Beta-Zugangscode per E-Mail oder auf dem Kassenbon.
+- **Game Pass-Mitglieder**: Abonnenten von Game Pass Ultimate und PC Game Pass erhalten zum Launch direkt Zugriff auf das vollständige Spiel, der vorzeitige Beta-Zugang bleibt jedoch an die Vorbesteller-Regeln gebunden.
+
+### PC-Systemanforderungen
+
+| Anforderung | Mindestanforderungen | Empfohlene Spezifikationen |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10 64-Bit (v22H2 / 19045.7291) | Windows 11 64-Bit (v25H2 oder neuer) |
+| **Prozessor** | AMD Ryzen 5 2600X / Intel i7-6850K | AMD Ryzen 5 5600 / Intel i5-11600K |
+| **Arbeitsspeicher** | 12 GB RAM | 16 GB RAM |
+| **Grafikkarte** | RTX 5050 / RTX 2060 / RX 6600 / Intel Arc A580 | RTX 5060 / RTX 3060 Ti / RX 6700 XT / Arc B580 |
+| **Speicherplatz** | 130 GB verfügbarer Speicherplatz (SSD erforderlich) | 130 GB verfügbarer Speicherplatz (SSD erforderlich) |
+
+<Callout type="success" title="Kosmetische Beta-Belohnungen">
+Alle Spieler, die an der offenen Beta teilnehmen, schalten den legendären Charakter-Skin **„Exfil Dom“** und das legendäre Waffenskin-Set **„Exfil“** frei, die zum Launch sowohl in der Horde-Belagerung als auch im Versus PvP verwendet werden können.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Gears of War E-Day Multiplayer FAQ">
+
+<FAQ items={[
+  {
+    question: "Unterstützt der Multiplayer von Gears of War: E-Day Split-Screen-Spiele?",
+    answer: "Ja, die Konsolenversion von Gears of War: E-Day unterstützt das kooperative Spielen im 2-Spieler-Split-Screen sowohl für die Kampagne als auch für den Horde-Belagerungsmodus. Online-Multiplayer-Funktionen erfordern ein kompatibles Abonnement."
+  },
+  {
+    question: "Wie viele Spieler können die Horde-Belagerung zusammen spielen?",
+    answer: "Die Horde-Belagerung unterstützt bis zu 12 Online-Spieler, aufgeteilt in drei verschiedene 4-Spieler-Squads, die auf weitläufigen Karten in der Stadt Kalona zusammenarbeiten."
+  },
+  {
+    question: "Gibt es ein Klassensystem im kompetitiven Versus PvP?",
+    answer: "Nein, das kompetitive Versus PvP bietet einheitliche Loadouts und setzt auf neutrale Waffen-Pickups auf der Karte, um Balance und Fairness zu wahren. Das Klassensystem gibt es exklusiv im PvE-Modus Horde-Belagerung."
+  },
+  {
+    question: "Benötige ich einen separaten Code für den Zugang zur offenen Beta, wenn ich digital vorbestellt habe?",
+    answer: "Nein, digitalen Vorbestellungen im Xbox Store oder auf Steam wird ab dem 6. August 2026 automatisch Zugang zur offenen Beta gewährt, ohne dass eine manuelle Code-Einlösung erforderlich ist."
+  }
+]} />
+
+<Callout type="tip" title="Bleibe mit der Community in Verbindung">
+Tritt dem offiziellen [Gears of War Discord](https://discord.com/invite/gearsofwar) bei oder folge dem [offiziellen Gears of War X-Kanal](https://x.com/GearsofWar), um Echtzeit-Updates zum Serverstatus, Patchnotizen und Änderungen an der Multiplayer-Balance während der Beta- und Launch-Phasen zu erhalten.
+</Callout>
+
+</Section>

@@ -1,0 +1,198 @@
+import { Shield, Gamepad, Users, Swords, Trophy, Sliders, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Guide: Überlebens- & Multiplayer-Taktiken",
+  description: "Bereite dich mit unserem Gears of War E-Day Guide auf den Emergence Day vor. Erfahre mehr über Kampagnen-Koop, Horde-Belagerung, Versus-PvP, Waffen und PC-Anforderungen.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=E-Day+Survival+Guide",
+  date: "2026-06-22",
+  author: "Gears of War E-Day Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Der **Gears of War E-Day Guide** hilft dir, dich auf den weltweiten Start am 6. Oktober 2026 vorzubereiten.
+- Der **Zugang zur Open Beta** beginnt am 6. August 2026 für alle berechtigten Vorbestellungen.
+- Der **Kampagnen-Koop** unterstützt bis zu vier Spieler online oder einen geteilten Bildschirm für zwei Spieler auf der Konsole.
+- Der **Horde-Belagerungsmodus** erweitert das PvE-Überleben auf zwölf Spieler, aufgeteilt in drei Trupps.
+</Callout>
+
+<Section icon={Shield} title="Veröffentlichungsdatum, Plattformen und Game Pass-Details">
+
+Gears of War: E-Day markiert eine gewaltige Rückkehr zu den düsteren Wurzeln der Franchise. Entwickelt von The Coalition und veröffentlicht von Xbox Game Studios, wurde dieses Prequel von Grund auf in der Unreal Engine 5 entwickelt. Es versetzt Spieler vierzehn Jahre vor das Originalspiel zurück, um das brutale Chaos des Emergence Day hautnah miterleben zu können.
+
+Das Spiel soll weltweit am 6. Oktober 2026 erscheinen. Es ist für moderne Hardware optimiert, um hochauflösende Grafik, fortschrittliche Physik und überarbeitete Kampfmechaniken zu bieten.
+
+| Plattform | Store | Play Anywhere | Game Pass-Zugang |
+| :--- | :--- | :--- | :--- |
+| **Xbox Series X|S** | Microsoft Store | Ja | Ab Tag 1 (Ultimate) |
+| **Windows 10/11 PC** | Microsoft Store / Steam | Ja (nur Microsoft Store) | Ab Tag 1 (PC / Ultimate) |
+| **Cloud Play** | Xbox Cloud Gaming | N/A | Ab Tag 1 (Ultimate) |
+
+Die PC-Version wird auf Steam vollständig unterstützt, sodass Spieler das Spiel direkt auf ihre Wunschliste setzen und vorbestellen können. Steam-Nutzer müssen jedoch ein Xbox Live-Konto eines Drittanbieters verknüpfen, um auf die Multiplayer-Funktionen zugreifen zu können.
+
+<Callout type="tip" title="Vorteil von Xbox Play Anywhere">
+Der Kauf der digitalen Version des Spiels über den Microsoft Store gewährt dir ohne zusätzliche Kosten Zugriff sowohl auf Xbox Series X|S als auch auf Windows-PC, inklusive plattformübergreifendem Speicherfortschritt.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad} title="Vorbesteller-Editionen und Beta-Zugangsregeln">
+
+Wenn du dir dein Exemplar frühzeitig sicherst, schaltest du exklusive kosmetische Gegenstände und Vorabzugangsoptionen frei. The Coalition hat die Vorbesteller-Stufen so strukturiert, dass sie sowohl Standard-Spielern als auch digitalen Sammlern und physischen Statuen-Liebhabern gerecht werden.
+
+| Edition | Preis | Spielzugangsdatum | Wichtigste enthaltene Inhalte |
+| :--- | :--- | :--- | :--- |
+| **Standard Edition** | 69,99 $ | 6. Oktober 2026 | Basisspiel, Vorbesteller-Kosmetika, Beta-Vorabzugang |
+| **Premium Edition** | 99,99 $ | 1. Oktober 2026 | 5 Tage Vorabzugang, Season Pass, 1000 Eisen, Waffenpakete |
+| **Premium-Upgrade** | 30,00 $ | 1. Oktober 2026 | Upgrade für Game Pass-/Standard-Besitzer, enthält Premium-Inhalte |
+| **Collector's Edition** | Händlerabhängig | 1. Oktober 2026 | 15-Zoll-Statue von Marcus/Dom, KOR-Erkennungsmarken aus Metall, SteelBook, Premium-DLC |
+
+Das kosmetische Vorbesteller-Paket enthält den legendären Charakter-Skin **Exfil-Dom** und das legendäre **Exfil-Waffenskin-Set**. Diese Gegenstände werden im Spiel ab dem 1. Oktober 2026 für Spieler mit Vorabzugang verfügbar sein.
+
+<Callout type="warning" title="Verifizierung des Beta-Codes">
+Digitale Vorbestellungen auf Xbox and Steam erhalten eine automatische Berechtigung für die Open Beta am 6. August 2026. Wenn du eine physische Edition kaufst, stelle sicher, dass dein Händler dir einen einmaligen Beta-Code auf deinem Beleg oder per E-Mail zur Verfügung stellt.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Kampagnenstory, Zeitlinie und Koop-Setup">
+
+Die Handlung von Gears of War: E-Day ist eher eine persönliche Überlebensgeschichte als ein umfassender Militärfeldzug. Sie spielt sich komplett in der Stadt Kalona über einen klaustrophobischen Zeitraum von drei Tagen ab. Die Spieler steuern einen jüngeren, kampfmüden Marcus Fenix und Dominic Santiago, während sie sich durch die unmittelbaren Folgen des Auftauchens der Locust schlagen.
+
+Der emotionale Kern der Geschichte dreht sich um den kürzlichen Verlust von Carlos Santiago, Doms älterem Bruder und Marcus' bestem Freund. Diese Tragödie prägt ihre frühe Beziehung und macht ihre Zusammenarbeit eher zu einer Frage des Überlebens als einer etablierten Verbrüderung.
+
+| Charakter | Rolle im Bravo-Trupp | Hintergrund |
+| :--- | :--- | :--- |
+| **Marcus Fenix** | Frontsoldat | Veteran der Pendelkriege, der tiefe emotionale Narben trägt |
+| **Dominic Santiago** | Unterstützungskämpfer | Auf der Suche nach einem Sinn nach dem Verlust seines Bruders Carlos |
+| **Mags Carter** | Spezialistin für schwere Waffen | Ehemalige KOR-Soldatin (Gear), die in der Imulsionsraffinerie von Kalona arbeitet |
+| **Lucas Reyes** | Verbindungsoffizier | Junger Kadett, der noch nie einen Fronteinsatz erlebt hat |
+
+Die Kampagne kann solo oder mit Freunden gespielt werden. Konsolenspieler können den klassischen Splitscreen-Koop für zwei Spieler genießen, während das Online-Spiel bis zu vier Spieler unterstützt. Spieler können während der Online-Koop-Sitzungen aus jedem der vier Bravo-Trupp-Mitglieder wählen.
+
+<Callout type="info" title="Struktur der Kampagne">
+Die Kampagne bietet keine Open-World-Segmente. Es handelt sich um eine stark fokussierte, lineare Geschichte, die den Horror und die Verwirrung der ersten drei Tage der Invasion betonen soll.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gears of War E-Day Guide: Kampf und Fortbewegung für Anfänger">
+
+Dieser **Gears of War E-Day Guide** zeigt, wie das klassische Kampfpuzzle modernisiert wurde. Das Kern-Gameplay basiert nach wie vor stark auf dem Einnehmen von Deckung, aber die Fortbewegung wurde komplett überarbeitet, um eine beispiellose taktische Freiheit zu bieten.
+
+Zum ersten Mal in der Reihe können Spieler über Abgründe springen, vertikale Routen erklimmen und fließende Deckungsübergänge ausführen. Dies verändert die Art und Weise, wie du Flankierungsmanöver und die Verteidigung auf erhöhtem Terrain angehst.
+
+<Steps>
+  <Step num="1" title="Meistere das Rutschen und die Deckungsübergänge">
+    Übe das Rutschen aus dem Sprint in flache oder hohe Deckung. Deckungen sind zerstörbar, daher musst du ständig zu neuen Wänden wechseln, wenn das feindliche Feuer deinen Schutz wegbricht.
+  </Step>
+  <Step num="2" title="Nutze vertikale Flanken">
+    Halte Ausschau nach Balkonen, Dächern und Feuertreppen. Nutze die neue Sprungmechanik, um erhöhte Positionen zu erreichen, sodass du mit dem Longshot-Scharfschützengewehr präzises Feuer auf die Locust-Truppen regnen lassen kannst.
+  </Step>
+  <Step num="3" title="Schließe Emergenz-Löcher sofort">
+    Wenn sich der Boden öffnet, reagiere schnell. E-Löcher können deinen Trupp schnell mit Wretches (Kriechern) und Drones (Drohnen) überrennen. Wirf eine gezielte Splittergranate oder feuere eine Sprengladung in die Öffnung, um sie zu versiegeln.
+  </Step>
+  <Step num="4" title="Achte auf deine Waffenreichweiten">
+    Rüste ein ausgewogenes Loadout aus. Halte die Gnasher für aggressive Stürmer bereit und nutze die neuen Schrotflinten „Gut Puncher“ oder „Incinerator“, um enge Korridore und Engpässe zu kontrollieren.
+  </Step>
+</Steps>
+
+Das Arsenal bietet eine Mischung aus wiederkehrenden Klassikern und Prototyp-Waffen, die in den ersten Tagen des Krieges entwickelt wurden.
+
+| Waffe | Kategorie | Kampfrolle | Beste taktische Nutzung |
+| :--- | :--- | :--- | :--- |
+| **Gnasher** | Schrotflinte | Nahkampf-Power | Enge Ecken kontrollieren und aggressive Stürmer bestrafen |
+| **Longshot** | Scharfschützengewehr | Präzision auf Distanz | Erhöhte Sichtlinien halten und wichtige Ziele ausschalten |
+| **Gut Puncher** | Sprengstoffwerfer | Rüstungsdurchdringender Nutzen | Verzögerte Explosionen hinter feindlicher Deckung platzieren |
+| **Incinerator** | Imulsions-Schrotflinte | Gebietsabriegelung | Gruppen von wilden Wretches schnell ausschalten |
+| **Kettensägen-Lancer** | Sturmgewehr | Hybrid aus Nahkampf/Mitteldistanz | Prototyp-Waffe für die brutale Nahkampfverteidigung |
+
+<Callout type="success" title="Bewusstsein für Mikro-Zerstörung">
+Beobachte immer den Zustand deiner Deckung. Schwere Waffen und kontinuierliches Feuer zerstören Beton- und Holzbarrieren, was dich zwingt, dich zu bewegen oder das Risiko einzugehen, ungeschützt zu sein.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Klassen der Horde-Belagerung (PvE) und Versus-PvP-Kartentaktiken">
+
+Der Multiplayer-Modus in Gears of War: E-Day ist in zwei Hauptbereiche unterteilt: den erweiterten 12-Spieler-Modus „Horde-Belagerung“ (PvE) und den hart umkämpften 4v4-Versus-Modus (PvP). Beide Modi nutzen die aktualisierten Fortbewegungs- und Zerstörungsmechaniken des Spiels.
+
+Die Horde-Belagerung ist ein gewaltiger kooperativer Kampf, bei dem drei verschiedene 4-Spieler-Trupps Kalona gegen eskalierende Wellen der Locust-Horde verteidigen. Um erfolgreich zu sein, müssen die Spieler komplementäre Klassen auswählen und ihre Verteidigung koordinieren.
+
+| Klasse | Kampftyp | Einzigartige Fähigkeit | Bevorzugte Waffen |
+| :--- | :--- | :--- | :--- |
+| **Sturm** (Assault) | Frontkämpfer | Erhöhter Schaden bei aufeinanderfolgenden Treffern | Gnasher, Lancer |
+| **Präzisionsschütze** (Marksman) | Fernkampf-Unterstützung | Kritische Treffer decken benachbarte Feinde auf | Longshot, Pistole |
+| **Sanitäter** (Medic) | Trupp-Unterstützung | Schnelle Wiederbelebung und Gesundheitsregenerationsfeld | Lancer, Maschinenpistole |
+| **Brecher** (Breacher) | Nahkampfspezialist | Schild-Boost beim Rutschen in Deckung | Gut Puncher, Incinerator |
+
+Versus-PvP kehrt zu einer engeren, taktischeren 4v4-Struktur zurück. Symmetrische Kartenlayouts sind in den vom Krieg gezeichneten Vierteln von Kalona angesiedelt, wie dem Sportstadion, dem Industrieviertel am Hafen und den Raffineriezonen. Um Spiele zu gewinnen, sind Kartenkontrolle, das Timing von Waffenspawns und das Meistern der modernisierten Rutschmechanik erforderlich.
+
+<CardGrid cols={2}>
+  <Card title="Ranglisten-Playlists">
+    - **Strukturierter Wettbewerb** für koordinierte Trupps
+    - Skill-basiertes Matchmaking und sichtbarer Rangfortschritt
+    - Symmetrical maps with fixed weapon spawns
+  </Card>
+  <Card title="Freundschaftsspiel-Playlists">
+    - **Lässiges Matchmaking** mit rotierenden Spielmodi
+    - Ideal zum Testen neuer Bewegungs- und Waffenkombinationen
+    - Entspannte Umgebung für Solo- oder Gruppenspiele
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Koordination in der Horde-Belagerung">
+Achte immer darauf, dass dein 12-Spieler-Team eine ausgewogene Mischung aus Sanitätern und Brechern hat. Brecher können durch Erdlöcher entstandene Engpässe halten, während Sanitäter die Verteidigungslinie sichern.
+</Callout>
+
+</Section>
+
+<Section icon={Sliders} title="PC-Systemanforderungen und Konsolenleistung">
+
+Die Unreal Engine 5 bringt High-End-Rendering-Funktionen auf Sera. Um das Spiel von seiner besten Seite zu erleben, benötigen PC-Spieler moderne Hardware, insbesondere ein schnelles Solid-State-Drive (SSD), um das Asset-Streaming ohne Ruckler zu bewältigen.
+
+| Systemspezifikation | Mindestanforderungen | Empfohlene Anforderungen |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10 64-Bit (v22H2) | Windows 11 64-Bit (v25H2 oder neuer) |
+| **Prozessor (CPU)** | AMD Ryzen 5 2600X / Intel i5-10400 | AMD Ryzen 5 5600 / Intel i5-11600K |
+| **Arbeitsspeicher (RAM)** | 12 GB | 16 GB |
+| **Grafikkarte (GPU)** | RTX 2060 / RX 6600 / Arc A580 | RTX 3060 Ti / RX 6700 XT / Arc B580 |
+| **DirectX** | Version 12 | Version 12 |
+| **Speicherplatz** | 130 GB verfügbarer Speicherplatz (SSD erforderlich) | 130 GB verfügbarer Speicherplatz (SSD erforderlich) |
+
+Spieler auf Xbox Series X|S profitieren von gezielten Optimierungen. Das Spiel läuft auf kompatiblen Bildschirmen sowohl in der Kampagne als auch in den Multiplayer-Modi mit einer Zielauflösung von 4K bei bis zu 60 Bildern pro Sekunde. Zu den erweiterten Konsolenfunktionen gehören Raytracing, HDR10, Variable Refresh Rate (VRR) und Dolby Atmos Spatial Audio.
+
+<Callout type="warning" title="SSD-Speicher zwingend erforderlich">
+Mechanische Festplatten (HDDs) werden nicht unterstützt. Die Installation des Spiels auf einer HDD führt zu schweren Texturnachladefehlern, Ladeverzögerungen und asynchronem Ton.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Unterstützt die Kampagne einen geteilten Bildschirm (Splitscreen-Koop) auf dem PC?",
+    answer: "Nein, der Splitscreen-Koop ist exklusiv für die Konsolenversionen der Xbox Series X|S verfügbar. PC-Spieler können online im Koop-Modus mit bis zu vier Spielern spielen."
+  },
+  {
+    question: "Ist der Game Pass erforderlich, um die Open Beta zu spielen?",
+    answer: "Nein, aber die Vorbestellung einer beliebigen Edition des Spiels gewährt dir vorzeitigen Zugriff auf die Open Beta am 6. August 2026. Aktive Abonnenten von Game Pass Ultimate oder PC Game Pass erhalten ebenfalls Zugang zu den Beta-Zeiträumen."
+  },
+  {
+    question: "Wie unterscheidet sich der Horde-Belagerungsmodus für 12 Spieler von der klassischen Horde?",
+    answer: "Die Horde-Belagerung bietet größere Karten, drei verschiedene 4-Spieler-Trupps, die zusammenarbeiten, klassenspezifische ultimative Fähigkeiten und dynamische Weltbosse, die das Geländelayout der Karte in Echtzeit verändern können."
+  },
+  {
+    question: "Wo finde ich einen zuverlässigen Gears of War E-Day Guide für das kompetitive Spiel?",
+    answer: "Unser Wiki-Team aktualisiert die Strategien regelmäßig. Konzentriere dich für das kompetitive Spiel darauf, das modernisierte Rutschen und die Deckungsübergänge zu meistern, da das vertikale Flankieren mittlerweile eine Kernmechanik darstellt."
+  }
+]} />
+
+</Section>
