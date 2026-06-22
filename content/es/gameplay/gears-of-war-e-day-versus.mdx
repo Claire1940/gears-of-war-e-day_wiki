@@ -1,0 +1,138 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gears of War E-Day Versus: Guía de PvP competitivo y multijugador",
+  description: "Domina el PvP Versus de Gears of War E-Day con nuestra guía experta sobre modos 4v4, tácticas de mapas, mecánicas de movimiento y equipamientos competitivos para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b1a1a/fff?text=Gears+of+War+E-Day+Versus+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Gears of War E-Day"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Gears of War E-Day Versus** presenta intensos enfrentamientos **PvP competitivos de 4v4** en mapas de Kalona completamente nuevos y devastados por la guerra.
+- El **movimiento modernizado** permite deslizarse, saltar y realizar flanqueos verticales, cambiando la forma de afrontar cada tiroteo.
+- Las **listas de partidas Clasificatorias y Sociales** ofrecen experiencias adaptadas tanto para competidores dedicados como para jugadores casuales.
+- **Dominar las transiciones de cobertura** y las elecciones tácticas de armas sigue siendo la piedra angular de la supervivencia en esta historia de origen.
+- El **acceso a la Beta abierta**, que comienza el 6 de agosto de 2026, es tu primera oportunidad de probar estos sistemas multijugador antes del lanzamiento.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo Gears of War E-Day Versus">
+
+<Callout type="tip" title="Perspectiva profesional">
+El modo Versus en E-Day está diseñado para combinar la clásica y brutal identidad de juego de disparos a cubierto de la franquicia con nuevas y fluidas mecánicas de desplazamiento. El éxito depende de tu capacidad para leer el mapa y controlar el espacio.
+</Callout>
+
+Gears of War E-Day Versus se centra en combates de 4v4, enfatizando la coordinación del equipo, el posicionamiento táctico y el dominio del nuevo motor de movimiento. A diferencia de entregas anteriores, los mapas de E-Day están construidos para aprovechar la verticalidad, permitiendo a los jugadores utilizar tejados, balcones y arquitectura en ruinas para flanquear a los oponentes.
+
+| Tipo de modo | Cantidad de jugadores | Enfoque | Ideal para |
+| :--- | :--- | :--- | :--- |
+| **Clasificatorio** | 4v4 | Progresión basada en la habilidad | Juego competitivo |
+| **Social** | 4v4 | Flujo de partida casual | Práctica y diversión |
+| **Beta abierta** | 4v4 | Pruebas previas al lanzamiento | Jugadores con acceso anticipado |
+
+</Section>
+
+<Section icon={Target} title="Mecánicas principales de movimiento y combate">
+
+Para dominar en **Gears of War E-Day Versus**, debes ir más allá de quedarte quieto. El nuevo sistema de desplazamiento cambia las reglas del juego para el juego de alto nivel.
+
+<Steps>
+  <Step num="1" title="Domina el deslizamiento">
+    Usa la mecánica de deslizarse desde el esprint para reposicionarte rápidamente o lanzarte a cubierto. Es esencial para escapar del fuego concentrado.
+  </Step>
+  <Step num="2" title="Utiliza la verticalidad">
+    La mecánica de salto abre nuevas rutas. Busca siempre posiciones elevadas para obtener una ventaja de altura sobre tus oponentes.
+  </Step>
+  <Step num="3" title="Transiciones de cobertura fluidas">
+    Las transiciones son más fluidas en E-Day. Practica moverte entre coberturas sin romper tu ritmo para seguir siendo un objetivo difícil.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia táctica">
+Confiar demasiado en los flancos verticales puede dejarte expuesto. Coordínate siempre con tu escuadrón antes de avanzar a terreno abierto.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamientos y estrategia multijugador">
+
+Tu elección de arma define tu rol en un encuentro de 4v4. Mientras que la clásica **Gnasher** sigue siendo la reina de las distancias cortas, nuevas incorporaciones como el **Incinerador** proporcionan una presión táctica única.
+
+| Arma | Rol de combate | Mejor uso |
+| :--- | :--- | :--- |
+| **Gnasher** | Corto alcance | Defender puntos de estrangulamiento estrechos |
+| **Longshot** | Precisión | Mantener líneas de visión largas |
+| **Gut Puncher** | Explosivo | Obligar a los enemigos a salir de su cobertura |
+| **Incinerador** | Denegación de área | Presión brutal a corta distancia |
+
+<CardGrid cols={3}>
+  <Card title="Agresión en primera línea">
+    - Centrarse en el uso de la **Gnasher**
+    - Liderar el avance
+    - Utilizar el deslizamiento para cerrar distancias
+  </Card>
+  <Card title="Soporte y precisión">
+    - Usar el **Longshot** para dar cobertura
+    - Monitorear rutas de flanqueo
+    - Proporcionar información al escuadrón
+  </Card>
+  <Card title="Control táctico">
+    - Usar el **Gut Puncher** para desorganizar
+    - Denegar el movimiento enemigo
+    - Controlar los agujeros de emergencia (E-Holes)
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estrategia exitosa">
+Los escuadrones exitosos en el modo Versus a menudo combinan a un jugador centrado en la precisión con tres atacantes agresivos para mantener el control del mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Tácticas de mapas y conciencia ambiental">
+
+La ciudad de Kalona sirve como escenario principal para todos los mapas de Versus. El entorno no es estático; está sujeto al caos de la emergencia de los Locust.
+
+<Checklist
+  id="map-tactics"
+  title="Lista de verificación de mapas de Versus:"
+  items={[
+    "Identificar todas las rutas de flanqueo vertical",
+    "Monitorear los puntos de aparición de agujeros de emergencia para detectar posibles emboscadas",
+    "Utilizar la microdestrucción para despojar a los enemigos de su cobertura",
+    "Coordinar el movimiento del escuadrón a través de los cuadrantes del mapa"
+  ]}
+/>
+
+<Callout type="info" title="Nota ambiental">
+Vigila los sumideros. Los colapsos ambientales importantes pueden alterar drásticamente el diseño del mapa durante una partida, obligándote a adaptar tu posicionamiento sobre la marcha.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Gears of War E-Day Versus multiplataforma?",
+    answer: "Sí, el juego es compatible con el multijugador multiplataforma, lo que permite a los jugadores de Xbox Series X|S y PC competir juntos."
+  },
+  {
+    question: "¿Cómo puedo acceder a la Beta abierta de Versus?",
+    answer: "El acceso anticipado a la Beta abierta comienza el 6 de agosto de 2026. Puedes obtener acceso reservando cualquier edición del juego o mediante suscripciones elegibles de Game Pass."
+  },
+  {
+    question: "¿Hay diferentes clases en el modo Versus?",
+    answer: "Versus se centra en el movimiento basado en la habilidad y el dominio de las armas. Mientras que las clases como Asalto y Médico son clave en el Asedio de la Horda (Horde Siege), Versus depende de los equipamientos definidos por el jugador y los roles del escuadrón."
+  }
+]} />
+
+</Section>

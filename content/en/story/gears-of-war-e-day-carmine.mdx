@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gears of War E-Day: Character Origins & Gameplay Guide",
+  description: "Explore the origins of Marcus Fenix and Dominic Santiago in Gears of War E-Day. Learn about the campaign, Horde Siege, and new combat mechanics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b1e1e/fff?text=Gears+of+War+EDay+Guide",
+  date: "2026-06-22",
+  author: "gears of war e-day Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gears of War E-Day** is an origin story set 14 years before the original game, launching on **October 6, 2026**.
+- The campaign features **Marcus Fenix and Dominic Santiago** navigating the chaos of the first Locust emergence.
+- Players can utilize **modernized movement**, including jumping and sliding, to gain tactical advantages in battle.
+- **Horde Siege** introduces a 12-player PvE experience, while **Versus PvP** continues the classic 4v4 competitive format.
+- Pre-ordering any edition grants early access to the **Open Beta** beginning on **August 6, 2026**.
+</Callout>
+
+<Section icon={Map} title="Release and Platform Overview">
+
+Gears of War E-Day represents a return to the series' roots while utilizing the power of Unreal Engine 5. Understanding the release landscape is essential for planning your day-one experience.
+
+**Video Highlights:**
+- Breakdown of the cinematic announcement trailer.
+- Insights into the reimagined Kalona city environment.
+- Confirmation of the October 6, 2026 release window.
+
+<YouTubeEmbed videoId="EC20gLfUHeA" title="Gears of War E-Day Official Announcement Trailer" />
+
+| Feature | Details |
+| :--- | :--- |
+| **Release Date** | **October 6, 2026** |
+| **Platforms** | Xbox Series X\|S, Windows 10/11 PC |
+| **Game Pass** | Available Day-One |
+| **Cloud Play** | Supported via Game Pass Ultimate |
+
+<Callout type="tip">
+If you are playing on PC, ensure your system meets the **130 GB SSD requirement** to avoid performance bottlenecks during the high-intensity combat sequences.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Campaign and Narrative Foundations">
+
+The story focuses on the terrifying first three days of the Locust War in the city of Kalona. Unlike later entries, this narrative is a desperate survival tale.
+
+| Character | Role in E-Day |
+| :--- | :--- |
+| **Marcus Fenix** | Young veteran, protagonist |
+| **Dominic Santiago** | Marcus's brother-in-arms, key survivor |
+| **Mags Carter** | Former Gear, refinery specialist |
+| **Lucas Reyes** | Communications officer and cadet |
+
+<Callout type="success" title="Co-op Experience">
+The campaign fully supports **two-player split-screen** on consoles and **up to four-player online co-op**, allowing your entire squad to experience the origin story together.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Combat Mechanics and Traversal">
+
+Movement in E-Day has been significantly overhauled to provide more verticality and tactical freedom compared to previous titles.
+
+<Steps>
+  <Step num="1" title="Master the Slide">
+    Use the new slide mechanic to reposition quickly or close the distance to cover during intense firefights.
+  </Step>
+  <Step num="2" title="Utilize Vertical Flanks">
+    For the first time, jumping allows you to access rooftops and balconies, creating new flanking routes against the Locust Horde.
+  </Step>
+  <Step num="3" title="Manage E-Holes">
+    Prioritize closing E-Holes with grenades immediately to prevent enemy numbers from overwhelming your squad.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Environmental Awareness">
+The game features **micro-destruction**, meaning your cover is not permanent. Always have a secondary fallback position identified if your current barrier begins to crumble.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Multiplayer Modes: Horde Siege and Versus">
+
+Multiplayer is split between deep PvE cooperation and refined competitive PvP. 
+
+<CardGrid cols={2}>
+  <Card title="Horde Siege (PvE)">
+    - 12-player cooperative battles.
+    - Three distinct 4-player squads.
+    - Includes classes: **Assault, Marksman, Medic, Breacher**.
+  </Card>
+  <Card title="Versus PvP (Competitive)">
+    - Intense 4v4 symmetrical map design.
+    - Ranked and Social playlists available.
+    - Focuses on movement mastery and team coordination.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Beta Access">
+The Open Beta starting **August 6, 2026**, is the best time to test these modes. Digital pre-orders are automatically entitled to access, while physical pre-orders require a code from your retailer.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Gears of War E-Day a direct sequel?",
+    answer: "No, it is a prequel set 14 years before the original Gears of War, detailing the events of the first Locust emergence."
+  },
+  {
+    question: "Do I need a beta code for the Open Beta?",
+    answer: "Digital pre-orders receive automatic entitlement. Physical pre-orders require a code provided by your participating retailer."
+  },
+  {
+    question: "Can I play Gears of War E-Day with friends on different platforms?",
+    answer: "Yes, the game supports cross-platform play between Xbox Series X|S and Windows PC."
+  }
+]} />
+
+</Section>
+
+<Section icon={Sparkles} title="Essential Equipment">
+
+<Checklist
+  id="prep-list"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Verify your PC meets the 16 GB RAM recommended spec",
+    "Pre-order to secure the Exfil Dom and Weapon Skin set",
+    "Clear 130 GB of space on your primary SSD",
+    "Join the official Discord for community updates"
+  ]}
+/>
+
+<Callout type="tip" title="Collector's Note">
+The Collector’s Edition includes a **15-inch diorama statue** and a 1:1 scale metal replica of Carlos Santiago’s COG tags, making it a priority for series enthusiasts.
+</Callout>
+
+</Section>

@@ -1,0 +1,138 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gears of War E-Day Versus: Competitive PvP & Multiplayer Guide",
+  description: "Master Gears of War E-Day Versus PvP with our expert guide on 4v4 modes, map tactics, movement mechanics, and competitive loadouts for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b1a1a/fff?text=Gears+of+War+E-Day+Versus+Guide",
+  date: "2026-06-22",
+  author: "gears of war e-day Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gears of War E-Day Versus** features intense **4v4 competitive PvP** across brand-new, war-torn Kalona maps.
+- **Modernized movement** allows for sliding, jumping, and vertical flanking, changing how you approach every firefight.
+- **Ranked and Social playlists** provide tailored experiences for both hardcore competitors and casual players.
+- **Mastering cover transitions** and tactical weapon choices remains the cornerstone of survival in this origin story.
+- **Open Beta access** starting August 6, 2026, is your first chance to test these multiplayer systems before launch.
+</Callout>
+
+<Section icon={Swords} title="Understanding Gears of War E-Day Versus">
+
+<Callout type="tip" title="Professional Insight">
+Versus mode in E-Day is designed to blend the classic, brutal cover-shooter identity of the franchise with new, fluid traversal mechanics. Success depends on your ability to read the map and control space.
+</Callout>
+
+Gears of War E-Day Versus focuses on 4v4 combat, emphasizing team coordination, tactical positioning, and the mastery of the new movement engine. Unlike previous entries, the maps in E-Day are built to leverage verticality, allowing players to utilize rooftops, balconies, and crumbling architecture to flank opponents.
+
+| Mode Type | Player Count | Focus | Best For |
+| :--- | :--- | :--- | :--- |
+| **Ranked** | 4v4 | Skill-based progression | Competitive play |
+| **Social** | 4v4 | Casual match flow | Practice & fun |
+| **Open Beta** | 4v4 | Pre-launch testing | Early access players |
+
+</Section>
+
+<Section icon={Target} title="Core Movement and Combat Mechanics">
+
+To dominate in **Gears of War E-Day Versus**, you must move beyond standing still. The new traversal system is a game-changer for high-level play.
+
+<Steps>
+  <Step num="1" title="Master the Slide">
+    Use the slide-from-sprint mechanic to quickly reposition or dive into cover. It is essential for escaping focused fire.
+  </Step>
+  <Step num="2" title="Utilize Verticality">
+    The jump mechanic opens new routes. Always look for elevated positions to gain a height advantage over your opponents.
+  </Step>
+  <Step num="3" title="Fluid Cover Transitions">
+    Transitions are smoother in E-Day. Practice moving between cover pieces without breaking your rhythm to remain a difficult target.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Tactical Warning">
+Over-relying on vertical flanks can leave you exposed. Always coordinate with your squad before pushing into the open.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Multiplayer Loadouts and Strategy">
+
+Your weapon choice defines your role in a 4v4 encounter. While the classic **Gnasher** remains the king of close-quarters, newer additions like the **Incinerator** provide unique tactical pressure.
+
+| Weapon | Combat Role | Best Usage |
+| :--- | :--- | :--- |
+| **Gnasher** | Close-Range | Anchoring tight chokepoints |
+| **Longshot** | Precision | Holding long sightlines |
+| **Gut Puncher** | Explosive | Flushing enemies from cover |
+| **Incinerator** | Area Denial | Brutal close-range pressure |
+
+<CardGrid cols={3}>
+  <Card title="Frontline Aggression">
+    - Focus on **Gnasher** usage
+    - Lead the push
+    - Utilize slide to close gaps
+  </Card>
+  <Card title="Support & Precision">
+    - Use **Longshot** for cover
+    - Monitor flank routes
+    - Provide squad intel
+  </Card>
+  <Card title="Tactical Control">
+    - Use **Gut Puncher** to disrupt
+    - Deny enemy movement
+    - Control E-Holes
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategy Success">
+Successful squads in Versus play often combine one precision-focused player with three aggressive pushers to maintain map control.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Map Tactics and Environmental Awareness">
+
+The city of Kalona serves as the primary stage for all Versus maps. The environment is not static; it is subject to the chaos of the Locust emergence.
+
+<Checklist
+  id="map-tactics"
+  title="Versus Map Checklist:"
+  items={[
+    "Identify all vertical flanking routes",
+    "Monitor E-Hole spawn points for ambush potential",
+    "Utilize micro-destruction to strip enemy cover",
+    "Coordinate squad movement across map quadrants"
+  ]}
+/>
+
+<Callout type="info" title="Environmental Note">
+Keep an eye on sinkholes. Major environmental collapses can drastically alter the map layout during a match, forcing you to adapt your positioning on the fly.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Gears of War E-Day Versus cross-platform?",
+    answer: "Yes, the game supports cross-platform multiplayer, allowing players on Xbox Series X|S and PC to compete together."
+  },
+  {
+    question: "How do I access the Open Beta for Versus?",
+    answer: "Open Beta early access begins on August 6, 2026. You can gain access by pre-ordering any edition of the game or via eligible Game Pass subscriptions."
+  },
+  {
+    question: "Are there different classes in Versus mode?",
+    answer: "Versus focuses on skill-based movement and weapon mastery. While classes like Assault and Medic are key in Horde Siege, Versus relies on player-defined loadouts and squad roles."
+  }
+]} />
+
+</Section>
