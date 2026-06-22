@@ -10,14 +10,7 @@
       "twitterDescription": "Explore Gears of War E-Day release date, beta access, campaign co-op, Horde Siege, Versus PvP, weapons, enemies, maps and beginner guide tips."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
