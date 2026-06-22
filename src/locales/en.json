@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Pre-order on Steam",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,561 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Gears of War E-Day Gameplay",
+    "description": "Survive Emergence Day with rebuilt cover combat, modernized movement, a 12-player Horde Siege, refined 4v4 Versus, and a campaign that follows Marcus Fenix and Bravo Squad across Kalona."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Gears of War E-Day",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to track the release, editions, beta, campaign, multiplayer, weapons, and PC specs",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "CalendarCheck",
+        "title": "Release & Platforms",
+        "description": "Launch date, Xbox, PC, Steam, and Game Pass"
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Editions & Bonuses",
+        "description": "Standard, Premium, and Collector's content"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "KeyRound",
+        "title": "Open Beta Access",
+        "description": "August 6 beta dates and code rules"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "BookOpen",
+        "title": "Beginner Guide",
+        "description": "Campaign, co-op, cover combat, and movement"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Map",
+        "title": "Campaign & Story",
+        "description": "Marcus, Dom, Bravo Squad, and Kalona"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "icon": "Swords",
+        "title": "Horde & Versus",
+        "description": "12-player PvE and 4v4 PvP modes"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "icon": "Crosshair",
+        "title": "Weapons & Combat",
+        "description": "Gnasher, Longshot, movement, and E-Holes"
       },
       {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Cpu",
+        "title": "PC Requirements",
+        "description": "Steam specs, storage, and Xbox features"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "gearsOfDayReleasePlatforms": {
+      "title": "Gears of War: E-Day Release Date, Platforms, Game Pass, and Steam",
+      "displayType": "card-list",
+      "eyebrow": "Release Info",
+      "intro": "Gears of War: E-Day launches on October 6, 2026 for Xbox Series X|S and Windows PC. It is also listed for Steam, Xbox Play Anywhere, Game Pass day-one access, and Xbox cloud play through Game Pass.",
+      "items": [
+        {
+          "label": "Release Date",
+          "value": "October 6, 2026",
+          "description": "The standard launch date for Gears of War: E-Day is October 6, 2026."
+        },
+        {
+          "label": "Main Platforms",
+          "value": "Xbox Series X|S and Windows 10/11 PC",
+          "description": "The official Xbox game page lists Xbox Series X|S and Windows 10/11 as the core platforms."
+        },
+        {
+          "label": "Steam Availability",
+          "value": "Steam PC release listed",
+          "description": "Gears of War: E-Day is available to pre-purchase on Steam for PC, with the Steam listing showing an October 6, 2026 release date."
+        },
+        {
+          "label": "Microsoft Store",
+          "value": "Xbox and PC storefront",
+          "description": "Players can pre-order through the Microsoft Store for Xbox Series X|S and PC."
+        },
+        {
+          "label": "Xbox Play Anywhere",
+          "value": "Buy once, play on Xbox console and PC",
+          "description": "A Microsoft Store purchase supports Xbox Play Anywhere, giving access on Xbox console and PC with no extra game purchase."
+        },
+        {
+          "label": "Game Pass",
+          "value": "Day-one access",
+          "description": "Gears of War: E-Day is included with Game Pass on day one, including Game Pass Ultimate and PC Game Pass access paths."
+        },
+        {
+          "label": "Cloud Play",
+          "value": "Game Pass cloud streaming listed",
+          "description": "Xbox lists cloud streaming for Gears of War: E-Day through Game Pass, giving another way to play without a local install."
+        },
+        {
+          "label": "Developer and Publisher",
+          "value": "The Coalition / Xbox Game Studios",
+          "description": "Gears of War: E-Day is developed by The Coalition and published by Xbox Game Studios."
+        }
+      ]
+    },
+    "gearsOfDayPreOrderEditions": {
+      "title": "Gears of War: E-Day Editions, Early Access, and Pre-Order Bonuses",
+      "displayType": "comparison-table",
+      "eyebrow": "Editions",
+      "intro": "Compare Standard Edition, Premium Edition, Premium Edition Upgrade, and Collector's Edition. The main differences are early access, Premium cosmetic packs, 1,000 Iron, campaign weapon bonuses, and physical collector items.",
+      "editions": [
+        {
+          "name": "Standard Edition",
+          "format": "Digital and physical",
+          "price": "$69.99+ on Xbox Store",
+          "access": "Full base game on October 6, 2026",
+          "earlyAccess": "Open Beta early access starts August 6, 2026",
+          "included": [
+            "Gears of War: E-Day base game",
+            "Pre-order bonuses"
+          ],
+          "bonuses": [
+            "Exfil Dom Legendary Character Skin",
+            "Exfil Legendary Weapon Skin Set",
+            "Open Beta early access"
+          ],
+          "bestFor": "Players who want the base game, a Game Pass alternative, or the simplest pre-order path."
+        },
+        {
+          "name": "Premium Edition",
+          "format": "Digital",
+          "price": "$99.99+ on Xbox Store",
+          "access": "Play up to 5 days early from October 1, 2026",
+          "earlyAccess": "Open Beta early access starts August 6, 2026",
+          "included": [
+            "Gears of War: E-Day digital game",
+            "Up to 5-days early access",
+            "Bravo Squad Signature Weapon Pack for campaign",
+            "Emergence Customization Pack at launch",
+            "4 additional Seasonal Customization Packs",
+            "1,000 Iron premium in-game currency",
+            "Pre-order bonuses"
+          ],
+          "bonuses": [
+            "Exfil Dom Legendary Character Skin",
+            "Exfil Legendary Weapon Skin Set",
+            "Open Beta early access"
+          ],
+          "bestFor": "Players who want early launch access and the full digital Premium content bundle."
+        },
+        {
+          "name": "Premium Edition Upgrade",
+          "format": "Digital add-on",
+          "price": "$30.00 on Xbox Store",
+          "access": "Requires the base game or Xbox Game Pass Ultimate membership",
+          "earlyAccess": "Adds up to 5-days early access from October 1, 2026",
+          "included": [
+            "Up to 5-days early access",
+            "Bravo Squad Signature Weapon Pack for campaign",
+            "Five Seasonal Customization Packs starting with the Emergence Pack",
+            "1,000 Iron premium in-game currency"
+          ],
+          "bonuses": [
+            "Exfil Dom Legendary Character Skin",
+            "Exfil Legendary Weapon Skin Set",
+            "Open Beta early access"
+          ],
+          "bestFor": "Game Pass Ultimate members or base-game owners who want Premium benefits without buying the full Premium Edition."
+        },
+        {
+          "name": "Collector's Edition",
+          "format": "Physical collector bundle",
+          "price": "Retailer-dependent",
+          "access": "Includes the base game plus Premium Edition digital upgrade content",
+          "earlyAccess": "Includes Premium early access benefits",
+          "included": [
+            "15-inch Marcus Fenix and Dominic Santiago collectible diorama statue",
+            "1:1 scale replica of Carlos Santiago's COG tags (metal zinc alloy and brass)",
+            "In-game photo and art print",
+            "Luke Preece designed custom SteelBook case",
+            "Collector's display packaging",
+            "Gears of War: E-Day base game",
+            "Premium Edition digital upgrade content"
+          ],
+          "bonuses": [
+            "Exfil Dom Legendary Character Skin",
+            "Exfil Legendary Weapon Skin Set",
+            "Open Beta early access"
+          ],
+          "bestFor": "Collectors who want physical Gears items plus the Premium digital content package."
+        }
+      ]
+    },
+    "gearsOfDayOpenBetaAccess": {
+      "title": "Gears of War: E-Day Open Beta Access and Beta Code Rules",
+      "displayType": "step-by-step",
+      "eyebrow": "Open Beta",
+      "intro": "Open Beta early access begins on August 6, 2026 for eligible pre-orders. Digital buyers do not need a beta code, while physical buyers should receive a code from participating retailers.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Pre-order any edition for Open Beta early access",
+          "description": "Pre-ordering Standard Edition, Premium Edition, Premium Edition Upgrade, or Collector's Edition grants early access to the Gears of War: E-Day Open Beta.",
+          "date": "August 6, 2026",
+          "accessType": "Pre-order early access"
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Use automatic access for digital pre-orders",
+          "description": "Players who digitally pre-order Gears of War: E-Day are automatically granted Early Access to the Open Beta and do not need a separate beta code.",
+          "date": "August 6, 2026",
+          "accessType": "Automatic account entitlement"
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Use retailer beta codes for physical pre-orders",
+          "description": "Players who pre-order a physical edition should receive a beta code at the point of sale from participating retailers.",
+          "date": "August 6, 2026",
+          "accessType": "Retailer code"
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Redeem physical beta codes through the official Xbox code flow",
+          "description": "Physical pre-order beta access uses a single-use code from the retailer. Keep the purchase email or printed receipt because the code is tied to that sale path.",
+          "date": "Before or during the beta window",
+          "accessType": "Single-use code redemption"
+        },
+        {
+          "title": "Claim launch pre-order items through the same purchase path",
+          "description": "Digital pre-orders receive the Exfil Dom Legendary Character Skin and Exfil Legendary Weapon Skin Set automatically. Physical pre-orders may receive launch bonus codes by email or printed receipt, depending on region and retailer.",
+          "date": "From October 1, 2026 for early access",
+          "accessType": "Pre-order cosmetic bonus"
+        },
+        {
+          "title": "Use Game Pass correctly for online multiplayer",
+          "description": "Game Pass provides day-one game access, and online multiplayer features may require a Game Pass subscription that includes online multiplayer. Beta early access remains tied to the official pre-order access rules.",
+          "date": "October 6, 2026 day-one Game Pass",
+          "accessType": "Game Pass access"
+        }
+      ]
+    },
+    "gearsOfDayBeginnerGuide": {
+      "title": "Gears of War: E-Day Beginner Guide for Campaign, Co-Op, and Cover Combat",
+      "displayType": "step-by-step",
+      "eyebrow": "Beginner Guide",
+      "intro": "Start with the campaign basics: cover-based combat, modernized movement, solo or co-op play, Bravo Squad, Horde Siege, and Versus. Gears of War: E-Day keeps classic Gears combat while rebuilding movement, enemies, visuals, and multiplayer systems for the new entry.",
+      "steps": [
+        {
+          "title": "Start with the campaign to learn the combat flow",
+          "description": "The Gears of War: E-Day campaign follows Marcus Fenix and Dominic Santiago during Emergence Day. It can be played solo, in two-player split-screen co-op on console, or with up to four players online."
+        },
+        {
+          "title": "Use cover as your default survival tool",
+          "description": "Gears of War: E-Day brings back iconic cover-based combat. Move from cover to cover, avoid open lanes, and use the environment before pushing into close-range fights."
+        },
+        {
+          "title": "Learn the modernized movement system early",
+          "description": "Movement and traversal are modernized to add more freedom and verticality. Practice repositioning, climbing routes, and safer angles instead of standing still behind one wall."
+        },
+        {
+          "title": "Understand Bravo Squad before playing co-op",
+          "description": "The campaign is told through Bravo Squad. Marcus, Dom, Mags Carter, and Lucas Reyes are playable from the start in online co-op, giving the squad structure without forcing players away from the main story."
+        },
+        {
+          "title": "Treat first-contact Locust encounters as close-range threats",
+          "description": "Gears of War: E-Day is built around the horror and confusion of the Locust Horde first erupting from below. Reimagined enemies, Wretches, and new creatures are designed to make early encounters feel dangerous."
+        },
+        {
+          "title": "Use co-op based on your platform",
+          "description": "Console players can use two-player split-screen, while online campaign co-op supports up to four players. Online co-op and multiplayer features may require a subscription that includes online multiplayer."
+        },
+        {
+          "title": "Try Horde Siege after learning campaign fundamentals",
+          "description": "Horde Siege is the evolved PvE wave-survival mode in Gears of War: E-Day. It is a good next stop after learning weapons, movement, cover habits, and team positioning."
+        },
+        {
+          "title": "Move into Versus when you are ready for PvP",
+          "description": "Versus includes competitive PvP across new maps and refined fan-favorite 4v4 modes. The Xbox Store lists online multiplayer support for 2 to 12 players and cross-platform multiplayer."
+        },
+        {
+          "title": "Use returning and new weapons for close-quarters fights",
+          "description": "Fan-favorite weapons return and are reimagined, while new weapons are built for brutal close-quarters combat. Beginners should test weapon range and reload timing before rushing enemies."
+        },
+        {
+          "title": "Set expectations for performance and display features",
+          "description": "Gears of War: E-Day is rebuilt in Unreal Engine 5 and is designed for modern performance, with 4K resolution and up to 60 FPS across Campaign and Multiplayer on compatible displays."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Stay in cover and reposition constantly instead of holding one wall.",
+        "Learn slide, jump, and vertical flank routes before pushing aggressive fights.",
+        "Test weapon range and reload timing in the campaign before entering Versus.",
+        "Coordinate squad roles in Horde Siege so Assault, Marksman, Medic, and Breacher each cover a job."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "gearsOfDayCampaignTimeline": {
+      "title": "Gears of War: E-Day Campaign Story and Timeline",
+      "displayType": "story-timeline",
+      "eyebrow": "Campaign Story",
+      "intro": "Gears of War: E-Day is set fourteen years before the original Gears of War and follows Marcus Fenix and Dominic Santiago during the first Locust emergence on Sera. The campaign plays out in the city of Kalona across three days.",
+      "phases": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "phase": "Before Emergence",
+          "title": "After the Pendulum Wars",
+          "timeframe": "Shortly after peace is declared on Sera",
+          "description": "Marcus Fenix and Dominic Santiago return from the Pendulum Wars as young veterans. Both are carrying the loss of Carlos Santiago, Dom's older brother and Marcus's best friend, which gives their relationship a distant and wounded starting point.",
+          "characters": ["Marcus Fenix", "Dominic Santiago", "Carlos Santiago"],
+          "role": "Sets the emotional foundation before the Locust invasion begins."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "phase": "Day One",
+          "title": "The Ground Opens in Kalona",
+          "timeframe": "Emergence Day begins",
+          "description": "Marcus and Dom are in Kalona for an armistice memorial when the ground opens and the Locust emerge from below. The first encounters are built around confusion, fear, and first contact with creatures the people of Sera do not yet have names for.",
+          "characters": ["Marcus Fenix", "Dominic Santiago"],
+          "role": "Introduces the horror of the Locust as an unknown force attacking a city in real time."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "phase": "Bravo Squad Forms",
+          "title": "Four Gears Run Toward the Fight",
+          "timeframe": "Early E-Day chaos",
+          "description": "Bravo Squad forms when Marcus, Dom, Mags Carter, and Lucas Reyes face the first outbreak together. Mags is a former Gear working at Kalona's Imulsion Refinery, while Lucas is a young cadet and communications officer who never saw the front lines.",
+          "characters": ["Marcus Fenix", "Dominic Santiago", "Mags Carter", "Lucas Reyes"],
+          "role": "Builds the playable squad around shared instinct, loyalty, and survival under pressure."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "phase": "Day Two",
+          "title": "Regrouping and Military Response",
+          "timeframe": "The city tries to organize",
+          "description": "The campaign moves from shock into regrouping as Bravo Squad connects with military forces and begins taking on missions across Kalona. The city includes districts such as a sports stadium, industrial waterfront, airfield, refinery zones, and dense residential areas.",
+          "characters": ["Bravo Squad", "Kalona defenders"],
+          "role": "Turns the invasion from isolated panic into a coordinated battle for the city."
+        },
+        {
+          "phase": "Day Three",
+          "title": "Kalona Falls Into Desperation",
+          "timeframe": "The scale becomes impossible to ignore",
+          "description": "By the third day, the invasion is clearly not an isolated attack. The Locust threat escalates from Feral Wretches into Drones and organized enemy forces, while Bravo Squad sees that Emergence Day is a world-changing catastrophe.",
+          "characters": ["Bravo Squad", "Locust Horde", "Tai Kaliso"],
+          "role": "Shows the shift from monster invasion to full-scale war."
+        },
+        {
+          "phase": "Campaign Play",
+          "title": "Solo, Split-Screen, and Online Co-Op",
+          "timeframe": "Playable campaign structure",
+          "description": "The Gears of War: E-Day campaign can be played solo, in two-player split-screen on console, or in up to four-player online co-op. The four Bravo Squad characters are playable from the start.",
+          "characters": ["Marcus Fenix", "Dominic Santiago", "Mags Carter", "Lucas Reyes"],
+          "role": "Lets players experience the origin story alone or as a squad."
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "gearsOfDayHordeAndVersus": {
+      "title": "Gears of War: E-Day Horde Siege and Versus Modes",
+      "displayType": "mode-cards",
+      "eyebrow": "Multiplayer Modes",
+      "intro": "Gears of War: E-Day brings back multiplayer with a larger PvE Horde Siege mode and refined 4v4 Versus PvP across new Kalona maps, built around squad play, bigger combat spaces, and modernized movement.",
+      "modes": [
+        {
+          "mode": "Horde Siege",
+          "type": "PvE",
+          "players": "12 players",
+          "squad": "Three 4-player squads",
+          "maps": "Larger city maps set in Kalona",
+          "description": "Horde Siege reimagines Gears of War: E-Day's co-op wave survival as a bigger PvE battlefield where multiple squads defend Kalona from the Locust.",
+          "objectives": [
+            "Defend the city under siege",
+            "Conquer shared objectives",
+            "Fight alongside multiple squads",
+            "Take down world bosses"
+          ],
+          "classes": ["Assault", "Marksman", "Medic", "Breacher"]
+        },
+        {
+          "mode": "Versus PvP",
+          "type": "Competitive PvP",
+          "players": "4v4",
+          "squad": "Two opposing teams",
+          "maps": "All-new maps in and around war-torn Kalona",
+          "description": "Versus returns with refined competitive PvP, classic symmetrical Gears map design, and new traversal opportunities built around E-Day's movement systems.",
+          "objectives": [
+            "Fight head-to-head across new maps",
+            "Use cover, flanks, and vertical routes",
+            "Play refined fan-favorite 4v4 modes"
+          ],
+          "classes": []
+        },
+        {
+          "mode": "Ranked Play",
+          "type": "Competitive Playlist",
+          "players": "4v4",
+          "squad": "Team-based Versus",
+          "maps": "Competitive Versus maps",
+          "description": "Ranked is built for players who want structured competition and progression through skill-focused PvP matches.",
+          "objectives": [
+            "Climb the ranks",
+            "Play tighter competitive matches",
+            "Use coordinated squad tactics"
+          ],
+          "classes": []
+        },
+        {
+          "mode": "Social Playlists",
+          "type": "Casual PvP",
+          "players": "4v4",
+          "squad": "Team-based Versus",
+          "maps": "Versus maps with a more relaxed match flow",
+          "description": "Social playlists give players a less intense way to play Versus while still using Gears of War: E-Day's updated movement, traversal, and cover combat.",
+          "objectives": [
+            "Play relaxed PvP matches",
+            "Practice maps and movement",
+            "Earn content through normal play"
+          ],
+          "classes": []
+        },
+        {
+          "mode": "Open Beta Multiplayer",
+          "type": "Pre-launch Access",
+          "players": "Multiplayer access before launch",
+          "squad": "Available through Open Beta weekends",
+          "maps": "Multiplayer testing before release",
+          "description": "Players can try multiplayer before launch through Open Beta weekends starting August 6, 2026. Early access to the first weekend is tied to pre-order access or Game Pass Ultimate and PC Game Pass subscription access.",
+          "objectives": [
+            "Try multiplayer before launch",
+            "Test Horde Siege and Versus systems",
+            "Prepare for the October 6, 2026 launch"
+          ],
+          "classes": ["Assault", "Marksman", "Medic", "Breacher"]
+        }
+      ]
+    },
+    "gearsOfDayWeaponsCombat": {
+      "title": "Gears of War: E-Day Weapons and Combat Mechanics",
+      "displayType": "weapon-grid",
+      "eyebrow": "Weapons and Combat",
+      "intro": "Gears of War: E-Day keeps Gears' cover-based combat while rebuilding weapons, traversal, enemy encounters, and destruction for larger city fights. Returning weapons sit beside new close-quarters tools, while sliding, jumping, vertical flanks, E-Holes, sinkholes, and micro-destruction change how fights unfold across Kalona.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Gnasher",
+          "category": "Returning Weapon",
+          "role": "Close-range shotgun",
+          "description": "The Gnasher remains the close-range king and anchors classic Gears of War: E-Day close-quarters fights.",
+          "bestUse": "Push tight spaces, punish enemies at short range, and control aggressive cover-to-cover engagements."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Longshot",
+          "category": "Returning Weapon",
+          "role": "Precision rifle",
+          "description": "The Longshot rewards patience and precision at distance, especially when players use balconies, rooftops, and elevated routes for flanking.",
+          "bestUse": "Hold sightlines, pick enemies from range, and support squadmates from vertical positions."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Gut Puncher",
+          "category": "New Weapon",
+          "role": "Armor-piercing explosive launcher",
+          "description": "The Gut Puncher is a grenade launcher that fires armor-piercing explosive rounds with player-controlled detonation.",
+          "bestUse": "Quick-fire for immediate blasts or hold the trigger to place explosions behind enemy cover."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Incinerator",
+          "category": "New Weapon",
+          "role": "Imulsion-fueled shotgun",
+          "description": "The Incinerator is a new shotgun powered by Imulsion, built for brutal close-range damage in Gears of War: E-Day.",
+          "bestUse": "Use in close-quarters fights where fast enemy pressure makes space control more important than precision."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "Chainsaw Lancer Origin",
+          "category": "Weapon Origin",
+          "role": "Battlefield-built signature weapon",
+          "description": "The Chainsaw Lancer is born on the battlefield during E-Day, kit-bashed from a prototype on the front lines of the invasion.",
+          "bestUse": "Represents the origin of one of the series' defining weapons during the first Locust War crisis."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "name": "Cover Transitions",
+          "category": "Combat System",
+          "role": "Movement and positioning",
+          "description": "Cover transitions are smoother and support a wider range of cover heights and shapes, including low-ground cover for more organic combat spaces.",
+          "bestUse": "Move through firefights more fluidly while staying inside the classic Gears cover-combat rhythm."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "name": "Slide",
+          "category": "Traversal",
+          "role": "Fast repositioning",
+          "description": "Players can slide from sprint, including under objects, around corners, and directly into cover.",
+          "bestUse": "Escape danger, close distance, or reach cover during fast, chaotic fights."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Jump and Vertical Flanks",
+          "category": "Traversal",
+          "role": "Vertical combat",
+          "description": "For the first time in Gears, players can jump, opening routes across rooftops, crumbling buildings, balconies, and elevated flanking paths.",
+          "bestUse": "Attack from above, split enemy attention, and combine squad approaches across different routes."
+        },
+        {
+          "name": "E-Holes",
+          "category": "Encounter Mechanic",
+          "role": "Locust emergence points",
+          "description": "E-Holes return in Gears of War: E-Day as both spectacle and tactical threat. Locust can emerge from the ground, and a well-placed grenade can close the hole.",
+          "bestUse": "React quickly to enemy spawns, use explosives to stop pressure, and prevent fights from escalating."
+        },
+        {
+          "name": "Sinkholes",
+          "category": "Destruction",
+          "role": "Large-scale collapse",
+          "description": "At larger scales, sinkholes can pull down vehicles and entire buildings as the Locust assault reshapes Kalona.",
+          "bestUse": "Adds battlefield spectacle and environmental danger during major city encounters."
+        },
+        {
+          "name": "Micro-Destruction",
+          "category": "Destruction",
+          "role": "Cover damage",
+          "description": "Micro-destruction chips away at cover across different materials, making defensive positions less permanent.",
+          "bestUse": "Pressure enemies hiding behind cover and adapt when your own cover starts breaking down."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+    "gearsOfDayPCRequirements": {
+      "title": "Gears of War: E-Day PC Requirements and Performance",
+      "displayType": "spec-table",
+      "eyebrow": "PC Specs",
+      "intro": "Gears of War: E-Day is listed for Steam and Windows 10/11 PC, with a 130 GB SSD requirement and modern GPU targets. Use this section to check the official PC requirements, Steam availability, and Xbox Series X|S performance features before launch.",
       "sections": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "title": "Minimum PC Requirements",
+          "rows": [
+            { "label": "Operating System", "value": "Windows 10 64-bit 22H 19045.7291" },
+            { "label": "Processor", "value": "AMD Ryzen 5 2600X / Intel i7-6850K / Intel i5-10400" },
+            { "label": "Memory", "value": "12 GB RAM" },
+            { "label": "Graphics", "value": "NVIDIA GeForce RTX 5050 / RTX 2060 / AMD Radeon RX 6600 / RX 9060 / Intel Arc A580" },
+            { "label": "DirectX", "value": "Version 12" },
+            { "label": "Storage", "value": "130 GB available space" },
+            { "label": "Storage Type", "value": "SSD required" }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "title": "Recommended PC Requirements",
+          "rows": [
+            { "label": "Operating System", "value": "Windows 11 64-bit 25H2 or newer" },
+            { "label": "Processor", "value": "AMD Ryzen 5 5600 / Intel i5-11600K" },
+            { "label": "Memory", "value": "16 GB RAM" },
+            { "label": "Graphics", "value": "NVIDIA GeForce RTX 5060 / RTX 3060 Ti / AMD Radeon RX 6700 XT / RX 9060 XT / Intel Arc B580" },
+            { "label": "DirectX", "value": "Version 12" },
+            { "label": "Storage", "value": "130 GB available space" },
+            { "label": "Storage Type", "value": "SSD required" }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "title": "PC and Storefront Availability",
+          "rows": [
+            { "label": "Steam", "value": "Available to wishlist and pre-purchase on Steam" },
+            { "label": "Xbox on PC", "value": "Available on Windows 10/11 PC" },
+            { "label": "Xbox Play Anywhere", "value": "Buy once and play on Xbox console and PC" },
+            { "label": "Game Pass", "value": "Playable day one with Game Pass" },
+            { "label": "Xbox Live Account", "value": "Steam listing requires a third-party Xbox Live account" }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "title": "Xbox Series X|S Performance Features",
+          "rows": [
+            { "label": "Console Optimization", "value": "Optimized for Xbox Series X|S" },
+            { "label": "Resolution and Frame Rate", "value": "Built for 4K resolution and up to 60 FPS across Campaign and Multiplayer" },
+            { "label": "Display Features", "value": "4K Ultra HD, HDR10, and Variable Refresh Rate" },
+            { "label": "Rendering Features", "value": "Ray Tracing" },
+            { "label": "Audio Features", "value": "Spatial Sound, Dolby Atmos, and DTS:X" },
+            { "label": "Multiplayer Capability", "value": "Online multiplayer supports up to 12 players" }
           ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
         }
       ]
     }
@@ -749,31 +614,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Gears of War: E-Day",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "When does Gears of War: E-Day release?",
+        "answer": "Gears of War: E-Day launches on October 6, 2026 for Xbox Series X|S and Windows PC, with day-one Game Pass access and an Open Beta starting August 6, 2026."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Which platforms support Gears of War: E-Day?",
+        "answer": "Gears of War: E-Day is available on Xbox Series X|S, Windows 10/11 PC, Steam, and Xbox Play Anywhere, with cloud play through Game Pass."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Is there an open beta for Gears of War: E-Day?",
+        "answer": "Yes. Gears of War: E-Day Open Beta early access begins August 6, 2026 for eligible pre-orders, with automatic access for digital buyers and retailer codes for physical pre-orders."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does Gears of War: E-Day support campaign co-op?",
+        "answer": "Yes. The Gears of War: E-Day campaign supports solo play, two-player split-screen on console, and up to four-player online co-op with Marcus, Dom, Mags, and Lucas playable from the start."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is Horde Siege in Gears of War: E-Day?",
+        "answer": "Horde Siege is Gears of War: E-Day's 12-player PvE mode where three four-player squads defend Kalona from the Locust, with Assault, Marksman, Medic, and Breacher classes."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Gears of War: E-Day on Game Pass?",
+        "answer": "Yes. Gears of War: E-Day is included with Game Pass on day one, including Game Pass Ultimate and PC Game Pass access paths."
       }
     ]
   },
@@ -802,121 +667,121 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Gears of War E-Day Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced combat, co-op, and Horde Siege strategies for Gears of War: E-Day.",
+      "metaTitle": "Gears of War E-Day Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Gears of War E-Day guides covering beginner tips, campaign co-op, Horde Siege, Versus, weapons, and expert tactics for surviving Emergence Day.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering campaign mechanics, cover combat, co-op, and multiplayer systems for Gears of War: E-Day. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand cover combat, movement, and co-op systems in Gears of War: E-Day",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to survive Emergence Day and master the campaign",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for Horde Siege, Versus, and squad play"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "campaign": {
+      "title": "Gears of War E-Day Campaign",
+      "description": "Master the campaign with Marcus Fenix, Dom, and Bravo Squad across Kalona, including story timeline, co-op setup, and combat strategies.",
+      "metaTitle": "Gears of War E-Day Campaign - Story, Co-Op & Combat",
+      "metaDescription": "Complete Gears of War E-Day campaign guides covering the Emergence Day story, Bravo Squad, Kalona, split-screen and online co-op, and cover combat strategies.",
+      "categoryLabel": "CAMPAIGN & STORY",
+      "whatIs": "What is the Campaign?",
+      "whatIsDescription": "Guides to the Gears of War: E-Day campaign, including the Emergence Day origin story, Bravo Squad characters, the three-day Kalona structure, and solo or co-op play.",
+      "why": "Why play the campaign?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Experience the Origin Story",
+        "step1Description": "See where the Locust War begins through Marcus Fenix and Bravo Squad",
+        "step2Title": "Play Solo or Co-Op",
+        "step2Description": "Choose solo, two-player split-screen, or up to four-player online co-op",
+        "step3Title": "Master Cover Combat",
+        "step3Description": "Learn the modernized movement and cover flow that defines Gears of War: E-Day"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Campaign Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "weapons": {
+      "title": "Gears of War E-Day Weapons",
+      "description": "Detailed weapon guides covering the Gnasher, Longshot, Gut Puncher, Incinerator, Chainsaw Lancer origin, movement, and combat mechanics.",
+      "metaTitle": "Gears of War E-Day Weapons - Guns, Movement & Combat",
+      "metaDescription": "Complete weapon and combat database for Gears of War E-Day including the Gnasher, Longshot, Gut Puncher, Incinerator, Chainsaw Lancer origin, and traversal mechanics.",
+      "categoryLabel": "WEAPONS & COMBAT",
+      "whatIs": "What are Weapons?",
+      "whatIsDescription": "Comprehensive guides for returning weapons, new close-quarters tools, movement, traversal, E-Holes, and destruction systems in Gears of War: E-Day.",
+      "why": "Why check weapon guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Learn Weapon Roles",
+        "step1Description": "Understand range, damage, and best use for each weapon in Gears of War: E-Day",
+        "step2Title": "Master Movement",
+        "step2Description": "Use slide, jump, and vertical flanks to control engagements",
+        "step3Title": "Read Encounters",
+        "step3Description": "React to E-Holes, sinkholes, and micro-destruction across Kalona"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Weapon Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "multiplayer": {
+      "title": "Gears of War E-Day Multiplayer",
+      "description": "Explore Horde Siege, Versus PvP, Ranked, and Social playlists, including 12-player PvE, 4v4 maps, classes, and rewards.",
+      "metaTitle": "Gears of War E-Day Multiplayer - Horde Siege & Versus",
+      "metaDescription": "Complete Gears of War E-Day multiplayer guides covering Horde Siege 12-player PvE, 4v4 Versus PvP, Ranked and Social playlists, classes, maps, and rewards.",
+      "categoryLabel": "MULTIPLAYER MODES",
+      "whatIs": "What is Multiplayer?",
+      "whatIsDescription": "Guides to Gears of War: E-Day multiplayer, including Horde Siege PvE, Versus PvP, Ranked, and Social playlists, plus the Assault, Marksman, Medic, and Breacher classes.",
+      "why": "Why play multiplayer?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Join Horde Siege",
+        "step1Description": "Defend Kalona with three squads in 12-player PvE",
+        "step2Title": "Compete in Versus",
+        "step2Description": "Play refined 4v4 PvP across new Kalona maps",
+        "step3Title": "Climb Ranked",
+        "step3Description": "Progress through skill-focused competitive playlists"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Multiplayer Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "release": {
+      "title": "Gears of War E-Day Release",
+      "description": "Track the release date, platforms, editions, Open Beta, Game Pass, and pre-order bonuses for Gears of War: E-Day.",
+      "metaTitle": "Gears of War E-Day Release - Date, Platforms & Beta",
+      "metaDescription": "Complete Gears of War E-Day release guides covering the October 6, 2026 launch, Xbox, PC, Steam, Game Pass, editions, and Open Beta access.",
+      "categoryLabel": "RELEASE & EDITIONS",
+      "whatIs": "What is Release?",
+      "whatIsDescription": "Guides to the Gears of War: E-Day launch, including the October 6, 2026 release date, supported platforms, editions, pre-order bonuses, and Open Beta access rules.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Lock the Launch Date",
+        "step1Description": "Know when Gears of War: E-Day arrives on Xbox, PC, and Steam",
+        "step2Title": "Pick an Edition",
+        "step2Description": "Compare Standard, Premium, Upgrade, and Collector's content",
+        "step3Title": "Get Beta Access",
+        "step3Description": "Use pre-order, digital, or retailer code paths for the Open Beta"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Release Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "title": "Gears of War E-Day Support",
+      "description": "Technical support, PC requirements, platform compatibility, performance, and troubleshooting for Gears of War: E-Day.",
+      "metaTitle": "Gears of War E-Day Support - PC Specs & Fixes",
+      "metaDescription": "Get technical support for Gears of War E-Day including PC requirements, Steam setup, performance optimization, and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "whatIsDescription": "Technical guides covering PC requirements, Steam setup, performance optimization, and common issues for Gears of War: E-Day across Xbox, PC, and Game Pass.",
       "why": "Why check support?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
+        "step1Title": "Check PC Specs",
+        "step1Description": "Confirm your PC meets the Gears of War: E-Day requirements",
         "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
+        "step2Description": "Configure settings for the best experience on your platform",
         "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step3Description": "Learn about Xbox, PC, Steam, Game Pass, and cloud play"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"

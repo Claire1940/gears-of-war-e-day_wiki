@@ -28,6 +28,14 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Gears of War E-Day 模块图标
+  CalendarCheck: LucideIcons.CalendarCheck,
+  KeyRound: LucideIcons.KeyRound,
+  Map: LucideIcons.Map,
+  Swords: LucideIcons.Swords,
+  Crosshair: LucideIcons.Crosshair,
+  Cpu: LucideIcons.Cpu,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
