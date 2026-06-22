@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Gears of War E-Day - Data de Lançamento, Co-op & Builds",
+      "description": "Explore a data de lançamento de Gears of War E-Day, acesso ao beta, co-op da campanha, Cerco da Horda, Versus PvP, armas, inimigos, mapas e dicas de guia para iniciantes.",
+      "keywords": "gears of war e-day, xbox, pc, data de lançamento, beta, co-op, cerco da horda, versus, armas",
+      "ogTitle": "Gears of War E-Day - Data de Lançamento, Co-op & Builds",
+      "ogDescription": "Explore a data de lançamento de Gears of War E-Day, acesso ao beta, co-op da campanha, Cerco da Horda, Versus PvP, armas, inimigos, mapas e dicas de guia para iniciantes.",
+      "twitterTitle": "Gears of War E-Day - Data de Lançamento, Co-op & Builds",
+      "twitterDescription": "Explore a data de lançamento de Gears of War E-Day, acesso ao beta, co-op da campanha, Cerco da Horda, Versus PvP, armas, inimigos, mapas e dicas de guia para iniciantes."
+    }
+  },
   "nav": {
     "release": "Lançamento",
     "platforms": "Plataformas",
@@ -6,5 +17,939 @@
     "guide": "Guia",
     "story": "História",
     "gameplay": "Jogabilidade"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Pré-venda no Steam",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Shooter de cobertura em terceira pessoa brutal",
+    "title": "Wiki de Gears of War E-Day",
+    "description": "Sobreviva ao Dia da Emergência com atualizações de data de lançamento, guias do cooperativo da campanha, PvE do Cerco da Horda, PvP do Versus, armas, inimigos, mapas e dicas para iniciantes.",
+    "getFreeCodesCTA": "Confira as recompensas do Beta",
+    "playOnRobloxCTA": "Garanta na pré-venda no Xbox / Steam",
+    "stats": {
+      "stat1": {
+        "value": "6 de out. de 2026",
+        "label": "Data de lançamento"
+      },
+      "stat2": {
+        "value": "6 a 10 de ago. de 2026",
+        "label": "Beta Aberto"
+      },
+      "stat3": {
+        "value": "Até 4 online",
+        "label": "Cooperativo da Campanha"
+      },
+      "stat4": {
+        "value": "PvE para 12 jogadores",
+        "label": "Cerco da Horda"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Gears of War E-Day",
+    "description": "Sobreviva ao Dia da Emergência com combate sob cobertura reformulado, movimentação modernizada, um Cerco da Horda para 12 jogadores, Versus 4v4 refinado e uma campanha que acompanha Marcus Fenix e o Esquadrão Bravo por Kalona."
+  },
+  "tools": {
+    "title": "Gears of War E-Day",
+    "titleHighlight": "Guias",
+    "subtitle": "Tudo o que você precisa para acompanhar o lançamento, edições, beta, campanha, multiplayer, armas e especificações do PC",
+    "cards": [
+      {
+        "icon": "CalendarCheck",
+        "title": "Lançamento e Plataformas",
+        "description": "Data de lançamento, Xbox, PC, Steam e Game Pass"
+      },
+      {
+        "icon": "Package",
+        "title": "Edições e Bônus",
+        "description": "Conteúdo Standard, Premium e de Colecionador"
+      },
+      {
+        "icon": "KeyRound",
+        "title": "Acesso ao Beta Aberto",
+        "description": "Datas do beta de 6 de agosto e regras de códigos"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes",
+        "description": "Campanha, cooperativo, combate em cobertura e movimentação"
+      },
+      {
+        "icon": "Map",
+        "title": "Campanha e História",
+        "description": "Marcus, Dom, Esquadrão Bravo e Kalona"
+      },
+      {
+        "icon": "Swords",
+        "title": "Horda e Versus",
+        "description": "Modos PvE para 12 jogadores e PvP 4v4"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Armas e Combate",
+        "description": "Gnasher, Longshot, movimentação e Buracos de Emergência"
+      },
+      {
+        "icon": "Cpu",
+        "title": "Requisitos para PC",
+        "description": "Especificações do Steam, armazenamento e recursos do Xbox"
+      }
+    ]
+  },
+  "modules": {
+    "gearsOfDayReleasePlatforms": {
+      "title": "Data de lançamento, plataformas, Game Pass e Steam de Gears of War: E-Day",
+      "displayType": "card-list",
+      "eyebrow": "Informações de Lançamento",
+      "intro": "Gears of War: E-Day será lançado em 6 de outubro de 2026 para Xbox Series X|S e PC com Windows. Ele também está listado para Steam, Xbox Play Anywhere, acesso no primeiro dia no Game Pass e jogos em nuvem do Xbox pelo Game Pass.",
+      "items": [
+        {
+          "label": "Data de Lançamento",
+          "value": "6 de outubro de 2026",
+          "description": "A data de lançamento padrão de Gears of War: E-Day é 6 de outubro de 2026."
+        },
+        {
+          "label": "Principais plataformas",
+          "value": "Xbox Series X|S e PC com Windows 10/11",
+          "description": "A página oficial do jogo no Xbox lista o Xbox Series X|S e o Windows 10/11 como as plataformas principais."
+        },
+        {
+          "label": "Disponibilidade no Steam",
+          "value": "Lançamento para PC no Steam listado",
+          "description": "Gears of War: E-Day está disponível para pré-compra no Steam para PC, com a página do Steam mostrando a data de lançamento de 6 de outubro de 2026."
+        },
+        {
+          "label": "Microsoft Store",
+          "value": "Loja do Xbox e PC",
+          "description": "Os jogadores podem fazer a pré-venda pela Microsoft Store para Xbox Series X|S e PC."
+        },
+        {
+          "label": "Xbox Play Anywhere",
+          "value": "Compre uma vez, jogue no console Xbox e PC",
+          "description": "A compra na Microsoft Store oferece suporte ao Xbox Play Anywhere, garantindo acesso no console Xbox e no PC sem compra adicional do jogo."
+        },
+        {
+          "label": "Game Pass",
+          "value": "Acesso no dia do lançamento",
+          "description": "Gears of War: E-Day está incluído no Game Pass no dia do lançamento, incluindo as opções de acesso do Game Pass Ultimate e PC Game Pass."
+        },
+        {
+          "label": "Jogo em nuvem",
+          "value": "Streaming em nuvem do Game Pass listado",
+          "description": "O Xbox lista o streaming em nuvem para Gears of War: E-Day através do Game Pass, oferecendo outra maneira de jogar sem instalação local."
+        },
+        {
+          "label": "Desenvolvedora e Distribuidora",
+          "value": "The Coalition / Xbox Game Studios",
+          "description": "Gears of War: E-Day é desenvolvido pela The Coalition e publicado pela Xbox Game Studios."
+        }
+      ]
+    },
+    "gearsOfDayPreOrderEditions": {
+      "title": "Edições de Gears of War: E-Day, Acesso Antecipado e Bônus de Pré-venda",
+      "displayType": "comparison-table",
+      "eyebrow": "Edições",
+      "intro": "Compare a Standard Edition, Premium Edition, Premium Edition Upgrade e a Collector's Edition. As principais diferenças são o acesso antecipado, pacotes cosméticos Premium, 1.000 de Ferro, bônus de armas da campanha e itens físicos de colecionador.",
+      "editions": [
+        {
+          "name": "Edição Padrão",
+          "format": "Digital e física",
+          "price": "US$ 69,99+ na Xbox Store",
+          "access": "Jogo base completo em 6 de outubro de 2026",
+          "earlyAccess": "O acesso antecipado ao Beta Aberto começa em 6 de agosto de 2026",
+          "included": [
+            "Jogo base Gears of War: E-Day",
+            "Bônus de pré-venda"
+          ],
+          "bonuses": [
+            "Skin de Personagem Lendária Exfil Dom",
+            "Conjunto de Skins de Arma Lendárias Exfil",
+            "Acesso antecipado ao Beta Aberto"
+          ],
+          "bestFor": "Jogadores que querem o jogo base, uma alternativa do Game Pass ou o caminho de pré-venda mais simples."
+        },
+        {
+          "name": "Edição Premium",
+          "format": "Digital",
+          "price": "US$ 99,99+ na Xbox Store",
+          "access": "Jogue com até 5 dias de antecedência a partir de 1º de outubro de 2026",
+          "earlyAccess": "O acesso antecipado ao Beta Aberto começa em 6 de agosto de 2026",
+          "included": [
+            "Jogo digital Gears of War: E-Day",
+            "Até 5 dias de acesso antecipado",
+            "Pacote de Armas de Assinatura do Esquadrão Bravo para a campanha",
+            "Pacote de Personalização Emergência no lançamento",
+            "4 Pacotes de Personalização Sazonal adicionais",
+            "1.000 de Ferro, moeda premium do jogo",
+            "Bônus de pré-venda"
+          ],
+          "bonuses": [
+            "Skin de Personagem Lendária Exfil Dom",
+            "Conjunto de Skins de Arma Lendárias Exfil",
+            "Acesso antecipado ao Beta Aberto"
+          ],
+          "bestFor": "Jogadores que querem acesso antecipado ao lançamento e o pacote completo de conteúdo digital Premium."
+        },
+        {
+          "name": "Upgrade da Edição Premium",
+          "format": "Complemento digital",
+          "price": "US$ 30,00 na Xbox Store",
+          "access": "Requer o jogo base ou assinatura do Xbox Game Pass Ultimate",
+          "earlyAccess": "Adiciona até 5 dias de acesso antecipado a partir de 1º de outubro de 2026",
+          "included": [
+            "Até 5 dias de acesso antecipado",
+            "Pacote de Armas de Assinatura do Esquadrão Bravo para a campanha",
+            "Cinco Pacotes de Personalização Sazonal começando com o Pacote da Emergência",
+            "1.000 de Ferro, moeda premium do jogo"
+          ],
+          "bonuses": [
+            "Skin Lendária de Personagem Exfil Dom",
+            "Conjunto de Skins Lendárias de Arma Exfil",
+            "Acesso antecipado ao Beta Aberto"
+          ],
+          "bestFor": "Membros do Game Pass Ultimate ou proprietários do jogo base que desejam benefícios Premium sem comprar a Edição Premium completa."
+        },
+        {
+          "name": "Edição de Colecionador",
+          "format": "Pacote físico de colecionador",
+          "price": "Varia de acordo com o varejista",
+          "access": "Inclui o jogo base mais o conteúdo de upgrade digital da Edição Premium",
+          "earlyAccess": "Inclui benefícios de acesso antecipado Premium",
+          "included": [
+            "Estátua de diorama colecionável de 15 polegadas de Marcus Fenix e Dominic Santiago",
+            "Réplica em escala 1:1 das plaquetas da CGO de Carlos Santiago (liga metálica de zinco e latão)",
+            "Foto do jogo e impressão de arte",
+            "Estojo SteelBook personalizado com design de Luke Preece",
+            "Embalagem de colecionador para exibição",
+            "Jogo base de Gears of War: E-Day",
+            "Conteúdo de upgrade digital da Edição Premium"
+          ],
+          "bonuses": [
+            "Skin de Personagem Lendária Dom Exfil",
+            "Conjunto de Skins Lendárias de Arma Exfil",
+            "Acesso antecipado ao Beta Aberto"
+          ],
+          "bestFor": "Colecionadores que desejam itens físicos de Gears, além do pacote de conteúdo digital Premium."
+        }
+      ]
+    },
+    "gearsOfDayOpenBetaAccess": {
+      "title": "Acesso ao Beta Aberto de Gears of War: E-Day e Regras do Código do Beta",
+      "displayType": "step-by-step",
+      "eyebrow": "Beta Aberto",
+      "intro": "O acesso antecipado ao Beta Aberto começa em 6 de agosto de 2026 para pré-vendas elegíveis. Compradores de edições digitais não precisam de um código do beta, enquanto compradores de edições físicas devem receber um código dos varejistas participantes.",
+      "steps": [
+        {
+          "title": "Faça a pré-venda de qualquer edição para obter acesso antecipado ao Beta Aberto",
+          "description": "A pré-venda da Edição Padrão, Edição Premium, Upgrade da Edição Premium ou Edição de Colecionador concede acesso antecipado ao Beta Aberto de Gears of War: E-Day.",
+          "date": "6 de agosto de 2026",
+          "accessType": "Acesso antecipado da pré-venda"
+        },
+        {
+          "title": "Use o acesso automático para pré-vendas digitais",
+          "description": "Jogadores que fizerem a pré-venda digital de Gears of War: E-Day recebem automaticamente Acesso Antecipado ao Beta Aberto e não precisam de um código de beta separado.",
+          "date": "6 de agosto de 2026",
+          "accessType": "Liberação automática na conta"
+        },
+        {
+          "title": "Use códigos do beta de varejistas para pré-vendas físicas",
+          "description": "Jogadores que fizerem a pré-venda de uma edição física devem receber um código do beta no ponto de venda dos varejistas participantes.",
+          "date": "6 de agosto de 2026",
+          "accessType": "Código do varejista"
+        },
+        {
+          "title": "Resgate códigos do beta de edições físicas pelo fluxo oficial de códigos do Xbox",
+          "description": "O acesso ao beta de pré-vendas físicas utiliza um código de uso único do varejista. Guarde o e-mail de compra ou o recibo impresso, pois o código está vinculado a esse canal de venda.",
+          "date": "Antes ou durante o período do beta",
+          "accessType": "Resgate de código de uso único"
+        },
+        {
+          "title": "Resgate os itens de pré-venda de lançamento pelo mesmo caminho de compra",
+          "description": "As pré-vendas digitais recebem a Skin Lendária de Personagem Exfil Dom e o Conjunto de Skins Lendárias de Arma Exfil automaticamente. As pré-vendas físicas podem receber códigos de bônus de lançamento por e-mail ou recibo impresso, dependendo da região e do varejista.",
+          "date": "A partir de 1º de outubro de 2026 para acesso antecipado",
+          "accessType": "Bônus cosmético de pré-venda"
+        },
+        {
+          "title": "Use o Game Pass corretamente para o multijogador online",
+          "description": "O Game Pass oferece acesso ao jogo no dia do lançamento, e os recursos de multijogador online podem exigir uma assinatura do Game Pass que inclua o multijogador online. O acesso antecipado ao beta continua atrelado às regras oficiais de acesso da pré-venda.",
+          "date": "6 de outubro de 2026, Game Pass no dia do lançamento",
+          "accessType": "Acesso ao Game Pass"
+        }
+      ]
+    },
+    "gearsOfDayBeginnerGuide": {
+      "title": "Guia para Iniciantes de Gears of War: E-Day para Campanha, Coop e Combate em Cobertura",
+      "displayType": "step-by-step",
+      "eyebrow": "Guia para Iniciantes",
+      "intro": "Comece com o básico da campanha: combate em cobertura, movimentação modernizada, jogo solo ou cooperativo, Esquadrão Bravo, Cerco da Horda e Versus. Gears of War: E-Day mantém o combate clássico de Gears enquanto reconstrói a movimentação, inimigos, visuais e sistemas multijogador para este novo título.",
+      "steps": [
+        {
+          "title": "Comece pela campanha para aprender o fluxo de combate",
+          "description": "A campanha de Gears of War: E-Day acompanha Marcus Fenix e Dominic Santiago durante o Dia da Emergência. Ela pode ser jogada solo, em coop de tela dividida para dois jogadores no console ou com até quatro jogadores online."
+        },
+        {
+          "title": "Use a cobertura como sua ferramenta de sobrevivência padrão",
+          "description": "Gears of War: E-Day traz de volta o icônico combate em cobertura. Mova-se de cobertura em cobertura, evite caminhos abertos e use o cenário antes de avançar para confrontos de curta distância."
+        },
+        {
+          "title": "Aprenda o sistema de movimentação modernizado desde o início",
+          "description": "A movimentação e a travessia foram modernizadas para adicionar mais liberdade e verticalidade. Pratique o reposicionamento, rotas de escalada e ângulos mais seguros em vez de ficar parado atrás de uma única parede."
+        },
+        {
+          "title": "Entenda o Esquadrão Bravo antes de jogar em coop",
+          "description": "A campanha é contada através do Esquadrão Bravo. Marcus, Dom, Mags Carter e Lucas Reyes estão jogáveis desde o início no coop online, dando estrutura ao esquadrão sem afastar os jogadores da história principal."
+        },
+        {
+          "title": "Encare os encontros de primeiro contato com os Locust como ameaças de curta distância",
+          "description": "Gears of War: E-Day foi desenvolvido em torno do terror e da confusão da Horda Locust surgindo do subsolo pela primeira vez. Inimigos reimaginados, Miseráveis e novas criaturas foram projetados para fazer com que os primeiros encontros pareçam perigosos."
+        },
+        {
+          "title": "Use o coop com base na sua plataforma",
+          "description": "Jogadores de console podem usar a tela dividida para dois jogadores, enquanto o coop online da campanha suporta até quatro jogadores. Os recursos de coop e multijogador online podem exigir uma assinatura que inclua o multijogador online."
+        },
+        {
+          "title": "Experimente o Horde Siege após aprender os fundamentos da campanha",
+          "description": "Horde Siege é a evolução do modo PvE de sobrevivência a ondas em Gears of War: E-Day. É uma boa próxima parada após aprender sobre armas, movimentação, hábitos de cobertura e posicionamento de equipe."
+        },
+        {
+          "title": "Vá para o Versus quando estiver pronto para o PvP",
+          "description": "O Versus inclui PvP competitivo em novos mapas e modos 4v4 refinados favoritos dos fãs. A Xbox Store lista suporte para multijogador online de 2 a 12 jogadores e multijogador multiplataforma."
+        },
+        {
+          "title": "Use armas novas e clássicas para combates a curta distância",
+          "description": "As armas favoritas dos fãs retornam e são reinventadas, enquanto novas armas são feitas para combates brutais a curta distância. Iniciantes devem testar o alcance das armas e o tempo de recarga antes de avançar contra os inimigos."
+        },
+        {
+          "title": "Defina expectativas para desempenho e recursos de exibição",
+          "description": "Gears of War: E-Day foi recriado na Unreal Engine 5 e foi projetado para desempenho moderno, com resolução 4K e até 60 FPS na Campanha e no Multijogador em telas compatíveis."
+        }
+      ],
+      "quickTips": [
+        "Fique protegido em cobertura e reposicione-se constantemente em vez de ficar preso a uma única parede.",
+        "Aprenda a deslizar, pular e usar rotas de flanco vertical antes de partir para combates agressivos.",
+        "Teste o alcance das armas e o tempo de recarga na campanha antes de entrar no Versus.",
+        "Coordene as funções do esquadrão no Horde Siege para que Assalto, Atirador de Elite, Médico e Invasor desempenhem cada um o seu papel."
+      ]
+    },
+    "gearsOfDayCampaignTimeline": {
+      "title": "História e Linha do Tempo da Campanha de Gears of War: E-Day",
+      "displayType": "story-timeline",
+      "eyebrow": "História da Campanha",
+      "intro": "Gears of War: E-Day se passa quatorze anos antes do Gears of War original e acompanha Marcus Fenix e Dominic Santiago durante a primeira emergência dos Locust em Sera. A campanha se passa na cidade de Kalona ao longo de três dias.",
+      "phases": [
+        {
+          "phase": "Antes da Emergência",
+          "title": "Após as Guerras do Pêndulo",
+          "timeframe": "Pouco depois de a paz ser declarada em Sera",
+          "description": "Marcus Fenix e Dominic Santiago retornam das Guerras do Pêndulo como jovens veteranos. Ambos carregam a dor da perda de Carlos Santiago, irmão mais velho de Dom e melhor amigo de Marcus, o que dá à relação deles um ponto de partida distante e ferido.",
+          "characters": [
+            "Marcus Fenix",
+            "Dominic Santiago",
+            "Carlos Santiago"
+          ],
+          "role": "Estabelece a base emocional antes do início da invasão dos Locust."
+        },
+        {
+          "phase": "Dia Um",
+          "title": "O Chão se Abre em Kalona",
+          "timeframe": "O Dia da Emergência começa",
+          "description": "Marcus e Dom estão em Kalona para um memorial do armistício quando o chão se abre e os Locust emergem de baixo. Os primeiros encontros são centrados em confusão, medo e no primeiro contato com criaturas para as quais o povo de Sera ainda não tem nomes.",
+          "characters": [
+            "Marcus Fenix",
+            "Dominic Santiago"
+          ],
+          "role": "Apresenta o horror dos Locust como uma força desconhecida atacando uma cidade em tempo real."
+        },
+        {
+          "phase": "O Esquadrão Bravo se Forma",
+          "title": "Quatro Gears Correm em Direção ao Combate",
+          "timeframe": "Caos inicial do Dia E",
+          "description": "O Esquadrão Bravo se forma quando Marcus, Dom, Mags Carter e Lucas Reyes enfrentam o primeiro surto juntos. Mags é uma ex-Gear que trabalha na Refinaria de Imulsão de Kalona, enquanto Lucas é um jovem cadete e oficial de comunicações que nunca viu as linhas de frente.",
+          "characters": [
+            "Marcus Fenix",
+            "Dominic Santiago",
+            "Mags Carter",
+            "Lucas Reyes"
+          ],
+          "role": "Constrói o esquadrão jogável em torno de instinto compartilhado, lealdade e sobrevivência sob pressão."
+        },
+        {
+          "phase": "Dia Dois",
+          "title": "Reagrupamento e Resposta Militar",
+          "timeframe": "A cidade tenta se organizar",
+          "description": "A campanha passa do choque para o reagrupamento à medida que o Esquadrão Bravo se conecta com as forças militares e começa a assumir missões por toda Kalona. A cidade inclui distritos como um estádio de esportes, orla industrial, aeródromo, zonas de refinaria e áreas residenciais densas.",
+          "characters": [
+            "Esquadrão Bravo",
+            "Defensores de Kalona"
+          ],
+          "role": "Transforma a invasão de um pânico isolado em uma batalha coordenada pela cidade."
+        },
+        {
+          "phase": "Dia Três",
+          "title": "Kalona Cai no Desespero",
+          "timeframe": "A escala se torna impossível de ignorar",
+          "description": "No terceiro dia, fica claro que a invasão não é um ataque isolado. A ameaça Locust escala de Infames Ferais para Drones e forças inimigas organizadas, enquanto o Esquadrão Bravo percebe que o Dia da Emergência é uma catástrofe que mudará o mundo.",
+          "characters": [
+            "Esquadrão Bravo",
+            "Horda Locust",
+            "Tai Kaliso"
+          ],
+          "role": "Mostra a transição de uma invasão de monstros para uma guerra total."
+        },
+        {
+          "phase": "Modo Campanha",
+          "title": "Solo, Tela Dividida e Co-op Online",
+          "timeframe": "Estrutura de campanha jogável",
+          "description": "A campanha de Gears of War: E-Day pode ser jogada solo, em tela dividida para dois jogadores no console, ou em co-op online para até quatro jogadores. Os quatro personagens do Esquadrão Bravo são jogáveis desde o início.",
+          "characters": [
+            "Marcus Fenix",
+            "Dominic Santiago",
+            "Mags Carter",
+            "Lucas Reyes"
+          ],
+          "role": "Permite que os jogadores vivenciem a história de origem sozinhos ou em esquadrão."
+        }
+      ]
+    },
+    "gearsOfDayHordeAndVersus": {
+      "title": "Modos Versus e Cerco da Horda de Gears of War: E-Day",
+      "displayType": "mode-cards",
+      "eyebrow": "Modos Multijogador",
+      "intro": "Gears of War: E-Day traz o multijogador de volta com um modo PvE Cerco da Horda expandido e um PvP Versus 4v4 aprimorado em novos mapas de Kalona, desenvolvido com foco no jogo em esquadrão, espaços de combate maiores e movimentação modernizada.",
+      "modes": [
+        {
+          "mode": "Cerco da Horda",
+          "type": "PvE",
+          "players": "12 jogadores",
+          "squad": "Três esquadrões de 4 jogadores",
+          "maps": "Mapas urbanos maiores ambientados em Kalona",
+          "description": "O Cerco da Horda reimagina a sobrevivência cooperativa a ondas de Gears of War: E-Day como um campo de batalha PvE maior, onde múltiplos esquadrões defendem Kalona dos Locust.",
+          "objectives": [
+            "Defenda a cidade sob cerco",
+            "Conquistar objetivos compartilhados",
+            "Lutar ao lado de múltiplos esquadrões",
+            "Derrotar chefes mundiais"
+          ],
+          "classes": [
+            "Assalto",
+            "Atirador de Elite",
+            "Médico",
+            "Demolidor"
+          ],
+          "rewards": [
+            "Ganhar recompensas ao sobreviver",
+            "Desbloquear personalização",
+            "Melhorar equipamentos para partidas futuras"
+          ]
+        },
+        {
+          "mode": "Versus PvP",
+          "type": "PvP Competitivo",
+          "players": "4v4",
+          "squad": "Duas equipes opostas",
+          "maps": "Mapas totalmente novos em Kalona, devastada pela guerra, e arredores",
+          "description": "O Versus retorna com um PvP competitivo refinado, design clássico e simétrico de mapas de Gears e novas oportunidades de locomoção criadas em torno dos sistemas de movimentação do E-Day.",
+          "objectives": [
+            "Lutar frente a frente em novos mapas",
+            "Usar cobertura, flancos e rotas verticais",
+            "Jogar modos 4v4 refinados favoritos dos fãs"
+          ],
+          "classes": [],
+          "rewards": [
+            "Progredir pelo conteúdo sazonal",
+            "Obter conteúdo jogando",
+            "Completar desafios, eventos e conquistas no jogo"
+          ]
+        },
+        {
+          "mode": "Modo Ranqueado",
+          "type": "Playlist Competitiva",
+          "players": "4v4",
+          "squad": "Versus em equipe",
+          "maps": "Mapas do Versus competitivo",
+          "description": "O modo Rankeado foi feito para jogadores que buscam competição estruturada e progressão por meio de partidas PvP focadas em habilidade.",
+          "objectives": [
+            "Suba nos ranques",
+            "Jogue partidas competitivas mais acirradas",
+            "Use táticas de esquadrão coordenadas"
+          ],
+          "classes": [],
+          "rewards": [
+            "Ganhe progressão jogando",
+            "Busque recompensas sazonais do multijogador"
+          ]
+        },
+        {
+          "mode": "Playlists Sociais",
+          "type": "PvP Casual",
+          "players": "4v4",
+          "squad": "Versus em equipe",
+          "maps": "Mapas do Versus com um fluxo de partida mais relaxado",
+          "description": "As playlists sociais oferecem aos jogadores uma maneira menos intensa de jogar o Versus, enquanto ainda aproveitam a movimentação, travessia e combate em cobertura atualizados de Gears of War: E-Day.",
+          "objectives": [
+            "Jogue partidas de PvP mais relaxadas",
+            "Pratique nos mapas e treine a movimentação",
+            "Ganhe conteúdo jogando normalmente"
+          ],
+          "classes": [],
+          "rewards": [
+            "Ganhe itens de personalização através da jogabilidade",
+            "Conclua eventos e conquistas"
+          ]
+        },
+        {
+          "mode": "Multijogador do Beta Aberto",
+          "type": "Acesso pré-lançamento",
+          "players": "Acesso ao multijogador antes do lançamento",
+          "squad": "Disponível nos fins de semana de Beta Aberto",
+          "maps": "Testes do multijogador antes do lançamento",
+          "description": "Os jogadores podem testar o multijogador antes do lançamento nos fins de semana de Beta Aberto que começam em 6 de agosto de 2026. O acesso antecipado ao primeiro fim de semana está atrelado à pré-venda ou à assinatura do Game Pass Ultimate e do PC Game Pass.",
+          "objectives": [
+            "Experimente o multijogador antes do lançamento",
+            "Teste os sistemas de Cerco da Horda e Versus",
+            "Prepare-se para o lançamento em 6 de outubro de 2026"
+          ],
+          "classes": [
+            "Assalto",
+            "Atirador de Elite",
+            "Médico",
+            "Invasor"
+          ],
+          "rewards": [
+            "Os bônus de pré-venda incluem a Skin de Personagem Dom Exfil e o Conjunto de Skins de Arma Exfil no lançamento"
+          ]
+        }
+      ]
+    },
+    "gearsOfDayWeaponsCombat": {
+      "title": "Armas e Mecânicas de Combate de Gears of War: E-Day",
+      "displayType": "weapon-grid",
+      "eyebrow": "Armas e Combate",
+      "intro": "Gears of War: E-Day mantém o combate baseado em cobertura de Gears, ao mesmo tempo em que reconstrói as armas, a movimentação, os encontros com inimigos e a destruição para combates urbanos maiores. Armas que retornam ficam lado a lado com novas ferramentas de curto alcance, enquanto deslizamentos, saltos, flanqueamentos verticais, Buracos de Emergência, crateras e microdestruição mudam a forma como as lutas se desenrolam em Kalona.",
+      "items": [
+        {
+          "name": "Gnasher",
+          "category": "Arma clássica",
+          "role": "Escopeta de curto alcance",
+          "description": "A Gnasher continua sendo a rainha do curto alcance e ancora os confrontos clássicos de curta distância de Gears of War: E-Day.",
+          "bestUse": "Avance em espaços apertados, puna inimigos a curta distância e controle confrontos agressivos de cobertura a cobertura."
+        },
+        {
+          "name": "Longshot",
+          "category": "Arma clássica",
+          "role": "Fuzil de precisão",
+          "description": "O Longshot recompensa a paciência e a precisão à distância, especialmente quando os jogadores usam varandas, telhados e rotas elevadas para flanquear.",
+          "bestUse": "Controle as linhas de visão, abata inimigos à distância e apoie os companheiros de esquadrão a partir de posições verticais."
+        },
+        {
+          "name": "Gut Puncher",
+          "category": "Nova arma",
+          "role": "Lançador de explosivos perfurante de blindagem",
+          "description": "O Gut Puncher é um lançador de granadas que dispara projéteis explosivos perfurantes com detonação controlada pelo jogador.",
+          "bestUse": "Dispare rápido para explosões imediatas ou segure o gatilho para posicionar explosões atrás da cobertura inimiga."
+        },
+        {
+          "name": "Incinerador",
+          "category": "Nova Arma",
+          "role": "Escopeta movida a Imulsão",
+          "description": "O Incinerador é uma nova escopeta movida a Imulsão, feita para causar dano brutal de curto alcance em Gears of War: E-Day.",
+          "bestUse": "Use em combates a curta distância onde a pressão rápida do inimigo torna o controle de espaço mais importante do que a precisão."
+        },
+        {
+          "name": "Origem da Lancer com Motosserra",
+          "category": "Origem da Arma",
+          "role": "Arma icônica construída no campo de batalha",
+          "description": "A Lancer com Motosserra nasce no campo de batalha durante o E-Day, improvisada a partir de um protótipo nas linhas de frente da invasão.",
+          "bestUse": "Representa a origem de uma das armas mais emblemáticas da série durante a primeira crise da Guerra Locust."
+        },
+        {
+          "name": "Transições de Cobertura",
+          "category": "Sistema de Combate",
+          "role": "Movimentação e posicionamento",
+          "description": "As transições de cobertura estão mais fluidas e oferecem suporte a uma variedade maior de alturas e formatos de cobertura, incluindo coberturas baixas para espaços de combate mais orgânicos.",
+          "bestUse": "Mova-se pelos tiroteios com mais fluidez enquanto mantém o ritmo clássico de combate em cobertura de Gears."
+        },
+        {
+          "name": "Deslizar",
+          "category": "Travessia",
+          "role": "Reposicionamento rápido",
+          "description": "Os jogadores podem deslizar a partir da corrida, inclusive sob objetos, contornando esquinas e diretamente para a cobertura.",
+          "bestUse": "Escape do perigo, reduza a distância ou alcance cobertura durante combates rápidos e caóticos."
+        },
+        {
+          "name": "Salto e Flanqueamento Vertical",
+          "category": "Travessia",
+          "role": "Combate vertical",
+          "description": "Pela primeira vez em Gears, os jogadores podem pular, abrindo rotas por telhados, prédios em ruínas, sacadas e caminhos de flanqueamento elevados.",
+          "bestUse": "Ataque de cima, divida a atenção do inimigo e combine abordagens de esquadrão por diferentes rotas."
+        },
+        {
+          "name": "Buracos de Emergência",
+          "category": "Mecânica de Encontro",
+          "role": "Pontos de emergência dos Locust",
+          "description": "Os Buracos de Emergência retornam em Gears of War: E-Day como um espetáculo e uma ameaça tática. Os Locust podem emergir do chão, e uma granada bem posicionada pode fechar o buraco.",
+          "bestUse": "Reaja rapidamente ao surgimento de inimigos, use explosivos para conter a pressão e evite que os confrontos escalem."
+        },
+        {
+          "name": "Sumidouros",
+          "category": "Destruição",
+          "role": "Colapso em grande escala",
+          "description": "Em escalas maiores, os sumidouros podem tragar veículos e prédios inteiros à medida que o ataque dos Locust remodela Kalona.",
+          "bestUse": "Adiciona espetáculo ao campo de batalha e perigo ambiental durante grandes confrontos na cidade."
+        },
+        {
+          "name": "Microdestruição",
+          "category": "Destruição",
+          "role": "Dano à cobertura",
+          "description": "A microdestruição desgasta as coberturas de diferentes materiais, tornando as posições defensivas menos permanentes.",
+          "bestUse": "Pressione os inimigos escondidos atrás de coberturas e adapte-se quando a sua própria cobertura começar a se despedaçar."
+        }
+      ]
+    },
+    "gearsOfDayPCRequirements": {
+      "title": "Requisitos de PC e Desempenho de Gears of War: E-Day",
+      "displayType": "spec-table",
+      "eyebrow": "Especificações do PC",
+      "intro": "Gears of War: E-Day está listado para Steam e PC com Windows 10/11, com requisito de SSD de 130 GB e GPUs modernas como alvo. Use esta seção para conferir os requisitos oficiais para PC, a disponibilidade no Steam e os recursos de desempenho do Xbox Series X|S antes do lançamento.",
+      "sections": [
+        {
+          "title": "Requisitos Mínimos para PC",
+          "rows": [
+            {
+              "label": "Sistema Operacional",
+              "value": "Windows 10 64 bits 22H 19045.7291"
+            },
+            {
+              "label": "Processador",
+              "value": "AMD Ryzen 5 2600X / Intel i7-6850K / Intel i5-10400"
+            },
+            {
+              "label": "Memória",
+              "value": "12 GB de RAM"
+            },
+            {
+              "label": "Placa de vídeo",
+              "value": "NVIDIA GeForce RTX 5050 / RTX 2060 / AMD Radeon RX 6600 / RX 9060 / Intel Arc A580"
+            },
+            {
+              "label": "DirectX",
+              "value": "Versão 12"
+            },
+            {
+              "label": "Rede",
+              "value": "Conexão de internet banda larga"
+            },
+            {
+              "label": "Armazenamento",
+              "value": "130 GB de espaço disponível"
+            },
+            {
+              "label": "Tipo de armazenamento",
+              "value": "Requer SSD"
+            },
+            {
+              "label": "Placa de som",
+              "value": "Dispositivo de áudio compatível com Windows"
+            },
+            {
+              "label": "Tipo de sistema",
+              "value": "Requer processador e sistema operacional de 64 bits"
+            }
+          ]
+        },
+        {
+          "title": "Requisitos de PC recomendados",
+          "rows": [
+            {
+              "label": "Sistema operacional",
+              "value": "Windows 11 de 64 bits 25H2 ou mais recente"
+            },
+            {
+              "label": "Processador",
+              "value": "AMD Ryzen 5 5600 / Intel i5-11600K"
+            },
+            {
+              "label": "Memória",
+              "value": "16 GB de RAM"
+            },
+            {
+              "label": "Placa de vídeo",
+              "value": "NVIDIA GeForce RTX 5060 / RTX 3060 Ti / AMD Radeon RX 6700 XT / RX 9060 XT / Intel Arc B580"
+            },
+            {
+              "label": "DirectX",
+              "value": "Versão 12"
+            },
+            {
+              "label": "Rede",
+              "value": "Conexão de internet banda larga"
+            },
+            {
+              "label": "Armazenamento",
+              "value": "130 GB de espaço disponível"
+            },
+            {
+              "label": "Tipo de armazenamento",
+              "value": "Requer SSD"
+            },
+            {
+              "label": "Placa de som",
+              "value": "Dispositivo de áudio compatível com Windows"
+            },
+            {
+              "label": "Tipo de sistema",
+              "value": "Requer processador e sistema operacional de 64 bits"
+            }
+          ]
+        },
+        {
+          "title": "Disponibilidade no PC e lojas",
+          "rows": [
+            {
+              "label": "Steam",
+              "value": "Disponível para adicionar à lista de desejos e pré-compra no Steam"
+            },
+            {
+              "label": "Xbox no PC",
+              "value": "Disponível no PC com Windows 10/11"
+            },
+            {
+              "label": "Xbox Play Anywhere",
+              "value": "Compre uma vez e jogue no console Xbox e PC"
+            },
+            {
+              "label": "Game Pass",
+              "value": "Jogue no primeiro dia com o Game Pass"
+            },
+            {
+              "label": "Conta Xbox Live",
+              "value": "A página no Steam requer uma conta de terceiros do Xbox Live"
+            }
+          ]
+        },
+        {
+          "title": "Recursos de desempenho do Xbox Series X|S",
+          "rows": [
+            {
+              "label": "Otimização para Consoles",
+              "value": "Otimizado para Xbox Series X|S"
+            },
+            {
+              "label": "Resolução e Taxa de Quadros",
+              "value": "Desenvolvido para resolução 4K e até 60 FPS na Campanha e no Multijogador"
+            },
+            {
+              "label": "Recursos de Tela",
+              "value": "4K Ultra HD, HDR10 e Taxa de Atualização Variável"
+            },
+            {
+              "label": "Recursos de Renderização",
+              "value": "Ray Tracing"
+            },
+            {
+              "label": "Recursos de Áudio",
+              "value": "Som Espacial, Dolby Atmos e DTS:X"
+            },
+            {
+              "label": "Recursos de Entrada",
+              "value": "Suporte a teclado e mouse no console, suporte a controle no PC"
+            },
+            {
+              "label": "Capacidade de Multijogador",
+              "value": "O multijogador online suporta até 12 jogadores"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre Gears of War: E-Day",
+    "questions": [
+      {
+        "question": "Quando Gears of War: E-Day será lançado?",
+        "answer": "Gears of War: E-Day será lançado em 6 de outubro de 2026 para Xbox Series X|S e PC Windows, com acesso no primeiro dia ao Game Pass e um Beta Aberto a partir de 6 de agosto de 2026."
+      },
+      {
+        "question": "Quais plataformas oferecem suporte a Gears of War: E-Day?",
+        "answer": "Gears of War: E-Day estará disponível no Xbox Series X|S, PC com Windows 10/11, Steam e Xbox Play Anywhere, com jogos em nuvem pelo Game Pass."
+      },
+      {
+        "question": "Haverá um beta aberto para Gears of War: E-Day?",
+        "answer": "Sim. O acesso antecipado ao Beta Aberto de Gears of War: E-Day começa em 6 de agosto de 2026 para pré-vendas qualificadas, com acesso automático para compradores digitais e códigos de varejistas para pré-vendas físicas."
+      },
+      {
+        "question": "Gears of War: E-Day oferece suporte a co-op na campanha?",
+        "answer": "Sim. A campanha de Gears of War: E-Day oferece suporte a modo solo, tela dividida para dois jogadores no console e co-op online para até quatro jogadores com Marcus, Dom, Mags e Lucas jogáveis desde o início."
+      },
+      {
+        "question": "O que é o Horde Siege em Gears of War: E-Day?",
+        "answer": "O Horde Siege é o modo PvE para 12 jogadores de Gears of War: E-Day, onde três esquadrões de quatro jogadores defendem Kalona dos Locust, com as classes Assalto, Atirador, Médico e Breacher."
+      },
+      {
+        "question": "O Gears of War: E-Day está no Game Pass?",
+        "answer": "Sim. Gears of War: E-Day está incluído no Game Pass no primeiro dia, incluindo as formas de acesso do Game Pass Ultimate e PC Game Pass."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para sobreviver a Gears of War E-Day?",
+    "description": "Faça a pré-venda agora, entre no beta aberto e garanta as atualizações do Horde Siege e Versus nos canais oficiais de Gears of War.",
+    "joinCommunity": "Junte-se ao Discord",
+    "joinGame": "Pré-venda no Xbox / Steam"
+  },
+  "footer": {
+    "title": "Wiki de Gears of War E-Day",
+    "description": "Seu hub de recursos completo para informações de lançamento de Gears of War E-Day, co-op da campanha, Horde Siege, Versus, armas, inimigos, mapas e guias para iniciantes.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Avisos Legais",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "steamStore": "Loja Steam",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Gears of War E-Day Wiki. Não afiliado aos desenvolvedores de Gears of War.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "release": {
+      "title": "Lançamento de Gears of War E-Day",
+      "description": "Acompanhe a data de lançamento de Gears of War E-Day, o Beta Aberto, Game Pass, bônus de pré-venda e detalhes de lançamento no Xbox, PC e Steam.",
+      "metaTitle": "Lançamento de Gears of War E-Day - Data, Beta Aberto e Game Pass",
+      "metaDescription": "Guias completos de lançamento de Gears of War E-Day cobrindo o lançamento em 6 de outubro de 2026, datas do Beta Aberto, acesso no primeiro dia pelo Game Pass e bônus de pré-venda.",
+      "categoryLabel": "LANÇAMENTO E ESTREIA",
+      "whatIs": "O que é o lançamento de Gears of War E-Day?",
+      "whatIsDescription": "Tudo sobre o lançamento de Gears of War E-Day, incluindo a data de lançamento confirmada para 6 de outubro de 2026, o Beta Aberto de agosto, o acesso no primeiro dia pelo Game Pass e as recompensas de pré-venda.",
+      "why": "Por que acompanhar o lançamento?",
+      "whySteps": {
+        "step1Title": "Marque a data de lançamento",
+        "step1Description": "Saiba exatamente quando Gears of War E-Day chega ao Xbox Series X|S, PC e Steam",
+        "step2Title": "Obtenha acesso ao Beta Aberto",
+        "step2Description": "Saiba como a pré-venda e o Game Pass dão acesso ao Beta Aberto de agosto",
+        "step3Title": "Resgate os bônus de pré-venda",
+        "step3Description": "Garanta recompensas cosméticas e de conteúdo do primeiro dia antes do lançamento"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os guias de lançamento"
+    },
+    "platforms": {
+      "title": "Plataformas de Gears of War E-Day",
+      "description": "Descubra onde jogar Gears of War E-Day, incluindo Xbox Series X|S, PC, Steam, Game Pass, nuvem e a disponibilidade para PlayStation.",
+      "metaTitle": "Plataformas de Gears of War E-Day - Xbox, PC, Steam e Game Pass",
+      "metaDescription": "Guias completos de plataformas de Gears of War E-Day cobrindo Xbox Series X|S, Windows PC, Steam, Game Pass no primeiro dia, streaming em nuvem e suporte ao PlayStation.",
+      "categoryLabel": "PLATAFORMAS E ACESSO",
+      "whatIs": "Em quais plataformas Gears of War E-Day estará disponível?",
+      "whatIsDescription": "Guias para todas as plataformas que rodam Gears of War E-Day, incluindo Xbox Series X|S, Windows PC, Steam, Game Pass e streaming em nuvem, além da resposta sobre a disponibilidade no PlayStation.",
+      "why": "Por que verificar as plataformas?",
+      "whySteps": {
+        "step1Title": "Escolha sua plataforma",
+        "step1Description": "Compare Xbox Series X|S, PC e Steam para ter a melhor experiência em Gears of War E-Day",
+        "step2Title": "Use o Game Pass",
+        "step2Description": "Jogue no primeiro dia pelo Xbox Game Pass sem comprar o jogo completo",
+        "step3Title": "Crossplay e Nuvem",
+        "step3Description": "Entenda o Xbox Play Anywhere, o cross-save e o streaming de nuvem do GeForce Now"
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todos os Guias de Plataforma"
+    },
+    "editions": {
+      "title": "Edições de Gears of War: E-Day",
+      "description": "Compare todas as edições de Gears of War: E-Day, incluindo Standard, Premium, de Colecionador, pacotes de upgrade, bônus de pré-venda e preços.",
+      "metaTitle": "Edições de Gears of War: E-Day - Standard, Premium e de Colecionador",
+      "metaDescription": "Guia completo de edições de Gears of War: E-Day comparando Standard, Premium, Edição de Colecionador, a réplica da Lancer, pacotes de upgrade, bônus de pré-venda e preços.",
+      "categoryLabel": "EDIÇÕES E PRÉ-VENDA",
+      "whatIs": "Quais são as edições de Gears of War: E-Day?",
+      "whatIsDescription": "Uma análise detalhada de cada edição de Gears of War: E-Day, incluindo Standard, Premium, a Edição de Colecionador com a réplica da Lancer, pacotes de upgrade digital e recompensas de pré-venda.",
+      "why": "Por que comparar as edições?",
+      "whySteps": {
+        "step1Title": "Escolha a Edição Certa",
+        "step1Description": "Combine Standard, Premium ou de Colecionador com a forma como você quer jogar Gears of War: E-Day",
+        "step2Title": "Maximize o Valor da Pré-Venda",
+        "step2Description": "Veja quais edições incluem acesso ao Beta Aberto e bônus do primeiro dia",
+        "step3Title": "Saiba o Preço",
+        "step3Description": "Compare preços físicos e digitais no Xbox, PC e Steam"
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todos os Guias de Edições"
+    },
+    "guide": {
+      "title": "Guia de Gears of War: E-Day",
+      "description": "Guias de Gears of War: E-Day para iniciantes cobrindo tudo o que sabemos, onde o jogo se encaixa na série e se vale a pena jogar.",
+      "metaTitle": "Guia de Gears of War: E-Day - Tudo o Que Sabemos e Dicas para Iniciantes",
+      "metaDescription": "Central de guias completa de Gears of War: E-Day cobrindo tudo o que sabemos, os jogos completos em ordem, comparações com Judgment e Reloaded, e pontos de entrada para iniciantes.",
+      "categoryLabel": "GUIAS E VISÃO GERAL",
+      "whatIs": "O que é o guia de Gears of War E-Day?",
+      "whatIsDescription": "A base de conhecimento central de Gears of War E-Day, cobrindo tudo o que sabemos até agora, a linha do tempo da série, como E-Day se compara a Judgement e Reloaded, e se vale o seu tempo.",
+      "why": "Por que ler o guia?",
+      "whySteps": {
+        "step1Title": "Tenha o panorama completo",
+        "step1Description": "Fique por dentro de tudo o que sabemos sobre Gears of War E-Day em um só lugar",
+        "step2Title": "Situe-o na série",
+        "step2Description": "Entenda onde o E-Day se encaixa na linha do tempo e na ordem dos jogos de Gears of War",
+        "step3Title": "Decida se é para você",
+        "step3Description": "Compare o E-Day com Judgement e Reloaded antes de comprar"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "story": {
+      "title": "História de Gears of War E-Day",
+      "description": "Mergulhe na história de Gears of War E-Day, incluindo a origem do Dia da Emergência, Marcus Fenix, o Esquadrão Bravo, a cidade de Kalona e o vilão principal.",
+      "metaTitle": "História de Gears of War E-Day - Dia da Emergência, Marcus e Kalona",
+      "metaDescription": "Guias completos da história de Gears of War E-Day cobrindo a origem do Dia da Emergência, Marcus Fenix, Dom, o Esquadrão Bravo, a cidade de Kalona, a linha do tempo e o vilão principal.",
+      "categoryLabel": "HISTÓRIA E PERSONAGENS",
+      "whatIs": "Qual é a história de Gears of War E-Day?",
+      "whatIsDescription": "Guias da história da campanha de Gears of War E-Day, incluindo a origem do Dia da Emergência, Marcus Fenix e o Esquadrão Bravo, a queda de três dias de Kalona, a linha do tempo e o vilão principal.",
+      "why": "Por que acompanhar a história?",
+      "whySteps": {
+        "step1Title": "Testemunhe o Dia da Emergência",
+        "step1Description": "Vivencie o evento de origem que inicia a Guerra Locust em Gears of War E-Day",
+        "step2Title": "Conheça o Esquadrão Bravo",
+        "step2Description": "Conheça Marcus Fenix, Dom Santiago e os novos membros do esquadrão",
+        "step3Title": "Explore Kalona",
+        "step3Description": "Acompanhe o colapso de três dias da cidade ao longo da linha do tempo da campanha"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de História"
+    },
+    "gameplay": {
+      "title": "Jogabilidade de Gears of War E-Day",
+      "description": "Domine a jogabilidade de Gears of War E-Day, incluindo o cooperativo da campanha, o PvE Cerco da Horda para 12 jogadores, o PvP Versus e as principais mecânicas de combate.",
+      "metaTitle": "Jogabilidade de Gears of War E-Day - Cooperativo, Cerco da Horda e Versus",
+      "metaDescription": "Guias completos de jogabilidade de Gears of War E-Day cobrindo o cooperativo da campanha, PvE Cerco da Horda para 12 jogadores, PvP Versus, classes, mapas e as principais mecânicas de combate em cobertura.",
+      "categoryLabel": "JOGABILIDADE E MODOS",
+      "whatIs": "Como é a jogabilidade de Gears of War E-Day?",
+      "whatIsDescription": "Guias para todos os modos de Gears of War E-Day, incluindo a campanha solo e cooperativa, PvE Cerco da Horda para 12 jogadores, PvP Versus, além das mecânicas de movimento de deslizar, pular e usar cobertura.",
+      "why": "Por que estudar a jogabilidade?",
+      "whySteps": {
+        "step1Title": "Jogue a Campanha Cooperativa",
+        "step1Description": "Jogue solo, em tela dividida ou com até quatro jogadores online em Gears of War E-Day",
+        "step2Title": "Sobreviva ao Cerco da Horda",
+        "step2Description": "Mantenha a posição com três esquadrões no PvE para 12 jogadores com as classes Assalto, Atirador de Elite, Médico e Invasor",
+        "step3Title": "Compita no Versus",
+        "step3Description": "Domine o PvP 4v4 com movimentação refinada, mapas e listas de partidas ranqueadas"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Jogabilidade"
+    }
   }
 }
