@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Gears of War E-Day Wiki - Release, Co-op & Builds",
+  "short_name": "Gears E-Day",
+  "description": "Gears of War E-Day Wiki covers the release date, open beta, campaign co-op, Horde Siege PvE, Versus PvP, weapons, enemies, maps and beginner guide tips.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#d71920",
+  "background_color": "#101113",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
