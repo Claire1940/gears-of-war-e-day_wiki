@@ -2,20 +2,45 @@
 
 import { Suspense, lazy } from "react";
 import {
+  ArrowLeftRight,
   ArrowRight,
+  BadgeCheck,
   BookOpen,
+  Bomb,
   CalendarCheck,
   Check,
+  ChevronsUp,
+  CircleDashed,
   Clock,
   Cpu,
   Crosshair,
+  Flame,
+  FlaskConical,
+  Gamepad2,
+  Gauge,
+  Hammer,
+  Handshake,
+  Heart,
   KeyRound,
   Map as MapIcon,
+  MonitorDown,
+  Move,
   Package,
+  RefreshCw,
+  Shield,
+  ShieldCheck,
+  Siren,
   Sparkles,
+  Store,
+  Sword,
   Swords,
   Tag,
+  Target,
+  TriangleAlert,
+  TrendingDown,
+  Trophy,
   Users,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -27,6 +52,31 @@ import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
 import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
+
+// 模块 5-8 per-card distinct lucide icons（代码侧 index 数组，en.json 不带 icon 字段，越界 fallback Handshake）
+const CAMPAIGN_PHASE_ICONS = [
+  Handshake,
+  Siren,
+  ShieldCheck,
+  RefreshCw,
+  TrendingDown,
+  Gamepad2,
+];
+const HORDE_MODE_ICONS = [Shield, Swords, Trophy, Heart, FlaskConical];
+const WEAPON_ICONS = [
+  Zap,
+  Target,
+  Bomb,
+  Flame,
+  Sword,
+  ArrowLeftRight,
+  Move,
+  ChevronsUp,
+  CircleDashed,
+  TriangleAlert,
+  Hammer,
+];
+const PC_SPEC_ICONS = [MonitorDown, BadgeCheck, Store, Gauge];
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -664,11 +714,16 @@ export default function HomePageClient({
           />
           <div className="scroll-reveal relative pl-6 md:pl-8 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-6 md:space-y-8">
             {t.modules.gearsOfDayCampaignTimeline.phases.map(
-              (phase: any, index: number) => (
+              (phase: any, index: number) => {
+                const PhaseIcon = CAMPAIGN_PHASE_ICONS[index] || Handshake;
+                return (
                 <div key={index} className="relative">
                   <div className="absolute -left-[1.6rem] md:-left-[2.1rem] w-4 h-4 md:w-5 md:h-5 rounded-full bg-[hsl(var(--nav-theme))] border-2 md:border-4 border-background" />
                   <div className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                     <div className="flex flex-wrap items-center gap-2 mb-2">
+                      <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        <PhaseIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
                       <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] uppercase tracking-wider">
                         {phase.phase}
                       </span>
@@ -706,7 +761,8 @@ export default function HomePageClient({
                     </p>
                   </div>
                 </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>
@@ -728,22 +784,29 @@ export default function HomePageClient({
           />
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.gearsOfDayHordeAndVersus.modes.map(
-              (mode: any, index: number) => (
+              (mode: any, index: number) => {
+                const ModeIcon = HORDE_MODE_ICONS[index] || Shield;
+                return (
                 <div
                   key={index}
                   className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
                 >
                   <div className="flex items-center justify-between gap-2 mb-3">
-                    <h3 className="text-lg md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[`gearsOfDayHordeAndVersus::modes::${index}`]
-                        }
-                        locale={locale}
-                      >
-                        {mode.mode}
-                      </LinkedTitle>
-                    </h3>
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        <ModeIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <h3 className="text-lg md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
+                        <LinkedTitle
+                          linkData={
+                            moduleLinkMap[`gearsOfDayHordeAndVersus::modes::${index}`]
+                          }
+                          locale={locale}
+                        >
+                          {mode.mode}
+                        </LinkedTitle>
+                      </h3>
+                    </div>
                     <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
                       {mode.type}
                     </span>
@@ -771,6 +834,21 @@ export default function HomePageClient({
                       </li>
                     ))}
                   </ul>
+                  {mode.rewards && mode.rewards.length > 0 && (
+                    <div className="mb-4">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">
+                        Rewards
+                      </p>
+                      <ul className="space-y-1">
+                        {mode.rewards.map((r: string, ri: number) => (
+                          <li key={ri} className="flex items-start gap-2 text-sm">
+                            <Sparkles className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                            <span>{r}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                   {mode.classes.length > 0 && (
                     <div className="mt-auto flex flex-wrap gap-2">
                       {mode.classes.map((cls: string, ci: number) => (
@@ -785,7 +863,8 @@ export default function HomePageClient({
                     </div>
                   )}
                 </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>
@@ -807,13 +886,17 @@ export default function HomePageClient({
           />
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {t.modules.gearsOfDayWeaponsCombat.items.map(
-              (item: any, index: number) => (
+              (item: any, index: number) => {
+                const WeaponIcon = WEAPON_ICONS[index] || Crosshair;
+                return (
                 <div
                   key={index}
                   className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
                 >
                   <div className="flex items-center gap-3 mb-3">
-                    <Crosshair className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                    <span className="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      <WeaponIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
                     <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                       {item.category}
                     </span>
@@ -839,7 +922,8 @@ export default function HomePageClient({
                     {item.bestUse}
                   </p>
                 </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>
@@ -861,13 +945,15 @@ export default function HomePageClient({
           />
           <div className="scroll-reveal space-y-6">
             {t.modules.gearsOfDayPCRequirements.sections.map(
-              (section: any, si: number) => (
+              (section: any, si: number) => {
+                const SpecIcon = PC_SPEC_ICONS[si] || Cpu;
+                return (
                 <div
                   key={si}
                   className="bg-white/5 border border-border rounded-xl overflow-hidden"
                 >
                   <div className="flex items-center gap-2 px-5 md:px-6 py-3 md:py-4 border-b border-border bg-[hsl(var(--nav-theme)/0.05)]">
-                    <Cpu className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    <SpecIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                     <h3 className="font-bold text-base md:text-lg">
                       <LinkedTitle
                         linkData={
@@ -893,7 +979,8 @@ export default function HomePageClient({
                     ))}
                   </div>
                 </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>

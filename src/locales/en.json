@@ -412,7 +412,12 @@
             "Fight alongside multiple squads",
             "Take down world bosses"
           ],
-          "classes": ["Assault", "Marksman", "Medic", "Breacher"]
+          "classes": ["Assault", "Marksman", "Medic", "Breacher"],
+          "rewards": [
+            "Earn rewards by surviving",
+            "Unlock customization",
+            "Improve loadouts for future matches"
+          ]
         },
         {
           "mode": "Versus PvP",
@@ -426,7 +431,12 @@
             "Use cover, flanks, and vertical routes",
             "Play refined fan-favorite 4v4 modes"
           ],
-          "classes": []
+          "classes": [],
+          "rewards": [
+            "Progress through seasonal content",
+            "Earn content through gameplay",
+            "Complete in-game challenges, events, and achievements"
+          ]
         },
         {
           "mode": "Ranked Play",
@@ -440,7 +450,11 @@
             "Play tighter competitive matches",
             "Use coordinated squad tactics"
           ],
-          "classes": []
+          "classes": [],
+          "rewards": [
+            "Earn progression through play",
+            "Work toward seasonal multiplayer rewards"
+          ]
         },
         {
           "mode": "Social Playlists",
@@ -454,7 +468,11 @@
             "Practice maps and movement",
             "Earn content through normal play"
           ],
-          "classes": []
+          "classes": [],
+          "rewards": [
+            "Earn customization through gameplay",
+            "Complete events and achievements"
+          ]
         },
         {
           "mode": "Open Beta Multiplayer",
@@ -468,7 +486,10 @@
             "Test Horde Siege and Versus systems",
             "Prepare for the October 6, 2026 launch"
           ],
-          "classes": ["Assault", "Marksman", "Medic", "Breacher"]
+          "classes": ["Assault", "Marksman", "Medic", "Breacher"],
+          "rewards": [
+            "Pre-order bonuses include the Exfil Dom Character Skin and Exfil Weapon Skin Set at launch"
+          ]
         }
       ]
     },
@@ -571,8 +592,11 @@
             { "label": "Memory", "value": "12 GB RAM" },
             { "label": "Graphics", "value": "NVIDIA GeForce RTX 5050 / RTX 2060 / AMD Radeon RX 6600 / RX 9060 / Intel Arc A580" },
             { "label": "DirectX", "value": "Version 12" },
+            { "label": "Network", "value": "Broadband Internet connection" },
             { "label": "Storage", "value": "130 GB available space" },
-            { "label": "Storage Type", "value": "SSD required" }
+            { "label": "Storage Type", "value": "SSD required" },
+            { "label": "Sound Card", "value": "Windows compatible audio device" },
+            { "label": "System Type", "value": "64-bit processor and operating system required" }
           ]
         },
         {
@@ -583,8 +607,11 @@
             { "label": "Memory", "value": "16 GB RAM" },
             { "label": "Graphics", "value": "NVIDIA GeForce RTX 5060 / RTX 3060 Ti / AMD Radeon RX 6700 XT / RX 9060 XT / Intel Arc B580" },
             { "label": "DirectX", "value": "Version 12" },
+            { "label": "Network", "value": "Broadband Internet connection" },
             { "label": "Storage", "value": "130 GB available space" },
-            { "label": "Storage Type", "value": "SSD required" }
+            { "label": "Storage Type", "value": "SSD required" },
+            { "label": "Sound Card", "value": "Windows compatible audio device" },
+            { "label": "System Type", "value": "64-bit processor and operating system required" }
           ]
         },
         {
@@ -605,6 +632,7 @@
             { "label": "Display Features", "value": "4K Ultra HD, HDR10, and Variable Refresh Rate" },
             { "label": "Rendering Features", "value": "Ray Tracing" },
             { "label": "Audio Features", "value": "Spatial Sound, Dolby Atmos, and DTS:X" },
+            { "label": "Input Features", "value": "Console keyboard and mouse support, PC game pad support" },
             { "label": "Multiplayer Capability", "value": "Online multiplayer supports up to 12 players" }
           ]
         }
