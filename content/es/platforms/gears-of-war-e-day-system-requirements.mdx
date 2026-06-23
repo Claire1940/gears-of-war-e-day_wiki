@@ -1,0 +1,200 @@
+import { Shield, Cpu, Target, Trophy, Sparkles, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Requisitos del sistema de Gears of War E-Day: Guía de configuración para PC",
+  description: "Consulta los requisitos oficiales del sistema de Gears of War E-Day. Compara las especificaciones mínimas y recomendadas para PC, el espacio de almacenamiento SSD y las funciones de rendimiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=PC+System+Requirements",
+  date: "2026-06-23",
+  author: "Equipo de la Wiki de Gears of War E-Day"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Requisitos del sistema**: Los **requisitos oficiales del sistema de Gears of War E-Day** exigen una configuración de gama media sólida, comenzando con al menos una NVIDIA GeForce RTX 2060 o AMD Radeon RX 6600.
+- **Requisito de almacenamiento**: Se requiere un enorme espacio de **130 GB disponibles**, y es obligatorio instalar el juego en una unidad de estado sólido (SSD) de alta velocidad.
+- **Sistema operativo**: Windows 10 (de 64 bits) es el mínimo absoluto, pero se recomienda encarecidamente Windows 11 para un rendimiento óptimo de DirectStorage.
+- **Rendimiento en consola**: El objetivo para Xbox Series X es una **resolución 4K a 60 FPS**, con trazado de rayos (Ray Tracing) y audio espacial avanzado.
+- **Acceso a Game Pass**: Los suscriptores activos de Game Pass Ultimate o PC Game Pass recibirán acceso completo desde el primer día el 6 de octubre de 2026.
+</Callout>
+
+<Section icon={Shield} title="Requisitos del sistema de Gears of War E-Day: Especificaciones mínimas">
+
+Antes de preparar tu equipo para el Día de la Emergencia, es fundamental conocer los **requisitos oficiales del sistema de Gears of War E-Day** para disfrutar de una experiencia fluida y de alta fidelidad. El juego está desarrollado desde cero con Unreal Engine 5, lo que significa que las tarjetas gráficas más antiguas sin compatibilidad con DirectX 12 no podrán ejecutar la aplicación.
+
+Las especificaciones mínimas están diseñadas para alcanzar una resolución estable de 1080p a 30 fotogramas por segundo con ajustes gráficos bajos o medios. Los jugadores que utilicen procesadores de cuatro núcleos más antiguos pueden experimentar tirones (stuttering) durante secuencias intensas con mucha carga física, como cuando colapsan los Agujeros de Emergencia de los Locust o cuando grandes socavones destruyen las calles de Kalona.
+
+| Componente | Especificación mínima |
+| :--- | :--- |
+| **Sistema operativo** | Windows 10 de 64 bits 22H2 19045.7291 |
+| **Procesador** | AMD Ryzen 5 2600X / Intel i7-6850K / Intel i5-10400 |
+| **Memoria** | **12 GB de RAM** |
+| **Tarjeta gráfica** | NVIDIA RTX 5050 / RTX 2060 / AMD RX 6600 / Intel Arc A580 |
+| **Versión de DirectX** | Versión 12 |
+| **Red** | Conexión a Internet de banda ancha |
+| **Capacidad de almacenamiento** | **130 GB de espacio disponible** |
+| **Tipo de almacenamiento** | **Se requiere unidad de estado sólido (SSD)** |
+| **Tarjeta de sonido** | Dispositivo de audio compatible con Windows |
+
+<Callout type="warning" title="Instalación en SSD obligatoria">
+Los discos duros mecánicos tradicionales (HDD) no son compatibles. Instalar el juego en un HDD provocará graves retrasos en la carga de texturas, desincronización de audio y pantallas de carga extremadamente largas. Utiliza siempre un SSD interno SATA o NVMe.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Especificaciones recomendadas para PC para un alto rendimiento">
+
+Para experimentar la ciudad en ruinas de Kalona con la alta fidelidad de Unreal Engine 5, se recomienda encarecidamente cumplir con las especificaciones recomendadas. Estas especificaciones apuntan a resoluciones de 1080p a 1440p a unos fluidos 60 fotogramas por segundo con ajustes gráficos altos.
+
+Actualizar a un procesador moderno de seis u ocho núcleos garantiza que los sistemas en segundo plano, como la búsqueda de rutas de la IA enemiga avanzada para la Horda Locust y la física de microdestrucción en tiempo real, no limiten el rendimiento de tu tarjeta gráfica. También se recomienda encarecidamente la memoria del sistema de doble canal para evitar microtirones en entornos urbanos densos.
+
+| Componente | Especificación recomendada |
+| :--- | :--- |
+| **Sistema operativo** | Windows 11 de 64 bits 25H2 o más reciente |
+| **Procesador** | AMD Ryzen 5 5600 / Intel i5-11600K |
+| **Memoria** | **16 GB de RAM** |
+| **Tarjeta gráfica** | NVIDIA RTX 5060 / RTX 3060 Ti / AMD RX 6700 XT / Intel Arc B580 |
+| **Versión de DirectX** | Versión 12 |
+| **Red** | Conexión a Internet de banda ancha |
+| **Capacidad de almacenamiento** | **130 GB de espacio disponible** |
+| **Tipo de almacenamiento** | **Se requiere unidad de estado sólido (SSD)** |
+
+<Callout type="tip" title="Consideraciones sobre la VRAM">
+Unreal Engine 5 es muy exigente con la memoria de vídeo (VRAM). Se recomiendan encarecidamente tarjetas gráficas con al menos 8 GB de VRAM dedicada para evitar la degradación de texturas y la aparición repentina de objetos (pop-in) al jugar a resoluciones superiores a 1080p.
+</Callout>
+
+Para ayudarte a decidir qué componentes de hardware priorizar para tu actualización antes del lanzamiento del 6 de octubre de 2026, revisa estas áreas de enfoque críticas:
+
+<CardGrid cols={3}>
+  <Card title="Enfoque en el procesador">
+    - Las **arquitecturas de seis núcleos** evitan los cuellos de botella del procesador durante combates intensos.
+    - La serie AMD Ryzen 5000 o Intel de 11.ª generación ofrecen el equilibrio ideal.
+    - Crucial para gestionar la física en tiempo real y los cálculos de IA.
+  </Card>
+  <Card title="Escalado de gráficos">
+    - Apunta a tarjetas con trazado de rayos acelerado por hardware.
+    - Las tarjetas RTX 3060 Ti / RX 6700 XT manejan con fluidez elementos de alta resolución.
+    - Permite un rendimiento fluido con tecnologías de escalado temporal.
+  </Card>
+  <Card title="Arquitectura de memoria">
+    - **16 GB de RAM en doble canal** es el punto ideal para los juegos modernos.
+    - Evita caídas repentinas de fotogramas al moverte entre grandes sectores del mapa.
+    - Las configuraciones de memoria de un solo canal limitarán gravemente la estabilidad de los fotogramas.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Requisitos de almacenamiento y comparación de plataformas">
+
+Con un tamaño masivo de 130 GB, la velocidad de almacenamiento es tan importante como la capacidad bruta. El juego utiliza una transmisión avanzada de recursos, lo que significa que las velocidades de lectura lentas degradarán activamente tu experiencia de juego.
+
+Al comprar el juego, tienes varias opciones de tiendas. Los jugadores de PC pueden elegir entre la tienda de Steam y la tienda de Microsoft / Aplicación de Xbox. Aunque ambas versiones comparten exactamente los mismos **requisitos del sistema de Gears of War E-Day**, ofrecen diferentes ventajas en sus respectivos ecosistemas.
+
+| Característica | Tienda de Steam | Aplicación de Xbox / Tienda de Microsoft |
+| :--- | :--- | :--- |
+| **Soporte para Play Anywhere** | No | **Sí** (Compra una vez, juega en consola y PC) |
+| **Integración con Game Pass** | No | **Sí** (Incluido con la suscripción activa) |
+| **Requisito de cuenta** | **Se requiere cuenta de Xbox Live** | Se requiere cuenta de Xbox Live |
+| **Guardado en la nube** | Steam Cloud | Xbox Cloud |
+| **Bonificaciones de reserva** | Diseño de Dom de exfiltración, conjunto de armas de exfiltración | Diseño de Dom de exfiltración, conjunto de armas de exfiltración |
+
+<Steps>
+  <Step num="1" title="Verificar la compatibilidad del SSD">
+    Asegúrate de tener al menos 130 GB de espacio libre en una unidad interna de estado sólido. Verifica las propiedades de tu unidad en Windows para confirmar que está formateada en NTFS.
+  </Step>
+  <Step num="2" title="Actualizar los controladores gráficos">
+    Descarga los controladores listos para el juego más recientes de NVIDIA, AMD o Intel. Las versiones de controladores lanzadas específicamente para la beta abierta de agosto de 2026 contendrán perfiles de optimización cruciales.
+  </Step>
+  <Step num="3" title="Configurar el Modo de juego de Windows">
+    Activa el Modo de juego en la configuración de Windows 10 o Windows 11. Esto prioriza los recursos del sistema para el juego y detiene temporalmente las actualizaciones de Windows en segundo plano.
+  </Step>
+  <Step num="4" title="Vincular la cuenta de Xbox Live">
+    Si juegas en Steam, asegúrate de vincular tu cuenta de Xbox Live de antemano. Esto acelera la secuencia de inicio inicial y sincroniza tu progreso de juego cruzado de inmediato.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Requisitos de la tienda de Steam">
+La página oficial de [Steam de Gears of War: E-Day](https://store.steampowered.com/app/3010850/Gears_of_War_EDay/) confirma que es obligatoria una cuenta gratuita de Xbox Live de terceros para los jugadores de Steam. Esto permite el juego cruzado y la progresión cruzada sin interrupciones con los jugadores de Xbox Series X|S.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de rendimiento en Xbox Series X y Series S">
+
+Para los jugadores que elijan experimentar la historia del origen de Marcus y Dom en consola, Xbox Series X y Series S ofrecen experiencias altamente optimizadas y listas para jugar. El desarrollador, The Coalition, históricamente ha llevado al límite el hardware de Xbox, y esta entrega no es una excepción.
+
+Ambas consolas aprovechan la arquitectura Xbox Velocity para eliminar las pantallas de carga y transmitir recursos de alta resolución al instante. Además, los jugadores de consola pueden disfrutar de cooperativo local en pantalla dividida, una función que exige una asignación de recursos del sistema sumamente eficiente.
+
+| Función de rendimiento | Xbox Series X | Xbox Series S |
+| :--- | :--- | :--- |
+| **Resolución objetivo** | **4K Ultra HD** | Dinámica de 1080p a 1440p |
+| **Objetivo de tasa de fotogramas** | **Hasta 60 FPS** (Campaña y Multijugador) | Hasta 60 FPS |
+| **Alto rango dinámico (HDR)** | Compatible con HDR10 | Compatible con HDR10 |
+| **Trazado de rayos (Ray Tracing)** | Reflejos acelerados por hardware | Renderizado optimizado por software |
+| **Audio espacial** | Dolby Atmos, DTS:X, Windows Sonic | Dolby Atmos, DTS:X, Windows Sonic |
+| **Tasa de refresco variable (VRR)** | Compatible | Compatible |
+
+<Callout type="success" title="Beneficios de Xbox Play Anywhere">
+Comprar la versión digital del juego a través de la [tienda oficial de Xbox](https://www.xbox.com/en-US/games/gears-of-war-eday) te otorga doble licencia. Puedes jugar tanto en Xbox Series X|S como en PC con Windows bajo una única licencia digital, y tus partidas guardadas de la campaña se transferirán automáticamente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ajustes gráficos y optimización del motor">
+
+Unreal Engine 5 introduce técnicas de renderizado de última generación que pueden exigir mucho a tu sistema. Comprender cómo interactúan estas funciones con tu hardware te ayudará a optimizar tus ajustes para obtener la mejor tasa de fotogramas posible.
+
+Los ajustes clave a supervisar incluyen la iluminación global (Lumen), la geometría virtualizada (Nanite) y la superresolución temporal (TSR). Ajustar estos parámetros puede recuperar hasta un 30% del rendimiento en tarjetas gráficas de gama media.
+
+<Checklist
+  id="pc-performance-checklist"
+  title="Lista de verificación de optimización previa al lanzamiento:"
+  items={[
+    "Verifica que la instalación esté en un SSD interno NVMe o SATA",
+    "Actualiza Windows 10 a la versión 22H2 o Windows 11 a la 25H2",
+    "Instala los controladores de GPU más recientes del fabricante de tu hardware",
+    "Cierra las aplicaciones pesadas en segundo plano como navegadores web y reproductores de vídeo",
+    "Habilita la programación de GPU acelerada por hardware en la configuración de Windows"
+  ]}
+/>
+
+<Callout type="warning" title="Asignación de recursos en segundo plano">
+Ejecutar software de grabación de terceros o superposiciones (overlays) puede causar graves caídas de fotogramas y problemas de estabilidad en juegos con DirectX 12. Si experimentas fallos durante la beta abierta que comienza el 6 de agosto de 2026, desactiva primero todas las superposiciones en segundo plano.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Encuentra respuestas a las preguntas más comunes sobre la optimización para PC, la compatibilidad de hardware y el acceso al juego.
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar a Gears of War: E-Day en un disco duro tradicional (HDD)?",
+    answer: "No. Los requisitos oficiales del sistema de Gears of War E-Day indican que un SSD es obligatorio. Instalar el juego en un disco duro mecánico estándar provocará una grave degradación del rendimiento, tirones en la transmisión de recursos y posibles fallos del juego."
+  },
+  {
+    question: "¿Se requiere una conexión a Internet activa para jugar la campaña para un jugador?",
+    answer: "Se requiere una conexión a Internet para la configuración inicial, la verificación de la licencia digital y la descarga de actualizaciones. Sin embargo, una vez verificado, la campaña para un jugador se puede jugar sin conexión."
+  },
+  {
+    question: "¿La versión de Steam del juego requiere que la aplicación de Xbox esté ejecutándose?",
+    answer: "No, no necesitas tener abierta la aplicación de Xbox. Sin embargo, debes iniciar sesión con una cuenta gratuita de Xbox Live dentro del menú principal del juego para habilitar el emparejamiento de juego cruzado, los logros y el guardado en la nube."
+  },
+  {
+    question: "¿Cuál es la fecha de lanzamiento de Gears of War: E-Day?",
+    answer: "Gears of War: E-Day está programado para lanzarse a nivel mundial el 6 de octubre de 2026, con un periodo de acceso a la beta abierta del 6 al 10 de agosto de 2026."
+  }
+]} />
+
+<Callout type="tip" title="Recordatorio de acceso a la beta">
+Reservar cualquier edición digital o mantener una suscripción activa a Game Pass Ultimate te garantiza acceso anticipado a la beta abierta multijugador a partir del 6 de agosto de 2026. Utiliza este periodo para probar el rendimiento de tu PC y ajustar la configuración gráfica antes del lanzamiento oficial.
+</Callout>
+
+</Section>

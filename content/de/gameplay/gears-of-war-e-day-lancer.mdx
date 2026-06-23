@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Lancer: Waffenursprung & Kampfspezifikationen",
+  description: "Entdecken Sie den Ursprung des Gears of War E-Day Lancers, seine Modifikationen auf dem Schlachtfeld, die Kampfmechaniken und die Boni für Vorbesteller-Waffenskins.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1c23/ef1b24?text=Chainsaw+Lancer+Guide",
+  date: "2026-06-23",
+  author: "Gears of War E-Day Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Primärwaffe**: Der **Gears of War E-Day Lancer** repräsentiert den brutalen Übergang vom traditionellen Bajonett zum kultigen Kettensägen-Aufsatz.
+- **Lore-Ursprung**: Direkt auf dem Schlachtfeld umgebaut, entstand diese Waffe aus einer verzweifelten Notwendigkeit in den ersten Tagen der Locust-Invasion.
+- **Kampfintegration**: Optimiert für die Unreal Engine 5, mit Mikro-Zerstörungsmechaniken, Deckungsübergängen und vertikaler Flankierung.
+- **Vorbesteller-Anreize**: Sichern Sie sich das Exfil Legendary Weapon Skin Set und das Bravo Squad Signature Weapon Pack, indem Sie Ihr Exemplar vor dem Start am 6. Oktober 2026 vorbestellen.
+</Callout>
+
+<Section icon={Swords} title="Waffengeschichte des Gears of War E-Day Lancers">
+
+Die Einführung des **Gears of War E-Day Lancers** markiert einen monumentalen Wandel in der Militärdoktrin der Coalition of Ordered Governments (COG). Die Kampagne spielt vierzehn Jahre vor den Ereignissen des ursprünglichen Gears of War und führt die Spieler zurück in die unmittelbare Zeit nach den Pendelkriegen. Zu Beginn des Auftauchens der Locust in der Stadt Kalona sind die COG-Soldaten noch mit dem Standard-MK1-Lancer ausgestattet, der allgemein als Retro-Lancer bekannt ist. Diese Waffe verfügt über ein traditionelles Klingenbajonett, das sich gegen die dicken, mineralisch gehärteten Häute der Locust-Drohnen als tragisch unwirksam erweist.
+
+Um dieser überwältigenden Bedrohung aus dem Untergrund zu begegnen, basteln Frontsoldaten und Ingenieure an einer verzweifelten Lösung. Durch die Montage einer industriellen, mit Imulsion betriebenen Kettensäge unter dem Lauf des Sturmgewehrs wird der Mk2 Chainsaw Lancer geboren. Diese Modifikation auf dem Schlachtfeld ermöglicht es den Gears, sich im brutalen Nahkampf durch die schwere Panzerung der Locust-Streitkräfte zu sägen und so eine verzweifelte Verteidigung in eine tragfähige Gegenoffensive zu verwandeln.
+
+| Variante | Kampfrolle | Hauptmerkmal | Beste Reichweite |
+| :--- | :--- | :--- | :--- |
+| **Chainsaw Lancer** | Nahkampf-Exekution und Unterdrückung auf mittlere Distanz | Umgebautes Kettensägen-Bajonett für sofortige Nahkampf-Kills | Mittel bis Nah |
+| **Retro Lancer** | Sturmangriff mit hohem Rückstoß und Bajonettangriff | Traditionelle Metallklinge mit hoher Mannstoppwirkung | Nah |
+
+<Callout type="info" title="Lore-Hinweis">
+Der Übergang vom Retro-Lancer zum Chainsaw-Lancer ist nicht just eine kosmetische Änderung. Er repräsentiert den psychologischen Wandel der Menschheit, die erkennt, dass sie nicht mehr gegen menschliche Feinde kämpft, sondern gegen Monster, die extreme Gewalt im Nahkampf erfordern, um sie aufzuhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kampfmechaniken und Gameplay-Systeme">
+
+Die Kampfschleife in Gears of War: E-Day basiert auf einer modernisierten Version des klassischen Deckungsshooter-Rätsels. Das in der Unreal Engine 5 neu entwickelte Spiel führt fortschrittliche Umgebungssysteme ein, die sich direkt darauf auswirken, wie Sie Ihren Lancer einsetzen. Traditionelle Deckung ist nicht mehr dauerhaft; das neue Mikro-Zerstörungssystem bröckelt Stein-, Beton- und Holzbarrieren unter anhaltendem Beschuss weg, was die Spieler zwingt, sich ständig neu zu positionieren.
+
+Zusätzlich ermöglichen modernisierte Fortbewegungsmechaniken den Spielern, aus dem Sprint heraus zu rutschen, vertikale Pfade zu erklimmen und über Dächer oder bröckelnde Balkone zu springen. Der Lancer dient als primäres Werkzeug, um entfernte Feinde zu unterdrücken, während Truppmitglieder diese neuen vertikalen Flankierungsrouten nutzen, um sich Vorteile auf erhöhtem Gelände zu sichern.
+
+<CardGrid cols={3}>
+  <Card title="Rutschen & Deckung">
+    Positionieren Sie sich schnell neu, indem Sie in eine niedrige Deckung rutschen. Nutzen Sie Ihren Lancer für Blindfeuer, um aggressive Locust-Drohnen daran zu hindern, Ihren Trupp zu bedrängen.
+  </Card>
+  <Card title="Vertikale Flankierung">
+    Nutzen Sie Treppen, Leitern und eingestürzte Strukturen, um Balkone zu erreichen. Der Lancer belohnt die Positionierung auf erhöhtem Gelände, sodass Sie die gegnerische Deckung umgehen können.
+  </Card>
+  <Card title="E-Hole-Abwehr">
+    Wenn sich der Boden öffnet, nutzen Sie anhaltendes Lancer-Feuer, um auftauchende Feinde zu unterdrücken, bevor Sie das Loch mit einem gezielten Sprengstoff versiegeln.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warnung vor zerstörbarer Deckung">
+Verlassen Sie sich nicht zu lange auf eine einzelne Betonwand. Die Mikro-Zerstörung wird Ihre Verteidigungsposition unter schwerem feindlichen Beschuss schnell erodieren lassen, sodass Sie Flankierungsmanövern ausgesetzt sind.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Vorbesteller-Editionen und Waffenskin-Boni">
+
+Wenn Sie sich Ihre Vorbestellung für Gears of War: E-Day sichern, schalten Sie exklusive Anpassungsgegenstände und Vorabzugangsoptionen frei. Spieler, die eine digitale oder physische Edition erwerben, erhalten den legendären Charakter-Skin „Exfil Dom“ und das legendäre Waffenskin-Set „Exfil“, das zum Start auf Ihren Lancer angewendet werden kann.
+
+Für Spieler, die das ultimative Setup suchen, bietet die Premium Edition ab dem 1. Oktober 2026 bis zu fünf Tage Vorabzugang, zusammen mit dem Bravo Squad Signature Weapon Pack. Dieses Pack enthält spezielle Anpassungsoptionen, die speziell für Ihre Kampagnen-Ausrüstung entwickelt wurden.
+
+| Edition | Preis | Vorabzugang | Waffen- & kosmetische Boni |
+| :--- | :--- | :--- | :--- |
+| **Standard Edition** | 69,99 $+ | 6. Oktober 2026 | Exfil-Dom-Skin, Exfil-Waffenskin-Set |
+| **Premium Edition** | 99,99 $+ | 1. Oktober 2026 | Exfil-Set, Bravo-Squad-Pack, 5 Anpassungspakete, 1.000 Eisen |
+| **Premium-Upgrade** | 30,00 $ | 1. Oktober 2026 | Bravo-Squad-Pack, 5 Anpassungspakete, 1.000 Eisen (Hauptspiel erforderlich) |
+| **Collector's Edition** | Händlerabhängig | 1. Oktober 2026 | Marcus- & Dom-Statue, Carlos' COG-Erkennungsmarken, SteelBook, Premium-Digitalinhalte |
+
+<Callout type="success" title="Beta-Zugang">
+Die Vorbestellung einer beliebigen Edition gewährt automatisch vorzeitigen Zugang zur Open Beta von Gears of War: E-Day, die vom 6. August bis zum 10. August 2026 stattfinden soll.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Schritt-für-Schritt-Anleitung zur Lancer-Meisterschaft">
+
+Um die brutale dreitägige Kampagne in Kalona oder die intensiven Wellen der Horde-Belagerung zu überleben, müssen Sie die grundlegenden Mechaniken des Lancers meistern. Diese Schritt-für-Schritt-Anleitung beschreibt den optimalen Kampfablauf zur Maximierung Ihres Schadensausstoßes und Ihrer Überlebensfähigkeit.
+
+<Steps>
+  <Step num="1" title="Sichern Sie sich eine erhöhte Position">
+    Bevor Sie eine Gruppe von Locust angreifen, suchen Sie nach vertikalen Flankierungsrouten. Klettern Sie auf einen Balkon oder ein Dach, um eine klare Sichtlinie über die gegnerische Deckung aufzubauen.
+  </Step>
+  <Step num="2" title="Meistern Sie das aktive Nachladen">
+    Drücken Sie die Nachladetaste und drücken Sie sie erneut, wenn die Anzeige den hervorgehobenen Bereich erreicht. Ein perfektes aktives Nachladen erhöht vorübergehend die Feuerrate und den Schaden Ihres Lancers.
+  </Step>
+  <Step num="3" title="Koordinieren Sie das Sperrfeuer">
+    Koordinieren Sie sich im Koop-Modus mit Ihrem Trupp. Nutzen Sie Ihren Lancer, um entfernte Drohnen zu unterdrücken, während Ihre Teammitglieder mit Schrotflinten heranrutschen oder flankieren.
+  </Step>
+  <Step num="4" title="Nahkampfbedrohungen exekutieren">
+    Wenn ein Wretch oder eine Drohne Ihre Deckung durchbricht, werfen Sie Ihr Kettensägen-Bajonett an. Halten Sie die Nahkampftaste gedrückt, um das Ziel sofort zu exekutieren, aber achten Sie während der Animation auf Ihre Flanken.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Tipp zum aktiven Nachladen">
+Wenn das aktive Nachladen fehlschlägt, klemmt Ihre Waffe, sodass Sie mehrere Sekunden lang völlig schutzlos sind. Üben Sie das Timing in sicheren Zonen, bevor Sie sich in intensive Gefechte stürzen.
+</Callout>
+
+| Gegnertyp | Lancer-Effektivität | Empfohlene Taktik | Schwachstelle |
+| :--- | :--- | :--- | :--- |
+| **Locust-Drohne** | Hoch | Unterdrückung auf mittlere Distanz, Kopfschüsse mit aktivem Nachladen | Kopf |
+| **Wilder Wretch** | Mäßig | Kettensägen-Exekution im Nahkampf, Feuern aus der Hüfte | Kopf / Torso |
+| **Boomer** | Gering | Anhaltendes Teamfeuer, Blindfeuer aus schwerer Deckung | Kopf |
+
+</Section>
+
+<Section icon={Map} title="Checkliste für die Open Beta">
+
+Bereiten Sie sich auf die bevorstehende Open Beta am 6. August 2026 vor, indem Sie sicherstellen, dass Ihr Gaming-Setup und Ihre Kampfstrategien vollständig optimiert sind. Nutzen Sie diese Checkliste, um Ihren Fortschritt zu verfolgen und sich auf die Frontlinien vorzubereiten.
+
+<Checklist
+  id="beta-readiness"
+  title="Beta-Kampfziele:"
+  items={[
+    "PC-Systemanforderungen überprüfen (SSD ist zwingend erforderlich, 130 GB freier Speicherplatz)",
+    "Deckungsübergänge und die modernisierten Rutschmechaniken üben",
+    "Erfolgreich zehn Kettensägen-Kills in einem einzigen Horde-Belagerung-Match ausführen",
+    "Das Timing für das aktive Nachladen sowohl für den Lancer als auch für die Gnasher meistern",
+    "Vertikale Flankierungsrouten auf den neuen Kalona-Mehrspielerkarten erkunden"
+  ]}
+/>
+
+<Callout type="info" title="Hinweis zu den Systemanforderungen">
+Gears of War: E-Day erfordert sowohl für die minimalen als auch für die empfohlenen PC-Spezifikationen ein Solid-State-Drive (SSD), um das Echtzeit-Asset-Streaming der Unreal Engine 5 zu bewältigen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich die Waffenskins für den Gears of War E-Day Lancer frei?",
+    answer: "Sie können exklusive Lancer-Skins freischalten, indem Sie die Standard, Premium oder Collector's Edition vorbestellen. Digitale Vorbestellungen erhalten das legendäre Waffenskin-Set „Exfil“ automatisch zum Start, während physische Vorbestellungen einen Einlösecode von teilnehmenden Händlern erhalten."
+  },
+  {
+    question: "Kann ich das Kettensägen-Bajonett in Multiplayer-Modi verwenden?",
+    answer: "Ja, das kultige Kettensägen-Bajonett ist sowohl im Versus-PvP als auch im PvE-Modus „Horde-Belagerung“ für 12 Spieler voll einsetzbar. Das Aufheulenlassen der Kettensäge erzeugt jedoch ein markantes Geräusch, das nahegelegene Spieler alarmieren kann, und erlittener Schaden während des Aufheulens wird Sie vorübergehend betäuben."
+  },
+  {
+    question: "Was ist der Unterschied zwischen dem E-Day Lancer und dem Retro-Lancer?",
+    answer: "Der E-Day Lancer verfügt über das neu gestaltete Kettensägen-Bajonett, das sich ideal für sofortige Exekutionen im Nahkampf eignet. Der Retro-Lancer verwendet ein traditionelles Metallklingen-Bajonett, das einen höheren Rückstoß aufweist, aber eine verheerende Bajonett-Ansturm-Mechanik bietet."
+  },
+  {
+    question: "Unterstützt die Koop-Kampagne das Spielen im geteilten Bildschirm (Split-Screen)?",
+    answer: "Ja, die Kampagne unterstützt den Koop-Modus für zwei Spieler im geteilten Bildschirm auf Xbox Series X|S-Konsolen sowie einen Online-Koop-Modus für bis zu vier Spieler auf Xbox- und PC-Plattformen."
+  }
+]} />
+
+<Callout type="success" title="Treten Sie der Koalition bei">
+Bereiten Sie sich auf den Emergence Day vor. Bestellen Sie Ihr Exemplar noch heute vor und machen Sie sich bereit, die Stadt Kalona zu verteidigen, wenn Gears of War: E-Day am 6. Oktober 2026 erscheint.
+</Callout>
+
+</Section>

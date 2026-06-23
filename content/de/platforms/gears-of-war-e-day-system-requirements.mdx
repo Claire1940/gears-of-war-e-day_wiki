@@ -1,0 +1,200 @@
+import { Shield, Cpu, Target, Trophy, Sparkles, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Systemanforderungen: PC-Setup-Guide",
+  description: "Überprüfen Sie die offiziellen Gears of War E-Day Systemanforderungen. Vergleichen Sie minimale und empfohlene PC-Specs, SSD-Speicherplatz und Performance-Features.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ef1b24/fff?text=PC+System+Requirements",
+  date: "2026-06-23",
+  author: "gears of war e-day Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Systemanforderungen**: Die offiziellen **Gears of War E-Day Systemanforderungen** verlangen ein solides Mittelklasse-Setup, beginnend mit mindestens einer NVIDIA GeForce RTX 2060 oder AMD Radeon RX 6600.
+- **Speicheranforderungen**: Ein massiver **verfügbarer Speicherplatz von 130 GB** ist erforderlich, und die Installation auf einem Hochgeschwindigkeits-Solid-State-Drive (SSD) ist obligatorisch.
+- **Betriebssystem**: Windows 10 (64-Bit) ist das absolute Minimum, aber Windows 11 wird für eine optimale Direct-Storage-Performance dringend empfohlen.
+- **Konsolen-Performance**: Das Ziel für die Xbox Series X ist eine **4K-Auflösung bei 60 FPS**, inklusive Raytracing und fortschrittlichem Raumklang.
+- **Game Pass-Zugang**: Aktive Abonnenten von Game Pass Ultimate oder PC Game Pass erhalten am 6. Oktober 2026 vollen Zugang ab dem ersten Tag.
+</Callout>
+
+<Section icon={Shield} title="Gears of War E-Day Systemanforderungen: Mindestspezifikationen">
+
+Bevor Sie Ihren PC auf den Emergence Day vorbereiten, ist das Verständnis der offiziellen **Gears of War E-Day Systemanforderungen** entscheidend für ein reibungsloses, originalgetreues Erlebnis. Das Spiel wurde von Grund auf in der Unreal Engine 5 entwickelt, was bedeutet, dass ältere Grafikkarten ohne DirectX 12-Unterstützung die Anwendung nicht starten können.
+
+Die Mindestspezifikationen sind auf eine stabile 1080p-Auflösung bei 30 Bildern pro Sekunde mit niedrigen bis mittleren Grafikeinstellungen ausgelegt. Spieler mit älteren Quad-Core-Prozessoren können Ruckler bei intensiven, physiklastigen Sequenzen erleben, etwa wenn Locust-Emergence-Holes kollabieren oder großflächige Erdlöcher die Straßen von Kalona zerstören.
+
+| Komponente | Mindestanforderung |
+| :--- | :--- |
+| **Betriebssystem** | Windows 10 64-Bit 22H 19045.7291 |
+| **Prozessor** | AMD Ryzen 5 2600X / Intel i7-6850K / Intel i5-10400 |
+| **Arbeitsspeicher** | **12 GB RAM** |
+| **Grafikkarte** | NVIDIA RTX 5050 / RTX 2060 / AMD RX 6600 / Intel Arc A580 |
+| **DirectX-Version** | Version 12 |
+| **Netzwerk** | Breitband-Internetverbindung |
+| **Speicherkapazität** | **130 GB verfügbarer Speicherplatz** |
+| **Speichertyp** | **Solid State Drive (SSD) erforderlich** |
+| **Soundkarte** | Windows-kompatibles Audiogerät |
+
+<Callout type="warning" title="SSD-Installation obligatorisch">
+Herkömmliche mechanische Festplatten (HDDs) werden nicht unterstützt. Die Installation des Spiels auf einer HDD führt zu schweren Verzögerungen beim Textur-Streaming, Audio-Desynchronisation und extrem langen Ladebildschirmen. Verwenden Sie immer eine interne SATA- oder NVMe-SSD.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Empfohlene PC-Spezifikationen für hohe Performance">
+
+Um die zerfallende Stadt Kalona in der High-Fidelity Unreal Engine 5 zu erleben, wird die Einhaltung der empfohlenen Spezifikationen dringend angeraten. Diese Spezifikationen zielen auf 1080p bis 1440p Auflösungen bei flüssigen 60 Bildern pro Sekunde mit hohen Grafikeinstellungen ab.
+
+Ein Upgrade auf einen modernen Sechs-Kern- oder Acht-Kern-Prozessor stellt sicher, dass Hintergrundsysteme wie die fortschrittliche KI-Pfadfindung der Locust-Horde und Echtzeit-Mikro-Zerstörungsphysik Ihre Grafikkarte nicht ausbremsen. Dual-Channel-Systemarbeitsspeicher wird ebenfalls dringend empfohlen, um Mikroruckler in dichten städtischen Umgebungen zu vermeiden.
+
+| Komponente | Empfohlene Anforderung |
+| :--- | :--- |
+| **Betriebssystem** | Windows 11 64-Bit 25H2 oder neuer |
+| **Prozessor** | AMD Ryzen 5 5600 / Intel i5-11600K |
+| **Arbeitsspeicher** | **16 GB RAM** |
+| **Grafikkarte** | NVIDIA RTX 5060 / RTX 3060 Ti / AMD RX 6700 XT / Intel Arc B580 |
+| **DirectX-Version** | Version 12 |
+| **Netzwerk** | Breitband-Internetverbindung |
+| **Speicherkapazität** | **130 GB verfügbarer Speicherplatz** |
+| **Speichertyp** | **Solid State Drive (SSD) erforderlich** |
+
+<Callout type="tip" title="VRAM-Überlegungen">
+Die Unreal Engine 5 stellt hohe Anforderungen an den Videospeicher (VRAM). Grafikkarten mit mindestens 8 GB dediziertem VRAM werden dringend empfohlen, um Texturverschlechterungen und Pop-ins bei Auflösungen über 1080p zu vermeiden.
+</Callout>
+
+Um Ihnen bei der Entscheidung zu helfen, welche Hardwarekomponenten Sie für Ihr Upgrade vor dem Start am 6. Oktober 2026 priorisieren sollten, werfen Sie einen Blick auf diese kritischen Fokusbereiche:
+
+<CardGrid cols={3}>
+  <Card title="Fokus auf den Prozessor">
+    - **Sechs-Kern-Architekturen** verhindern CPU-Engpässe bei intensiven Kämpfen.
+    - Die AMD Ryzen 5000-Serie oder Intel 11. Gen bieten die ideale Balance.
+    - Entscheidend für die Berechnung von Echtzeitphysik und KI.
+  </Card>
+  <Card title="Grafik-Skalierung">
+    - Zielt auf Karten mit hardwarebeschleunigtem Raytracing ab.
+    - RTX 3060 Ti / RX 6700 XT verarbeiten hochauflösende Assets reibungslos.
+    - Ermöglicht flüssige Performance mit temporalen Upscaling-Technologien.
+  </Card>
+  <Card title="Speicherarchitektur">
+    - **16 GB Dual-Channel-RAM** ist der Idealwert für modernes Gaming.
+    - Verhindert plötzliche Frame-Einbrüche beim Wechsel zwischen großen Kartenabschnitten.
+    - Single-Channel-Speicherkonfigurationen werden die Frame-Stabilität stark einschränken.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Speicheranforderungen und Plattformvergleich">
+
+Mit einer massiven Größe von 130 GB ist die Speichergeschwindigkeit genauso wichtig wie die reine Kapazität. Das Spiel nutzt fortschrittliches Asset-Streaming, was bedeutet, dass langsame Lesegeschwindigkeiten Ihr Spielerlebnis aktiv verschlechtern werden.
+
+Beim Kauf des Spiels haben Sie mehrere Store-Optionen. PC-Spieler können zwischen dem Steam Store und dem Microsoft Store/der Xbox App wählen. Obwohl beide Versionen exakt dieselben **Gears of War E-Day Systemanforderungen** teilen, bieten sie unterschiedliche Vorteile im Ökosystem.
+
+| Feature | Steam Store | Xbox App / Microsoft Store |
+| :--- | :--- | :--- |
+| **Play Anywhere Unterstützung** | Nein | **Ja** (Einmal kaufen, auf Konsole und PC spielen) |
+| **Game Pass Integration** | Nein | **Ja** (In aktiver Mitgliedschaft enthalten) |
+| **Account-Anforderung** | **Xbox Live Account erforderlich** | Xbox Live Account erforderlich |
+| **Cloud-Speicherstände** | Steam Cloud | Xbox Cloud |
+| **Vorbesteller-Boni** | Exfil Dom Skin, Exfil Waffen-Set | Exfil Dom Skin, Exfil Waffen-Set |
+
+<Steps>
+  <Step num="1" title="SSD-Kompatibilität prüfen">
+    Stellen Sie sicher, dass Sie mindestens 130 GB freien Speicherplatz auf einer internen Solid State Drive haben. Überprüfen Sie die Laufwerkseigenschaften in Windows, um sicherzustellen, dass es als NTFS formatiert ist.
+  </Step>
+  <Step num="2" title="Grafiktreiber aktualisieren">
+    Laden Sie die neuesten Game-Ready-Treiber von NVIDIA, AMD oder Intel herunter. Treiberversionen, die speziell für die Open Beta im August 2026 veröffentlicht werden, enthalten wichtige Optimierungsprofile.
+  </Step>
+  <Step num="3" title="Windows Spielmodus konfigurieren">
+    Aktivieren Sie den Spielmodus in Ihren Windows 10- oder Windows 11-Einstellungen. Dies priorisiert Systemressourcen für das Spiel und hält Hintergrund-Updates vorübergehend an.
+  </Step>
+  <Step num="4" title="Xbox Live Account verknüpfen">
+    Wenn Sie auf Steam spielen, stellen Sie sicher, dass Ihr Xbox Live Account vorab verknüpft ist. Dies beschleunigt den ersten Startvorgang und synchronisiert sofort Ihren Cross-Play-Fortschritt.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Steam Store Anforderungen">
+Die offizielle [Gears of War E-Day Steam-Seite](https://store.steampowered.com/app/3010850/Gears_of_War_EDay/) bestätigt, dass ein kostenloser Xbox Live Account eines Drittanbieters für Steam-Spieler obligatorisch ist. Dies ermöglicht nahtloses Cross-Play und Cross-Progression mit Spielern auf der Xbox Series X|S.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Xbox Series X und Series S Performance-Ziele">
+
+Für Spieler, die sich entscheiden, die Ursprungsgeschichte von Marcus und Dom auf der Konsole zu erleben, bieten die Xbox Series X und Series S hochoptimierte Plug-and-Play-Erlebnisse. Der Entwickler, The Coalition, hat in der Vergangenheit immer wieder die Grenzen der Xbox-Hardware ausgelotet, und dieser Titel bildet da keine Ausnahme.
+
+Beide Konsolen nutzen die Xbox Velocity Architecture, um Ladebildschirme zu eliminieren und hochauflösende Assets sofort zu streamen. Zusätzlich können Konsolenspieler den lokalen Split-Screen-Koop genießen, eine Funktion, die eine hocheffiziente Zuweisung von Systemressourcen erfordert.
+
+| Performance-Feature | Xbox Series X | Xbox Series S |
+| :--- | :--- | :--- |
+| **Zielauflösung** | **4K Ultra HD** | 1080p bis 1440p dynamisch |
+| **Ziel-Bildrate** | **Bis zu 60 FPS** (Kampagne & Multiplayer) | Bis zu 60 FPS |
+| **High Dynamic Range** | HDR10 unterstützt | HDR10 unterstützt |
+| **Raytracing** | Hardware-beschleunigte Reflexionen | Software-optimiertes Rendering |
+| **Raumklang** | Dolby Atmos, DTS:X, Windows Sonic | Dolby Atmos, DTS:X, Windows Sonic |
+| **Variable Bildwiederholrate** | Unterstützt | Unterstützt |
+
+<Callout type="success" title="Vorteile von Xbox Play Anywhere">
+Der Kauf der digitalen Version des Spiels über den [Offiziellen Xbox Store](https://www.xbox.com/en-US/games/gears-of-war-eday) gewährt Ihnen eine doppelte Berechtigung. Sie können unter einer einzigen digitalen Lizenz sowohl auf der Xbox Series X|S als auch auf einem Windows-PC spielen, wobei Ihre Kampagnen-Speicherstände automatisch übertragen werden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Grafikeinstellungen und Engine-Optimierung">
+
+Die Unreal Engine 5 führt modernste Rendering-Techniken ein, die Ihr System stark beanspruchen können. Das Verständnis, wie diese Funktionen mit Ihrer Hardware interagieren, hilft Ihnen, Ihre Einstellungen für die bestmögliche Bildrate zu optimieren.
+
+Zu den wichtigsten Einstellungen gehören Global Illumination (Lumen), Virtualized Geometry (Nanite) und Temporal Super Resolution (TSR). Das Anpassen dieser Einstellungen kann bis zu 30 % der Performance auf Mittelklasse-Grafikkarten zurückgewinnen.
+
+<Checklist
+  id="pc-performance-checklist"
+  title="Optimierungs-Checkliste vor dem Start:"
+  items={[
+    "Überprüfen Sie, ob die Installation auf einer internen NVMe- oder SATA-SSD erfolgt ist",
+    "Aktualisieren Sie Windows 10 auf Version 22H2 oder Windows 11 auf 25H2",
+    "Installieren Sie die neuesten GPU-Treiber Ihres Hardwareherstellers",
+    "Schließen Sie ressourcenintensive Hintergrundanwendungen wie Webbrowser",
+    "Aktivieren Sie die Hardwarebeschleunigte GPU-Planung in den Windows-Einstellungen"
+  ]}
+/>
+
+<Callout type="warning" title="Zuweisung von Hintergrundressourcen">
+Das Ausführen von Aufnahmesoftware von Drittanbietern oder Overlays kann in DirectX 12-Spielen zu schweren Frame-Einbrüchen und Stabilitätsproblemen führen. Wenn während der Open Beta ab dem 6. August 2026 Abstürze auftreten, deaktivieren Sie zuerst alle Hintergrund-Overlays.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+Finden Sie Antworten auf die häufigsten Fragen zur PC-Optimierung, Hardware-Kompatibilität und zum Spielzugang.
+
+<FAQ items={[
+  {
+    question: "Kann ich Gears of War: E-Day auf einer herkömmlichen Festplatte (HDD) spielen?",
+    answer: "Nein. Die offiziellen Gears of War E-Day Systemanforderungen besagen, dass eine SSD obligatorisch ist. Die Installation des Spiels auf einer Standard-HDD führt zu schwerwiegenden Performance-Einbußen, Rucklern beim Asset-Streaming und potenziellen Spielabstürzen."
+  },
+  {
+    question: "Ist eine aktive Internetverbindung für die Einzelspieler-Kampagne erforderlich?",
+    answer: "Eine Internetverbindung ist für die Ersteinrichtung, die digitale Lizenzverifizierung und das Herunterladen von Updates erforderlich. Nach der Verifizierung kann die Einzelspieler-Kampagne jedoch offline gespielt werden."
+  },
+  {
+    question: "Benötigt die Steam-Version des Spiels die Xbox App im Hintergrund?",
+    answer: "Nein, Sie müssen die Xbox App nicht geöffnet haben. Sie müssen sich jedoch im Hauptmenü des Spiels mit einem kostenlosen Xbox Live Account anmelden, um Cross-Play-Matchmaking, Erfolge und Cloud-Speicherstände zu aktivieren."
+  },
+  {
+    question: "Wann ist das Veröffentlichungsdatum für Gears of War: E-Day?",
+    answer: "Gears of War: E-Day soll weltweit am 6. Oktober 2026 erscheinen, mit einem Open-Beta-Fenster vom 6. August bis zum 10. August 2026."
+  }
+]} />
+
+<Callout type="tip" title="Erinnerung zum Beta-Zugang">
+Die Vorbestellung einer digitalen Edition oder ein aktives Game Pass Ultimate-Abonnement garantiert Ihnen frühen Zugang zur Multiplayer-Open-Beta ab dem 6. August 2026. Nutzen Sie diesen Zeitraum, um Ihre PC-Performance zu testen und Ihre Grafikeinstellungen vor dem offiziellen Start anzupassen.
+</Callout>
+
+</Section>

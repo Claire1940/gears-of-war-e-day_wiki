@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Fortbewegung: Leitfaden für Bewegung & Deckung",
+  description: "Meistere das neue Bewegungssystem in Gears of War E-Day. Erfahre, wie Rutschen, Springen und vertikale Fortbewegung den deckungsbasierten Kampf und die PvP-Taktiken verändern.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/ef1b24?text=Movement+and+Traversal",
+  date: "2026-06-23",
+  author: "Gears of War: E-Day Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Leitfaden">
+- **Hauptbewegung**: Neu entwickelte Fortbewegungsmechaniken modernisieren den klassischen deckungsbasierten Kampf.
+- **Erstmals Springen**: Vertikale Fortbewegung ermöglicht es Spielern, über Abgründe zu springen und Dächer zu erklimmen.
+- **Flüssiges Rutschen**: Das Rutschen aus dem Sprint heraus erlaubt es Spielern, unter niedrigen Hindernissen hindurchzugleiten und nahtlos in Deckung zu gehen.
+- **Zerstörbare Deckung**: Mikro-Zerstörung bröckelt Wände weg und zwingt zu ständiger Neupositionierung.
+- **Trupp-Taktiken**: Spezialisierte Bewegungsrollen verbessern die Koordination in Horde-Belagerung und Versus.
+</Callout>
+
+<Section icon={Sparkles} title="Die Evolution der Fortbewegung in Gears of War E-Day">
+
+Die Kern-DNA der Gears-Reihe war schon immer durch ihr schweres, bewusstes taktisches Tempo geprägt. Die Einführung des modernisierten **Fortbewegungssystems in Gears of War E-Day** stellt jedoch einen gewaltigen Sprung nach vorne dar. Die in Unreal Engine 5 von Grund auf neu entwickelten Fortbewegungsmechaniken in Gears of War: E-Day schlagen eine Brücke zwischen dem klassischen, wuchtigen „Roadie-Run“ und moderner, flüssiger Action-Adventure-Fortbewegung.
+
+Anstatt an dem starren, rasterartigen Einrasten in Deckungen früherer Teile festzuhalten, können sich Spieler nun mit noch nie dagewesener Freiheit durch die vom Krieg gezeichnete Stadt Kalona bewegen. Die Umgebung ist nicht mehr nur eine Aneinanderreihung von statischen, brusthohen Mauern; sie ist ein dynamischer, vielschichtiger Spielplatz, auf dem Schwung, Vertikalität und Physik in Echtzeit interagieren.
+
+| Fortbewegungs-Feature | Klassische Gears-Fortbewegung | E-Day-Fortbewegungssystem |
+| :--- | :--- | :--- |
+| **Vertikalität** | Rein bodenbasierte Deckung | Springen über Abgründe, Erklimmen von Dächern |
+| **Rutschen** | Geradlinig von Deckung zu Deckung | Rutschen aus dem Sprint, Kurvenrutschen, Durchrutschen |
+| **Deckungsmechaniken** | Statische, unzerstörbare Wände | Dynamische Deckung mit Mikro-Zerstörung |
+| **Übergänge** | Starres Einrasten im Raster | Flüssige, organische Übergänge am Boden |
+
+<Callout type="info" title="Fortschritte der Engine">
+Der Wechsel zur Unreal Engine 5 ermöglicht physikbasierte Bewegungsinteraktionen. Das Gewicht, der Schwung und die Richtung deines Charakters wirken sich direkt darauf aus, wie er rutscht, über Hindernisse springt und sich von Sprüngen erholt, wodurch sich jedes Manöver unglaublich bodenständig und dennoch reaktionsschnell anfühlt.
+</Callout>
+
+Diese Evolution bricht nicht mit den Wurzeln der Reihe. Das ikonische Gewicht der KOR-Soldaten bleibt vollständig erhalten, aber die Schwerfälligkeit älterer Bewegungssysteme wurde beseitigt. Egal, ob du die Kampagne spielst, Wellen in Horde-Belagerung abwehrst oder im Versus-PvP antrittst – das Verständnis dieser aktualisierten Mechaniken ist überlebenswichtig.
+
+</Section>
+
+<Section icon={Map} title="Vertikale Fortbewegung und die neue Sprungmechanik">
+
+Zum ersten Mal in der Geschichte der Hauptreihe haben Spieler Zugriff auf eine eigene Sprungmechanik. Diese Neuerung verändert das Kartendesign und den Ablauf von Kämpfen grundlegend. In früheren Spielen war eine einfache Lücke in einer Brücke oder eine kaputte Feuertreppe ein unüberwindbares Hindernis. In Gears of War: E-Day bieten diese Lücken Gelegenheiten für taktische Flankenmanöver.
+
+Die Vertikalität ermöglicht es Marcus Fenix, Dominic Santiago und dem Rest des Bravo-Trupps, Gebäude zu erklimmen, über bröckelnde Balkone zu navigieren und das Feuer aus erhöhten Positionen zu eröffnen. Dies ist besonders tödlich in Kombination mit Präzisionswaffen wie dem Longshot.
+
+<Steps>
+  <Step num="1" title="Erhöhte Pfade identifizieren">
+    Scanne die Umgebung nach strukturellen Anomalien wie Feuertreppen, herabhängenden Rohren oder halb eingestürzten Dächern, die nach oben führen.
+  </Step>
+  <Step num="2" title="Den Sprung ausführen">
+    Baue mit einem Sprint Schwung auf und drücke in der Nähe einer Kante die Sprungtaste, um über strukturelle Lücken zu springen oder auf tiefere Dächer hinabzufallen.
+  </Step>
+  <Step num="3" title="Vorteil der erhöhten Position sichern">
+    Nutze deine erhöhte Position, um versteckte Feinde auszumachen, Locust-Kräfte aus ihrer Deckung zu treiben oder deinen Trupp zu unterstützen.
+  </Step>
+  <Step num="4" title="Sicher umpositionieren">
+    Wenn du durch feindliches Mörserfeuer oder schwere Waffen unter Druck gerätst, rutsche zurück in bodennahe Deckung oder lasse dich durch eine eingebrochene Decke fallen, um zu entkommen.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Tipp für vertikales Flankieren">
+Blicke immer nach oben, wenn du eine neue Kampfarena in Kalona betrittst. Viele Gefechte bieten vertikale Flankenrouten, auf denen du schwere Frontalverteidigungen komplett umgehen kannst, was deinem Trupp einen sofortigen taktischen Vorteil verschafft.
+</Callout>
+
+Das Springen ist keine schwerelose Arcade-Mechanik. Es ist ein schwerer, physischer Sprung, der Timing und Schwung erfordert. Ein falsches Timing bei einem Sprung über eine Lücke zwischen Hochhäusern kann zu einem tödlichen Absturz führen oder dich dem feindlichen Feuer völlig schutzlos ausliefern.
+
+</Section>
+
+<Section icon={Shield} title="Deckungsübergänge und die Dynamik der Mikro-Zerstörung">
+
+Das „Kampfpuzzle“ von Gears bestand schon immer darin, von Deckung zu Deckung zu wechseln. In Gears of War: E-Day wird dieses System durch flüssigere Deckungsübergänge und die Einführung von Mikro-Zerstörung verbessert. Deckung ist kein dauerhafter Zufluchtsort mehr. Schweres feindliches Feuer, Explosionen und auftauchende Locust-Kräfte können Betonsäulen, Holzkisten und Ziegelwände zersetzen.
+
+Das bedeutet, dass Spieler ihre Positionierung ständig anpassen müssen. Das Rutschen unter niedrigen Hindernissen, der Übergang um enge Ecken und die Nutzung temporärer, bodennaher Deckungen sind lebenswichtige Fähigkeiten.
+
+| Deckungsmaterial | Haltbarkeit | Optimale Fortbewegungsaktion |
+| :--- | :--- | :--- |
+| **Verstärkter Stahl** | Hoch (Unzerstörbar) | Sicher für längeres Blindfeuer und Wall-Bouncing |
+| **Beton/Stein** | Mittel (Baut sich langsam ab) | Gut für temporäre Positionen; wegrutschen vor dem Einsturz |
+| **Holz/Trockenbauwand** | Niedrig (Bricht schnell) | Nur für schnelles Durchrutschen nutzen; nicht campen |
+| **Sandsäcke** | Mittel (Verformt sich unter Beschuss) | Geeignet für flache Übergänge und Hechtsprünge |
+
+<Callout type="warning" title="Warnung vor zerstörbarer Deckung">
+Bleibe niemals zu lange hinter Holz- oder leichten Beton-Deckungen. Die Mikro-Zerstörung entzieht dir schnell deinen Schutz und setzt dich direktem feindlichen Feuer aus. Nutze Rutschübergänge, um zu verstärkten Strukturen zu wechseln, bevor deine Deckung zusammenbricht.
+</Callout>
+
+Um ständige Bewegung zu erleichtern, führt das Spiel die Möglichkeit ein, aus dem Sprint heraus direkt unter niedrigen Rohren, umgestürzten Balken oder durch niedrige Fenster zu rutschen. So behältst du eine hohe Geschwindigkeit bei, während du dein Profil so flach wie möglich hältst, was dich zu einem weitaus schwierigeren Ziel für Locust-Scharfschützen macht.
+
+</Section>
+
+<Section icon={Target} title="Trupp-Fortbewegung in Kampagne und Horde-Belagerung">
+
+Fortbewegung ist keine Solo-Angelegenheit. In der kooperativen Kampagne und dem gewaltigen Horde-Belagerungsmodus für 12 Spieler ist die koordinierte Bewegung im Trupp der Schlüssel zum Erfolg. Die Horde-Belagerung teilt die Spieler in drei 4-Spieler-Trupps auf, die jeweils unterschiedliche Sektoren von Kalona verteidigen. Deine Klassenwahl beeinflusst direkt deine Bewegungsgeschwindigkeit, deine Fortbewegungsfähigkeiten und deine Rolle im Kampf.
+
+Um erfolgreich zu sein, müssen Trupps ihre Bewegungen synchronisieren, Kreuzfeuer einrichten und klassenspezifische Fortbewegungsstrategien nutzen, um den Boden effizient zu sichern.
+
+<CardGrid cols={3}>
+  <Card title="Brecher-Fortbewegung">
+    - **Aggressives Rutschen**, um Distanzen schnell zu überbrücken.
+    - Optimiert für Sprünge über niedrige Deckungen und Nahkämpfe mit der Schrotflinte.
+    - Entwickelt, um Vorstöße anzuführen und verschanzte Feinde aufzuspüren.
+  </Card>
+  <Card title="Scharfschützen-Positionierung">
+    - Konzentriert sich auf das Erklimmen von Dächern und das Sichern erhöhter Balkone.
+    - Nutzt vertikale Fortbewegung, um weitreichende Sichtlinien aufzubauen.
+    - Bleibt hinter verstärkter Deckung stationär, um die Frontlinie zu unterstützen.
+  </Card>
+  <Card title="Sanitäter-Mobilität">
+    - Nutzt schnelle Deckungsübergänge, um verletzte Verbündete zu erreichen.
+    - Schnelle Erholung nach dem Rutschen oder dem Springen über Hindernisse.
+    - Agiert im Mittelfeld und wechselt schnell zwischen den Trupps.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Koop-Synchronisation">
+Koordiniert eure Fortbewegungswege beim Spielen der Horde-Belagerung. Lasst eure Brecher die Aufmerksamkeit der Feinde im Erdgeschoss auf sich ziehen, während eure Scharfschützen auf erhöhte Balkone springen, um kontinuierlich Feuerschutz zu geben.
+</Callout>
+
+Weitere Informationen zur Vorbereitung deines Trupps auf den Start findest du auf der [offiziellen Xbox E-Day-Seite](https://www.xbox.com/en-US/games/gears-of-war-eday) sowie in den Details zum Mehrspielermodus.
+
+</Section>
+
+<Section icon={Swords} title="Kompetitive Versus-Bewegung & die Evolution des Wall-Bouncings">
+
+Für kompetitive Spieler ist das mechanische Gefühl im PvP alles. Die klassische „Wall-Bouncing“-Technik – bei der Spieler Rutschmanöver zwischen nahen Wänden schnell abbrechen, um Gegner zu verwirren – ist seit Jahrzehnten ein Eckpfeiler des Gears-Mehrspielermodus. In Gears of War: E-Day verfeinert die modernisierte Physik-Engine diese klassische Mechanik und führt gleichzeitig neue Variablen ein.
+
+Da die Bewegung physischer ist, erfordert das Wall-Bouncing ein präziseres Timing. Spieler können die Richtung nicht mehr sofort ändern, ohne den Schwung zu berücksichtigen, aber das Hinzufügen von Sprüngen und dem Rutschen unter niedrigen Hindernissen eröffnet völlig neue kompetitive Bewegungstechniken.
+
+| Technik-Name | Ausführungsmethode | Taktischer Vorteil |
+| :--- | :--- | :--- |
+| **Sprint-Rutschen darunter** | Sprinten und Rutschen unter niedrigen Hindernissen einleiten | Feindliche Sichtlinie brechen, schnelle Flanken sichern |
+| **Dachsprung** | Auf eine Kante zulaufen und über strukturelle Lücken springen | Vertikale Winkel mit Präzisionswaffen aufbauen |
+| **Sprung über niedrige Deckung** | Schneller Hechtsprung über beschädigte, flache Barrieren | Vorwärtsdrang bei Angriffen auf kurze Distanz beibehalten |
+| **Kurvenrutschen** | Das Rutschen um enge Ecken in Deckung abwinkeln | Gefährdung beim Entkommen aus schwerem Kreuzfeuer minimieren |
+
+<Callout type="tip" title="Tipp für Versus-Bewegung">
+Übe die Kombination aus einem Sprint-Rutschen und einem sofortigen Sprung über eine niedrige Deckung. Dies ermöglicht es dir, feindliche Positionen in 4v4-Versus-Matches aggressiv zu attackieren, ohne in vorhersehbaren, geradlinigen Roadie-Runs erwischt zu werden.
+</Callout>
+
+Die völlig neuen Karten in den vom Krieg gezeichneten Straßen von Kalona sind so gestaltet, dass sie Spieler belohnen, die diese fortgeschrittenen Fortbewegungsoptionen meistern. Wenn du das Spiel vorbestellen und dir vorzeitigen Zugang sichern möchtest, um diese Mechaniken selbst zu testen, kannst du dir den Eintrag auf der [Gears of War: E-Day Steam-Shop-Seite](https://store.steampowered.com/app/3010850/Gears_of_War_EDay/) ansehen.
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste zur Bewegungsmeisterung & FAQ">
+
+Um sicherzustellen, dass du vollkommen bereit bist, das Schlachtfeld zu navigieren, wenn Gears of War: E-Day am 6. Oktober 2026 erscheint, nutze diese Checkliste, um deine mechanischen Fortschritte während der bevorstehenden offenen Beta ab dem 6. August 2026 zu verfolgen.
+
+<Checklist
+  id="movement-mastery"
+  title="Fortbewegungs-Meilensteine:"
+  items={[
+    "Meistere das Timing des neuen vertikalen Sprungs über Dächer",
+    "Führe im Kampf erfolgreich ein Sprint-Rutschen unter einem niedrigen Hindernis aus",
+    "Wechsle unter schwerem Beschuss flüssig zwischen bröckelnden Deckungen",
+    "Koordiniere erhöhte und bodennahe Positionierungen mit deinem Koop-Trupp",
+    "Passe deine Wall-Bouncing-Techniken an die aktualisierte Unreal Engine 5-Physik an"
+  ]}
+/>
+
+<Callout type="info" title="Erinnerung zum Beta-Zugang">
+Der Vorabzugang zur offenen Beta beginnt am 6. August 2026. Stelle sicher, dass du vorbestellst oder dein Game Pass-Abonnement sicherst, um diese Bewegungsmechaniken vor dem offiziellen weltweiten Start zu testen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie beeinflusst die neue Sprungmechanik den klassischen deckungsbasierten Kampf?",
+    answer: "Das Springen fügt Vertikalität hinzu, sodass Spieler Dächer und Balkone erreichen sowie über strukturelle Lücken springen können. Es ersetzt den Deckungskampf nicht, sondern erweitert ihn, indem es neue Flankenrouten und Vorteile durch erhöhte Positionen bietet."
+  },
+  {
+    question: "Ist Wall-Bouncing in Gears of War: E-Day immer noch möglich?",
+    answer: "Ja, Wall-Bouncing ist weiterhin ein zentraler Bestandteil des kompetitiven Versus-Erlebnisses. Die aktualisierte Physik-Engine erfordert jedoch, dass Spieler den Schwung berücksichtigen, was die Ausführung physischer macht und präzises Timing belohnt."
+  },
+  {
+    question: "Wie wirkt sich zerstörbare Deckung auf Bewegungsstrategien aus?",
+    answer: "Mikro-Zerstörung bedeutet, dass Deckung temporär ist. Das Verstecken hinter schwachen Materialien wie Holz oder leichtem Beton wird dich schnell ungeschützt zurücklassen, was dich dazu zwingt, Rutschübergänge zu nutzen, um dich zu verstärkten Stahl- oder Steinstrukturen umzupositionieren."
+  },
+  {
+    question: "Gibt es Unterschiede bei der Bewegung zwischen den PC- und Konsolenversionen?",
+    answer: "Das Spiel bietet vollständig optimierte Steuerungen sowohl für Controller als auch für Tastatur/Maus-Setups. Konsolenspieler können eine flüssige Fortbewegung auf der Xbox Series X|S genießen, während PC-Spieler die Tastenbelegung auf Steam anpassen können, um ihre Rutsch- und Sprungmanöver zu optimieren."
+  }
+]} />
+
+</Section>

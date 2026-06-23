@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armas de Gears of War: E-Day: Guia de Combate e Armas Confirmadas",
+  description: "Domine o arsenal de Gears of War: E-Day. Explore armas confirmadas como a Gnasher, Longshot e a nova Gut Puncher, além de mecânicas de combate e dicas de loadout.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ef1b24?text=E-Day+Weapons+Guide",
+  date: "2026-06-23",
+  author: "Equipe da Wiki de Gears of War: E-Day",
+  keywords: "gears of war e-day, armas, combate, gnasher, lancer, gut puncher, incinerador"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **As armas de Gears of War: E-Day** incluem clássicos que retornam, como a Gnasher e a Longshot, ao lado de novas adições como a Gut Puncher e o Incinerador.
+- **A Lancer de Serra Elétrica** aparece como um protótipo improvisado, refletindo sua origem no campo de batalha durante os primeiros dias da invasão Locust.
+- **Mecânicas modernizadas**, como pular, deslizar e microdestruição, alteram significativamente a forma como os jogadores utilizam a cobertura e as linhas de visão das armas.
+- **O Cerco da Horda (Horde Siege)** suporta 12 jogadores em três esquadrões, exigindo loadouts de armas diversos para as classes Assalto, Atirador, Médico e Invasor.
+- **A disponibilidade das armas** está confirmada para o lançamento em 6 de outubro de 2026 no Xbox Series X|S e PC.
+</Callout>
+
+<Section icon={Swords} title="Visão Geral do Arsenal do Dia da Emergência">
+
+O combate em Gears of War: E-Day representa um retorno às raízes da série, ao mesmo tempo em que introduz equipamentos que refletem um mundo pego de surpresa. Ao contrário da tecnologia militar refinada vista em títulos posteriores, as **armas de Gears of War: E-Day** são uma mistura de rifles padrão da CGO (COG) e protótipos desesperados modificados em campo. Os jogadores se encontrarão na cidade de Kalona, usando ferramentas que nunca foram projetadas para lutar contra monstros subterrâneos, mas que são rapidamente adaptadas para sobreviver à Horda Locust.
+
+O arsenal é dividido em três categorias principais: as favoritas dos fãs que retornam, ferramentas explosivas e elementais inéditas, e as versões de origem dos equipamentos icônicos dos Gears. Como o E-Day ocorre quatorze anos antes do jogo original, a tecnologia parece mais pesada, mais industrial e significativamente mais brutal.
+
+<Callout type="tip" title="Visão Tática">
+No E-Day, a escolha da arma é ditada pela nova verticalidade dos mapas. Sempre carregue uma ferramenta de precisão para snipers em telhados e uma arma de alto impacto para combate próximo em brechas de Buracos de Emergência (E-Holes).
+</Callout>
+
+| Classe de Arma | Função de Combate | Alcance de Engajamento | Utilidade Principal |
+| :--- | :--- | :--- | :--- |
+| **Escopetas** | Dominância CQC | Curto | Limpar cobertura, parar avanços |
+| **Rifles de Precisão** | Suporte de longo alcance | Longo | Contra-sniping, controle vertical |
+| **Explosivos** | Negação de área | Médio | Fechar E-Holes, penetração de armadura |
+| **Armas Pesadas** | Supressão | Médio/Longo | Dano em chefes, suporte de esquadrão |
+
+</Section>
+
+<Section icon={Target} title="Armas Confirmadas e Suas Funções Táticas">
+
+A The Coalition confirmou várias armas principais que definirão o meta tanto para o modo Campanha quanto para o Multijogador. Essas ferramentas foram projetadas para interagir com o novo sistema de microdestruição do jogo, onde o fogo sustentado pode desgastar a cobertura inimiga, eventualmente expondo os alvos atrás dela.
+
+<CardGrid cols={3}>
+  <Card title="Escopeta Gnasher">
+    - **Rei Clássico do CQC**: A ferramenta definitiva para combate a curta distância.
+    - **Alto Poder de Parada**: Capaz de despedaçar Drones com um único tiro bem colocado.
+    - **Jogo de Cobertura**: Essencial para o estilo de movimento "wall-bouncing".
+  </Card>
+  <Card title="Sniper Longshot">
+    - **Recompensas de Precisão**: Alto dano para tiros na cabeça de varandas ou telhados.
+    - **Foco em Verticalidade**: Reimaginada para as novas mecânicas de pulo e escalada.
+    - **Recarga Ativa**: O tempo é crucial para maximizar a cadência de tiro.
+  </Card>
+  <Card title="Lancer de Serra Elétrica">
+    - **O Protótipo**: Uma versão improvisada da arma icônica.
+    - **Utilidade de Curta Distância**: Usada para execuções brutais durante a invasão.
+    - **História de Origem**: Representa a primeira vez que uma serra elétrica foi montada em um rifle.
+  </Card>
+</CardGrid>
+
+A tabela a seguir fornece um detalhamento das armas padrão confirmadas disponíveis no lançamento:
+
+| Nome da Arma | Tipo de Munição | Modo de Disparo | Melhor Contra |
+| :--- | :--- | :--- | :--- |
+| **Gnasher** | Bagos (Buckshot) | Ação de bombeio | Wretches, Drones, Berserkers |
+| **Longshot** | Calibre .50 | Ação de ferrolho | Snipers, Boomers, Oficiais |
+| **Lancer (Retro)** | Padrão | Automático | Grupos a média distância, supressão |
+| **Pistola Snub** | Padrão | Semiautomático | Último recurso, finalizações |
+| **Boltok** | Magnum | Revólver | Alvos de vida alta a média distância |
+
+<Callout type="warning" title="Gerenciamento de Munição">
+O E-Day foca no horror da invasão. Caixas de munição são mais escassas do que em jogos anteriores, fazendo com que cada tiro de Longshot ou Boltok conte para sua sobrevivência.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Novo Hardware: Gut Puncher e Incinerador">
+
+Gears of War: E-Day introduz duas adições significativas ao arsenal da CGO que mudam a forma como os jogadores lidam com encontros em grupo e ameaças blindadas. Essas armas são essenciais para gerenciar a escala massiva do modo Cerco da Horda de 12 jogadores.
+
+**A Gut Puncher**
+A Gut Puncher é um lançador de granadas especializado que dispara projéteis explosivos perfurantes. Ao contrário da Granada de Fragmentação padrão, a Gut Puncher permite a detonação controlada pelo jogador. Isso significa que você pode disparar um projétil atrás da cobertura de um inimigo e detoná-lo manualmente para forçá-lo a sair. É particularmente eficaz contra as novas variantes "Ferais" dos inimigos Locust.
+
+**O Incinerador**
+Como uma escopeta movida a Imulsão, o Incinerador oferece uma alternativa aterradora à Gnasher. Em vez de projéteis físicos, ele dispara um cone de vapor de Imulsão superaquecido. Esta arma foi projetada para "negação de área", deixando manchas de fogo no chão que causam dano a qualquer Locust que tente atravessar.
+
+**Destaques das Mecânicas das Armas:**
+- **Detonação Controlada**: Os projéteis da Gut Puncher podem ser cronometrados para explosões no ar.
+- **Dano Persistente**: O fogo do Incinerador persiste por vários segundos.
+- **Interação Ambiental**: Explosivos podem desencadear sumidouros ou colapsar varandas frágeis.
+
+| Nova Arma | Função Principal | Recurso Especial | Vantagem Tática |
+| :--- | :--- | :--- | :--- |
+| **Gut Puncher** | Suporte Explosivo | Detonação Remota | Ignora coberturas tradicionais |
+| **Incinerador** | Negação de Área | Rastros de Fogo | Para enxames de Wretches imediatamente |
+
+<Callout type="success" title="Dica Pro">
+Use a Gut Puncher para colapsar os tetos acima dos esquadrões Locust. O sistema de microdestruição permite que você use o ambiente como arma de forma mais eficaz do que nunca.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Combate e Integração de Movimento">
+
+A eficácia das **armas de Gears of War: E-Day** está diretamente ligada ao sistema de movimento modernizado. Pela primeira vez, Marcus e Dom podem pular e realizar flanqueamentos verticais, o que altera o valor de armas de longo alcance como a Longshot.
+
+<Checklist
+  id="combat-mechanics"
+  title="Novas Prioridades de Combate:"
+  items={[
+    "Domine a nova transição de deslizar para cobertura para reposicionamento rápido",
+    "Use o pulo para alcançar posições de sniper elevadas nos telhados de Kalona",
+    "Atinja pontos fracos ambientais para desencadear microdestruição",
+    "Coordene explosões de Gut Puncher com membros do esquadrão no Cerco da Horda",
+    "Feche E-Holes imediatamente usando granadas ou fogo explosivo pesado"
+  ]}
+/>
+
+A interação entre as armas e o ambiente é um pilar central de E-Day. Sumidouros podem engolir veículos inteiros, e E-Holes podem surgir em qualquer lugar, forçando os jogadores a mudar da precisão de longo alcance para a defesa frenética a curta distância em segundos.
+
+| Mecânica | Impacto na Jogabilidade | Utilidade Estratégica |
+| :--- | :--- | :--- |
+| **Pulo/Verticalidade** | Abre novas rotas de flanqueamento | Alcançar pontos altos para snipers |
+| **Microdestruição** | A cobertura não é mais permanente | Forçar inimigos a sair da segurança |
+| **E-Holes** | Pontos dinâmicos de spawn de inimigos | Exige resposta explosiva imediata |
+| **Deslizar para Correr** | Travessia de mapa mais rápida | Fechar a distância para uso da Gnasher |
+
+</Section>
+
+<Section icon={Map} title="Estratégia de Loadout para Campanha e Multijogador">
+
+Escolher o loadout certo é crítico, especialmente ao jogar com um esquadrão. Seja enfrentando a campanha online para 4 jogadores ou o Cerco da Horda para 12 jogadores, equilibrar seus tipos de armas garante que seu time possa lidar com qualquer ameaça.
+
+<Steps>
+  <Step num="1" title="Avalie o Ambiente">
+    Identifique se a próxima área é uma rua residencial estreita ou uma praça aberta como o Estádio de Esportes de Kalona. Áreas abertas exigem uma Longshot, enquanto as ruas favorecem a Gnasher.
+  </Step>
+  <Step num="2" title="Defina sua Função no Esquadrão">
+    No Cerco da Horda, garanta que você tenha pelo menos um Invasor com um Incinerador para controle de multidão e um Atirador com uma Longshot para alvos de alto valor.
+  </Step>
+  <Step num="3" title="Equipe-se para E-Holes">
+    Sempre garanta que pelo menos dois membros do esquadrão carreguem explosivos. A Gut Puncher é a ferramenta mais eficiente para fechar E-Holes de uma distância segura.
+  </Step>
+  <Step num="4" title="Utilize a Verticalidade">
+    Se o mapa tiver varandas, peça para um jogador ocupar o terreno alto com um rifle de precisão para fornecer cobertura enquanto os outros três avançam para o objetivo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Classes do Cerco da Horda">
+Cada classe no Cerco da Horda tem afinidades com armas. A classe **Assalto** se destaca com a Lancer e a Gnasher, enquanto o **Invasor** é a única classe que pode maximizar o potencial de dano de fogo do Incinerador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais são as melhores armas de Gears of War: E-Day para iniciantes?",
+    answer: "A Gnasher e a Lancer padrão são as escolhas mais confiáveis. A Gnasher oferece segurança em encontros próximos, enquanto o fogo automático da Lancer é perfeito para aprender o ritmo de cobertura do jogo."
+  },
+  {
+    question: "A Lancer de Serra Elétrica está disponível desde o início da campanha?",
+    answer: "Não. A campanha segue a origem da Lancer de Serra Elétrica. Os jogadores provavelmente começarão com a Retro Lancer (com baioneta) e desbloquearão a versão de serra elétrica improvisada conforme a história progride pelos três dias em Kalona."
+  },
+  {
+    question: "Qual a diferença entre a Gut Puncher e o Boomshot?",
+    answer: "Enquanto o Boomshot é uma arma pesada com alto dano de área, a Gut Puncher é mais tática. Ela permite a detonação controlada pelo jogador, tornando-a melhor para trabalhos explosivos de precisão e para tirar inimigos de trás de coberturas indestrutíveis."
+  },
+  {
+    question: "Posso usar o Incinerador no PvP Versus?",
+    answer: "Sim, o Incinerador está disponível no PvP Versus como uma arma de poder para coleta. É altamente eficaz para controlar objetivos em modos como Rei do Pedaço devido ao seu dano de fogo persistente."
+  }
+]} />
+
+</Section>
