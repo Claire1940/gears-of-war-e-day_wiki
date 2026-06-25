@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gears of War E-Day Split Screen: Co-Op Setup Guide",
+  description: "Configure Gears of War E-Day split screen. Learn campaign couch co-op setups, crossplay rules, and Horde Siege configurations for Xbox and PC.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1b1b1b/fff?text=Split+Screen+Guide",
+  date: "2026-06-26",
+  author: "gears of war e-day Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gears of War E-Day split screen** offers two-player local campaign support on Xbox Series X/S consoles.
+- **Cross-platform play** allows console players to team up with PC players for online cooperative sessions.
+- **Horde Siege mode** features revamped PvE mechanics designed for coordinated squad-based defensive play.
+- **Marcus and Dom** return as the main characters, providing classic tactical tandem gameplay dynamics.
+</Callout>
+
+<Section icon={Swords} title="Co-Op Features and Game Modes">
+
+The return of Marcus Fenix and Dominic Santiago in this origin story brings classic tactical gameplay back to the forefront. Set fourteen years before the original game, players witness the initial chaos of Emergence Day. Cooperative play remains a core pillar of the experience, allowing two players to fight side-by-side through the campaign.
+
+Understanding how to set up your session is crucial for the best cooperative experience. The game offers distinct modes tailored for both local couch play and online matchmaking.
+
+| Mode | Max Players | Local Split-Screen | Crossplay Support |
+| :--- | :--- | :--- | :--- |
+| **Campaign** | 2 Players | Supported (Xbox) | Supported |
+| **Horde Siege** | 5 Players | Supported (Xbox) | Supported |
+| **Versus PvP** | 10 Players | Supported (Xbox) | Supported |
+
+<Callout type="warning" title="Performance Impact">
+Running local split-screen increases hardware demand. Xbox Series X targets high performance, but resolution scaling may adjust dynamically during intense combat scenes.
+</Callout>
+
+The campaign focuses heavily on the bond between Marcus and Dom. This narrative choice translates directly into cooperative mechanics, where flanking, reviving, and shared ammunition management are essential for survival against the Locust threat.
+
+</Section>
+
+<Section icon={Map} title="Gears of War E-Day Split Screen Setup">
+
+Setting up local play requires proper controller synchronization and profile assignment. The console version supports a seamless drop-in, drop-out system, allowing a second player to join the action without losing campaign progress.
+
+To ensure a smooth setup process, follow these steps to configure your second controller and sign in correctly.
+
+<Steps>
+  <Step num="1" title="Connect Controllers">
+    Turn on the second Xbox controller and sync it with your Xbox Series console.
+  </Step>
+  <Step num="2" title="Assign Profiles">
+    Sign the second controller into a separate Xbox profile or select a guest account.
+  </Step>
+  <Step num="3" title="Launch Campaign">
+    Start the main campaign from the host profile and enter the gameplay lobby.
+  </Step>
+  <Step num="4" title="Join Game">
+    Press the Menu button on the second controller to join the active lobby session.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Profile Saving">
+Using a registered secondary profile instead of a guest account ensures that collectible progress and achievements are saved for both players.
+</Callout>
+
+The visual presentation adjusts automatically when the second player joins. The screen splits horizontally to preserve the wider field of view necessary for tracking incoming enemies.
+
+| Aspect | Horizontal Split | Vertical Split |
+| :--- | :--- | :--- |
+| **Field of View** | Wider horizontal view | Better vertical awareness |
+| **UI Layout** | Compact HUD elements | Stacked HUD elements |
+| **Performance** | Optimized for 60 FPS | Optimized for 60 FPS |
+
+</Section>
+
+<Section icon={Shield} title="Crossplay and Platform Compatibility">
+
+The game supports cross-platform play between Xbox Series X/S and PC. This allows friends on different hardware to experience the campaign, Horde Siege, and Versus modes together. Save progression also carries over via cloud synchronization, allowing players to switch platforms easily.
+
+While crossplay is enabled by default, players can adjust matchmaking preferences in the settings menu to restrict matchmaking to their specific platform.
+
+<CardGrid cols={3}>
+  <Card title="Xbox Series X">
+    - **Native 4K resolution**
+    - High-performance target
+    - Full local split-screen
+  </Card>
+  <Card title="Xbox Series S">
+    - **1440p target resolution**
+    - Optimized performance
+    - Full local split-screen
+  </Card>
+  <Card title="PC Platform">
+    - **Uncapped framerates**
+    - Advanced graphics settings
+    - Online co-op support
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Crossplay Status">
+Cross-platform play is fully integrated. PC players can join Xbox hosts for online campaign runs and multiplayer matches without restrictions.
+</Callout>
+
+For PC players, local split-screen is typically not supported due to platform-specific input configurations. PC users must rely on online co-op to play with friends, whether those friends are on PC or Xbox consoles.
+
+| Feature | Xbox Series X | Xbox Series S | PC |
+| :--- | :--- | :--- | :--- |
+| **Split-Screen** | Supported | Supported | Not Supported |
+| **Target Resolution** | 4K | 1440p | Custom / Ultra |
+| **Target Framerate** | 60 FPS | 60 FPS | Uncapped |
+
+</Section>
+
+<Section icon={Trophy} title="Campaign and Horde Siege Strategy">
+
+Cooperative play requires coordination, especially on higher difficulty settings. Marcus and Dom possess distinct starting weapons that complement each other during combat encounters. Utilizing cover and crossfire is critical when dealing with aggressive Locust units.
+
+The new Horde Siege mode introduces defensive structures and waves of enemies that require constant communication. Players must allocate resources carefully to build barriers, turrets, and decoy units.
+
+| Character | Starting Loadout | Tactical Role |
+| :--- | :--- | :--- |
+| **Marcus Fenix** | Lancer, Snub Pistol | Frontline assault, suppressive fire |
+| **Dominic Santiago** | Retro Lancer, Snub Pistol | Flank support, close-quarters combat |
+
+<Callout type="info" title="Resource Sharing">
+In Horde Siege, energy collected from fallen enemies is shared among the squad. Coordinate with your team before purchasing expensive defense upgrades.
+</Callout>
+
+To get the most out of your cooperative sessions, aim to complete specific milestones that reward teamwork and unlock unique cosmetic items.
+
+<Checklist
+  id="coop-milestones"
+  title="Co-Op Progression Goals:"
+  items={[
+    "Complete the prologue chapter in co-op",
+    "Execute 50 synchronized active reloads",
+    "Revive your partner 20 times in battle",
+    "Survive 10 consecutive waves in Horde Siege"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<Callout type="tip" title="Community Support">
+For the latest updates on patch notes and performance hotfixes, consult the official developer channels and community forums.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Does Gears of War E-Day split screen support PC players?",
+    answer: "No, local split-screen is exclusive to the Xbox Series X and Xbox Series S versions. PC players must use online co-op to play with others."
+  },
+  {
+    question: "What is the official release date for the game?",
+    answer: "The game is scheduled for release on October 6, 2026, developed by The Coalition and published by Xbox Game Studios."
+  },
+  {
+    question: "Can we play Horde Siege mode in local split-screen?",
+    answer: "Yes, Xbox Series console players can play Horde Siege in local split-screen, and they can also fill the remaining squad slots with online players."
+  },
+  {
+    question: "Is crossplay enabled for all multiplayer modes?",
+    answer: "Yes, crossplay is fully supported across Campaign, Horde Siege, and Versus PvP modes between Xbox Series consoles and PC."
+  }
+]} />
+
+</Section>

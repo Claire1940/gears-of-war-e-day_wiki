@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gears of War E-Day Horden-Belagerung: Details zum 12-Spieler-PvE-Modus",
+  description: "Entdecke den neuen Gears of War E-Day Horden-Belagerungsmodus. Ein 12-Spieler-PvE-Erlebnis mit drei Trupps, die die Stadt Kalona gegen die Locust verteidigen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/ffffff?text=Horde+Siege+Guide",
+  date: "2026-06-26",
+  author: "gears of war e-day Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Horden-Belagerung** (Horde Siege) ist eine gewaltige PvE-Erweiterung für 12 Spieler des klassischen Gears of War-Überlebensmodus.
+- **Drei Trupps** aus je vier Spielern müssen sich in großflächigen städtischen Umgebungen koordinieren, um zu überleben.
+- **Die Verteidigung von Kalona** dient als Hauptschauplatz und bietet Vertikalität sowie zerstörbare Stadtlandschaften.
+- **Neue Gegner** umfassen riesige, ungerüstete Brumak-ähnliche Kreaturen und spezialisierte Belagerungseinheiten der Locust.
+- **Fortschrittssysteme** werden voraussichtlich die tiefgehende Anpassung widerspiegeln, die man aus früheren Horde-Iterationen kennt.
+</Callout>
+
+<Section icon={Map} title="Einführung in Gears of War E-Day Horden-Belagerung">
+
+Die Enthüllung von **Gears of War E-Day Horden-Belagerung** (Horde Siege) stellt eine bedeutende Veränderung im kooperativen Gameplay der Reihe dar. Im Gegensatz zum traditionellen Überlebensmodus für fünf Spieler skaliert diese neue Iteration den Konflikt auf einen Kriegsschauplatz für 12 Spieler. Angesiedelt in den ersten Stunden des Emergence Day, müssen die Spieler die Stadt Kalona verteidigen – ein urbanes Zentrum, das das schiere Ausmaß der Locust-Invasion verdeutlicht.
+
+Der Zusatz „Belagerung“ (Siege) deutet auf eine dynamischere, zielbasierte Struktur im Vergleich zum statischen Basisbau aus Gears 4 und 5 hin. Anstatt einfach nur einen einzelnen „Fabrikator“-Punkt zu halten, legt die Spielerzahl von 12 Spielern nahe, dass sich die Trupps aufteilen und mehrere Sektoren der Stadt gleichzeitig erobern und verteidigen müssen.
+
+| Feature | Klassische Horde (Gears 5) | Horden-Belagerung (E-Day) |
+| :--- | :--- | :--- |
+| **Spieleranzahl** | 5 Spieler | **12 Spieler** |
+| **Teamstruktur** | Einzelner Trupp | **3 Trupps à 4 Spieler** |
+| **Umgebung** | Karten im Arena-Stil | **Riesige Stadtbezirke** |
+| **Hauptziel** | Wellen-Überleben | **Stadtverteidigung & Evakuierung** |
+| **Maßstab** | Taktisches Scharmützel | **Großflächiger Häuserkampf** |
+
+<Callout type="tip" title="Strategische Erkenntnis">
+Die Koordination zwischen den drei Trupps ist entscheidend. Während ein Trupp einen zentralen Platz hält, müssen die anderen möglicherweise Flankenrouten oder Aussichtspunkte auf Dächern sichern, um eine Einkreisung durch die Locust zu verhindern.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Trupp-Mechaniken und Team-Synergie">
+
+Der Kern von **Gears of War E-Day Horden-Belagerung** liegt in seiner einzigartigen truppbasierten Architektur. Durch die Aufteilung von 12 Spielern in drei verschiedene Trupps ermöglicht das Spiel spezialisierte Rollen, die zuvor durch kleinere Teamgrößen eingeschränkt waren. Erste Berichte deuten darauf hin, dass sich jeder Trupp auf einen bestimmten Aspekt der Verteidigung konzentrieren könnte, wie z. B. Frontkampf, Technik/Befestigung oder Fernkampfunterstützung.
+
+Diese Dynamik für 12 Spieler erinnert an groß angelegte PvE-Modi aus anderen großen Shootern wie Halos Warzone-Feuergefecht, jedoch mit dem charakteristischen „Gewicht“ und den deckungsbasierten Mechaniken von Gears of War. Die Synergie zwischen den Trupps wird wahrscheinlich über einen gemeinsamen Ressourcenpool oder eine einheitliche Fortschrittsleiste während des Spiels verfolgt.
+
+| Trupp-Rolle | Hauptfokus | Hauptaufgaben |
+| :--- | :--- | :--- |
+| **Vorhut** | Frontlinien-Angriff | Aggro ziehen, Nahkampf (CQC), Tunnel säubern |
+| **Schildwache** | Gebietsabriegelung | Schwere Waffen, Geschützplatzierung, Tanken |
+| **Unterstützung** | Logistik & Heilung | Verbündete wiederbeleben, Munitionsnachschub, Markieren |
+| **Ingenieur** | Befestigungen | Barrieren reparieren, Köder bauen |
+
+<Callout type="warning" title="Trupp-Zusammenhalt">
+Wenn ein Trupp fällt, erhöht sich der Druck auf die verbleibenden acht Spieler drastisch. Die Beibehaltung einer „Brüder bis zum Ende“-Mentalität über alle 12 Spieler hinweg ist unerlässlich, um die späteren Wellen zu überleben.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Gemeinsame Ressourcen">
+    - **Einheitlicher Fabrikator**
+    - Gemeinsame Energie-Drops
+    - Globale Befestigungs-Upgrades
+  </Card>
+  <Card title="Taktische Kommunikation">
+    - **Truppspezifische Kanäle**
+    - Globales Ping-System
+    - Ansagen im Kommandanten-Stil
+  </Card>
+  <Card title="Gewaltiger Maßstab">
+    - **130 GB Installationsgröße**
+    - Hochwertige Stadt-Assets
+    - Zerstörbare Umgebungen
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Die Verteidigung von Kalona: Ein taktischer Schritt-für-Schritt-Ansatz">
+
+Die Verteidigung von Kalona in **Gears of War E-Day Horden-Belagerung** erfordert mehr als nur das Verharren hinter Deckungen. Das Layout der Stadt ist darauf ausgelegt, überrannt zu werden, was die Spieler dazu zwingt, sich auf sekundäre und tertiäre Verteidigungslinien zurückzuziehen, wenn der Druck der Locust zunimmt. Den Fluss der Stadt zu meistern, entscheidet über eine erfolgreiche Evakuierung oder die vollständige Auslöschung des Trupps.
+
+<Steps>
+  <Step num="1" title="Erste Aufstellung">
+    Identifiziert die drei primären Eintrittspunkte, an denen die Locust auftauchen. Verteilt die drei Trupps so, dass sie den nördlichen, östlichen und westlichen Sektor des Platzes abdecken.
+  </Step>
+  <Step num="2" title="Ressourcensammeln">
+    Sucht nach Energie und fallengelassenen Locust-Waffen. Nutzt die frühen, schwächeren Wellen, um eine Reserve an „Energie“ (Power) für hochstufige Befestigungen aufzubauen.
+  </Step>
+  <Step num="3" title="Engpässe befestigen">
+    Konzentriert euch auf enge Gassen und Treppenhäuser. Nutzt Laserdrähte und automatische Geschütze, um die riesigen, „Brumak-ähnlichen“ Ungetüme zu verlangsamen, die in den mittleren Wellen auftauchen.
+  </Step>
+  <Step num="4" title="Koordinierter Boss-Kampf">
+    Wenn ein Belagerungs-Boss erscheint, müssen alle 12 Spieler ihr Feuer fokussieren. Nutzt die Umgebung – wie einstürzende Gebäude oder Treibstofftanks –, um massiven lokalen Schaden zu verursachen.
+  </Step>
+  <Step num="5" title="Letztes Gefecht & Evakuierung">
+    Zieht euch in die letzte Evakuierungszone zurück. Haltet den Perimeter für die vorgegebene Zeit, bis KOR-Verstärkung oder King Ravens zur Abholung eintreffen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Profi-Tipp">
+Die Spielerzahl von 12 Spielern ermöglicht es, „die Flankierer zu flankieren“. Haltet immer mindestens zwei Spieler in einer mobilen, umherstreifenden Rolle bereit, um Trupps zu helfen, die von Tickers oder Wretches überwältigt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gegner-Aufklärung: Die Belagerungsvarianten">
+
+Die Locust-Streitkräfte in **Gears of War E-Day Horden-Belagerung** sind nicht dieselben wie in späteren Spielen. Da dies der E-Day ist, sind die Locust in ihrer wildesten und zahlreichsten Form. Berichte deuten auf die Präsenz einer „Brumak-ähnlichen“ Kreatur hin, der die traditionelle schwere Rüstung und die auf dem Rücken montierten Kanonen fehlen, was auf eine biologischere, ungezähmtere Version der Bestie schließen lässt.
+
+Diese Kreaturen fungieren als „Belagerungsbrecher“, die in der Lage sind, Befestigungen zu durchbrechen, die einen Standard-Infanteristen (Grunt) oder eine Drohne aufhalten würden. Die Spieler müssen ihre Taktiken anpassen, um mit diesen massiven Bedrohungen umzugehen, während sie gleichzeitig die schiere Menge der auf 12 Spieler skalierten Wellen bewältigen.
+
+| Gegnertyp | Bedrohungsstufe | Kampfhinweise |
+| :--- | :--- | :--- |
+| **Wilder Brumak** | **Kritisch** | Massiver Nahkampfschaden, hohe Gesundheit, keine Rüstung |
+| **Locust-Drohne** | Niedrig | Standard-Infanterie, nutzt Deckung effektiv |
+| **E-Loch (Emergence Hole)** | Mittel | Muss schnell mit Granaten/Sprengstoff geschlossen werden |
+| **Belagerungsbestie** | Hoch | Langstrecken-Artillerie, zielt auf Befestigungen |
+
+<Callout type="info" title="Lore-Hinweis">
+Da dies am E-Day stattfindet, wird die KOR völlig unvorbereitet getroffen. Rechnet damit, dass eure Startausrüstung begrenzt ist, was eine starke Abhängigkeit von Fundstücken auf dem Schlachtfeld und erbeuteter Locust-Technologie erzwingt.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritt und langfristige Ziele">
+
+Um das 12-Spieler-Erlebnis über Monate hinweg fesselnd zu gestalten, wird **Gears of War E-Day Horden-Belagerung** voraussichtlich über ein robustes Fortschrittssystem verfügen. Dazu gehören Klassen-Leveling, das Sammeln von Fähigkeitskarten und kosmetische Freischaltungen, die euren Veteranenstatus bei der Verteidigung von Kalona zeigen. Der „Grind“ is so konzipiert, dass er lohnend ist und bedeutende Machtschübe für höhere Schwierigkeitsgrade bietet.
+
+<Checklist
+  id="horde-siege-goals"
+  title="E-Day-Veteranen-Checkliste:"
+  items={[
+    "Erreicht Stufe 50 mit mindestens einer Trupp-Rolle",
+    "Verteidigt Kalona erfolgreich auf dem Schwierigkeitsgrad „Unvorstellbar“ (Inconceivable)",
+    "Schaltet die legendäre Fähigkeitskarte „Brüder bis zum Ende“ (Brother to the End) frei",
+    "Nehmt an einer fehlerfreien Wellenbereinigung mit 12 Spielern teil",
+    "Sammelt alle KOR-Marken (COG Tags), die in den Belagerungskarten versteckt sind"
+  ]}
+/>
+
+<Callout type="tip" title="Optimierung">
+Konzentriert euch zuerst darauf, eure „Aura“-Fähigkeiten zu verbessern. In einer Umgebung mit 12 Spielern bieten Fähigkeiten, die nahegelegene Teammitglieder stärken, exponentiell mehr Wert als rein egoistische Schadens-Buffs.
+</Callout>
+
+| Schwierigkeitsgrad | Multiplikator | Gegner-Änderungen |
+| :--- | :--- | :--- |
+| **Lässig** | 1.0x | Reduzierte Gesundheit, langsamere Reaktionszeiten |
+| **Hardcore** | 2.5x | Erhöhter Schaden, mehr Elite-Spawns |
+| **Wahnsinnig** | 5.0x | Tödlicher Schaden, aggressives Flankieren der KI |
+| **Unvorstellbar** | 10.0x | One-Shot-Kills, eingeschränktes HUD, maximale Aggressivität |
+
+</Section>
+
+<Section icon={Sparkles} title="Horden-Belagerung FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist Gears of War E-Day Horden-Belagerung ein separater Spielmodus?",
+    answer: "Nein, es ist ein Kern-PvE-Modus in Gears of War: E-Day, der als Ergänzung zur filmischen Kampagne und den traditionellen Multiplayer-Angeboten konzipiert ist."
+  },
+  {
+    question: "Kann ich die Horden-Belagerung mit weniger als 12 Spielern spielen?",
+    answer: "Obwohl der Modus für 12 Spieler in drei Trupps ausbalanciert ist, wird das Spiel wahrscheinlich eine Spielersuche (Matchmaking) beinhalten, um Plätze zu füllen, oder es kleineren Gruppen ermöglichen, die Herausforderung mit KI-Bots zu versuchen."
+  },
+  {
+    question: "Hängt die Installationsgröße von 130 GB mit den Horden-Belagerungskarten zusammen?",
+    answer: "Ja, die riesigen Stadtumgebungen von Kalona und die hochauflösenden Assets, die für das Chaos mit 12 Spielern erforderlich sind, tragen erheblich zum gesamten Speicherplatzbedarf des Spiels bei."
+  },
+  {
+    question: "Gibt es Boss-Wellen in diesem 12-Spieler-Modus?",
+    answer: "Ja, die Horden-Belagerung bietet gewaltige Boss-Begegnungen, einschließlich ungerüsteter Brumaks und anderer großflächiger Locust-Bedrohungen, bei denen alle 12 Spieler ihr Feuer koordinieren müssen."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Die Einführung eines Belagerungsmodus für 12 Spieler ist genau das, was die Gears-Franchise braucht, um ihre PvE-Szene wiederzubeleben. Durch den Fokus auf das Chaos des E-Day und den Maßstab der Stadtverteidigung ist Gears of War: E-Day bestrebt, das intensivste Koop-Erlebnis in der Geschichte der Reihe zu liefern.
+</Callout>
+
+</Section>

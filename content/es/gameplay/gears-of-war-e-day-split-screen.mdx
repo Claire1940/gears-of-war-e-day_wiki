@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pantalla dividida en Gears of War: E-Day: Guía de configuración cooperativa",
+  description: "Configura la pantalla dividida en Gears of War: E-Day. Aprende a configurar el cooperativo local de la campaña, las reglas de juego cruzado y el modo Asedio de la Horda para Xbox y PC.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1b1b1b/fff?text=Split+Screen+Guide",
+  date: "2026-06-26",
+  author: "Equipo de la Wiki de Gears of War: E-Day"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **pantalla dividida en Gears of War: E-Day** ofrece soporte para campaña local de dos jugadores en consolas Xbox Series X/S.
+- El **juego cruzado** permite a los jugadores de consola formar equipo con jugadores de PC para sesiones cooperativas en línea.
+- El **modo Asedio de la Horda** presenta mecánicas PvE renovadas diseñadas para un juego defensivo coordinado en escuadrón.
+- **Marcus y Dom** regresan como los personajes principales, ofreciendo la clásica dinámica de juego táctico en pareja.
+</Callout>
+
+<Section icon={Swords} title="Características cooperativas y modos de juego">
+
+El regreso de Marcus Fenix y Dominic Santiago en esta historia de origen trae de vuelta el clásico juego táctico a primer plano. Ambientado catorce años antes del juego original, los jugadores son testigos del caos inicial del Día de la Emergencia. El juego cooperativo sigue siendo un pilar fundamental de la experiencia, permitiendo que dos jugadores luchen codo con codo a lo largo de la campaña.
+
+Comprender cómo configurar tu sesión es crucial para disfrutar de la mejor experiencia cooperativa. El juego ofrece distintos modos adaptados tanto para el juego local en el sofá como para el emparejamiento en línea.
+
+| Modo | Máx. jugadores | Pantalla dividida local | Soporte de juego cruzado |
+| :--- | :--- | :--- | :--- |
+| **Campaña** | 2 Jugadores | Soportado (Xbox) | Soportado |
+| **Asedio de la Horda** | 5 Jugadores | Soportado (Xbox) | Soportado |
+| **Versus PvP** | 10 Jugadores | Soportado (Xbox) | Soportado |
+
+<Callout type="warning" title="Impacto en el rendimiento">
+Ejecutar la pantalla dividida local aumenta la demanda de hardware. Xbox Series X apunta a un alto rendimiento, pero la escala de resolución puede ajustarse dinámicamente durante las escenas de combate intensas.
+</Callout>
+
+La campaña se centra en gran medida en el vínculo entre Marcus y Dom. Esta elección narrativa se traduce directamente en mecánicas cooperativas, donde flanquear, revivir y la gestión compartida de la munición son esenciales para sobrevivir a la amenaza Locust.
+
+</Section>
+
+<Section icon={Map} title="Configuración de la pantalla dividida en Gears of War: E-Day">
+
+Configurar el juego local requiere una sincronización adecuada del mando y la asignación de perfiles. La versión de consola admite un sistema fluido de entrada y salida rápida, lo que permite que un segundo jugador se una a la acción sin perder el progreso de la campaña.
+
+Para garantizar un proceso de configuración sin contratiempos, sigue estos pasos para configurar tu segundo mando e iniciar sesión correctamente.
+
+<Steps>
+  <Step num="1" title="Conectar mandos">
+    Enciende el segundo mando de Xbox y sincronízalo con tu consola Xbox Series.
+  </Step>
+  <Step num="2" title="Asignar perfiles">
+    Inicia sesión con el segundo mando en un perfil de Xbox independiente o selecciona una cuenta de invitado.
+  </Step>
+  <Step num="3" title="Iniciar campaña">
+    Inicia la campaña principal desde el perfil del anfitrión y accede a la sala de juego.
+  </Step>
+  <Step num="4" title="Unirse al juego">
+    Presiona el botón Menú en el segundo mando para unirte a la sesión de la sala activa.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Guardado de perfiles">
+Usar un perfil secundario registrado en lugar de una cuenta de invitado garantiza que el progreso de los coleccionables y los logros se guarden para ambos jugadores.
+</Callout>
+
+La presentación visual se ajusta automáticamente cuando se une el segundo jugador. La pantalla se divide horizontalmente para conservar el campo de visión más amplio necesario para rastrear a los enemigos que se aproximan.
+
+| Aspecto | División horizontal | División vertical |
+| :--- | :--- | :--- |
+| **Campo de visión** | Vista horizontal más amplia | Mejor percepción vertical |
+| **Diseño de la interfaz** | Elementos del HUD compactos | Elementos del HUD apilados |
+| **Rendimiento** | Optimizado para 60 FPS | Optimizado para 60 FPS |
+
+</Section>
+
+<Section icon={Shield} title="Juego cruzado y compatibilidad de plataformas">
+
+El juego admite el juego cruzado entre Xbox Series X/S y PC. Esto permite a amigos en diferentes plataformas experimentar juntos la campaña, el Asedio de la Horda y los modos Versus. El progreso de guardado también se transfiere a través de la sincronización en la nube, lo que permite a los jugadores cambiar de plataforma fácilmente.
+
+Aunque el juego cruzado está habilitado por defecto, los jugadores pueden ajustar las preferencias de emparejamiento en el menú de configuración para restringir el emparejamiento a su plataforma específica.
+
+<CardGrid cols={3}>
+  <Card title="Xbox Series X">
+    - **Resolución 4K nativa**
+    - Objetivo de alto rendimiento
+    - Pantalla dividida local completa
+  </Card>
+  <Card title="Xbox Series S">
+    - **Resolución objetivo de 1440p**
+    - Rendimiento optimizado
+    - Pantalla dividida local completa
+  </Card>
+  <Card title="Plataforma PC">
+    - **Tasas de fotogramas ilimitadas**
+    - Configuración de gráficos avanzada
+    - Soporte para cooperativo en línea
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estado del juego cruzado">
+El juego multiplataforma está totalmente integrado. Los jugadores de PC pueden unirse a los anfitriones de Xbox para partidas de campaña en línea y partidas multijugador sin restricciones.
+</Callout>
+
+Para los jugadores de PC, la pantalla dividida local normalmente no es compatible debido a las configuraciones de entrada específicas de la plataforma. Los usuarios de PC deben confiar en el cooperativo en línea para jugar con amigos, ya sea que estén en PC o en consolas Xbox.
+
+| Característica | Xbox Series X | Xbox Series S | PC |
+| :--- | :--- | :--- | :--- |
+| **Pantalla dividida** | Soportado | Soportado | No soportado |
+| **Resolución objetivo** | 4K | 1440p | Personalizada / Ultra |
+| **Tasa de fotogramas objetivo** | 60 FPS | 60 FPS | Ilimitada |
+
+</Section>
+
+<Section icon={Trophy} title="Estrategia para la campaña y el Asedio de la Horda">
+
+El juego cooperativo requiere coordinación, especialmente en los niveles de dificultad más altos. Marcus y Dom poseen armas iniciales distintas que se complementan entre sí durante los enfrentamientos de combate. Utilizar la cobertura y el fuego cruzado es fundamental al enfrentarse a las agresivas unidades Locust.
+
+El nuevo modo Asedio de la Horda introduce estructuras defensivas y oleadas de enemigos que requieren una comunicación constante. Los jugadores deben asignar los recursos con cuidado para construir barreras, torretas y unidades señuelo.
+
+| Personaje | Equipamiento inicial | Rol táctico |
+| :--- | :--- | :--- |
+| **Marcus Fenix** | Lancer, pistola Snub | Asalto en primera línea, fuego de supresión |
+| **Dominic Santiago** | Retro Lancer, pistola Snub | Soporte de flanco, combate a corta distancia |
+
+<Callout type="info" title="Compartir recursos">
+En Asedio de la Horda, la energía recogida de los enemigos caídos se comparte entre el escuadrón. Coordínate con tu equipo antes de comprar mejoras de defensa costosas.
+</Callout>
+
+Para aprovechar al máximo tus sesiones cooperativas, intenta completar hitos específicos que recompensan el trabajo en equipo y desbloquean objetos cosméticos únicos.
+
+<Checklist
+  id="coop-milestones"
+  title="Objetivos de progreso cooperativo:"
+  items={[
+    "Completa el capítulo del prólogo en cooperativo",
+    "Realiza 50 recargas activas sincronizadas",
+    "Revive a tu compañero 20 veces en batalla",
+    "Sobrevive a 10 oleadas consecutivas en Asedio de la Horda"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<Callout type="tip" title="Soporte de la comunidad">
+Para obtener las últimas actualizaciones sobre las notas del parche y correcciones de rendimiento, consulta los canales oficiales de los desarrolladores y los foros de la comunidad.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿La pantalla dividida de Gears of War: E-Day es compatible con PC?",
+    answer: "No, la pantalla dividida local es exclusiva de las versiones de Xbox Series X y Xbox Series S. Los jugadores de PC deben usar el cooperativo en línea para jugar con otros."
+  },
+  {
+    question: "¿Cuál es la fecha de lanzamiento oficial del juego?",
+    answer: "El lanzamiento del juego está programado para el 6 de octubre de 2026, desarrollado por The Coalition y publicado por Xbox Game Studios."
+  },
+  {
+    question: "¿Podemos jugar al modo Asedio de la Horda en pantalla dividida local?",
+    answer: "Sí, los jugadores de consolas Xbox Series pueden jugar al Asedio de la Horda en pantalla dividida local, y también pueden completar los espacios restantes del escuadrón con jugadores en línea."
+  },
+  {
+    question: "¿El juego cruzado está habilitado para todos los modos multijugador?",
+    answer: "Sí, el juego cruzado es totalmente compatible en los modos Campaña, Asedio de la Horda y Versus PvP entre consolas Xbox Series y PC."
+  }
+]} />
+
+</Section>

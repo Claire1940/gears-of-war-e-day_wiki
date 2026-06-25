@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tela Dividida em Gears of War E-Day: Guia de Configuração Cooperativa",
+  description: "Configure a tela dividida em Gears of War E-Day. Aprenda as configurações de co-op local de campanha, regras de crossplay e configurações do Cerco de Horda para Xbox e PC.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1b1b1b/fff?text=Split+Screen+Guide",
+  date: "2026-06-26",
+  author: "Equipe do Wiki de Gears of War: E-Day"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **tela dividida de Gears of War E-Day** oferece suporte à campanha local para dois jogadores nos consoles Xbox Series X/S.
+- O **jogo multiplataforma (crossplay)** permite que jogadores de console se juntem a jogadores de PC para sessões cooperativas online.
+- O **modo Cerco de Horda** apresenta mecânicas PvE reformuladas, projetadas para um jogo defensivo coordenado em equipe.
+- **Marcus e Dom** retornam como os personagens principais, proporcionando a clássica dinâmica de jogabilidade tática em dupla.
+</Callout>
+
+<Section icon={Swords} title="Recursos Co-op e Modos de Jogo">
+
+O retorno de Marcus Fenix e Dominic Santiago nesta história de origem traz a jogabilidade tática clássica de volta ao primeiro plano. Ambientado quatorze anos antes do jogo original, os jogadores testemunham o caos inicial do Dia da Emergência (Emergence Day). O jogo cooperativo continua sendo um pilar fundamental da experiência, permitindo que dois jogadores lutem lado a lado durante a campanha.
+
+Entender como configurar sua sessão é crucial para a melhor experiência cooperativa. O jogo oferece modos distintos adaptados tanto para o jogo local no sofá quanto para o matchmaking online.
+
+| Modo | Limite de Jogadores | Tela Dividida Local | Suporte a Crossplay |
+| :--- | :--- | :--- | :--- |
+| **Campanha** | 2 Jogadores | Suportado (Xbox) | Suportado |
+| **Cerco de Horda** | 5 Jogadores | Suportado (Xbox) | Suportado |
+| **Versus PvP** | 10 Jogadores | Suportado (Xbox) | Suportado |
+
+<Callout type="warning" title="Impacto no Desempenho">
+Executar a tela dividida local aumenta a demanda do hardware. O Xbox Series X visa um alto desempenho, mas a escala de resolução pode se ajustar dinamicamente durante cenas de combate intensas.
+</Callout>
+
+A campanha foca fortemente na ligação entre Marcus e Dom. Essa escolha narrativa se traduz diretamente em mecânicas cooperativas, onde flanquear, reviver e o gerenciamento compartilhado de munição são essenciais para a sobrevivência contra a ameaça Locust.
+
+</Section>
+
+<Section icon={Map} title="Configuração de Tela Dividida em Gears of War E-Day">
+
+Configurar o jogo local requer a sincronização adequada do controle e a atribuição de perfil. A versão para console suporta um sistema prático de entrada e saída rápida (drop-in, drop-out), permitindo que um segundo jogador se junte à ação sem perder o progresso da campanha.
+
+Para garantir um processo de configuração tranquilo, siga estas etapas para configurar seu segundo controle e iniciar sessão corretamente.
+
+<Steps>
+  <Step num="1" title="Conectar Controles">
+    Ligue o segundo controle do Xbox e sincronize-o com o console Xbox Series.
+  </Step>
+  <Step num="2" title="Atribuir Perfis">
+    Conecte o segundo controle a um perfil separado do Xbox ou selecione uma conta de convidado.
+  </Step>
+  <Step num="3" title="Iniciar Campanha">
+    Inicie a campanha principal a partir do perfil do host e entre no lobby do jogo.
+  </Step>
+  <Step num="4" title="Entrar no Jogo">
+    Pressione o botão Menu no segundo controle para entrar na sessão ativa do lobby.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Salvamento de Perfil">
+Usar um perfil secundário registrado em vez de uma conta de convidado garante que o progresso de colecionáveis e conquistas seja salvo para ambos os jogadores.
+</Callout>
+
+A apresentação visual se ajusta automaticamente quando o segundo jogador entra. A tela se divide horizontalmente para preservar o campo de visão mais amplo necessário para rastrear os inimigos que se aproximam.
+
+| Aspecto | Divisão Horizontal | Divisão Vertical |
+| :--- | :--- | :--- |
+| **Campo de Visão** | Visão horizontal mais ampla | Melhor percepção vertical |
+| **Layout da Interface** | Elementos de HUD compactos | Elementos de HUD empilhados |
+| **Desempenho** | Otimizado para 60 FPS | Otimizado para 60 FPS |
+
+</Section>
+
+<Section icon={Shield} title="Crossplay e Compatibilidade de Plataformas">
+
+O jogo suporta crossplay entre o Xbox Series X/S e o PC. Isso permite que amigos em hardwares diferentes experimentem a campanha, o Cerco de Horda e os modos Versus juntos. O progresso de salvamento também é transferido por meio de sincronização em nuvem, permitindo que os jogadores alternem de plataforma facilmente.
+
+Embora o crossplay venha ativado por padrão, os jogadores podem ajustar as preferências de matchmaking no menu de configurações para restringir o pareamento à sua plataforma específica.
+
+<CardGrid cols={3}>
+  <Card title="Xbox Series X">
+    - **Resolução 4K nativa**
+    - Alvo de alto desempenho
+    - Tela dividida local completa
+  </Card>
+  <Card title="Xbox Series S">
+    - **Resolução alvo de 1440p**
+    - Desempenho otimizado
+    - Tela dividida local completa
+  </Card>
+  <Card title="Plataforma PC">
+    - **Taxas de quadros ilimitadas**
+    - Configurações gráficas avançadas
+    - Suporte a co-op online
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Status do Crossplay">
+O jogo multiplataforma está totalmente integrado. Os jogadores de PC podem se juntar a hosts do Xbox para campanhas online e partidas multijogador sem restrições.
+</Callout>
+
+Para jogadores de PC, a tela dividida local normalmente não é suportada devido a configurações de entrada específicas da plataforma. Os usuários de PC devem depender do co-op online para jogar com amigos, quer esses amigos estejam no PC ou nos consoles Xbox.
+
+| Recurso | Xbox Series X | Xbox Series S | PC |
+| :--- | :--- | :--- | :--- |
+| **Tela Dividida** | Suportado | Suportado | Não Suportado |
+| **Resolução Alvo** | 4K | 1440p | Personalizada / Ultra |
+| **Taxa de Quadros Alvo** | 60 FPS | 60 FPS | Ilimitada |
+
+</Section>
+
+<Section icon={Trophy} title="Estratégia de Campanha e Cerco de Horda">
+
+O jogo cooperativo exige coordenação, especialmente em níveis de dificuldade mais altos. Marcus e Dom possuem armas iniciais distintas que se complementam durante os confrontos de combate. Utilizar cobertura e fogo cruzado é crítico ao lidar com unidades Locust agressivas.
+
+O novo modo Cerco de Horda introduz estruturas defensivas e ondas de inimigos que exigem comunicação constante. Os jogadores devem alocar recursos cuidadosamente para construir barreiras, torres e chamarizes.
+
+| Personagem | Equipamento Inicial | Função Tática |
+| :--- | :--- | :--- |
+| **Marcus Fenix** | Lancer, Pistola Snub | Assalto na linha de frente, fogo de supressão |
+| **Dominic Santiago** | Retro Lancer, Pistola Snub | Suporte de flanco, combate a curta distância |
+
+<Callout type="info" title="Compartilhamento de Recursos">
+No Cerco de Horda, a energia coletada de inimigos caídos é compartilhada entre o esquadrão. Coordene com sua equipe antes de comprar melhorias de defesa caras.
+</Callout>
+
+Para aproveitar ao máximo suas sessões cooperativas, tente completar marcos específicos que recompensam o trabalho em equipe e desbloqueiam itens cosméticos exclusivos.
+
+<Checklist
+  id="coop-milestones"
+  title="Objetivos de Progressão Co-op:"
+  items={[
+    "Concluir o capítulo do prólogo em co-op",
+    "Executar 50 recargas ativas sincronizadas",
+    "Reviver seu parceiro 20 vezes em batalha",
+    "Sobreviver a 10 ondas consecutivas no Cerco de Horda"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<Callout type="tip" title="Suporte da Comunidade">
+Para obter as atualizações mais recentes sobre notas de atualização e correções de desempenho, consulte os canais oficiais dos desenvolvedores e os fóruns da comunidade.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "A tela dividida de Gears of War E-Day suporta jogadores de PC?",
+    answer: "Não, a tela dividida local é exclusiva para as versões de Xbox Series X e Xbox Series S. Os jogadores de PC devem usar o co-op online para jogar com outros."
+  },
+  {
+    question: "Qual é a data de lançamento oficial do jogo?",
+    answer: "O lançamento do jogo está agendado para 6 de outubro de 2026, desenvolvido pela The Coalition e publicado pela Xbox Game Studios."
+  },
+  {
+    question: "Podemos jogar o modo Cerco de Horda em tela dividida local?",
+    answer: "Sim, os jogadores de console Xbox Series podem jogar o Cerco de Horda em tela dividida local, e também podem preencher as vagas restantes do esquadrão com jogadores online."
+  },
+  {
+    question: "O crossplay está ativado para todos os modos multijogador?",
+    answer: "Sim, o crossplay é totalmente suportado nos modos Campanha, Cerco de Horda e Versus PvP entre consoles Xbox Series e PC."
+  }
+]} />
+
+</Section>
