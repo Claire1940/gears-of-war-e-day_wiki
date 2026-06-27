@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gears of War E-Day Beast-Modus: Mechaniken & Strategie-Guide",
+  description: "Meistern Sie den Gears of War E-Day Beast-Modus mit unserem umfassenden Guide zu Locust-Stufen, menschlichen Gegnertypen und hochkarätigen Kampfstrategien für 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Beast+Mode+Guide",
+  date: "2026-06-28",
+  author: "gears of war e-day Wiki-Team",
+  keywords: "Gears of War E-Day, Beast-Modus, Locust, Strategie-Guide, Horde-Modus"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Gears of War E-Day Beast-Modus** ist eine umgekehrte Horde-Erfahrung, bei der Spieler die Locust-Horde steuern, um menschliche Überlebende zu eliminieren.
+- **Zeitmanagement** ist entscheidend, da ein Schlag des Hammers der Morgenröte die Runde beendet, wenn der Timer Null erreicht.
+- **Stufen freischalten**: Verdienen Sie Geld durch Kills und Zerstörung, um Zugang zu mächtigen Einheiten wie der Berserkerin zu erhalten.
+- **Helden-Einheiten** erscheinen in späteren Wellen und erfordern spezifische Hinrichtungen oder Explosivschaden, um sie zu besiegen.
+- **Teamzusammensetzung** sollte Support-Einheiten wie den Kantus mit schweren Schadensverursachern wie dem Mauler ausbalancieren.
+</Callout>
+
+<Section icon={Map} title="Den Gears of War E-Day Beast-Modus verstehen">
+
+Der **Gears of War E-Day Beast-Modus** stellt die ultimative Machtphantasie für Fans der Franchise dar und ermöglicht es den Spielern, in die Stiefel (oder Klauen) der Locust-Horde während der ersten Tage der Emergenz zu schlüpfen. Im Gegensatz zum traditionellen Horde-Modus, in dem man sich gegen Wellen von Feinden verteidigt, beauftragt der Beast-Modus ein Team von bis zu fünf Spielern damit, KOR-Streitkräfte und gestrandete Überlebende innerhalb eines strengen Zeitlimits zur Strecke zu bringen.
+
+Der Kernablauf besteht darin, mit Kreaturen niedriger Stufen zu beginnen, Währung durch das Zerstören menschlicher Befestigungen und das Töten von Feinden zu verdienen und diese Währung zu nutzen, um als furchteinflößendere Monster zu spawnen. Jede Welle wird progressiv schwieriger, da die KOR besser ausgerüstete Soldaten, spezialisierte Helden und fortschrittliche Technologie wie den Silverback-Mech einsetzt.
+
+| Merkmal | Beast-Modus-Mechanik |
+| :--- | :--- |
+| **Ziel** | Eliminiere alle Menschen, bevor der Timer abläuft |
+| **Gesundheit** | Nicht regenerierend (muss durch Kantus geheilt werden) |
+| **Leben** | Mehrere Leben pro Welle erlaubt (kostet Geld) |
+| **Niederlagen-Bedingung** | Timer erreicht Null (Hammer der Morgenröte Schlag) |
+| **Schwierigkeit** | Steigt mit jeder Welle durch bessere menschliche KI |
+
+<Callout type="tip" title="Strategie-Hinweis">
+Priorisieren Sie immer das Zerstören von Befestigungen wie Barrieren und Ködern zu Beginn der Welle. Diese Aktionen gewähren lebenswichtige Zeitboni, die verhindern, dass der Hammer der Morgenröte Ihren Lauf vorzeitig beendet.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Locust-Kreaturenstufen und Kosten">
+
+Der Erfolg im **Gears of War E-Day Beast-Modus** hängt vom Verständnis der Hierarchie der Locust-Horde ab. Die Kreaturen sind in vier verschiedene Stufen unterteilt, die basierend auf dem vom Team insgesamt verdienten Geld freigeschaltet werden. Auch wenn Sie persönlich genug Geld für eine hochstufige Einheit haben, können Sie diese erst auswählen, wenn das Team die globale Schwelle erreicht hat.
+
+<CardGrid cols={2}>
+  <Card title="Stufe 1: Die Schwärmer">
+    - **Wilder Ticker**: Schnell, billig und ideal zum Fressen von Granaten.
+    - **Wretch**: Agile Nahkampfeinheit mit einem betäubenden Schrei.
+    - **Wilder Drohne**: Standard-Infanterie mit Retro-Lancer für Reichweite.
+    - **Schlächter**: Schwerer Nahkampf-Tank zum Zertrümmern von Barrieren.
+  </Card>
+  <Card title="Stufe 2: Die Spezialisten">
+    - **Kantus**: Essenzielle Support-Einheit, die Verbündete heilen kann.
+    - **Bloodmount**: Hohe Mobilität mit einem Reiter, der Deckungsfeuer gibt.
+    - **Mauler**: Defensives Kraftpaket mit Flegel und Boomshield.
+  </Card>
+</CardGrid>
+
+| Kreatur | Kosten | Primäre Rolle | Schlüsselfähigkeit |
+| :--- | :--- | :--- | :--- |
+| **Wilder Ticker** | $75 | Aufklärer/Saboteur | Granaten fressen |
+| **Wretch** | $225 | Disruptor | Betäubender Schrei |
+| **Wilder Drohne** | $450 | Fernkampf-DPS | Retro-Ansturm |
+| **Kantus** | $975 | Support/Heiler | Wiederbelebungsschrei |
+| **Mauler** | $1.200 | Tank | Schild-Ablenkung |
+| **Wilder Corpser** | $900 | Stealth/Hinterhalt | Eingraben |
+| **Berserkerin** | $5.625 | Boss/Schwer | Unaufhaltsamer Ansturm |
+
+<Callout type="warning" title="Ressourcenmanagement">
+Es kann riskant sein, all Ihr Geld früh in einer Welle für eine Berserkerin auszugeben. Wenn Sie von Onyx-Wachen fokussiert werden, fehlt Ihnen möglicherweise das Geld für einen Respawn, was Ihr Team unterbesetzt zurücklässt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Menschliche Feinde und Befestigungen">
+
+Die Menschen im **Gears of War E-Day Beast-Modus** sind nicht hilflos. Während Sie die 12 Wellen durchlaufen, entwickelt sich der Widerstand von desorganisierten Gestrandeten zu Elite-KOR-Soldaten und legendären Helden. Das Verständnis der Bedrohungsstufe jedes Gegnertyps ist überlebenswichtig.
+
+<Steps>
+  <Step num="1" title="Anfangswellen (1-3)">
+    Konzentrieren Sie sich darauf, gestrandete Überlebende auszuschalten. Sie nutzen selten Deckung und werden leicht von Tickern und Wretches überwältigt. Nutzen Sie diese Zeit, um Geld für spätere Stufen zu sparen.
+  </Step>
+  <Step num="2" title="Mid-Game-Eskalation (4-8)">
+    Standard-KOR-Soldaten erscheinen mit Lancern und Gnashern. Sie errichten Barrieren und Köder. Nutzen Sie Mauler, um den Angriff anzuführen, während Drohnen Unterdrückungsfeuer geben.
+  </Step>
+  <Step num="3" title="Elite-Widerstand (9-11)">
+    Onyx-Wachen und Helden wie Marcus Fenix greifen ein. Diese Einheiten haben massive Gesundheitspools und können nur durch Hinrichtungen oder schwere Sprengstoffe dauerhaft getötet werden.
+  </Step>
+  <Step num="4" title="Das große Finale (Welle 12)">
+    Der letzte Widerstand bietet oft hochrangige KOR-Führungskräfte und mehrere Silverbacks. Ein koordinierter Angriff mit einer Berserkerin und Kantus-Unterstützung ist zwingend erforderlich.
+  </Step>
+</Steps>
+
+| Gegnertyp | Bedrohungsstufe | Besondere Merkmale |
+| :--- | :--- | :--- |
+| **Gestrandete** | Niedrig | Schlechte Genauigkeit, wenig Deckung |
+| **KOR-Soldat** | Mittel | Nutzt Deckung, setzt Basis-Barrieren ein |
+| **Onyx-Wache** | Hoch | Erhöhte Gesundheit, nutzt Silverbacks |
+| **Held (z.B. Marcus)** | Extrem | Tod nur durch Hinrichtung, hoher Schaden |
+
+<Callout type="success" title="Profi-Tipp">
+Wenn Sie einem Silverback gegenüberstehen, nutzen Sie den Schrei eines Wretch, um den Piloten zu betäuben, oder die Tintengranate eines Kantus, um ihn aus dem Fahrzeug zu zwingen. Dies deaktiviert vorübergehend die verheerenden Gatling-Guns des Mechs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fortgeschrittene Kampfstrategien">
+
+Um den **Gears of War E-Day Beast-Modus** zu meistern, müssen Spieler über einfaches Button-Mashing hinausblicken. Die Synergie von Locust-Fähigkeiten macht den Unterschied zwischen einem Wellen-Fehlschlag und einer Goldmedaillen-Leistung aus.
+
+### Support-Synergie
+Der Kantus ist das Rückgrat jedes erfolgreichen Beast-Trupps. Da Locust-Einheiten keine Gesundheit regenerieren, muss der Kantus ständig seinen Heilungsschrei pulsieren lassen. Wenn Sie eine schwere Einheit wie den Mauler oder die Berserkerin spielen, bleiben Sie in der Sichtlinie Ihres Kantus, um sicherzustellen, dass Sie im Kampf bleiben.
+
+### Barriere-Brecher
+Schlächter und Mauler sind speziell darauf ausgelegt, KOR-Befestigungen zu demontieren. Verschwenden Sie keine Ticker-Leben an hochstufigen Laserdraht, wenn ein Schlächter verfügbar ist. Das Beil des Schlächters kann die meisten Barrieren mit einem einzigen Schwung zerstören und den Weg für schnellere Einheiten ebnen, um die Menschen hinter der Linie zu überrennen.
+
+| Befestigung | Bester Konter | Strategie |
+| :--- | :--- | :--- |
+| **Stachelbarrieren** | Schlächter / Mauler | Nahkampfangriff zur sofortigen Zerstörung |
+| **Köder** | Wilder Ticker | Billige Einheit, um die Ablenkung auszulösen |
+| **Auto-Turrets** | Wilder Boomer | Digger-Geschosse nutzen, um aus der Deckung zu treffen |
+| **Silverback** | Kantus / Wretch | Pilot betäuben, dann im Nahkampf angreifen |
+
+<Callout type="info" title="Taktischer Einblick">
+Der Wilde Corpser kann sich selbst heilen, indem er sich unter die Erde eingräbt. Nutzen Sie dies, um menschliches Feuer auf sich zu ziehen, und tauchen Sie dann ab, um sich zu erholen, während Ihre Teamkollegen die abgelenkten KOR-Soldaten flankieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritt und Abschlussziele">
+
+Die totale Dominanz im **Gears of War E-Day Beast-Modus** zu erreichen, erfordert mehr als nur das Gewinnen eines einzelnen Matches. Es gibt spezifische Meilensteine und Belohnungen, die Spieler jagen können, um ihr Können unter Beweis zu stellen.
+
+<Checklist
+  id="beast-mode-achievements"
+  title="Checkliste zur Beast-Modus-Meisterschaft:"
+  items={[
+    "Schließe alle 12 Wellen auf dem Schwierigkeitsgrad Wahnsinnig ab",
+    "Schalte den Savage Theron Multiplayer-Skin frei",
+    "Töte eine Helden-Einheit mit einer Ticker-Explosion",
+    "Erreiche Stufe 4 in weniger als 5 Wellen",
+    "Zerstöre 100 menschliche Befestigungen in einer einzigen Sitzung"
+  ]}
+/>
+
+### Kartenauswahl
+Obwohl der Beast-Modus auf jeder Karte gespielt werden kann, werden kleinere Karten wie **Trenches** oder **Checkout** im Allgemeinen bevorzugt. Die verkürzte Reisezeit ermöglicht es Ihren Locust-Einheiten, die Menschen schneller zu erreichen, was entscheidend ist, wenn der Hammer der Morgenröte Timer tickt. Auf größeren Karten kann die langsame Bewegungsgeschwindigkeit der Berserkerin zum Nachteil werden, was das Team dazu zwingt, schnellere Einheiten wie Bloodmounts einzusetzen, um die letzten Überlebenden zu jagen.
+
+<Callout type="warning" title="Hinrichtungsregel">
+Denken Sie daran, dass Helden nicht durch Standard-Beschuss getötet werden können, sobald sie am Boden liegen. Sie müssen eine manuelle Hinrichtung durchführen. Wenn Sie keine humanoide Einheit haben, die zu Hinrichtungen fähig ist, müssen Sie Sprengstoffe wie die Geschosse des Boomers oder die Selbstzerstörung eines Tickers verwenden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich höhere Stufen im Gears of War E-Day Beast-Modus frei?",
+    answer: "Stufen werden basierend auf dem vom gesamten Team verdienten Geld freigeschaltet. Sie verdienen Geld, indem Sie Menschen Schaden zufügen, Befestigungen zerstören und Wellen abschließen. Sobald das Team Schwellenwerte wie $1.500 für Stufe 2 und $7.500 für Stufe 4 erreicht, werden die neuen Einheiten zum Kauf verfügbar."
+  },
+  {
+    question: "Kann ich den Beast-Modus solo spielen?",
+    answer: "Ja, Sie können solo spielen, aber es ist deutlich schwieriger. Das Spiel gibt Ihnen einen kleinen Geldbonus, um den Mangel an Teamkollegen auszugleichen, aber das Verwalten des Timers und der menschlichen Helden allein erfordert Expertenwissen über Einheiten-Konter."
+  },
+  {
+    question: "Was ist die beste Einheit für Welle 12?",
+    answer: "Der Gepanzerte Kantus und die Berserkerin sind die beste Wahl. Der Gepanzerte Kantus bietet lebenswichtige Heilung und kann schwerem Feuer standhalten, während die Berserkerin die einzige Einheit ist, die in der Lage ist, die Elite-Onyx-Wachen und Silverbacks, die die letzte Welle dominieren, schnell auszuschalten."
+  },
+  {
+    question: "Bleiben meine Freischaltungen zwischen den Matches erhalten?",
+    answer: "Nein. Im Gegensatz zu den persistenten Klassen-Levels im Horde-Modus setzt der Beast-Modus Ihren Stufenfortschritt zu Beginn jeder neuen Sitzung zurück. Sie müssen sich jedes Mal von Stufe 1 bis Stufe 4 hocharbeiten."
+  }
+]} />
+
+<Callout type="success" title="Abschließendes Urteil">
+Die Beherrschung der Locust-Horde erfordert ein Gleichgewicht zwischen Aggression und taktischen Rückzügen. Nutzen Sie die Umgebung zu Ihrem Vorteil, schützen Sie Ihre Heiler und behalten Sie immer die Uhr im Auge.
+</Callout>
+
+</Section>

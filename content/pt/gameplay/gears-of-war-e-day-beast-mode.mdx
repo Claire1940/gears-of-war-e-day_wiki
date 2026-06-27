@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gears of War E-Day Modo Besta: Guia de Mecânicas e Estratégias",
+  description: "Domine o modo besta de Gears of War E-Day com nosso guia abrangente sobre níveis de Locust, tipos de inimigos humanos e estratégias de combate de alto nível para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Beast+Mode+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki de Gears of War E-Day"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Gears of War E-Day Modo Besta** é uma experiência de horda reversa onde os jogadores controlam a Horda Locust para eliminar sobreviventes humanos.
+- **Gerenciamento de Tempo** é crítico, pois um ataque do Martelo da Aurora encerra a rodada se o cronômetro chegar a zero.
+- **Desbloqueie Níveis** ganhando dinheiro através de abates e destruição para acessar unidades poderosas como a Berserker.
+- **Unidades Heroicas** aparecem em ondas posteriores e exigem execuções específicas ou dano explosivo para serem finalizadas.
+- **Composição de Equipe** deve equilibrar unidades de suporte como o Kantus com causadores de dano pesado como o Mauler.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Modo Besta de Gears of War E-Day">
+
+O **modo besta de gears of war e-day** representa a fantasia de poder suprema para os fãs da franquia, permitindo que os jogadores entrem nas botas (ou garras) da Horda Locust durante os dias iniciais da Emergência. Ao contrário do tradicional modo Horda, onde você se defende contra ondas de inimigos, o Modo Besta encarrega uma equipe de até cinco jogadores de caçar forças da CGO e sobreviventes Exilados dentro de um limite de tempo estrito.
+
+O ciclo principal envolve começar com criaturas de nível baixo, ganhar dinheiro destruindo fortificações humanas e matando inimigos, e usar esse dinheiro para surgir como monstros mais formidáveis. Cada onda torna-se progressivamente mais difícil à medida que a CGO implanta soldados melhor equipados, heróis especializados e tecnologia avançada como o mech Silverback.
+
+| Recurso | Mecânica do Modo Besta |
+| :--- | :--- |
+| **Objetivo** | Eliminar todos os humanos antes que o cronômetro expire |
+| **Saúde** | Não regenerativa (deve ser curada por um Kantus) |
+| **Vidas** | Múltiplas vidas permitidas por onda (custa dinheiro) |
+| **Condição de Derrota** | Cronômetro chega a zero (ataque do Martelo da Aurora) |
+| **Dificuldade** | Aumenta a cada onda com melhor IA humana |
+
+<Callout type="tip" title="Nota de Estratégia">
+Sempre priorize a destruição de fortificações como barreiras e iscas no início da onda. Essas ações concedem bônus de tempo vitais que impedem o Martelo da Aurora de encerrar sua partida prematuramente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Níveis e Custos das Criaturas Locust">
+
+O sucesso no **modo besta de gears of war e-day** depende da compreensão da hierarquia da Horda Locust. As criaturas são divididas em quatro níveis distintos, que são desbloqueados com base no dinheiro total ganho pela equipe. Embora você possa ter fundos pessoais suficientes para uma unidade de nível alto, não poderá selecioná-la até que a equipe atinja o limite global.
+
+<CardGrid cols={2}>
+  <Card title="Nível 1: Os Enxameadores">
+    - **Ticker Selvagem**: Rápido, barato e ótimo para comer granadas.
+    - **Infame**: Unidade de combate corpo a corpo ágil com um grito atordoante.
+    - **Drone Selvagem**: Infantaria padrão com Retro Lancer para alcance.
+    - **Açougueiro**: Tanque de combate corpo a corpo pesado projetado para esmagar barreiras.
+  </Card>
+  <Card title="Nível 2: Os Especialistas">
+    - **Kantus**: Unidade de suporte essencial capaz de curar aliados.
+    - **Montaria de Sangue**: Alta mobilidade com um cavaleiro fornecendo fogo de cobertura.
+    - **Mauler**: Potência defensiva com um mangual e Escudo da Lança.
+  </Card>
+</CardGrid>
+
+| Criatura | Custo | Função Principal | Habilidade Chave |
+| :--- | :--- | :--- | :--- |
+| **Ticker Selvagem** | $75 | Batedor/Sabotador | Comer Granadas |
+| **Infame** | $225 | Disruptor | Grito Atordoante |
+| **Drone Selvagem** | $450 | DPS à Distância | Carga de Retro |
+| **Kantus** | $975 | Suporte/Curandeiro | Grito de Reviver |
+| **Mauler** | $1.200 | Tanque | Deflexão de Escudo |
+| **Corpser Selvagem** | $900 | Furtividade/Emboscada | Enterrar-se |
+| **Berserker** | $5.625 | Chefe/Pesado | Carga Imparável |
+
+<Callout type="warning" title="Gerenciamento de Recursos">
+Gastar todo o seu dinheiro em uma Berserker no início de uma onda pode ser arriscado. Se você for focado pelos Guardas Ônix, pode ficar sem fundos para ressurgir, deixando sua equipe em desvantagem numérica.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Inimigos Humanos e Fortificações">
+
+Os humanos no **modo besta de gears of war e-day** não estão indefesos. À medida que você avança pelas 12 ondas, a resistência evolui de Exilados desorganizados para Gears da CGO de elite e Heróis lendários. Entender o nível de ameaça de cada tipo de inimigo é vital para a sobrevivência.
+
+<Steps>
+  <Step num="1" title="Ondas Iniciais (1-3)">
+    Concentre-se em limpar os sobreviventes Exilados. Eles raramente usam cobertura e são facilmente dominados por Tickers e Infames. Use este tempo para acumular dinheiro para os níveis posteriores.
+  </Step>
+  <Step num="2" title="Escalação no Meio do Jogo (4-8)">
+    Gears da CGO padrão aparecem com Lancers e Gnashers. Eles montarão barreiras e iscas. Use Maulers para liderar o ataque enquanto os Drones fornecem fogo de supressão.
+  </Step>
+  <Step num="3" title="Resistência de Elite (9-11)">
+    Guardas Ônix e Heróis como Marcus Fenix entram na briga. Essas unidades têm grandes barras de saúde e só podem ser mortas permanentemente por execuções ou explosivos pesados.
+  </Step>
+  <Step num="4" title="O Grande Final (Onda 12)">
+    O confronto final frequentemente apresenta a liderança de alto escalão da CGO e múltiplos Silverbacks. Um assalto coordenado com uma Berserker e suporte de Kantus é obrigatório.
+  </Step>
+</Steps>
+
+| Tipo de Inimigo | Nível de Ameaça | Traços Especiais |
+| :--- | :--- | :--- |
+| **Exilado** | Baixo | Precisão ruim, pouco uso de cobertura |
+| **Gear da CGO** | Médio | Usa cobertura, implanta barreiras básicas |
+| **Guarda Ônix** | Alto | Saúde aumentada, utiliza Silverbacks |
+| **Herói (ex: Marcus)** | Extremo | Morte apenas por execução, dano alto |
+
+<Callout type="success" title="Dica Profissional">
+Ao enfrentar um Silverback, use o grito de um Infame para atordoar o piloto ou uma Granada de Tinta de um Kantus para forçá-lo a sair do veículo. Isso desativa temporariamente as metralhadoras devastadoras do mech.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégias Avançadas de Combate">
+
+Para dominar o **modo besta de gears of war e-day**, os jogadores devem olhar além do simples apertar de botões. Sinergizar as habilidades dos Locust é a diferença entre o fracasso de uma onda e um desempenho de medalha de ouro.
+
+### Sinergia de Suporte
+O Kantus é a espinha dorsal de qualquer esquadrão Besta de sucesso. Como as unidades Locust não regeneram saúde, o Kantus deve constantemente emitir seu grito de cura. Se você estiver jogando com uma unidade pesada como o Mauler ou a Berserker, permaneça no campo de visão do seu Kantus para garantir que você continue na luta.
+
+### Quebradores de Barreiras
+Açougueiros e Maulers são projetados especificamente para desmantelar fortificações da CGO. Não desperdice vidas de Tickers em fios de laser de alto nível se um Açougueiro estiver disponível. O cutelo do Açougueiro pode destruir a maioria das barreiras com um único golpe, limpando o caminho para unidades mais rápidas enxamearem os humanos atrás da linha.
+
+| Fortificação | Melhor Contra-ataque | Estratégia |
+| :--- | :--- | :--- |
+| **Barreiras de Espinhos** | Açougueiro / Mauler | Ataque corpo a corpo para destruir instantaneamente |
+| **Iscas** | Ticker Selvagem | Unidade barata para acionar a distração |
+| **Torretas Automáticas** | Boomer Selvagem | Use tiros de Digger para atingir a partir da cobertura |
+| **Silverback** | Kantus / Infame | Atordoe o piloto, depois ataque em grupo |
+
+<Callout type="info" title="Visão Tática">
+O Corpser Selvagem pode se curar enterrando-se no subsolo. Use isso para atrair o fogo humano e, em seguida, submirja para recuperar a saúde enquanto seus companheiros flanqueiam os soldados da CGO distraídos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão e Objetivos de Conclusão">
+
+Alcançar a dominância total no **modo besta de gears of war e-day** requer mais do que apenas vencer uma única partida. Existem marcos e recompensas específicos que os jogadores podem buscar para provar sua habilidade.
+
+<Checklist
+  id="beast-mode-achievements"
+  title="Lista de Verificação de Maestria do Modo Besta:"
+  items={[
+    "Completar todas as 12 ondas na dificuldade Insana",
+    "Desbloquear a skin de multijogador do Theron Selvagem",
+    "Matar uma unidade Heroica usando a explosão de um Ticker",
+    "Alcançar o Nível 4 em menos de 5 ondas",
+    "Destruir 100 fortificações humanas em uma única sessão"
+  ]}
+/>
+
+### Seleção de Mapa
+Embora o Modo Besta possa ser jogado em qualquer mapa, mapas menores como **Trincheiras** ou **Caixa** são geralmente preferidos. O tempo de deslocamento reduzido permite que suas unidades Locust alcancem os humanos mais rápido, o que é crucial quando o cronômetro do Martelo da Aurora está correndo. Em mapas maiores, a baixa velocidade de movimento da Berserker pode se tornar um problema, exigindo que a equipe use unidades mais rápidas como Montarias de Sangue para perseguir os sobreviventes finais.
+
+<Callout type="warning" title="Regra de Execução">
+Lembre-se de que os Heróis não podem ser mortos por tiros padrão depois de derrubados. Você deve realizar uma execução manual. Se você não tiver uma unidade humanoide capaz de execuções, deve usar explosivos como os projéteis do Boomer ou a autodestruição de um Ticker.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio níveis mais altos no modo besta de gears of war e-day?",
+    answer: "Os níveis são desbloqueados com base no dinheiro total ganho por toda a equipe. Você ganha dinheiro causando dano a humanos, destruindo fortificações e completando ondas. Assim que a equipe atinge limites como $1.500 para o Nível 2 e $7.500 para o Nível 4, as novas unidades ficam disponíveis para compra."
+  },
+  {
+    question: "Posso jogar o Modo Besta sozinho?",
+    answer: "Sim, você pode jogar sozinho, mas é significativamente mais difícil. O jogo concede um pequeno bônus em dinheiro para compensar a falta de companheiros, mas gerenciar o cronômetro e os heróis humanos sozinho exige conhecimento especializado dos contra-ataques de cada unidade."
+  },
+  {
+    question: "Qual é a melhor unidade para a Onda 12?",
+    answer: "O Kantus Blindado e a Berserker são as melhores escolhas. O Kantus Blindado fornece cura essencial e pode sobreviver a fogo pesado, enquanto a Berserker é a única unidade capaz de limpar rapidamente os Guardas Ônix de elite e Silverbacks que dominam a onda final."
+  },
+  {
+    question: "Meus desbloqueios são mantidos entre as partidas?",
+    answer: "Não. Ao contrário dos níveis de classe persistentes do modo Horda, o Modo Besta redefine seu progresso de nível no início de cada nova sessão. Você deve conquistar seu caminho do Nível 1 ao Nível 4 toda vez que jogar."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+Dominar a Horda Locust requer um equilíbrio entre agressividade e recuos táticos. Use o ambiente a seu favor, proteja seus curandeiros e fique sempre de olho no relógio.
+</Callout>
+
+</Section>

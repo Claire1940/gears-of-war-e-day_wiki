@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Building, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Entorno de Kalona en Gears of War E-Day: Guía completa de ubicaciones e historia",
+  description: "Explora la ciudad ficticia de Kalona en Gears of War: E-Day. Conoce sus distritos, su diseño de mundo semiabierto y el modo táctico cooperativo Asedio de la Horda de 12 jugadores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Kalona+Setting+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Gears of War E-Day"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Entorno principal**: El **entorno de Kalona en Gears of War: E-Day** se centra en una única y enorme ciudad en lugar de un viaje global.
+- **Diseño del mundo**: Utilizando Unreal Engine 5, la ciudad es un mapa continuo y semiabierto que presenta áreas centrales interconectadas similares a las de *God of War Ragnarok*.
+- **Evolución táctica**: Se presenta **Asedio de la Horda** (Horde Siege), un modo cooperativo de 12 jugadores dividido en tres escuadrones distintos de cuatro integrantes cada uno.
+- **Nuevas mecánicas**: La verticalidad mejorada permite atravesar tejados, trepar a vehículos y deslizarse para ponerse a cubierto.
+- **Terror atmosférico**: El juego se desarrolla durante los tres primeros días de la invasión, con IA de civiles en tiempo real y narrativa ambiental.
+</Callout>
+
+<Section icon={Map} title="El entorno de Kalona en Gears of War E-Day: Una nueva frontera urbana">
+
+El **entorno de Kalona en Gears of War: E-Day** representa un cambio fundamental en la forma en que The Coalition aborda la creación de mundos. A diferencia de las entregas anteriores que llevaban a los jugadores por todo el mundo, E-Day centra toda su narrativa en la ciudad de Kalona a lo largo de un desgarrador período de 72 horas. Esta potencia industrial, que alguna vez fue el orgullo del Distrito de Kalona en Tyrus, funciona como un "personaje vivo" que se derrumba en tiempo real a medida que la Horda Locust emerge de la Hondonada.
+
+**Puntos destacados del video:**
+- **Mundo semiabierto**: Análisis del diseño de áreas centrales interconectadas frente a los pasillos lineales tradicionales.
+- **Mecánicas de movimiento**: Cómo la verticalidad cambia los encuentros de combate en las calles de Kalona.
+- **Teoría del modo Xfill**: Evidencia que apunta hacia un posible modo de juego de estilo extracción.
+- **Asedio de la Horda**: Detalles sobre el enorme sistema de defensa cooperativo para 12 jugadores.
+
+<YouTubeEmbed videoId="pqRG6--pPvc" title="¿Tendrá Gears of War E-Day un modo de extracción?" />
+
+La ciudad de Kalona está construida como un mapa totalmente integrado dentro de Unreal Engine 5. Esto significa que los puntos de referencia que se ven a lo lejos, como el Estadio Oria o las refinerías industriales, son elementos físicos a los que eventualmente podrás viajar, eliminando los "cielos falsos" del pasado.
+
+<Callout type="tip" title="Detalle ambiental">
+Presta atención a los televisores que parpadean y a las comidas a medio terminar en las zonas residenciales. Estos detalles enfatizan que la invasión está ocurriendo en este preciso instante, en lugar de años después de que el mundo ya haya llegado a su fin.
+</Callout>
+
+</Section>
+
+<Section icon={Building} title="Mapeando Kalona: Distritos y ubicaciones clave">
+
+Kalona está dividida en varios distritos distintos, cada uno de los cuales ofrece desafíos tácticos únicos y entornos ricos en historia. Desde el lujoso Barrio Dorado hasta el rústico Distrito Industrial, el **entorno de Kalona en Gears of War: E-Day** proporciona un escenario diverso para el embate inicial de los Locust.
+
+| Distrito | Puntos de referencia clave | Ambiente atmosférico |
+| :--- | :--- | :--- |
+| **Centro de la ciudad (Downtown)** | Plaza de los Padres Fundadores (Allfathers Plaza), Banco de Tyrus, Tribunal de Octus | Combate urbano de alta densidad con amplias plazas |
+| **Barrio Dorado (Golden Quarter)** | Catedral del Santuario, Ópera Spire, Universidad de Kalona | Arquitectura opulenta, callejones estrechos y parques |
+| **Distrito Industrial** | Bahía Prospect, Refinerías de Imulsión, Distrito de Almacenes | Maquinaria pesada, estructuras verticales y muelles |
+| **Fuerte Vigil (Fort Vigil)** | Base militar de la CGO, aeródromo | Posiciones fortificadas y emplazamientos de armas pesadas |
+| **Residencial** | Distritos Norte y Oeste, tienda Pay n Save | Limpieza de casas a corta distancia |
+
+La historia de la ciudad como centro de refinación de Imulsión la convierte en un objetivo de gran valor tanto para la CGO como para los emergentes Locust. Durante las Guerras del Péndulo, la industria de Kalona impulsó el esfuerzo de guerra, y su equipo local de Thrashball, los Kalona Eagles, proporcionaba una sensación de normalidad que se hace añicos en el Día de la Emergencia (E-Day).
+
+<Callout type="warning" title="Importancia estratégica">
+Es probable que el Distrito Industrial sea donde encuentres la mayor verticalidad, utilizando grúas y estructuras de refinería para obtener una ventaja de altura sobre los Locust.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Reinventando el movimiento: Verticalidad y elección">
+
+El cambio a un mundo semiabierto en el **entorno de Kalona en Gears of War: E-Day** requiere un sistema de movimiento modernizado. Los jugadores ya no están limitados a pasillos con "coberturas a la altura de la cintura". En su lugar, el entorno fomenta la exploración y el posicionamiento táctico.
+
+<CardGrid cols={3}>
+  <Card title="Desplazamiento por tejados">
+    - **Salta entre los huecos** de los edificios urbanos.
+    - Usa la altura para flanquear los Agujeros de Emergencia de los Locust.
+    - Explora los movimientos del enemigo desde arriba.
+  </Card>
+  <Card title="Interacción con vehículos">
+    - **Súbete a vehículos abandonados** para obtener cobertura rápida.
+    - Usa camiones y autobuses como rampas improvisadas.
+    - Interacciones ambientales dinámicas basadas en la física.
+  </Card>
+  <Card title="Deslizamiento modernizado">
+    - **Transiciones más suaves** al entrar y salir de las coberturas.
+    - Esprint omnidireccional para una mejor movilidad.
+    - Deslizamientos tácticos para evadir el fuego de los francotiradores.
+  </Card>
+</CardGrid>
+
+Los encuentros de combate están diseñados para abordarse desde múltiples direcciones. Si una calle está bloqueada por Drones Locust, puedes optar por entrar en un complejo de apartamentos cercano, subir al tejado y hacer llover fuego desde arriba.
+
+<Steps>
+  <Step num="1" title="Evalúa el entorno">
+    Identifica oportunidades de terreno elevado, como escaleras de incendios o balcones, antes de entablar combate.
+  </Step>
+  <Step num="2" title="Utiliza la IA de los civiles">
+    Observa a las multitudes aterrorizadas; su movimiento a menudo señala dónde emergerán los Locust a continuación.
+  </Step>
+  <Step num="3" title="Completa objetivos secundarios">
+    Desvíate del camino principal para rescatar Gears varados o sellar agujeros de emergencia opcionales para obtener recursos adicionales.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recompensa por exploración">
+La exploración en Kalona no es solo para conocer la historia; encontrar alijos ocultos de la CGO puede proporcionar variantes de armas de alto nivel y suministros esenciales para los modos de 12 jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="La evolución del PvE: Asedio de la Horda y teorías sobre Xfill">
+
+Una de las adiciones más significativas al **entorno de Kalona en Gears of War: E-Day** es la introducción de **Asedio de la Horda** (Horde Siege). Este modo aprovecha la escala masiva de Kalona para albergar a 12 jugadores simultáneamente, un salto enorme con respecto al formato tradicional de 5 jugadores.
+
+| Característica | Horda tradicional | Asedio de la Horda (E-Day) |
+| :--- | :--- | :--- |
+| **Número de jugadores** | 5 jugadores | 12 jugadores (3 escuadrones de 4) |
+| **Escala del mapa** | Arenas pequeñas y autónomas | Distritos urbanos grandes y multisectoriales |
+| **Objetivos** | Sobrevivir a oleadas | Asegurar sectores, sellar agujeros de emergencia y extraer |
+| **Complejidad** | Puntos de aparición estáticos | IA dinámica y coordinación multiescuadrón |
+| **Ambiente** | Defensa basada en arenas | Supervivencia urbana de alto riesgo |
+
+También existe una especulación significativa en la comunidad sobre un modo "Xfill" (extracción). Las bonificaciones de reserva que incluyen a "Dom Xfill" y "diseños de armas Xfill" sugieren un modo de extracción táctico. En este hipotético modo, los jugadores navegarían por las calles completamente oscuras de Kalona, buscarían información de inteligencia y llamarían a un King Raven para la extracción mientras contienen a un enjambre de Locust en alerta.
+
+<Callout type="info" title="Estrategia para Asedio de la Horda">
+En Asedio de la Horda, la coordinación entre los tres escuadrones es vital. Un escuadrón podría defender un puente mientras los otros dos avanzan para sellar un enorme Agujero de Emergencia en el Distrito Financiero.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Historia y trasfondo: La primera ciudad en caer">
+
+Kalona no era una ciudad cualquiera; fue uno de los primeros grandes centros urbanos en caer durante las primeras seis semanas de la Guerra Locust. El **entorno de Kalona en Gears of War: E-Day** captura la conmoción absoluta de una sociedad que pensaba que finalmente había encontrado la paz tras las Guerras del Péndulo.
+
+**Hitos históricos:**
+- **Post-Guerras del Péndulo**: Kalona prosperaba como un centro industrial y cultural para Tyrus.
+- **La Emergencia**: La Horda Locust utilizó la extensa infraestructura subterránea de la ciudad para atacar múltiples distritos a la vez.
+- **La Resistencia**: Héroes como Marcus Fenix y Dominic Santiago lucharon junto a veteranos como Mags Carter para contener la marea.
+
+El diseño de la ciudad, que cuenta con el Puente del Legado de los Padres Fundadores (Allfathers Legacy Bridge) y el Tribunal de Octus, resalta el dominio arquitectónico de la CGO, lo que hace que su rápida destrucción sea aún más impactante.
+
+<Callout type="warning" title="Detalle de la historia">
+El estadio de Thrashball de los "Kalona Eagles" es más que un simple punto de referencia; sirve como un sombrío recordatorio de la vida civil que se extinguió en las primeras 24 horas del Día de la Emergencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de supervivencia de Kalona">
+
+Para dominar el **entorno de Kalona en Gears of War: E-Day**, los jugadores deben adaptarse a la nueva estructura de mundo semiabierto. Usa esta lista de verificación para asegurarte de estar completamente preparado para las calles de Kalona.
+
+<Checklist
+  id="kalona-mastery"
+  title="Objetivos esenciales:"
+  items={[
+    "Identificar los 5 distritos principales y sus puntos de referencia únicos",
+    "Dominar las nuevas mecánicas de escalada y desplazamiento por tejados",
+    "Coordinarse con otros dos escuadrones en el Asedio de la Horda de 12 jugadores",
+    "Localizar alijos ocultos de inteligencia de la CGO en el Barrio Dorado",
+    "Extraer con éxito en el modo de alto riesgo Xfill (si se confirma)",
+    "Sellar todos los Agujeros de Emergencia opcionales en los distritos residenciales"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo final">
+Las calles de Kalona son peligrosas y oscuras. Mantén siempre cargada tu linterna y lista tu Lancer; los Locust pueden emerger de casi cualquier superficie en este entorno impulsado por UE5.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Gears of War: E-Day un juego de mundo abierto completo?",
+    answer: "No, los desarrolladores han aclarado que, aunque presenta un mapa de ciudad continuo en Kalona, está estructurado como áreas centrales semiabiertas y distritos interconectados, de manera similar al diseño de God of War Ragnarok."
+  },
+  {
+    question: "¿Cuál es el nuevo modo de 12 jugadores en el entorno de Kalona?",
+    answer: "Se llama Asedio de la Horda (Horde Siege). Soporta hasta 12 jugadores divididos en tres escuadrones separados de cuatro integrantes, todos luchando simultáneamente en grandes mapas urbanos en Kalona."
+  },
+  {
+    question: "¿Por qué la ciudad de Kalona es tan importante en la historia de Gears?",
+    answer: "Kalona fue una de las primeras grandes ciudades en caer durante el Día de la Emergencia. Su importancia industrial y la presencia de Marcus Fenix y Dom Santiago durante la invasión inicial la convierten en una ubicación fundamental para la historia del origen de la franquicia."
+  },
+  {
+    question: "¿Cuáles son las nuevas mecánicas de movimiento en el entorno de Kalona?",
+    answer: "Los jugadores ahora pueden esprintar, deslizarse, saltar por los tejados y trepar a los vehículos. Esta verticalidad añadida permite más opciones tácticas al abordar encuentros de combate en el entorno urbano."
+  }
+]} />
+
+</Section>

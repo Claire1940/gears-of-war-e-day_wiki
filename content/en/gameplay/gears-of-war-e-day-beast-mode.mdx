@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gears of War E-Day Beast Mode: Mechanics & Strategy Guide",
+  description: "Master the gears of war e-day beast mode with our comprehensive guide on Locust tiers, human enemy types, and high-level combat strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Beast+Mode+Guide",
+  date: "2026-06-28",
+  author: "gears of war e-day Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gears of War E-Day Beast Mode** is a reverse-horde experience where players control the Locust Horde to eliminate human survivors.
+- **Time Management** is critical, as a Hammer of Dawn strike ends the round if the timer reaches zero.
+- **Unlock Tiers** by earning cash through kills and destruction to access powerful units like the Berserker.
+- **Hero Units** appear in later waves and require specific executions or explosive damage to finish off.
+- **Team Composition** should balance support units like the Kantus with heavy damage dealers like the Mauler.
+</Callout>
+
+<Section icon={Map} title="Understanding Gears of War E-Day Beast Mode">
+
+The **gears of war e-day beast mode** represents the ultimate power fantasy for fans of the franchise, allowing players to step into the boots (or claws) of the Locust Horde during the initial days of the Emergence. Unlike the traditional Horde mode where you defend against waves of enemies, Beast Mode tasks a team of up to five players with hunting down COG forces and Stranded survivors within a strict time limit. 
+
+The core loop involves starting with low-tier creatures, earning currency by destroying human fortifications and killing enemies, and using that currency to spawn as more formidable monsters. Each wave becomes progressively harder as the COG deploys better-equipped soldiers, specialized heroes, and advanced technology like the Silverback mech.
+
+| Feature | Beast Mode Mechanic |
+| :--- | :--- |
+| **Objective** | Eliminate all humans before the timer expires |
+| **Health** | Non-regenerating (must be healed by Kantus) |
+| **Lives** | Multiple lives allowed per wave (costs cash) |
+| **Lose Condition** | Timer hits zero (Hammer of Dawn strike) |
+| **Difficulty** | Increases every wave with better human AI |
+
+<Callout type="tip" title="Strategy Note">
+Always prioritize destroying fortifications like barriers and decoys early in the wave. These actions provide vital time bonuses that prevent the Hammer of Dawn from ending your run prematurely.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Locust Creature Tiers and Costs">
+
+Success in **gears of war e-day beast mode** depends on understanding the hierarchy of the Locust Horde. Creatures are divided into four distinct tiers, which are unlocked based on the total cash earned by the team. While you might have enough personal funds for a high-tier unit, you cannot select it until the team hits the global threshold.
+
+<CardGrid cols={2}>
+  <Card title="Tier 1: The Swarmers">
+    - **Wild Ticker**: Fast, cheap, and great for eating grenades.
+    - **Wretch**: Agile melee unit with a stunning scream.
+    - **Savage Drone**: Standard infantry with Retro Lancer for range.
+    - **Butcher**: Heavy melee tank designed for smashing barriers.
+  </Card>
+  <Card title="Tier 2: The Specialists">
+    - **Kantus**: Essential support unit capable of healing allies.
+    - **Bloodmount**: High mobility with a rider providing cover fire.
+    - **Mauler**: Defensive powerhouse with a flail and Boomshield.
+  </Card>
+</CardGrid>
+
+| Creature | Cost | Primary Role | Key Ability |
+| :--- | :--- | :--- | :--- |
+| **Wild Ticker** | $75 | Scout/Saboteur | Eat Grenades |
+| **Wretch** | $225 | Disruptor | Stunning Scream |
+| **Savage Drone** | $450 | Ranged DPS | Retro Charge |
+| **Kantus** | $975 | Support/Healer | Revive Scream |
+| **Mauler** | $1,200 | Tank | Shield Deflection |
+| **Savage Corpser** | $900 | Stealth/Ambush | Burrowing |
+| **Berserker** | $5,625 | Boss/Heavy | Unstoppable Charge |
+
+<Callout type="warning" title="Resource Management">
+Spending all your money on a Berserker early in a wave can be risky. If you are focused down by Onyx Guards, you may lack the funds to respawn, leaving your team short-handed.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Human Enemies and Fortifications">
+
+The humans in **gears of war e-day beast mode** are not helpless. As you progress through the 12 waves, the resistance evolves from disorganized Stranded to elite COG Gears and legendary Heroes. Understanding the threat level of each enemy type is vital for survival.
+
+<Steps>
+  <Step num="1" title="Initial Waves (1-3)">
+    Focus on clearing Stranded survivors. They rarely use cover and are easily overwhelmed by Tickers and Wretches. Use this time to bank cash for later tiers.
+  </Step>
+  <Step num="2" title="Mid-Game Escalation (4-8)">
+    Standard COG Gears appear with Lancers and Gnashers. They will set up barriers and decoys. Use Maulers to lead the charge while Drones provide suppressive fire.
+  </Step>
+  <Step num="3" title="Elite Resistance (9-11)">
+    Onyx Guards and Heroes like Marcus Fenix enter the fray. These units have massive health pools and can only be permanently killed by executions or heavy explosives.
+  </Step>
+  <Step num="4" title="The Grand Finale (Wave 12)">
+    The final stand often features high-ranking COG leadership and multiple Silverbacks. A coordinated assault with a Berserker and Kantus support is mandatory.
+  </Step>
+</Steps>
+
+| Enemy Type | Threat Level | Special Traits |
+| :--- | :--- | :--- |
+| **Stranded** | Low | Poor accuracy, little cover usage |
+| **COG Gear** | Medium | Uses cover, deploys basic barriers |
+| **Onyx Guard** | High | Increased health, utilizes Silverbacks |
+| **Hero (e.g. Marcus)** | Extreme | Execution-only death, high damage |
+
+<Callout type="success" title="Pro Tip">
+When facing a Silverback, use a Wretch's scream to stun the pilot or a Kantus's Ink Grenade to force them out of the vehicle. This disables the mech's devastating chain guns temporarily.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Combat Strategies">
+
+To master the **gears of war e-day beast mode**, players must look beyond simple button mashing. Synergizing Locust abilities is the difference between a wave failure and a gold-medal performance.
+
+### Support Synergy
+The Kantus is the backbone of any successful Beast squad. Since Locust units do not regenerate health, the Kantus must constantly pulse their healing scream. If you are playing a heavy unit like the Mauler or Berserker, stay within the line of sight of your Kantus to ensure you stay in the fight.
+
+### Barrier Breakers
+Butchers and Maulers are specifically designed to dismantle COG fortifications. Do not waste Ticker lives on high-level laser wires if a Butcher is available. The Butcher's cleaver can destroy most barriers in a single swing, clearing the path for faster units to swarm the humans behind the line.
+
+| Fortification | Best Counter | Strategy |
+| :--- | :--- | :--- |
+| **Spiked Barriers** | Butcher / Mauler | Melee attack to destroy instantly |
+| **Decoys** | Wild Ticker | Cheap unit to trigger the distraction |
+| **Auto-Turrets** | Savage Boomer | Use Digger rounds to hit from cover |
+| **Silverback** | Kantus / Wretch | Stun pilot, then swarm with melee |
+
+<Callout type="info" title="Tactical Insight">
+The Savage Corpser can heal itself by burrowing underground. Use this to bait human fire, then submerge to recover health while your teammates flanking the distracted COG soldiers.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression and Completion Goals">
+
+Achieving total dominance in **gears of war e-day beast mode** requires more than just winning a single match. There are specific milestones and rewards that players can hunt for to prove their skill.
+
+<Checklist
+  id="beast-mode-achievements"
+  title="Beast Mode Mastery Checklist:"
+  items={[
+    "Complete all 12 waves on Insane difficulty",
+    "Unlock the Savage Theron multiplayer skin",
+    "Kill a Hero unit using a Ticker explosion",
+    "Reach Tier 4 in under 5 waves",
+    "Destroy 100 human fortifications in a single session"
+  ]}
+/>
+
+### Map Selection
+While Beast Mode can be played on any map, smaller maps like **Trenches** or **Checkout** are generally preferred. The reduced travel time allows your Locust units to reach the humans faster, which is crucial when the Hammer of Dawn timer is ticking down. On larger maps, the Berserker’s slow movement speed can become a liability, requiring the team to use faster units like Bloodmounts to chase down the final survivors.
+
+<Callout type="warning" title="Execution Rule">
+Remember that Heroes cannot be killed by standard bullet fire once downed. You must perform a manual execution. If you lack a humanoid unit capable of executions, you must use explosives like the Boomer's shells or a Ticker's self-destruct.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock higher tiers in gears of war e-day beast mode?",
+    answer: "Tiers are unlocked based on the total cash earned by the entire team. You earn cash by damaging humans, destroying fortifications, and completing waves. Once the team hits thresholds like $1,500 for Tier 2 and $7,500 for Tier 4, the new units become available for purchase."
+  },
+  {
+    question: "Can I play Beast Mode solo?",
+    answer: "Yes, you can play solo, but it is significantly harder. The game gives you a slight cash bonus to compensate for the lack of teammates, but managing the timer and human heroes alone requires expert knowledge of unit counters."
+  },
+  {
+    question: "What is the best unit for Wave 12?",
+    answer: "The Armored Kantus and Berserker are the top choices. The Armored Kantus provides essential healing and can survive heavy fire, while the Berserker is the only unit capable of quickly clearing the elite Onyx Guards and Silverbacks that dominate the final wave."
+  },
+  {
+    question: "Do my unlocks carry over between matches?",
+    answer: "No. Unlike Horde mode's persistent class levels, Beast Mode resets your tier progress at the start of every new session. You must earn your way from Tier 1 to Tier 4 every time you play."
+  }
+]} />
+
+<Callout type="success" title="Final Verdict">
+Mastering the Locust Horde requires a balance of aggression and tactical retreats. Use the environment to your advantage, protect your healers, and always keep an eye on the clock.
+</Callout>
+
+</Section>

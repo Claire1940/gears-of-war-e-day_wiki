@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modo Bestia de Gears of War: E-Day: Guía de Mecánicas y Estrategia",
+  description: "Domina el modo bestia de Gears of War: E-Day con nuestra guía detallada sobre los niveles de Locust, tipos de enemigos humanos y estrategias de combate avanzadas para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Beast+Mode+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Gears of War: E-Day"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Modo Bestia de Gears of War: E-Day** es una experiencia de horda inversa en la que los jugadores controlan a la Horda Locust para eliminar a los supervivientes humanos.
+- La **gestión del tiempo** es fundamental, ya que un ataque del Martillo del Alba pone fin a la ronda si el temporizador llega a cero.
+- **Desbloquea niveles** ganando dinero mediante bajas y destrucción para acceder a unidades poderosas como la Berserker.
+- Las **unidades de héroe** aparecen en oleadas posteriores y requieren ejecuciones específicas o daño por explosivos para ser eliminadas por completo.
+- La **composición del equipo** debe equilibrar unidades de apoyo como el Kantus con atacantes pesados como el Mauler.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo el Modo Bestia de Gears of War: E-Day">
+
+El **modo bestia de Gears of War: E-Day** representa la máxima fantasía de poder para los fans de la franquicia, permitiendo a los jugadores ponerse en las botas (o garras) de la Horda Locust durante los primeros días de la Emergencia. A diferencia del modo Horda tradicional, donde te defiendes de oleadas de enemigos, el Modo Bestia encomienda a un equipo de hasta cinco jugadores la tarea de cazar a las fuerzas de la CGO y a los supervivientes de los Descarriados dentro de un límite de tiempo estricto.
+
+El ciclo principal consiste en comenzar con criaturas de nivel bajo, ganar dinero destruyendo fortificaciones humanas y eliminando enemigos, y usar ese dinero para aparecer como monstruos más formidables. Cada oleada se vuelve progresivamente más difícil a medida que la CGO despliega soldados mejor equipados, héroes especializados y tecnología avanzada como el meca Silverback.
+
+| Característica | Mecánica del Modo Bestia |
+| :--- | :--- |
+| **Objetivo** | Eliminar a todos los humanos antes de que expire el temporizador |
+| **Salud** | No regenerativa (debe ser curada por un Kantus) |
+| **Vidas** | Se permiten múltiples vidas por oleada (cuesta dinero) |
+| **Condición de derrota** | El temporizador llega a cero (ataque del Martillo del Alba) |
+| **Dificultad** | Aumenta en cada oleada con una mejor IA humana |
+
+<Callout type="tip" title="Nota de Estrategia">
+Prioriza siempre la destrucción de fortificaciones como barreras y señuelos al principio de la oleada. Estas acciones otorgan bonificaciones de tiempo vitales que evitan que el Martillo del Alba ponga fin a tu partida antes de tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Niveles de Criaturas Locust y Costes">
+
+El éxito en el **modo bestia de Gears of War: E-Day** depende de comprender la jerarquía de la Horda Locust. Las criaturas se dividen en cuatro niveles distintos, que se desbloquean según el dinero total ganado por el equipo. Aunque tengas suficientes fondos personales para una unidad de nivel alto, no podrás seleccionarla hasta que el equipo alcance el umbral global.
+
+<CardGrid cols={2}>
+  <Card title="Nivel 1: Los Enjambradores">
+    - **Ticker Salvaje**: Rápido, barato y excelente para comer granadas.
+    - **Desgraciado**: Unidad cuerpo a cuerpo ágil con un grito aturdidor.
+    - **Drone Salvaje**: Infantería estándar con Lancer Retro para ataques a distancia.
+    - **Carnicero**: Tanque pesado cuerpo a cuerpo diseñado para destrozar barreras.
+  </Card>
+  <Card title="Nivel 2: Los Especialistas">
+    - **Kantus**: Unidad de apoyo esencial capaz de curar a los aliados.
+    - **Bloodmount**: Alta movilidad con un jinete que proporciona fuego de cobertura.
+    - **Mauler**: Potencia defensiva con un mayal y escudo Boom.
+  </Card>
+</CardGrid>
+
+| Criatura | Coste | Rol Principal | Habilidad Clave |
+| :--- | :--- | :--- | :--- |
+| **Ticker Salvaje** | $75 | Explorador/Saboteador | Comer granadas |
+| **Desgraciado** | $225 | Perturbador | Grito aturdidor |
+| **Drone Salvaje** | $450 | DPS a distancia | Carga con bayoneta retro |
+| **Kantus** | $975 | Apoyo/Sanador | Grito de reanimación |
+| **Mauler** | $1,200 | Tanque | Desvío con escudo |
+| **Corpser Salvaje** | $900 | Sigilo/Emboscada | Enterrarse |
+| **Berserker** | $5,625 | Jefe/Pesado | Carga imparable |
+
+<Callout type="warning" title="Gestión de Recursos">
+Gastar todo tu dinero en una Berserker al principio de una oleada puede ser arriesgado. Si los Guardias de Ónice se concentran en ti, es posible que te quedes sin fondos para reaparecer, dejando a tu equipo en desventaja.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Enemigos Humanos y Fortificaciones">
+
+Los humanos en el **modo bestia de Gears of War: E-Day** no están indefensos. A medida que avanzas por las 12 oleadas, la resistencia evoluciona de Descarriados desorganizados a Gears de la CGO de élite y Héroes legendarios. Comprender el nivel de amenaza de cada tipo de enemigo es vital para la supervivencia.
+
+<Steps>
+  <Step num="1" title="Oleadas Iniciales (1-3)">
+    Concéntrate en eliminar a los supervivientes Descarriados. Rara vez usan cobertura y son fácilmente abrumados por Tickers y Desgraciados. Aprovecha este momento para acumular dinero para los niveles posteriores.
+  </Step>
+  <Step num="2" title="Escalada a Mitad de Partida (4-8)">
+    Aparecen los Gears de la CGO estándar con Lancers y Gnashers. Colocarán barreras y señuelos. Usa Maulers para liderar la carga mientras los Drones proporcionan fuego de supresión.
+  </Step>
+  <Step num="3" title="Resistencia de Élite (9-11)">
+    Los Guardias de Ónice y héroes como Marcus Fenix entran en combate. Estas unidades tienen una gran cantidad de salud y solo pueden ser eliminadas permanentemente mediante ejecuciones o explosivos pesados.
+  </Step>
+  <Step num="4" title="La Gran Final (Oleada 12)">
+    El enfrentamiento final suele incluir a altos mandos de la CGO y múltiples Silverbacks. Es obligatorio realizar un asalto coordinado con una Berserker y el apoyo de un Kantus.
+  </Step>
+</Steps>
+
+| Tipo de Enemigo | Nivel de Amenaza | Rasgos Especiales |
+| :--- | :--- | :--- |
+| **Descarriado** | Bajo | Poca precisión, apenas usan cobertura |
+| **Gear de la CGO** | Medio | Usa cobertura, despliega barreras básicas |
+| **Guardia de Ónice** | Alto | Mayor salud, utiliza Silverbacks |
+| **Héroe (p. ej., Marcus)** | Extremo | Muerte solo por ejecución, daño elevado |
+
+<Callout type="success" title="Consejo de Profesional">
+Al enfrentarte a un Silverback, usa el grito de un Desgraciado para aturdir al piloto o una granada de tinta de un Kantus para obligarlo a salir del vehículo. Esto desactiva temporalmente las devastadoras ametralladoras del meca.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de Combate Avanzadas">
+
+Para dominar el **modo bestia de Gears of War: E-Day**, los jugadores deben mirar más allá de simplemente pulsar botones. Sinergizar las habilidades de los Locust marca la diferencia entre el fracaso de una oleada y un rendimiento de medalla de oro.
+
+### Sinergia de Apoyo
+El Kantus es la columna vertebral de cualquier escuadrón de Bestias exitoso. Dado que las unidades Locust no regeneran salud, el Kantus debe emitir constantemente su grito de curación. Si juegas con una unidad pesada como el Mauler o la Berserker, mantente en la línea de visión de tu Kantus para asegurarte de seguir en la lucha.
+
+### Destructores de Barreras
+Los Carniceros y Maulers están diseñados específicamente para desmantelar las fortificaciones de la CGO. No desperdicies vidas de Ticker en barreras láser de alto nivel si hay un Carnicero disponible. El cuchillo de carnicero puede destruir la mayoría de las barreras de un solo golpe, despejando el camino para que las unidades más rápidas abrumen a los humanos detrás de la línea.
+
+| Fortificación | Mejor Contraataque | Estrategia |
+| :--- | :--- | :--- |
+| **Barreras de pinchos** | Carnicero / Mauler | Ataque cuerpo a cuerpo para destruir instantáneamente |
+| **Señuelos** | Ticker Salvaje | Unidad barata para activar la distracción |
+| **Torretas automáticas** | Boomer Salvaje | Usa proyectiles de Digger para atacar desde cobertura |
+| **Silverback** | Kantus / Desgraciado | Aturdir al piloto y luego atacar en grupo cuerpo a cuerpo |
+
+<Callout type="info" title="Perspectiva Táctica">
+El Corpser Salvaje puede curarse a sí mismo enterrándose bajo tierra. Usa esto para atraer el fuego humano y luego sumérgete para recuperar salud mientras tus compañeros flanquean a los soldados de la CGO distraídos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y Objetivos de Finalización">
+
+Lograr el dominio total en el **modo bestia de Gears of War: E-Day** requiere más que simplemente ganar una sola partida. Hay hitos y recompensas específicos que los jugadores pueden buscar para demostrar su habilidad.
+
+<Checklist
+  id="beast-mode-achievements"
+  title="Lista de verificación de maestría del Modo Bestia:"
+  items={[
+    "Completa las 12 oleadas en dificultad Locura",
+    "Desbloquea el diseño de multijugador Theron Salvaje",
+    "Elimina a una unidad de héroe usando la explosión de un Ticker",
+    "Alcanza el Nivel 4 en menos de 5 oleadas",
+    "Destruye 100 fortificaciones humanas en una sola sesión"
+  ]}
+/>
+
+### Selección de Mapas
+Aunque el Modo Bestia se puede jugar en cualquier mapa, generalmente se prefieren los mapas más pequeños como **Trincheras** (Trenches) o **Supermercado** (Checkout). El tiempo de viaje reducido permite que tus unidades Locust lleguen a los humanos más rápido, lo cual es crucial cuando el temporizador del Martillo del Alba está corriendo. En mapas más grandes, la lenta velocidad de movimiento de la Berserker puede convertirse en un inconveniente, lo que requiere que el equipo use unidades más rápidas como los Bloodmounts para perseguir a los últimos supervivientes.
+
+<Callout type="warning" title="Regla de Ejecución">
+Recuerda que los Héroes no pueden ser eliminados con fuego de bala estándar una vez derribados. Debes realizar una ejecución manual. Si no tienes una unidad humanoide capaz de realizar ejecuciones, debes usar explosivos como los proyectiles de Boomer o la autodestrucción de un Ticker.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo niveles superiores en el modo bestia de Gears of War: E-Day?",
+    answer: "Los niveles se desbloquean según el dinero total acumulado por todo el equipo. Ganas dinero al dañar humanos, destruir fortificaciones y completar oleadas. Una vez que el equipo alcanza umbrales como $1,500 para el Nivel 2 y $7,500 para el Nivel 4, las nuevas unidades estarán disponibles para su compra."
+  },
+  {
+    question: "¿Puedo jugar al Modo Bestia en solitario?",
+    answer: "Sí, puedes jugar solo, pero es significativamente más difícil. El juego te otorga una pequeña bonificación de dinero para compensar la falta de compañeros de equipo, pero gestionar el temporizador y los héroes humanos por tu cuenta requiere un conocimiento experto de los contraataques de cada unidad."
+  },
+  {
+    question: "¿Cuál es la mejor unidad para la Oleada 12?",
+    answer: "El Kantus Acorazado y la Berserker son las mejores opciones. El Kantus Acorazado proporciona una curación esencial y puede sobrevivir al fuego pesado, mientras que la Berserker es la única unidad capaz de eliminar rápidamente a los Guardias de Ónice de élite y a los Silverbacks que dominan la oleada final."
+  },
+  {
+    question: "¿Mis desbloqueos se conservan entre partidas?",
+    answer: "No. A diferencia de los niveles de clase persistentes del modo Horda, el Modo Bestia restablece el progreso de tu nivel al comienzo de cada nueva sesión. Debes avanzar desde el Nivel 1 hasta el Nivel 4 cada vez que juegues."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+Dominar la Horda Locust requiere un equilibrio entre agresividad y retiradas tácticas. Usa el entorno a tu favor, protege a tus sanadores y mantén siempre un ojo en el reloj.
+</Callout>
+
+</Section>
