@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gears of War: E-Day: Fecha de lanzamiento en 2026, jugabilidad y detalles",
+  description: "Entérate de lo último sobre Gears of War: E-Day, incluyendo el lanzamiento el 6 de octubre de 2026, las mecánicas de combate y los detalles de la historia de origen de Marcus y Dom.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gears+of+War+EDay+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de Gears of War: E-Day"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Gears of War: E-Day** sirve como una cruda historia de origen ambientada durante la invasión Locust inicial.
+- El juego se lanza el **6 de octubre de 2026** para Xbox Series X|S, PC y Game Pass Ultimate.
+- Los jugadores controlan a **Marcus Fenix y Dominic Santiago** en una experiencia de combate reinventada y tecnológicamente avanzada.
+- Experimenta el **nacimiento del Lancer** y un nuevo enfoque táctico para el clásico rompecabezas de combate de Gears.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo Gears of War: E-Day">
+
+The Coalition se ha alejado de una secuela directa para ofrecer una historia de origen visceral y realista. Ambientado durante la caótica emergencia de los Locust, el juego se centra en la lucha personal de Marcus Fenix y Dom Santiago en la ciudad de Kalona.
+
+**Puntos destacados del video:**
+- Vistazo extendido a los entornos de la campaña y los encuentros con enemigos.
+- Desglose de los avances técnicos de Unreal Engine 5 como MegaLights.
+- Perspectiva sobre la estructura narrativa centrada en la hermandad.
+
+<YouTubeEmbed videoId="REPLACE_WITH_ACTUAL_ID" title="Presentación directa de Gears of War: E-Day" />
+
+El equipo de desarrollo reconstruyó el juego desde un disco duro vacío, asegurando que cada elemento, desde las armas hasta las animaciones de los personajes, se sienta auténtico al tono cercano al terror de la serie original.
+
+| Característica | Descripción |
+| :--- | :--- |
+| Fecha de lanzamiento | 6 de octubre de 2026 |
+| Plataformas | Xbox Series X|S, PC, Cloud |
+| Cooperativo | En línea para 4 jugadores, pantalla dividida para 2 jugadores |
+| Motor | Unreal Engine 5 |
+
+<Callout type="tip" title="Perspectiva técnica">
+La implementación de MegaLights en Unreal Engine 5 permite sombras dinámicas e iluminación centrada en el terror, creando una atmósfera más opresiva e inmersiva que en los títulos anteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de combate y jugabilidad">
+
+El combate en *Gears of War: E-Day* conserva el característico "rompecabezas de combate" táctico de la serie mientras introduce una movilidad moderna. Ya no estás restringido al movimiento tradicional; la adición de saltar y deslizarse hace que el campo de batalla sea más vertical y dinámico.
+
+<CardGrid cols={3}>
+  <Card title="Movilidad mejorada">
+    - Nuevas mecánicas para deslizarse a cubierto.
+    - Exploración vertical mediante saltos.
+    - Movimiento fluido en entornos urbanos densos.
+  </Card>
+  <Card title="Combate táctico">
+    - Sistema de cobertura reinventado con alturas variadas.
+    - Agujeros de emergencia como elementos tácticos reactivos.
+    - IA enemiga avanzada con tácticas basadas en escuadrones.
+  </Card>
+  <Card title="Evolución del arsenal">
+    - Armas icónicas reconstruidas desde cero.
+    - Introducción de la escopeta Incineradora.
+    - Historia de origen del prototipo de Lancer con motosierra.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Nota de combate">
+El comportamiento de los Locust evoluciona a lo largo de la campaña. Los primeros encuentros presentan amenazas irracionales y animalescas, que eventualmente se transforman en una fuerza militar estructurada y organizada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión y estructura de la campaña">
+
+La historia se limita estrictamente a la perspectiva del Escuadrón Bravo, garantizando una experiencia narrativa enfocada e intensa similar a *Band of Brothers*. La campaña se desarrolla en tres fases distintas de la invasión.
+
+<Steps>
+  <Step num="1" title="Fase uno: Confusión">
+    Experimenta el caos inicial a medida que el suelo se abre y los civiles luchan por comprender la amenaza emergente.
+  </Step>
+  <Step num="2" title="Fase dos: Reagrupamiento">
+    Conéctate con los restos militares y forma el núcleo del escuadrón a medida que se aclara el alcance de la invasión.
+  </Step>
+  <Step num="3" title="Fase tres: Desesperación">
+    Lucha por la supervivencia contra un ejército Locust organizado en un conflicto que cambiará el mundo y alterará vidas.
+  </Step>
+</Steps>
+
+| Fase | Enfoque emocional | Objetivo clave |
+| :--- | :--- | :--- |
+| Noche 1 | Miedo y confusión | Supervivencia y reconocimiento |
+| Día 2 | Reagrupamiento | Despliegue táctico |
+| Día 3 | Desesperación | Contraofensiva |
+
+</Section>
+
+<Section icon={Trophy} title="Multijugador y modos">
+
+Más allá de la campaña, The Coalition está expandiendo las ofertas multijugador para mantenerse al día con la demanda moderna de experiencias PvE y PvP de alta calidad.
+
+<Checklist
+  id="multiplayer-features"
+  title="Puntos destacados del multijugador:"
+  items={[
+    "Asedio de Horda: modo PvE para 12 jugadores en mapas masivos",
+    "Versus PvP clásico 4v4 con diseño de mapas moderno",
+    "Hoja de ruta estacional con contenido obtenible",
+    "Desafíos en el juego y recompensas de logros"
+  ]}
+/>
+
+<Callout type="success" title="Sistema de progresión">
+Casi todo el contenido de la hoja de ruta estacional se puede obtener simplemente jugando al juego, completando desafíos y participando en eventos.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Gears of War: E-Day una secuela de Gears 5?",
+    answer: "No, E-Day es una precuela e historia de origen que se centra en los primeros días de la Guerra Locust, mucho antes de los eventos de los juegos posteriores."
+  },
+  {
+    question: "¿Puedo jugar la campaña con amigos?",
+    answer: "Sí, toda la campaña es compatible con cooperativo en línea de 4 jugadores y pantalla dividida de 2 jugadores en consolas."
+  },
+  {
+    question: "¿Cuándo comienza la beta abierta?",
+    answer: "La beta abierta está programada para comenzar el 6 de agosto de 2026 para quienes reserven el juego."
+  }
+]} />
+
+</Section>

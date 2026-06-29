@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Users, History } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gears of War: E-Day Entwickler: Die Rollen von The Coalition & People Can Fly",
+  description: "Detaillierter Blick auf das Entwicklerteam von Gears of War: E-Day, die technischen Spezifikationen der Unreal Engine 5 und die Zusammenarbeit zwischen The Coalition und People Can Fly.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Developer+Insights",
+  date: "2026-06-30",
+  author: "Gears of War: E-Day Wiki-Team"
+}
+
+<Callout type="info" title="Kurzübersicht">
+- **Gears of War: E-Day Entwickler**: Eine Zusammenarbeit zwischen **The Coalition** und **People Can Fly**.
+- **Engine-Technologie**: Komplett entwickelt auf Basis der **Unreal Engine 5** mit hardwarebeschleunigtem Raytracing.
+- **Visuelle Detailtreue**: Bietet über **100-mal mehr Details** als Gears 5.
+- **Fokus der Handlung**: Eine Vorgeschichte, die den jungen **Marcus Fenix** und **Dominic Santiago** begleitet.
+- **Veröffentlichungsdatum**: Geplant für den **6. Oktober 2026** auf Xbox Series X/S und PC.
+</Callout>
+
+<Section icon={Users} title="Die Entwickler-Partnerschaft von Gears of War: E-Day">
+
+Die Entwicklung des neuesten Teils der kultigen Spielreihe ist ein Gemeinschaftsprojekt zweier Branchengrößen. Als Hauptentwickler von **Gears of War: E-Day** leitet **The Coalition** das Projekt und bringt dabei ihre Erfahrung aus Gears of War 4 and Gears 5 ein. Unterstützt werden sie von **People Can Fly**, dem Studio, das für die PC-Portierung der Original-Trilogie bekannt ist und als Hauptentwickler von Gears of War: Judgment fungierte. Diese Partnerschaft zielt darauf ab, die geschliffene Umsetzung moderner Titel mit den düsteren, vom Horror inspirierten Wurzeln der frühen Reihe zu verbinden.
+
+<CardGrid cols={2}>
+  <Card title="The Coalition">
+    - **Hauptrolle**: Federführende Entwicklung und kreative Leitung.
+    - **Schwerpunkt**: Optimierung der Unreal Engine 5 und Kontinuität der Handlung.
+    - **Historie**: Entwickler von Gears 4, Gears 5 und der Hivebusters-Erweiterung.
+  </Card>
+  <Card title="People Can Fly">
+    - **Hauptrolle**: Co-Entwickler mit technischer Unterstützung und Support beim Kampfsystem.
+    - **Schwerpunkt**: Kampfmechaniken und Umgebungs-Assets.
+    - **Historie**: Schöpfer von Bulletstorm und Gears of War: Judgment.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Entwicklungsstatus">
+Die Entwicklung begann kurz nachdem The Coalition ihre gesamte Pipeline auf die Unreal Engine 5 umgestellt hatte. Dadurch wurde sichergestellt, dass das Spiel von Grund auf für die Nutzung von Next-Gen-Hardware konzipiert ist.
+</Callout>
+
+| Studio | Hauptverantwortung | Historischer Kontext |
+| :--- | :--- | :--- |
+| **The Coalition** | Engine-Architektur, Erzählung, kreative Leitung | Aktuelle Hüter der Reihe seit 2014 |
+| **People Can Fly** | Kampfsysteme, Asset-Erstellung, Co-Entwicklung | Langjähriger Partner seit dem Original von 2006 |
+
+</Section>
+
+<Section icon={Cpu} title="Technische Spezifikationen der Unreal Engine 5">
+
+Das Entwicklerteam von **Gears of War: E-Day** hat sich zum Ziel gesetzt, neue Maßstäbe für technische Exzellenz zu setzen. Durch den Wechsel auf die **Unreal Engine 5** hat das Team fortschrittliche Rendering-Techniken implementiert, die zuvor unmöglich waren. Technical Director Kate Rayner wies darauf hin, dass die Umgebungs- und Charakterdetails in E-Day 100-mal dichter sind als in Gears 5. Dieser Sprung wird durch hardwarebeschleunigtes Raytracing für Reflexionen und Schatten unterstützt, was eine hochgradig immersive Atmosphäre in der Stadt Kalona schafft.
+
+**Video-Highlights:**
+- Detaillierter Blick auf die Licht- und Schatteneffekte der **Unreal Engine 5**.
+- Demonstration des neuen **Zerstörungs- und Splatter-Systems**.
+- Vergleich der Charaktermodelle zwischen Gears 5 und E-Day.
+
+<YouTubeEmbed videoId="example_id" title="Gears of War: E-Day Unreal Engine 5 Präsentation" />
+
+<Callout type="tip" title="Technischer Einblick">
+Das neue Gesichtsananimationssystem bietet über **350 Gesichtsformen pro Charakter**, was eine beispiellose emotionale Tiefe in Zwischensequenzen und während des Gameplays ermöglicht.
+</Callout>
+
+| Feature | Gears 5 (UE4) | Gears of War: E-Day (UE5) |
+| :--- | :--- | :--- |
+| **Detaildichte** | Standard High-Poly | **100-fache Steigerung** der Umgebungs-/Charakterdetails |
+| **Raytracing** | Softwarebasiert / Eingeschränkt | **Hardwarebeschleunigt** (Reflexionen/Schatten) |
+| **Zerstörung** | Skriptgesteuerte Sequenzen | **Prozeduraler Einsturz** in Echtzeit |
+| **Gesichtsgelenke** | Standard-Rigging | Fortschrittliches System mit **über 350 Formen** |
+
+</Section>
+
+<Section icon={Target} title="Entwicklung der Handlung und Charaktere">
+
+Während die Entwickler von **Gears of War: E-Day** technische Grenzen verschieben, bleibt der Kern des Spiels eine „persönliche“ Entstehungsgeschichte. Das Spiel spielt 14 Jahre vor dem Original aus dem Jahr 2006 und beleuchtet die Bruderschaft von Marcus Fenix und Dominic Santiago in den ersten Stunden der Locust-Invasion. Anders als die panzerähnlichen Designs der Vergangenheit wurden die Charaktermodelle verfeinert, um menschlicher und verletzlicher zu wirken, was ihre Jugend und Unerfahrenheit am Emergence Day widerspiegelt.
+
+<Steps>
+  <Step num="1" title="Das Ende der Pendelkriege">
+    Marcus und Dom kehren nach Jahren des Konflikts in das zivile Leben in Kalona zurück.
+  </Step>
+  <Step num="2" title="Der Ausbruch">
+    Die Locust-Horde bricht aus der Hohlwelt hervor und startet einen Überraschungsangriff.
+  </Step>
+  <Step num="3" title="Gründung des Bravo-Trupps">
+    Marcus und Dom schließen sich mit Mags Carter und Lucas Reyes zusammen, um zu überleben.
+  </Step>
+  <Step num="4" title="Der Fall von Kalona">
+    Spieler werden Zeuge des Zusammenbruchs eines der wichtigsten Industriezentren von Sera.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Synchronsprecher">
+Sowohl **John DiMaggio** (Marcus) als auch **Carlos Ferro** (Dom) kehren in ihre Rollen zurück und verleihen diesem Prequel die nötige emotionale Tiefe.
+</Callout>
+
+| Charakter | Rolle in E-Day | Hintergrund |
+| :--- | :--- | :--- |
+| **Marcus Fenix** | Junger KOR-Veteran | Kämpft nach den Pendelkriegen mit dem zivilen Leben |
+| **Dominic Santiago** | Junger KOR-Veteran | Verarbeitet den Verlust seines Bruders Carlos |
+| **Mags Carter** | Arbeiterin in einer Imulsionsraffinerie | Lokale Zivilistin, die zur Widerstandskämpferin wird |
+| **Lucas Reyes** | Kommunikationsoffizier | Unerfahrener Soldat vor seinem ersten Kampfeinsatz |
+
+</Section>
+
+<Section icon={Swords} title="Gameplay-Mechaniken und Bewegung">
+
+Die Entwickler von **Gears of War: E-Day** haben eine Rückkehr zu einer lineareren, auf Horror ausgerichteten Spielerfahrung bestätigt, im Gegensatz zu den Open-World-Elementen von Gears 5. Ein wesentlicher Schwerpunkt liegt auf dem überarbeiteten Bewegungssystem. Während die für die Reihe typische „Schwere“ beibehalten wird, können Spieler nun aus dem Sprint heraus rutschen, über Abgründe springen und vertikale Deckung effektiver nutzen.
+
+<CardGrid cols={3}>
+  <Card title="Lineare Progression">
+    Fokussierter Erzählpfad mit größeren „offenen Bezirken“ für taktische Abwechslung.
+  </Card>
+  <Card title="Horror-Wurzeln">
+    Locust-Drohnen wurden neu gestaltet, um als einschüchternde, furchterregende Monster zu wirken.
+  </Card>
+  <Card title="Neue Fortbewegung">
+    Verbesserte Mobilität, einschließlich des Kletterns auf Fahrzeuge und optimiertem Rutschen.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gameplay-Warnung">
+Die Rückkehr der **Emergenz-Löcher** als dynamische Mechanik bedeutet, dass Locust-Truppen jederzeit auftauchen können, was die Spieler dazu zwingt, Sprengstoff oder die Zerstörung der Umgebung zu nutzen, um sie zu versiegeln.
+</Callout>
+
+| Waffe/Werkzeug | Funktion in E-Day | Kontext der Entstehungsgeschichte |
+| :--- | :--- | :--- |
+| **Retro-Lancer** | Standardgewehr | Primärwaffe vor der Einführung des Kettensägen-Bajonetts |
+| **Lancer Mk 1** | Prototyp-Entwicklung | Spieler erleben die Entstehung des **Kettensägen-Lancers** |
+| **Sprengstoffe** | Schließen von Emergenz-Löchern | Entscheidend für die Kontrolle der gegnerischen Spawn-Raten |
+| **Umgebung** | Taktische Deckung | Zerstörbare Oberflächen verändern den Kampfverlauf während des Gefechts |
+
+</Section>
+
+<Section icon={Trophy} title="Veröffentlichung und Plattformverfügbarkeit">
+
+Kurz vor der Veröffentlichung im Jahr 2026 haben die Entwickler von **Gears of War: E-Day** die Zielplattformen klargestellt. Trotz früherer Gerüchte über eine Multiplattform-Veröffentlichung bestätigte Xbox-CEO Asha Sharma, dass der Titel exklusiv für Xbox-Konsolen bleibt. Das Spiel wird zeitgleich im Xbox Game Pass erscheinen und setzt damit die Tradition fort, dass First-Party-Titel von Microsoft ab dem ersten Tag für Abonnenten verfügbar sind.
+
+<Checklist
+  id="launch-readiness"
+  title="Checkliste zur Veröffentlichung:"
+  items={[
+    "Bestätigtes Veröffentlichungsdatum: 6. Oktober 2026",
+    "Verfügbar auf Xbox Series X und Series S",
+    "Verfügbar auf Windows PC und Steam",
+    "Ab Tag 1 im Xbox Game Pass enthalten",
+    "Optimiert für Xbox Series X (Ziel: 4K/60 FPS)"
+  ]}
+/>
+
+<Callout type="info" title="Vorbestellungs-Informationen">
+Offizielle Vorbestellungen werden voraussichtlich Anfang 2026 starten, mit verschiedenen Editionen, die digitale Boni und physische Sammlerstücke für langjährige Fans enthalten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wer ist der Hauptentwickler von Gears of War: E-Day?",
+    answer: "Das Spiel wird hauptsächlich von The Coalition entwickelt, mit maßgeblicher Unterstützung bei der Co-Entwicklung durch People Can Fly."
+  },
+  {
+    question: "Ist Gears of War: E-Day ein Open-World-Spiel?",
+    answer: "Nein, die Entwickler haben erklärt, dass E-Day zu einer lineareren, storybasierten Struktur zurückkehren wird, obwohl es größere offene Bezirke zur Erkundung bieten wird."
+  },
+  {
+    question: "Welche Engine wird für die Entwicklung verwendet?",
+    answer: "Gears of War: E-Day basiert vollständig auf der Unreal Engine 5 und nutzt Funktionen wie Lumen, Nanite und hardwarebeschleunigtes Raytracing."
+  },
+  {
+    question: "Kann man auch andere Charaktere als Marcus Fenix spielen?",
+    answer: "Obwohl sich die Geschichte auf Marcus und Dom konzentriert, bietet das Spiel Einzel- und Mehrspielermodi, einschließlich der Gründung des Bravo-Trupps."
+  }
+]} />
+
+</Section>
